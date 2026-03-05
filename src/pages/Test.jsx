@@ -22,7 +22,7 @@ const Test = () => {
   const [activeSubjectIndex, setActiveSubjectIndex] = useState(0);
   const [activeQuestionIndex, setActiveQuestionIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState({}); // { subjectId: { questionId: selectedOptionIndex } }
-  const [timeLeft, setTimeLeft] = useState(60 * 30); // 30 minutes in seconds
+  const [timeLeft, setTimeLeft] = useState(9000); // 2 hours 30 minutes in seconds (150 minutes * 60)
   const [shuffledQuestions, setShuffledQuestions] = useState({});
   const [isInitialized, setIsInitialized] = useState(false);
 
@@ -57,16 +57,20 @@ const Test = () => {
   // Timer logic
   useEffect(() => {
     if (timeLeft <= 0) {
-      handleSubmit(true);
+      handleSubmit(true); // Auto-submit when time runs out
       return;
     }
     const timer = setInterval(() => setTimeLeft(prev => prev - 1), 1000);
     return () => clearInterval(timer);
-  }, [timeLeft]);
+  }, [timeLeft, handleSubmit]);
 
   const formatTime = (seconds) => {
-    const mins = Math.floor(seconds / 60);
+    const hours = Math.floor(seconds / 3600);
+    const mins = Math.floor((seconds % 3600) / 60);
     const secs = seconds % 60;
+    if (hours > 0) {
+      return `${hours.toString()}:${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+    }
     return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
   };
 
@@ -99,8 +103,8 @@ const Test = () => {
     }
   };
 
-  const handleSubmit = useCallback((force = false) => {
-    if (!force) {
+  const handleSubmit = useCallback((isAutoSubmit = false) => {
+    if (!isAutoSubmit) {
       const skippedBySubject = [];
       selectedSubjects.forEach(subject => {
         const questions = shuffledQuestions[subject.id] || [];
@@ -157,6 +161,10 @@ const Test = () => {
       subjectStats.push({ id: subject.id, name: subject.name, score: subjectScore, total: questions.length, percentage: Math.round((subjectScore / questions.length) * 100) });
     });
 
+    if (isAutoSubmit) {
+      alert("Time's up! Your test is being submitted automatically.");
+    }
+    
     setTestResults({ score, totalQuestions, incorrectAnswers, attempted, percentage: Math.round((score / totalQuestions) * 100), subjectStats, failedQuestions });
     navigate('/results');
   }, [selectedSubjects, userAnswers, setTestResults, navigate, shuffledQuestions]);
@@ -184,7 +192,7 @@ const Test = () => {
             </div>
 
             <div className="flex items-center space-x-2 sm:space-x-8">
-              <div className={`flex items-center space-x-1.5 sm:space-x-3 px-2.5 sm:px-5 py-1 sm:py-2.5 rounded-lg sm:rounded-2xl font-black text-xs sm:text-xl border-2 transition-all ${timeLeft < 300 ? 'border-red-500 text-red-600 bg-red-50 animate-pulse' : 'border-slate-100 text-brand-black bg-white shadow-sm'}`}>
+              <div className={`flex items-center space-x-1.5 sm:space-x-3 px-2.5 sm:px-5 py-1 sm:py-2.5 rounded-lg sm:rounded-2xl font-black text-xs sm:text-xl border-2 transition-all ${timeLeft < 300 ? 'border-red-500 text-red-600 bg-red-50 animate-pulse' : timeLeft < 600 ? 'border-orange-400 text-orange-600 bg-orange-50' : 'border-slate-100 text-brand-black bg-white shadow-sm'}`}>
                 <Clock className="w-3 h-3 sm:w-5 sm:h-5 text-brand-deep" />
                 <span className="tabular-nums tracking-tighter">{formatTime(timeLeft)}</span>
               </div>
