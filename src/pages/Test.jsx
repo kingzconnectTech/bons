@@ -150,7 +150,8 @@ const Test = () => {
         if (userAnswer !== undefined) {
           attempted++;
           if (userAnswer === q.correctAnswer) {
-            subjectScore++; score++;
+            subjectScore += 2; // 2 points per correct answer
+            score += 2; // Add 2 points to total score
           } else {
             incorrectAnswers++;
             failedQuestions.push({ 
@@ -173,14 +174,25 @@ const Test = () => {
         }
       });
 
-      subjectStats.push({ id: subject.id, name: subject.name, score: subjectScore, total: questions.length, percentage: Math.round((subjectScore / questions.length) * 100) });
+      const maxSubjectScore = questions.length * 2; // Maximum possible score for this subject
+      subjectStats.push({ id: subject.id, name: subject.name, score: subjectScore, total: maxSubjectScore, percentage: Math.round((subjectScore / maxSubjectScore) * 100) });
     });
+
+    const maxTotalScore = totalQuestions * 2; // Maximum possible total score
 
     if (isAutoSubmit) {
       alert("Time's up! Your test is being submitted automatically.");
     }
     
-    setTestResults({ score, totalQuestions, incorrectAnswers, attempted, percentage: Math.round((score / totalQuestions) * 100), subjectStats, failedQuestions });
+    setTestResults({ 
+      score, 
+      totalQuestions, 
+      maxTotalScore,
+      incorrectAnswers, 
+      attempted, 
+      subjectStats, 
+      failedQuestions 
+    });
     navigate('/results');
   }, [selectedSubjects, userAnswers, setTestResults, navigate, shuffledQuestions]);
 

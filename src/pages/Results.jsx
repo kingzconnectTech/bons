@@ -29,11 +29,13 @@ const Results = () => {
 
   if (!testResults) return null;
 
-  const { score, totalQuestions, incorrectAnswers, attempted, percentage, subjectStats, failedQuestions } = testResults;
+  const { score, totalQuestions, maxTotalScore, incorrectAnswers, attempted, subjectStats, failedQuestions } = testResults;
 
-  const sortedStats = [...subjectStats].sort((a, b) => b.percentage - a.percentage);
+  const sortedStats = [...subjectStats].sort((a, b) => b.score - a.score);
   const bestSubject = sortedStats[0];
   const poorSubject = sortedStats[sortedStats.length - 1];
+
+  const percentage = Math.round((score / maxTotalScore) * 100);
 
   const getMessage = () => {
     if (percentage >= 70) return "Exceptional!";
@@ -99,7 +101,7 @@ const Results = () => {
                 <div className="text-center sm:text-right">
                   <p className="text-[10px] font-black text-slate-600 uppercase tracking-widest mb-3 sm:mb-4">Final Points</p>
                   <div className="text-4xl sm:text-5xl font-black text-brand-black tracking-tight">
-                    {score}<span className="text-xl sm:text-2xl text-slate-500 ml-1">/ {totalQuestions}</span>
+                    {score}<span className="text-xl sm:text-2xl text-slate-500 ml-1">/ {maxTotalScore}</span>
                   </div>
                 </div>
               </div>
@@ -134,7 +136,7 @@ const Results = () => {
                         className="h-full bg-brand-mint"
                       ></motion.div>
                     </div>
-                    <span className="text-xs sm:text-sm font-black text-brand-mint shrink-0">{bestSubject?.percentage}%</span>
+                    <span className="text-xs sm:text-sm font-black text-brand-mint shrink-0">{bestSubject?.score} pts</span>
                   </div>
                 </div>
               </motion.div>
@@ -158,7 +160,7 @@ const Results = () => {
                         className="h-full bg-brand-black"
                       ></motion.div>
                     </div>
-                    <span className="text-xs sm:text-sm font-black text-brand-black shrink-0">{poorSubject?.percentage}%</span>
+                    <span className="text-xs sm:text-sm font-black text-brand-black shrink-0">{poorSubject?.score} pts</span>
                   </div>
                 </div>
               </motion.div>
