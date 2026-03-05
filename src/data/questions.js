@@ -264,21 +264,243 @@ export const QUESTIONS = {
   physics: [
     {
       id: 'p1',
-      question: "What is the SI unit of force?",
-      options: ["Joule", "Watt", "Newton", "Pascal"],
-      correctAnswer: 2
+      question: "A particle moves with velocity v(t) = 3t² - 6t + 2. Find its acceleration at t = 2s.",
+      options: ["6 m/s²", "12 m/s²", "18 m/s²", "0 m/s²"],
+      correctAnswer: 0
     },
     {
       id: 'p2',
-      question: "Which of the following is a vector quantity?",
-      options: ["Mass", "Speed", "Distance", "Velocity"],
-      correctAnswer: 3
+      question: "Two forces of magnitudes 5N and 12N act at an angle of 60° to each other. Find their resultant.",
+      options: ["13N", "17N", "15N", "11N"],
+      correctAnswer: 0
     },
     {
       id: 'p3',
-      question: "What is the acceleration due to gravity on Earth (approx)?",
-      options: ["5.8 m/s²", "9.8 m/s²", "12.8 m/s²", "7.8 m/s²"],
-      correctAnswer: 1
+      question: "A projectile is fired at 45° with initial velocity 100m/s. What is its maximum height? (g = 10m/s²)",
+      options: ["250m", "500m", "125m", "375m"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p4',
+      question: "The half-life of a radioactive substance is 5 days. What fraction remains after 20 days?",
+      options: ["1/16", "1/8", "1/4", "1/2"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p5',
+      question: "A car of mass 1000kg moving at 20m/s comes to rest in 5s. Find the average braking force.",
+      options: ["4000N", "5000N", "2000N", "10000N"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p6',
+      question: "What is the electric field intensity between two parallel plates with potential difference 500V separated by 2cm?",
+      options: ["25000 V/m", "10000 V/m", "5000 V/m", "2500 V/m"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p7',
+      question: "A spring extends 5cm when a 2kg mass is hung on it. Find the spring constant. (g = 10m/s²)",
+      options: ["400 N/m", "200 N/m", "100 N/m", "50 N/m"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p8',
+      question: "Light travels from air to glass (n = 1.5). If the angle of incidence is 30°, find the angle of refraction.",
+      options: ["19.5°", "22.5°", "25.5°", "15.5°"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p9',
+      question: "A transformer has 500 turns in primary and 100 turns in secondary. If input voltage is 240V, what is the output voltage?",
+      options: ["48V", "120V", "24V", "1200V"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p10',
+      question: "Calculate the de Broglie wavelength of an electron moving at 2 × 10⁶ m/s. (h = 6.63 × 10⁻³⁴ Js, mₑ = 9.11 × 10⁻³¹ kg)",
+      options: ["3.64 × 10⁻¹⁰ m", "1.82 × 10⁻¹⁰ m", "7.28 × 10⁻¹⁰ m", "5.46 × 10⁻¹⁰ m"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p11',
+      question: "A gas occupies 500cm³ at 27°C. What volume will it occupy at 127°C at constant pressure?",
+      options: ["667 cm³", "833 cm³", "750 cm³", "600 cm³"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p12',
+      question: "Find the gravitational force between two masses of 100kg each separated by 2m. (G = 6.67 × 10⁻¹¹ Nm²/kg²)",
+      options: ["1.67 × 10⁻⁷ N", "3.34 × 10⁻⁷ N", "6.67 × 10⁻⁷ N", "1.33 × 10⁻⁷ N"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p13',
+      question: "A capacitor of capacitance 10μF is charged to 100V. Calculate the energy stored.",
+      options: ["0.05 J", "0.1 J", "0.5 J", "1.0 J"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p14',
+      question: "Sound wave of frequency 512Hz travels at 340m/s. What is its wavelength?",
+      options: ["0.66m", "1.33m", "0.33m", "2.66m"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p15',
+      question: "A wire of resistance 10Ω is stretched to twice its original length. What is its new resistance?",
+      options: ["40Ω", "20Ω", "30Ω", "15Ω"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p16',
+      question: "An object is placed 15cm from a concave mirror of focal length 10cm. Find the image distance.",
+      options: ["30cm", "20cm", "15cm", "25cm"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p17',
+      question: "Calculate the root mean square velocity of oxygen molecules at 27°C. (R = 8.31 J/mol·K, M = 0.032 kg/mol)",
+      options: ["483 m/s", "243 m/s", "966 m/s", "121 m/s"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p18',
+      question: "A current of 5A flows through a resistor of 10Ω for 2 minutes. Calculate the heat energy produced.",
+      options: ["30000 J", "15000 J", "60000 J", "7500 J"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p19',
+      question: "The work function of a metal is 2.5eV. Calculate the threshold frequency. (h = 6.63 × 10⁻³⁴ Js, 1eV = 1.6 × 10⁻¹⁹ J)",
+      options: ["6.03 × 10¹⁴ Hz", "3.02 × 10¹⁴ Hz", "1.21 × 10¹⁵ Hz", "4.82 × 10¹⁴ Hz"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p20',
+      question: "A ball is thrown vertically upwards with velocity 30m/s. How long does it take to return to the ground? (g = 10m/s²)",
+      options: ["6s", "3s", "9s", "12s"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p21',
+      question: "Two resistors of 6Ω and 3Ω are connected in parallel. Find their equivalent resistance.",
+      options: ["2Ω", "4.5Ω", "9Ω", "18Ω"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p22',
+      question: "A satellite orbits Earth at a height equal to Earth's radius. What is its orbital period? (Rₑ = 6400km, g = 9.8m/s²)",
+      options: ["4 hours", "2 hours", "8 hours", "6 hours"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p23',
+      question: "Calculate the magnetic force on a charge of 2μC moving at 10⁶ m/s perpendicular to a magnetic field of 0.5T.",
+      options: ["1N", "0.5N", "2N", "0.25N"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p24',
+      question: "A simple pendulum has a period of 2s. What is its length? (g = 9.8m/s²)",
+      options: ["0.99m", "1.98m", "0.50m", "2.00m"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p25',
+      question: "Light of wavelength 600nm passes through a single slit of width 0.1mm. Find the angular position of the first minimum.",
+      options: ["0.34°", "0.17°", "0.68°", "0.51°"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p26',
+      question: "A heat engine operates between 500K and 300K. What is its maximum theoretical efficiency?",
+      options: ["40%", "60%", "20%", "80%"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p27',
+      question: "An electron is accelerated through a potential difference of 1000V. Find its final velocity. (e = 1.6 × 10⁻¹⁹ C, mₑ = 9.11 × 10⁻³¹ kg)",
+      options: ["1.87 × 10⁷ m/s", "3.74 × 10⁷ m/s", "9.35 × 10⁶ m/s", "5.61 × 10⁷ m/s"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p28',
+      question: "A uniform rod of length 2m and mass 5kg is pivoted at one end. Find its moment of inertia.",
+      options: ["6.67 kg·m²", "3.33 kg·m²", "10 kg·m²", "2.5 kg·m²"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p29',
+      question: "Radioactive decay: N = N₀e^(-λt). If λ = 0.693/day, what is the half-life?",
+      options: ["1 day", "2 days", "0.5 days", "3 days"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p30',
+      question: "A copper wire of diameter 2mm carries a current of 10A. Calculate the current density.",
+      options: ["3.18 × 10⁶ A/m²", "1.59 × 10⁶ A/m²", "6.36 × 10⁶ A/m²", "7.95 × 10⁵ A/m²"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p31',
+      question: "In Young's double-slit experiment, slit separation is 0.5mm and screen distance is 2m. If fringe width is 2mm, find the wavelength.",
+      options: ["500nm", "1000nm", "250nm", "750nm"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p32',
+      question: "A body floats in water with 1/4 of its volume above the surface. What is its density?",
+      options: ["750 kg/m³", "500 kg/m³", "250 kg/m³", "1000 kg/m³"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p33',
+      question: "Calculate the escape velocity from Earth's surface. (Rₑ = 6400km, g = 9.8m/s²)",
+      options: ["11.2 km/s", "7.9 km/s", "15.8 km/s", "5.6 km/s"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p34',
+      question: "An AC circuit has R = 3Ω and XL = 4Ω. Find the impedance.",
+      options: ["5Ω", "7Ω", "1Ω", "12Ω"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p35',
+      question: "A photon has energy 3.3 × 10⁻¹⁹ J. Find its frequency. (h = 6.63 × 10⁻³⁴ Js)",
+      options: ["4.98 × 10¹⁴ Hz", "2.49 × 10¹⁴ Hz", "9.96 × 10¹⁴ Hz", "1.25 × 10¹⁵ Hz"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p36',
+      question: "A gas expands isothermally from volume V₁ to V₂. The work done is proportional to:",
+      options: ["ln(V₂/V₁)", "V₂ - V₁", "V₂/V₁", "(V₂ - V₁)/V₁"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p37',
+      question: "The critical angle for water-air interface is 48.6°. What is the refractive index of water?",
+      options: ["1.33", "1.50", "1.25", "1.40"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p38',
+      question: "A mass-spring system oscillates with frequency 2Hz. If the mass is doubled, what is the new frequency?",
+      options: ["1.41 Hz", "1 Hz", "2.83 Hz", "4 Hz"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p39',
+      question: "Calculate the binding energy per nucleon for helium-4. (Mass defect = 0.0304u, 1u = 931.5 MeV)",
+      options: ["7.07 MeV", "28.3 MeV", "14.2 MeV", "3.54 MeV"],
+      correctAnswer: 0
+    },
+    {
+      id: 'p40',
+      question: "A conducting rod of length 0.5m moves at 10m/s perpendicular to a magnetic field of 0.8T. Find the induced EMF.",
+      options: ["4V", "2V", "8V", "1V"],
+      correctAnswer: 0
     }
   ],
   chemistry: [
