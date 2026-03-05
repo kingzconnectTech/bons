@@ -56,13 +56,28 @@ const Test = () => {
 
   // Timer logic
   useEffect(() => {
-    if (timeLeft <= 0) {
-      handleSubmit(true); // Auto-submit when time runs out
-      return;
-    }
-    const timer = setInterval(() => setTimeLeft(prev => prev - 1), 1000);
+    const checkTimer = () => {
+      if (timeLeft <= 0) {
+        handleSubmit(true); // Auto-submit when time runs out
+        return;
+      }
+    };
+    
+    checkTimer(); // Check immediately on mount
+    
+    const timer = setInterval(() => {
+      setTimeLeft(prev => {
+        if (prev <= 1) {
+          clearInterval(timer);
+          handleSubmit(true);
+          return 0;
+        }
+        return prev - 1;
+      });
+    }, 1000);
+    
     return () => clearInterval(timer);
-  }, [timeLeft, handleSubmit]);
+  }, []); // Empty dependency array - only run once on mount
 
   const formatTime = (seconds) => {
     const hours = Math.floor(seconds / 3600);
