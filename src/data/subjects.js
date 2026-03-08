@@ -8,6 +8,7 @@ export const AVAILABLE_SUBJECTS = [
   { id: 'government', name: 'Government', color: 'bg-orange-100 text-orange-700 border-orange-200' },
   { id: 'literature', name: 'Literature', color: 'bg-purple-100 text-purple-700 border-purple-200' },
   { id: 'crs', name: 'Christian Religious Studies', color: 'bg-pink-100 text-pink-700 border-pink-200' },
+  { id: 'irs', name: 'Islamic Religious Studies', color: 'bg-emerald-100 text-emerald-700 border-emerald-200' },
   { id: 'commerce', name: 'Commerce', color: 'bg-cyan-100 text-cyan-700 border-cyan-200' },
   { id: 'geography', name: 'Geography', color: 'bg-sky-100 text-sky-700 border-sky-200' },
   { id: 'agriculture', name: 'Agricultural Science', color: 'bg-lime-100 text-lime-700 border-lime-200' }

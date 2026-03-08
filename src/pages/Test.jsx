@@ -159,7 +159,8 @@ const Test = () => {
               question: q.question, 
               image: q.image,
               userAnswer: q.options[userAnswer], 
-              correctAnswer: q.options[q.correctAnswer] 
+              correctAnswer: q.options[q.correctAnswer],
+              explanation: q.explanation 
             });
           }
         } else {
@@ -169,7 +170,8 @@ const Test = () => {
             question: q.question, 
             image: q.image,
             userAnswer: "Not Attempted", 
-            correctAnswer: q.options[q.correctAnswer] 
+            correctAnswer: q.options[q.correctAnswer],
+            explanation: q.explanation 
           });
         }
       });

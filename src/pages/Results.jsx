@@ -218,6 +218,15 @@ const Results = () => {
                           </div>
                         </div>
                       </div>
+
+                      {item.explanation && (
+                        <div className="mt-6 p-4 sm:p-6 rounded-2xl bg-slate-50 border border-slate-100">
+                          <p className="text-[8px] sm:text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3 ml-1">Explanatory Rationale</p>
+                          <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-medium italic">
+                            {item.explanation}
+                          </p>
+                        </div>
+                      )}
                     </motion.div>
                   ))}
                 </div>
