@@ -3341,848 +3341,848 @@ export const QUESTIONS = {
   ],
   commerce: [
     {
-      id: 'co1',
-      question: "What is 'Commerce'?",
-      options: ["The branch of production which deals with the exchange of goods and services", "The process of manufacturing goods", "The study of agriculture", "The management of government offices"],
-      correctAnswer: 0,
-      explanation: "Commerce includes trade and the various activities that facilitate trade (auxiliaries)."
+      id: 'com1',
+      question: "Trade between two countries is called",
+      options: ["Local trade", "Domestic trade", "International trade", "Retail trade"],
+      correctAnswer: 2,
+      explanation: "International trade (or foreign trade) is the exchange of capital, goods, and services across international borders or territories."
     },
     {
-      id: 'co2',
-      question: "What are the 'Auxiliaries to Trade'?",
-      options: ["Banking, Insurance, Transport, Warehousing, and Advertising", "Buying, Selling, and Bartering", "Land, Labor, and Capital", "Wholesaling and Retailing"],
+      id: 'com2',
+      question: "Buying and selling goods in small quantities is",
+      options: ["Retail trade", "Wholesale trade", "Import trade", "Export trade"],
       correctAnswer: 0,
-      explanation: "These services are essential for the smooth flow of commerce."
+      explanation: "Retailing consists of the sale of goods or merchandise from a fixed location in small or individual lots for direct consumption by the purchaser."
     },
     {
-      id: 'co3',
-      question: "What is 'Wholesale Trade'?",
-      options: ["Buying in bulk from manufacturers and selling in smaller quantities to retailers", "Selling directly to final consumers", "Manufacturing goods for export", "Storing goods in a warehouse only"],
-      correctAnswer: 0,
-      explanation: "Wholesalers act as a link between producers and retailers."
+      id: 'com3',
+      question: "The person who buys goods from wholesalers is",
+      options: ["Consumer", "Retailer", "Producer", "Agent"],
+      correctAnswer: 1,
+      explanation: "A retailer is an entity that sells goods or services directly to consumers. They typically purchase their inventory from wholesalers or manufacturers."
     },
     {
-      id: 'co4',
-      question: "What is a 'Limited Liability Company'?",
-      options: ["A company where the owners' liability is limited to their investment", "A company with a limited number of employees", "A company that can only operate in one city", "A company that is owned by the government"],
-      correctAnswer: 0,
-      explanation: "This protects personal assets of shareholders if the company goes bankrupt."
+      id: 'com4',
+      question: "Which document acknowledges payment?",
+      options: ["Invoice", "Receipt", "Debit note", "Credit note"],
+      correctAnswer: 1,
+      explanation: "A receipt is a document acknowledging that a person has received money or property in payment following a sale or other transfer of goods or provision of a service."
     },
     {
-      id: 'co5',
-      question: "What is the primary function of 'Insurance'?",
-      options: ["Risk management and compensation for loss", "Providing loans to businesses", "Storing goods safely", "Creating advertisements"],
-      correctAnswer: 0,
-      explanation: "Insurance spreads the risk of a potential loss among many people."
+      id: 'com5',
+      question: "Advertising is used mainly to",
+      options: ["Increase price", "Promote sales", "Reduce production", "Increase cost"],
+      correctAnswer: 1,
+      explanation: "The main goal of advertising is to reach people most likely to be willing to pay for a company's products or services and entice them to buy."
     },
     {
-      id: 'co6',
-      question: "What is 'Branding' in marketing?",
-      options: ["Creating a unique name and image for a product", "Lowering the price of a good", "Selling goods in a foreign country", "Transporting goods by ship"],
-      correctAnswer: 0,
-      explanation: "A strong brand helps consumers identify and prefer a product."
+      id: 'com6',
+      question: "A partnership business must have a minimum of",
+      options: ["1 person", "2 persons", "5 persons", "10 persons"],
+      correctAnswer: 1,
+      explanation: "A partnership is a formal arrangement by two or more parties to manage and operate a business and share its profits."
     },
     {
-      id: 'co7',
-      question: "What is 'Balance of Payments'?",
-      options: ["A record of all economic transactions between a country and the rest of the world", "The difference between exports and imports", "The amount of money in the central bank", "The total debt of a company"],
-      correctAnswer: 0,
-      explanation: "It includes the current account, capital account, and financial account."
+      id: 'com7',
+      question: "Insurance is a means of",
+      options: ["Saving money", "Preventing risk", "Sharing risk", "Eliminating risk"],
+      correctAnswer: 2,
+      explanation: "Insurance is a way to manage your risk. When you buy insurance, you purchase protection against unexpected financial losses."
     },
     {
-      id: 'co8',
-      question: "What is a 'Public Enterprise'?",
-      options: ["A business organization owned and managed by the government", "A company listed on the stock exchange", "A non-profit charity", "A partnership between two people"],
-      correctAnswer: 0,
-      explanation: "These are often established to provide essential services to citizens."
+      id: 'com8',
+      question: "The head of a limited liability company is the",
+      options: ["Manager", "Director", "Chairman", "Secretary"],
+      correctAnswer: 2,
+      explanation: "The Chairman of the Board is the highest-ranking officer in a corporation's board of directors and provides leadership to the company."
     },
     {
-      id: 'co9',
-      question: "What is 'Consumer Protection'?",
-      options: ["Laws and organizations designed to ensure the rights and safety of buyers", "A type of insurance for shoppers", "A way to prevent people from spending too much", "The act of keeping goods in a safe place"],
+      id: 'com9',
+      question: "The document used in international trade is",
+      options: ["Bill of lading", "Receipt", "Invoice", "Voucher"],
       correctAnswer: 0,
-      explanation: "It guards against unfair practices, faulty goods, and false advertising."
+      explanation: "A bill of lading is a legal document issued by a carrier to a shipper that details the type, quantity, and destination of the goods being carried."
     },
     {
-      id: 'co10',
-      question: "What is 'E-commerce'?",
-      options: ["The buying and selling of goods and services over the internet", "Electronic manufacturing of goods", "A system of government banking", "Trading only in electrical components"],
-      correctAnswer: 0,
-      explanation: "E-commerce has revolutionized global trade and consumer habits."
+      id: 'com10',
+      question: "Commerce is concerned with",
+      options: ["Production of goods", "Distribution of goods", "Manufacturing goods", "Consuming goods"],
+      correctAnswer: 1,
+      explanation: "Commerce is the conduct of trade among economic agents. Generally, commerce refers to the exchange of goods, services, or something of value, between businesses or entities."
     },
     {
-      id: 'co11',
-      question: "What is 'Advertising'?",
-      options: ["A form of communication used to persuade people to buy a product", "The physical delivery of goods", "The storage of goods in a warehouse", "The calculation of business profits"],
-      correctAnswer: 0,
-      explanation: "Advertising can be informative or persuasive."
+      id: 'com11',
+      question: "Trade carried out within a country is known as",
+      options: ["Foreign trade", "Home trade", "International trade", "Bilateral trade"],
+      correctAnswer: 1,
+      explanation: "Home trade, also known as domestic trade, is the exchange of domestic goods within the boundaries of a country."
     },
     {
-      id: 'co12',
-      question: "What is a 'Sole Proprietorship'?",
-      options: ["A business owned and run by one person", "A business with two to twenty partners", "A large corporation", "A government-owned utility"],
-      correctAnswer: 0,
-      explanation: "The owner has total control but also unlimited liability."
+      id: 'com12',
+      question: "A person who sells goods to another country is called an",
+      options: ["Importer", "Exporter", "Retailer", "Consumer"],
+      correctAnswer: 1,
+      explanation: "An exporter is a person, country, or company that sends goods or services to another country for sale."
     },
     {
-      id: 'co13',
-      question: "What is 'International Trade'?",
-      options: ["The exchange of goods and services between different countries", "Trading within the same city", "Buying from a local wholesaler", "Selling goods to the government"],
-      correctAnswer: 0,
-      explanation: "It allows countries to specialize and access a wider variety of goods."
+      id: 'com13',
+      question: "The use of machines to produce goods is called",
+      options: ["Automation", "Mechanization", "Industrialization", "Electrification"],
+      correctAnswer: 1,
+      explanation: "Mechanization is the process of changing from working entirely or predominantly by hand or with animals to doing that work with machinery."
     },
     {
-      id: 'co14',
-      question: "What is 'Warehousing'?",
-      options: ["The act of storing goods until they are needed for sale or use", "A type of retail shop", "The process of packaging goods", "An auxiliary to transport only"],
-      correctAnswer: 0,
-      explanation: "Warehousing helps in maintaining a steady supply of goods."
+      id: 'com14',
+      question: "Regular payment made to employees for their services is called",
+      options: ["Rent", "Salary", "Profit", "Interest"],
+      correctAnswer: 1,
+      explanation: "A salary is a form of periodic payment from an employer to an employee, which may be specified in an employment contract."
     },
     {
-      id: 'co15',
-      question: "What is a 'Partnership'?",
-      options: ["A business owned by two or more people who share profits and liabilities", "A group of people who shop together", "A company owned by the state", "A business with only one employee"],
-      correctAnswer: 0,
-      explanation: "Partnerships are often governed by a 'Deed of Partnership'."
+      id: 'com15',
+      question: "Fire insurance mainly covers",
+      options: ["Theft of goods", "Fire damage", "Loss of profits", "Transport accidents"],
+      correctAnswer: 1,
+      explanation: "Fire insurance is property insurance that pays for damages and losses caused by fire."
     },
     {
-      id: 'co16',
-      question: "What is 'Turnover' in commerce?",
-      options: ["The total value of sales made by a business in a given period", "The amount of profit earned", "The number of employees who leave the company", "The rate at which machines are replaced"],
-      correctAnswer: 0,
-      explanation: "High turnover is generally a positive sign for a business."
+      id: 'com16',
+      question: "The stock exchange deals mainly in",
+      options: ["Commodities", "Farm produce", "Shares and securities", "Manufactured goods"],
+      correctAnswer: 2,
+      explanation: "A stock exchange is a centralized location where the shares of publicly traded companies are bought and sold."
     },
     {
-      id: 'co17',
-      question: "What is 'Credit' in a business transaction?",
-      options: ["Allowing a customer to take goods now and pay for them later", "Paying cash immediately", "A discount given for buying in bulk", "A type of business tax"],
-      correctAnswer: 0,
-      explanation: "Credit facilitates sales but carries the risk of bad debts."
+      id: 'com17',
+      question: "Import trade refers to",
+      options: ["Selling goods abroad", "Buying goods from other countries", "Selling goods locally", "Buying goods locally"],
+      correctAnswer: 1,
+      explanation: "Importing is the act of bringing goods or services into a country from abroad for sale."
     },
     {
-      id: 'co18',
-      question: "What is 'Communication' in commerce?",
-      options: ["The transmission of information between buyers and sellers", "A type of transport", "The language used in a contract", "A method of producing goods"],
-      correctAnswer: 0,
-      explanation: "Effective communication is vital for coordinating commercial activities."
+      id: 'com18',
+      question: "A warehouse receipt is issued to show",
+      options: ["Ownership of land", "Goods stored in a warehouse", "Payment of goods", "Delivery of goods"],
+      correctAnswer: 1,
+      explanation: "A warehouse receipt is a document used in the futures markets to guarantee the quantity and quality of a particular commodity being stored in an approved facility."
     },
     {
-      id: 'co19',
-      question: "What is 'Market Research'?",
-      options: ["The process of gathering information about consumers' needs and preferences", "Searching for the cheapest place to buy goods", "A study of the history of trade", "Checking the prices of competitors only"],
-      correctAnswer: 0,
-      explanation: "Market research helps businesses make informed decisions."
+      id: 'com19',
+      question: "The middleman who buys goods from producers and sells to retailers is the",
+      options: ["Agent", "Consumer", "Wholesaler", "Broker"],
+      correctAnswer: 2,
+      explanation: "A wholesaler is an intermediary entity in the distribution channel that buys in bulk and sells to resellers rather than to consumers."
     },
     {
-      id: 'co20',
-      question: "What is 'Capital' in a business context?",
-      options: ["The money and assets used to start and operate a business", "The city where the main office is located", "The total number of workers", "The list of all company rules"],
-      correctAnswer: 0,
-      explanation: "Capital can be fixed (machines, buildings) or working (cash, stock)."
+      id: 'com20',
+      question: "A market structure with many buyers and sellers is called",
+      options: ["Monopoly", "Oligopoly", "Perfect competition", "Duopoly"],
+      correctAnswer: 2,
+      explanation: "Perfect competition is a market structure in which all concerns sell an identical product, and there are no barriers to entry or exit."
     },
     {
-      id: 'co21',
-      question: "What is 'Transport' in commerce?",
-      options: ["The movement of goods and people from one place to another", "A way to store goods", "A type of insurance", "The process of making advertisements"],
-      correctAnswer: 0,
-      explanation: "Transport bridges the gap between producers and consumers."
+      id: 'com21',
+      question: "A market situation with only one seller is called",
+      options: ["Oligopoly", "Monopoly", "Perfect competition", "Duopoly"],
+      correctAnswer: 1,
+      explanation: "A monopoly is a market structure characterized by a single seller, selling a unique product in the market."
     },
     {
-      id: 'co22',
-      question: "What is 'Retailing'?",
-      options: ["Selling goods in small quantities directly to final consumers", "Selling in bulk to other businesses", "Manufacturing goods for sale", "Exporting goods abroad"],
-      correctAnswer: 0,
-      explanation: "Retailers are the final link in the chain of distribution."
+      id: 'com22',
+      question: "The document sent by a seller requesting payment is",
+      options: ["Receipt", "Invoice", "Debit note", "Credit note"],
+      correctAnswer: 1,
+      explanation: "An invoice is a commercial document that itemizes and records a transaction between a buyer and a seller."
     },
     {
-      id: 'co23',
-      question: "What is 'Profit'?",
-      options: ["The difference between total revenue and total costs", "The total amount of money received from sales", "The salary paid to the manager", "The tax paid to the government"],
-      correctAnswer: 0,
-      explanation: "Profit is the reward for taking business risks."
+      id: 'com23',
+      question: "The place where shares are bought and sold is",
+      options: ["Bank", "Stock exchange", "Warehouse", "Insurance company"],
+      correctAnswer: 1,
+      explanation: "The stock exchange provides a secure and regulated environment where market participants can transact in shares and other financial instruments with confidence."
     },
     {
-      id: 'co24',
-      question: "What is 'Money'?",
-      options: ["Anything that is generally accepted as a medium of exchange", "Only paper notes and coins", "The total wealth of a person", "A type of business contract"],
-      correctAnswer: 0,
-      explanation: "Money also serves as a unit of account and a store of value."
+      id: 'com24',
+      question: "Transport helps commerce mainly by",
+      options: ["Producing goods", "Moving goods and people", "Storing goods", "Advertising goods"],
+      correctAnswer: 1,
+      explanation: "Transportation is the physical movement of goods and people from one location to another, which is vital for trade."
     },
     {
-      id: 'co25',
-      question: "What is 'Banking'?",
-      options: ["The business of accepting deposits and providing loans", "A way to print money", "A type of insurance company", "The act of storing gold only"],
-      correctAnswer: 0,
-      explanation: "Banks are crucial for providing credit and managing payments."
+      id: 'com25',
+      question: "One major function of commercial banks is",
+      options: ["Manufacturing goods", "Lending money", "Producing crops", "Mining minerals"],
+      correctAnswer: 1,
+      explanation: "Commercial banks provide various financial services to the general public and to businesses, including accepting deposits and providing loans."
     },
     {
-      id: 'co26',
-      question: "What is 'Business Ethics'?",
-      options: ["The moral principles that guide the way a business behaves", "The laws that a business must follow", "The methods used to increase profit", "The style of a company's logo"],
-      correctAnswer: 0,
-      explanation: "Ethics involve honesty, fairness, and responsibility toward stakeholders."
+      id: 'com26',
+      question: "The payment made for the use of land is called",
+      options: ["Wage", "Rent", "Interest", "Profit"],
+      correctAnswer: 1,
+      explanation: "Rent is a payment made periodically by a tenant to a landlord in return for the use of land, a building, or other property."
     },
     {
-      id: 'co27',
-      question: "What is 'Stock Exchange'?",
-      options: ["A market where securities (shares and bonds) are bought and sold", "A place where goods are stored", "A type of retail shop", "A meeting of business partners"],
-      correctAnswer: 0,
-      explanation: "The stock exchange allows companies to raise capital and investors to buy ownership."
+      id: 'com27',
+      question: "The person who organizes production and bears risk is the",
+      options: ["Manager", "Entrepreneur", "Retailer", "Consumer"],
+      correctAnswer: 1,
+      explanation: "An entrepreneur is an individual who creates a new business, bearing most of the risks and enjoying most of the rewards."
     },
     {
-      id: 'co28',
-      question: "What is 'Franchising'?",
-      options: ["A business model where one party grants another the right to use its brand and system", "A way to avoid paying taxes", "Selling goods to a foreign government", "A type of business insurance"],
-      correctAnswer: 0,
-      explanation: "Examples include McDonald's and KFC."
+      id: 'com28',
+      question: "Import trade means",
+      options: ["Selling goods abroad", "Buying goods from abroad", "Selling locally", "Buying locally"],
+      correctAnswer: 1,
+      explanation: "Importing consists of transactions in goods and services to a resident of a jurisdiction from non-residents."
     },
     {
-      id: 'co29',
-      question: "What is 'Marketing Mix'?",
-      options: ["The combination of Product, Price, Place, and Promotion (the 4 Ps)", "A mixture of different products in a shop", "The different types of advertisements used", "The various ways to transport goods"],
-      correctAnswer: 0,
-      explanation: "The marketing mix is used to influence the target market."
+      id: 'com29',
+      question: "The storage of goods until they are needed is known as",
+      options: ["Transport", "Warehousing", "Insurance", "Advertising"],
+      correctAnswer: 1,
+      explanation: "Warehousing is the act of storing goods that will be sold or distributed later."
     },
     {
-      id: 'co30',
-      question: "What is 'Human Resources'?",
-      options: ["The people who work for an organization", "The natural resources used in production", "The machines used by workers", "The amount of money in the payroll"],
+      id: 'com30',
+      question: "Which document is issued when goods are returned to the seller?",
+      options: ["Debit note", "Receipt", "Cheque", "Voucher"],
       correctAnswer: 0,
-      explanation: "HR management involves recruiting, training, and supporting employees."
+      explanation: "A debit note is a document used by a vendor to inform the buyer of current debt obligations, or a document created by a buyer when returning goods received on credit."
     },
     {
-      id: 'co31',
-      question: "What is 'Quality Control'?",
-      options: ["The process of ensuring that products meet specific standards", "Lowering the price of goods", "Increasing the speed of production", "Advertising a product's features"],
-      correctAnswer: 0,
-      explanation: "Quality control helps in maintaining customer satisfaction and brand reputation."
+      id: 'com31',
+      question: "Promoting goods through radio, TV and newspapers is",
+      options: ["Banking", "Advertising", "Transport", "Warehousing"],
+      correctAnswer: 1,
+      explanation: "Advertising is a marketing tactic involving paying for space to promote a product, service, or cause."
     },
     {
-      id: 'co32',
-      question: "What is 'Chain of Distribution'?",
-      options: ["The path through which goods move from producer to final consumer", "A type of transport network", "The list of all wholesalers in a country", "The sequence of events in a sale"],
-      correctAnswer: 0,
-      explanation: "A typical chain is Producer -> Wholesaler -> Retailer -> Consumer."
+      id: 'com32',
+      question: "The final user of goods and services is the",
+      options: ["Wholesaler", "Consumer", "Retailer", "Producer"],
+      correctAnswer: 1,
+      explanation: "A consumer is a person or a group who intends to order, orders, or uses purchased goods, products, or services primarily for personal, social, family, household and similar needs."
     },
     {
-      id: 'co33',
-      question: "What is 'Indemnity' in insurance?",
-      options: ["The principle of restoring the insured to their position before the loss", "Paying extra money to the insured", "A type of business tax", "A guarantee of profit"],
-      correctAnswer: 0,
-      explanation: "Insurance is not meant to be a way to make a profit from a loss."
+      id: 'com33',
+      question: "Payment made for borrowed money is called",
+      options: ["Rent", "Wage", "Interest", "Profit"],
+      correctAnswer: 2,
+      explanation: "Interest is the cost of borrowing money or the reward for saving it."
     },
     {
-      id: 'co34',
-      question: "What is 'Chamber of Commerce'?",
-      options: ["An association of business people designed to promote and protect their interests", "A government department for trade", "A type of large bank", "A market for agricultural products"],
-      correctAnswer: 0,
-      explanation: "They provide networking, advocacy, and support for local businesses."
+      id: 'com34',
+      question: "A cooperative society is owned by",
+      options: ["Government", "Shareholders", "Members", "Directors"],
+      correctAnswer: 2,
+      explanation: "A cooperative is an autonomous association of persons united voluntarily to meet their common economic, social, and cultural needs."
     },
     {
-      id: 'co35',
-      question: "What is 'Globalization'?",
-      options: ["The increasing integration and interdependence of national economies", "Trading only with neighboring countries", "A decrease in international travel", "A type of global weather pattern"],
-      correctAnswer: 0,
-      explanation: "Globalization is driven by trade, technology, and investment."
+      id: 'com35',
+      question: "A cheque is a written order instructing a bank to",
+      options: ["Receive money", "Pay money", "Borrow money", "Save money"],
+      correctAnswer: 1,
+      explanation: "A cheque is a document that orders a bank to pay a specific amount of money from a person's account to the person in whose name the cheque has been issued."
     },
     {
-      id: 'co36',
-      question: "What is 'Privatization'?",
-      options: ["The transfer of ownership from the government to the private sector", "A business becoming a secret", "A company stopping its advertisements", "Increasing the number of government regulations"],
-      correctAnswer: 0,
-      explanation: "Privatization is often done to increase efficiency and competition."
+      id: 'com36',
+      question: "The movement of goods from producers to consumers is called",
+      options: ["Production", "Distribution", "Consumption", "Manufacturing"],
+      correctAnswer: 1,
+      explanation: "Distribution is the process of making a product or service available for the consumer or business user who needs it."
     },
     {
-      id: 'co37',
-      question: "What is 'Diversification'?",
-      options: ["The process of expanding a business into new products or markets", "Focusing on only one product", "Hiring people from different backgrounds", "A type of business insurance"],
-      correctAnswer: 0,
-      explanation: "Diversification helps in spreading business risks."
+      id: 'com37',
+      question: "Insurance helps to",
+      options: ["Eliminate risk", "Share risk", "Prevent accidents", "Increase profit"],
+      correctAnswer: 1,
+      explanation: "Insurance is a contract, represented by a policy, in which an individual or entity receives financial protection or reimbursement against losses from an insurance company."
     },
     {
-      id: 'co38',
-      question: "What is 'Merger'?",
-      options: ["The combination of two or more companies into a single new company", "One company buying another", "A company closing down", "A disagreement between managers"],
-      correctAnswer: 0,
-      explanation: "Mergers are often done to achieve 'economies of scale'."
+      id: 'com38',
+      question: "A person who sells goods in large quantities is a",
+      options: ["Retailer", "Wholesaler", "Consumer", "Producer"],
+      correctAnswer: 1,
+      explanation: "Wholesaling is the sale of goods or merchandise to retailers, to industrial, commercial, institutional or other professional business users."
     },
     {
-      id: 'co39',
-      question: "What is 'Sales Promotion'?",
-      options: ["Short-term incentives to encourage the purchase or sale of a product", "A long-term advertising campaign", "Increasing the salary of the sales team", "A type of market research"],
-      correctAnswer: 0,
-      explanation: "Examples include discounts, coupons, and 'buy one get one free' offers."
+      id: 'com39',
+      question: "A partnership business is owned by",
+      options: ["One person", "Two or more persons", "Government", "Shareholders"],
+      correctAnswer: 1,
+      explanation: "A partnership is a type of business where two or more people share ownership, as well as the responsibility for managing the company and the income or losses the business generates."
     },
     {
-      id: 'co40',
-      question: "What is 'Entrepreneurship'?",
-      options: ["The activity of setting up a business and taking on financial risks in the hope of profit", "Working for a large company", "Studying business in school", "Managing a government office"],
-      correctAnswer: 0,
-      explanation: "Entrepreneurs are innovators who drive economic growth."
+      id: 'com40',
+      question: "Commerce deals mainly with",
+      options: ["Production of goods", "Distribution of goods", "Farming activities", "Manufacturing"],
+      correctAnswer: 1,
+      explanation: "Commerce is a sub-set of business that focuses on the distribution of goods and services rather than their production."
     }
   ],
   geo: [
     {
-      id: 'ge1',
-      question: "What is the primary cause of the Earth's seasons?",
-      options: ["The tilt of the Earth's axis as it orbits the Sun", "The distance between the Earth and the Sun", "The rotation of the Earth on its axis", "The movement of tectonic plates"],
-      correctAnswer: 0,
-      explanation: "The 23.5-degree tilt causes different parts of the Earth to receive varying amounts of sunlight throughout the year."
+      id: 'geo1',
+      question: "The line that divides the earth into two equal halves is the",
+      options: ["Tropic of Cancer", "Equator", "Arctic Circle", "Greenwich Meridian"],
+      correctAnswer: 1,
+      explanation: "The Equator is the imaginary line that divides the Earth into the Northern and Southern Hemispheres."
     },
     {
-      id: 'ge2',
-      question: "Which type of rock is formed from the cooling and solidification of magma or lava?",
-      options: ["Igneous", "Sedimentary", "Metamorphic", "None of the above"],
-      correctAnswer: 0,
-      explanation: "Examples include basalt (from lava) and granite (from magma)."
+      id: 'geo2',
+      question: "The earth rotates on its axis from",
+      options: ["North to South", "East to West", "West to East", "South to North"],
+      correctAnswer: 2,
+      explanation: "The Earth's rotation from west to east is what causes the Sun to appear to rise in the east and set in the west."
     },
     {
-      id: 'ge3',
-      question: "What is the largest ocean on Earth?",
-      options: ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
-      correctAnswer: 0,
-      explanation: "The Pacific Ocean covers more than 30% of the Earth's surface."
+      id: 'geo3',
+      question: "The imaginary line running from pole to pole is called",
+      options: ["Latitude", "Longitude", "Equator", "Meridian"],
+      correctAnswer: 1,
+      explanation: "Longitudes are imaginary lines running from the North Pole to the South Pole."
     },
     {
-      id: 'ge4',
-      question: "Which atmospheric layer is closest to the Earth's surface?",
-      options: ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
-      correctAnswer: 0,
-      explanation: "The troposphere contains most of the atmosphere's mass and is where weather occurs."
+      id: 'geo4',
+      question: "Which instrument measures atmospheric pressure?",
+      options: ["Thermometer", "Barometer", "Hygrometer", "Anemometer"],
+      correctAnswer: 1,
+      explanation: "A barometer is a scientific instrument used to measure atmospheric pressure."
     },
     {
-      id: 'ge5',
-      question: "What is the term for the process by which water vapor turns into liquid water?",
-      options: ["Condensation", "Evaporation", "Sublimation", "Precipitation"],
-      correctAnswer: 0,
-      explanation: "Condensation is essential for the formation of clouds and rain."
+      id: 'geo5',
+      question: "Which rock type is formed by cooling of molten magma?",
+      options: ["Sedimentary", "Metamorphic", "Igneous", "Organic"],
+      correctAnswer: 2,
+      explanation: "Igneous rocks are formed from the cooling and solidification of molten rock (magma or lava)."
     },
     {
-      id: 'ge6',
-      question: "Which of the following is a major cause of soil erosion?",
-      options: ["Deforestation", "Afforestation", "Crop rotation", "Terracing"],
-      correctAnswer: 0,
-      explanation: "Removing trees reduces the root systems that hold soil in place."
+      id: 'geo6',
+      question: "The process by which water vapor changes into liquid is",
+      options: ["Evaporation", "Condensation", "Transpiration", "Sublimation"],
+      correctAnswer: 1,
+      explanation: "Condensation is the process by which water vapor in the air is changed into liquid water."
     },
     {
-      id: 'ge7',
-      question: "What is the 'Prime Meridian'?",
-      options: ["The line of 0° longitude", "The line of 0° latitude", "The line that divides the North and South poles", "The highest point on Earth"],
-      correctAnswer: 0,
-      explanation: "The Prime Meridian passes through Greenwich, London."
+      id: 'geo7',
+      question: "The wearing away of the earth surface is known as",
+      options: ["Deposition", "Erosion", "Weathering", "Transportation"],
+      correctAnswer: 1,
+      explanation: "Erosion is the action of surface processes (such as water flow or wind) that removes soil, rock, or dissolved material from one location on the Earth's crust, and then transports it to another location."
     },
     {
-      id: 'ge8',
-      question: "What type of plate boundary occurs when two tectonic plates slide past each other?",
-      options: ["Transform boundary", "Convergent boundary", "Divergent boundary", "Subduction zone"],
-      correctAnswer: 0,
-      explanation: "The San Andreas Fault is a famous example of a transform boundary."
+      id: 'geo8',
+      question: "Which soil type is best for agriculture?",
+      options: ["Sandy soil", "Clay soil", "Loamy soil", "Laterite soil"],
+      correctAnswer: 2,
+      explanation: "Loamy soil is a mixture of sand, silt, and clay that is ideal for most plants because it holds moisture and nutrients well."
     },
     {
-      id: 'ge9',
-      question: "What is the main component of the Earth's core?",
-      options: ["Iron and Nickel", "Silicon and Oxygen", "Magnesium and Iron", "Aluminum and Silicon"],
+      id: 'geo9',
+      question: "Which scale shows more details on a map?",
+      options: ["Large scale", "Small scale", "Linear scale", "Comparative scale"],
       correctAnswer: 0,
-      explanation: "The inner core is solid, while the outer core is liquid."
+      explanation: "A large-scale map shows a small area with a lot of detail, while a small-scale map shows a large area with less detail."
     },
     {
-      id: 'ge10',
-      question: "Which instrument is used to measure earthquake magnitude?",
-      options: ["Seismograph", "Barometer", "Anemometer", "Hygrometer"],
-      correctAnswer: 0,
-      explanation: "Seismographs record the vibrations caused by seismic waves."
+      id: 'geo10',
+      question: "The longest river in Africa is",
+      options: ["Niger", "Nile", "Congo", "Zambezi"],
+      correctAnswer: 1,
+      explanation: "The Nile is traditionally considered the longest river in Africa and the world."
     },
     {
-      id: 'ge11',
-      question: "What is the term for a large body of ice that moves slowly over land?",
-      options: ["Glacier", "Iceberg", "Ice cap", "Permafrost"],
-      correctAnswer: 0,
-      explanation: "Glaciers carve out U-shaped valleys and transport massive amounts of debris."
+      id: 'geo11',
+      question: "The climate with heavy rainfall throughout the year is",
+      options: ["Desert", "Mediterranean", "Equatorial", "Temperate"],
+      correctAnswer: 2,
+      explanation: "Equatorial climates are found near the equator and are characterized by high temperatures and heavy rainfall year-round."
     },
     {
-      id: 'ge12',
-      question: "Which country has the largest population in Africa?",
-      options: ["Nigeria", "Egypt", "Ethiopia", "South Africa"],
-      correctAnswer: 0,
-      explanation: "Nigeria's population is estimated at over 200 million people."
+      id: 'geo12',
+      question: "Which factor affects climate most?",
+      options: ["Soil", "Latitude", "Vegetation", "Rivers"],
+      correctAnswer: 1,
+      explanation: "Latitude is a major factor affecting climate because it determines the amount of solar radiation an area receives."
     },
     {
-      id: 'ge13',
-      question: "What is 'Longitudinal' extent measured in?",
-      options: ["Degrees East and West of the Prime Meridian", "Degrees North and South of the Equator", "Kilometers from the North Pole", "Meters above sea level"],
-      correctAnswer: 0,
-      explanation: "Longitude helps determine time zones around the world."
+      id: 'geo13',
+      question: "Wind speed is measured with",
+      options: ["Barometer", "Hygrometer", "Anemometer", "Thermometer"],
+      correctAnswer: 2,
+      explanation: "An anemometer is an instrument used for measuring wind speed and direction."
     },
     {
-      id: 'ge14',
-      question: "Which of the following is a non-renewable resource?",
-      options: ["Coal", "Solar energy", "Wind energy", "Hydroelectric power"],
-      correctAnswer: 0,
-      explanation: "Fossil fuels like coal take millions of years to form."
+      id: 'geo14',
+      question: "Which rock contains fossils?",
+      options: ["Igneous", "Metamorphic", "Sedimentary", "Granite"],
+      correctAnswer: 2,
+      explanation: "Sedimentary rocks are formed by the accumulation of sediments, which often trap organic remains (fossils)."
     },
     {
-      id: 'ge15',
-      question: "What is the 'Greenhouse Effect'?",
-      options: ["The trapping of heat by certain gases in the atmosphere", "The growth of plants in a greenhouse", "The reflection of sunlight by ice", "The cooling of the Earth's surface"],
-      correctAnswer: 0,
-      explanation: "This effect is necessary for life but is currently being intensified by human activity."
+      id: 'geo15',
+      question: "The layer of the atmosphere closest to the earth is",
+      options: ["Stratosphere", "Mesosphere", "Troposphere", "Thermosphere"],
+      correctAnswer: 2,
+      explanation: "The troposphere is the lowest layer of Earth's atmosphere, where most weather phenomena occur."
     },
     {
-      id: 'ge16',
-      question: "What is the term for the point on the Earth's surface directly above an earthquake's focus?",
-      options: ["Epicenter", "Hypocenter", "Fault line", "Magnitude"],
-      correctAnswer: 0,
-      explanation: "The epicenter usually experiences the strongest shaking."
+      id: 'geo16',
+      question: "The process of breaking rocks into smaller particles is",
+      options: ["Erosion", "Weathering", "Deposition", "Transportation"],
+      correctAnswer: 1,
+      explanation: "Weathering is the breaking down or dissolving of rocks and minerals on Earth's surface."
     },
     {
-      id: 'ge17',
-      question: "Which biome is characterized by low temperatures and permafrost?",
-      options: ["Tundra", "Taiga", "Savanna", "Desert"],
-      correctAnswer: 0,
-      explanation: "The tundra has very short growing seasons and minimal vegetation."
+      id: 'geo17',
+      question: "Which type of rainfall occurs in mountainous areas?",
+      options: ["Convectional", "Relief", "Cyclonic", "Frontal"],
+      correctAnswer: 1,
+      explanation: "Relief (or orographic) rainfall occurs when moist air is forced to rise over mountains."
     },
     {
-      id: 'ge18',
-      question: "What is the primary source of energy for the Earth's weather systems?",
-      options: ["The Sun", "The Earth's internal heat", "The Moon's gravity", "The rotation of the Earth"],
+      id: 'geo18',
+      question: "The Greenwich Meridian is also called",
+      options: ["Prime Meridian", "International Date Line", "Equator", "Tropic of Capricorn"],
       correctAnswer: 0,
-      explanation: "Solar radiation drives atmospheric circulation and the water cycle."
+      explanation: "The Prime Meridian is the line of 0° longitude that passes through Greenwich, England."
     },
     {
-      id: 'ge19',
-      question: "What is 'Orography'?",
-      options: ["The study of the physical geography of mountains", "The study of oceans", "The study of soil", "The study of maps"],
-      correctAnswer: 0,
-      explanation: "Orographic rainfall occurs when air is forced to rise over mountains."
+      id: 'geo19',
+      question: "Which continent is the largest?",
+      options: ["Africa", "Asia", "Europe", "America"],
+      correctAnswer: 1,
+      explanation: "Asia is the Earth's largest and most populous continent."
     },
     {
-      id: 'ge20',
-      question: "Which river is the longest in the world?",
-      options: ["Nile", "Amazon", "Yangtze", "Mississippi"],
-      correctAnswer: 0,
-      explanation: "The Nile flows through northeastern Africa for about 6,650 km."
+      id: 'geo20',
+      question: "The study of population is called",
+      options: ["Cartography", "Demography", "Climatology", "Geology"],
+      correctAnswer: 1,
+      explanation: "Demography is the statistical study of populations, especially human beings."
     },
     {
-      id: 'ge21',
-      question: "What is the 'Intertropical Convergence Zone' (ITCZ)?",
-      options: ["A belt of low pressure near the equator where trade winds meet", "A high-pressure system at the poles", "A mountain range in Asia", "An ocean current in the Atlantic"],
-      correctAnswer: 0,
-      explanation: "The ITCZ is known for frequent thunderstorms and heavy rainfall."
+      id: 'geo21',
+      question: "Desert climates are characterized by",
+      options: ["Heavy rainfall", "Moderate rainfall", "Very low rainfall", "Seasonal rainfall"],
+      correctAnswer: 2,
+      explanation: "Deserts are defined by their aridity, typically receiving very little precipitation annually."
     },
     {
-      id: 'ge22',
-      question: "Which scale is used to measure the intensity of a hurricane?",
-      options: ["Saffir-Simpson Scale", "Richter Scale", "Beaufort Scale", "Kelvin Scale"],
-      correctAnswer: 0,
-      explanation: "It categorizes hurricanes from 1 to 5 based on sustained wind speed."
+      id: 'geo22',
+      question: "The process by which sediments are laid down is called",
+      options: ["Transportation", "Deposition", "Weathering", "Erosion"],
+      correctAnswer: 1,
+      explanation: "Deposition is the geological process in which sediments, soil and rocks are added to a landform or land mass."
     },
     {
-      id: 'ge23',
-      question: "What is the term for the movement of people from rural areas to cities?",
-      options: ["Urbanization", "Migration", "Immigration", "Emigration"],
-      correctAnswer: 0,
-      explanation: "Urbanization is a global trend driven by economic opportunities."
+      id: 'geo23',
+      question: "A plateau is best described as",
+      options: ["A deep valley", "A flat elevated land", "A lowland plain", "A mountain peak"],
+      correctAnswer: 1,
+      explanation: "A plateau is a flat-topped highland with steep sides."
     },
     {
-      id: 'ge24',
-      question: "What is 'Isotherm'?",
-      options: ["A line on a map connecting points with the same temperature", "A line connecting points with the same pressure", "A type of desert plant", "A device for measuring heat"],
-      correctAnswer: 0,
-      explanation: "Isotherms help geographers visualize temperature patterns."
+      id: 'geo24',
+      question: "The science of making maps is called",
+      options: ["Geography", "Cartography", "Demography", "Geology"],
+      correctAnswer: 1,
+      explanation: "Cartography is the study and practice of making maps."
     },
     {
-      id: 'ge25',
-      question: "Which of the following is a characteristic of a 'Delta'?",
-      options: ["A landform created by the deposition of sediment at the mouth of a river", "A deep valley carved by a river", "A large waterfall", "A seasonal lake"],
-      correctAnswer: 0,
-      explanation: "The Niger Delta is one of the largest in the world."
+      id: 'geo25',
+      question: "A triangular deposit of sediments at the mouth of a river is called",
+      options: ["Lagoon", "Delta", "Estuary", "Basin"],
+      correctAnswer: 1,
+      explanation: "A delta is a landform created by the deposition of sediment that is carried by a river as the flow leaves its mouth and enters slower-moving or stagnant water."
     },
     {
-      id: 'ge26',
-      question: "What is the 'Atmospheric Pressure' at sea level?",
-      options: ["1013.25 mb", "500 mb", "2000 mb", "760 mb"],
-      correctAnswer: 0,
-      explanation: "Pressure decreases as altitude increases."
+      id: 'geo26',
+      question: "Vegetation in desert areas is usually",
+      options: ["Dense forest", "Moderate grassland", "Sparse vegetation", "Thick rainforest"],
+      correctAnswer: 2,
+      explanation: "Deserts have very little vegetation due to the extreme lack of water."
     },
     {
-      id: 'ge27',
-      question: "What is the term for the angular distance of a place north or south of the equator?",
-      options: ["Latitude", "Longitude", "Altitude", "Azimuth"],
-      correctAnswer: 0,
-      explanation: "Latitude lines are parallel to the Equator."
+      id: 'geo27',
+      question: "The largest ocean in the world is the",
+      options: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+      correctAnswer: 3,
+      explanation: "The Pacific Ocean is the largest and deepest of Earth's oceanic divisions."
     },
     {
-      id: 'ge28',
-      question: "Which cloud type is often associated with thunderstorms?",
-      options: ["Cumulonimbus", "Stratus", "Cirrus", "Altocumulus"],
-      correctAnswer: 0,
-      explanation: "Cumulonimbus clouds are tall, dense, and capable of producing heavy rain and lightning."
+      id: 'geo28',
+      question: "The imaginary line dividing the earth into eastern and western hemispheres is the",
+      options: ["Equator", "Tropic of Cancer", "Prime Meridian", "Arctic Circle"],
+      correctAnswer: 2,
+      explanation: "The Prime Meridian, along with the 180th meridian, divides the Earth into the Eastern and Western Hemispheres."
     },
     {
-      id: 'ge29',
-      question: "What is 'Global Warming'?",
-      options: ["The long-term heating of Earth's climate system", "The seasonal change in temperature", "The effect of volcanoes on the climate", "The cooling of the oceans"],
-      correctAnswer: 0,
-      explanation: "It is primarily caused by increased levels of greenhouse gases."
+      id: 'geo29',
+      question: "Lines joining places of equal rainfall are called",
+      options: ["Isotherms", "Isohyets", "Isobars", "Contours"],
+      correctAnswer: 1,
+      explanation: "Isohyets are lines on a map connecting points that have the same amount of rainfall."
     },
     {
-      id: 'ge30',
-      question: "What is the 'Continental Shelf'?",
-      options: ["The shallow, submerged edge of a continent", "The deepest part of the ocean", "A large mountain range on land", "A type of ocean current"],
-      correctAnswer: 0,
-      explanation: "Continental shelves are rich in marine life and resources like oil."
+      id: 'geo30',
+      question: "Lines joining places with equal temperature are",
+      options: ["Isohyets", "Isotherms", "Isobars", "Contours"],
+      correctAnswer: 1,
+      explanation: "Isotherms are lines on a map connecting points that have the same temperature."
     },
     {
-      id: 'ge31',
-      question: "What is the 'Water Table'?",
-      options: ["The level below which the ground is saturated with water", "The surface of a lake", "A list of water prices", "The depth of the ocean"],
-      correctAnswer: 0,
-      explanation: "The water table can rise or fall depending on rainfall and usage."
+      id: 'geo31',
+      question: "The longest river in Nigeria is",
+      options: ["River Benue", "River Niger", "River Cross", "River Kaduna"],
+      correctAnswer: 1,
+      explanation: "The River Niger is the longest river in Nigeria and the third-longest in Africa."
     },
     {
-      id: 'ge32',
-      question: "Which of the following is a form of 'Precipitation'?",
-      options: ["Snow", "Fog", "Dew", "Mist"],
-      correctAnswer: 0,
-      explanation: "Precipitation refers to any product of the condensation of atmospheric water vapor that falls under gravity."
+      id: 'geo32',
+      question: "Lagos lies within which vegetation zone?",
+      options: ["Guinea savanna", "Sudan savanna", "Mangrove swamp", "Sahel savanna"],
+      correctAnswer: 2,
+      explanation: "Lagos is located in the coastal region of Nigeria, which is characterized by mangrove swamps."
     },
     {
-      id: 'ge33',
-      question: "What is 'Sustainable Development'?",
-      options: ["Development that meets the needs of the present without compromising the future", "Rapid industrial growth", "Building as many cities as possible", "Focusing only on economic profit"],
-      correctAnswer: 0,
-      explanation: "It involves balancing economic, social, and environmental factors."
+      id: 'geo33',
+      question: "The earth completes one revolution around the sun in",
+      options: ["24 hours", "30 days", "365 days", "12 months"],
+      correctAnswer: 2,
+      explanation: "The Earth takes approximately 365.25 days to complete one revolution around the Sun."
     },
     {
-      id: 'ge34',
-      question: "What is an 'Archipelago'?",
-      options: ["A group or chain of islands", "A single large island", "A coral reef", "A narrow strip of land connecting two larger areas"],
-      correctAnswer: 0,
-      explanation: "Indonesia and the Philippines are examples of archipelagos."
+      id: 'geo34',
+      question: "Wind direction is measured with a",
+      options: ["Thermometer", "Wind vane", "Barometer", "Hygrometer"],
+      correctAnswer: 1,
+      explanation: "A wind vane is an instrument used for showing the direction of the wind."
     },
     {
-      id: 'ge35',
-      question: "What is the 'Albedo' of a surface?",
-      options: ["The proportion of solar radiation reflected by the surface", "The amount of heat absorbed by the surface", "The temperature of the surface", "The color of the surface"],
-      correctAnswer: 0,
-      explanation: "Ice and snow have a high albedo, while forests have a low albedo."
+      id: 'geo35',
+      question: "The hottest zone of the earth is the",
+      options: ["Temperate zone", "Polar zone", "Tropical zone", "Arctic zone"],
+      correctAnswer: 2,
+      explanation: "The tropical zone, located between the Tropics of Cancer and Capricorn, receives the most direct sunlight and is the hottest zone."
     },
     {
-      id: 'ge36',
-      question: "Which layer of the atmosphere contains the ozone layer?",
-      options: ["Stratosphere", "Troposphere", "Mesosphere", "Exosphere"],
-      correctAnswer: 0,
-      explanation: "The ozone layer protects Earth from harmful UV radiation."
+      id: 'geo36',
+      question: "Rocks changed by heat and pressure are called",
+      options: ["Igneous rocks", "Sedimentary rocks", "Metamorphic rocks", "Granite rocks"],
+      correctAnswer: 2,
+      explanation: "Metamorphic rocks arise from the transformation of existing rock types through heat and pressure."
     },
     {
-      id: 'ge37',
-      question: "What is 'Leaching' in soil science?",
-      options: ["The removal of dissolved nutrients from soil by downward-moving water", "The addition of fertilizers to soil", "The process of soil formation", "The erosion of topsoil by wind"],
-      correctAnswer: 0,
-      explanation: "Leaching can lead to poor soil fertility in rainy tropical regions."
+      id: 'geo37',
+      question: "The outermost layer of the earth is the",
+      options: ["Mantle", "Core", "Crust", "Lithosphere"],
+      correctAnswer: 2,
+      explanation: "The crust is the outermost solid shell of the Earth."
     },
     {
-      id: 'ge38',
-      question: "What is the 'Scale' of a map?",
-      options: ["The ratio between distances on the map and actual distances on the ground", "The size of the map", "The colors used on the map", "The direction of North"],
-      correctAnswer: 0,
-      explanation: "Scale allows users to calculate real-world distances from a map."
+      id: 'geo38',
+      question: "Soil formed from river deposits is called",
+      options: ["Laterite soil", "Alluvial soil", "Sandy soil", "Clay soil"],
+      correctAnswer: 1,
+      explanation: "Alluvial soil is fine-grained fertile soil deposited by water flowing over floodplains or in river beds."
     },
     {
-      id: 'ge39',
-      question: "What is a 'Fold Mountain'?",
-      options: ["A mountain formed by the folding of sedimentary rock layers", "A mountain formed by volcanic activity", "A mountain formed by faulting", "A mountain formed by erosion"],
-      correctAnswer: 0,
-      explanation: "The Himalayas and the Andes are examples of fold mountains."
+      id: 'geo39',
+      question: "Movement of people from rural areas to cities is known as",
+      options: ["Urban migration", "Rural-urban migration", "Rural settlement", "Population drift"],
+      correctAnswer: 1,
+      explanation: "Rural-urban migration is the movement of people from the countryside to the city in search of better opportunities."
     },
     {
-      id: 'ge40',
-      question: "What is 'Biodiversity'?",
-      options: ["The variety of life in a particular habitat or ecosystem", "The number of trees in a forest", "The size of a population", "The study of biology"],
-      correctAnswer: 0,
-      explanation: "Biodiversity is crucial for ecosystem stability and resilience."
+      id: 'geo40',
+      question: "Dense forests are common in which climate?",
+      options: ["Desert", "Mediterranean", "Equatorial", "Tundra"],
+      correctAnswer: 2,
+      explanation: "Dense rainforests are a hallmark of equatorial climates due to constant heat and moisture."
     }
   ],
   agric: [
     {
-      id: 'a1',
-      question: "What is 'Monoculture' in agriculture?",
-      options: ["The practice of growing only one type of crop in a field at a time", "Growing multiple crops together", "The study of soil only", "A type of irrigation"],
-      correctAnswer: 0,
-      explanation: "While efficient, monoculture can increase the risk of pests and diseases."
+      id: 'ag1',
+      question: "Agriculture is the science of",
+      options: ["Growing crops only", "Raising animals only", "Crop and animal production", "Fishing only"],
+      correctAnswer: 2,
+      explanation: "Agriculture encompasses the cultivation of plants (crops) and the rearing of animals for food, fiber, and other products."
     },
     {
-      id: 'a2',
-      question: "Which of the following is a 'Cash Crop'?",
-      options: ["Cocoa", "Yam", "Cassava", "Maize"],
-      correctAnswer: 0,
-      explanation: "Cash crops are grown primarily for sale and export rather than for local consumption."
+      id: 'ag2',
+      question: "The process by which plants make food is",
+      options: ["Respiration", "Photosynthesis", "Transpiration", "Germination"],
+      correctAnswer: 1,
+      explanation: "Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to create oxygen and energy in the form of sugar."
     },
     {
-      id: 'a3',
-      question: "What is the primary purpose of 'Mulching'?",
-      options: ["To conserve soil moisture and suppress weeds", "To add nutrients to the soil", "To kill pests", "To increase the temperature of the soil"],
+      id: 'ag3',
+      question: "Which nutrient is needed for leaf growth?",
+      options: ["Nitrogen", "Phosphorus", "Potassium", "Calcium"],
       correctAnswer: 0,
-      explanation: "Mulch acts as a protective layer over the soil surface."
+      explanation: "Nitrogen is essential for the production of chlorophyll and is a major component of amino acids, which are the building blocks of proteins needed for leaf and stem growth."
     },
     {
-      id: 'a4',
-      question: "Which nutrient is primarily provided by 'Nitrogen' fertilizers?",
-      options: ["Vegetative growth and green color", "Root development", "Fruit ripening", "Resistance to disease"],
-      correctAnswer: 0,
-      explanation: "Nitrogen is a key component of chlorophyll."
+      id: 'ag4',
+      question: "Which farm animal is a ruminant?",
+      options: ["Pig", "Goat", "Chicken", "Rabbit"],
+      correctAnswer: 1,
+      explanation: "Ruminants are mammals that are able to acquire nutrients from plant-based food by fermenting it in a specialized stomach prior to digestion, principally through microbial actions. Goats, sheep, and cattle are common examples."
     },
     {
-      id: 'a5',
-      question: "What is 'Crop Rotation'?",
-      options: ["The practice of growing different crops in succession on the same land", "Turning the crops around in the field", "Moving crops from one farm to another", "Changing the time of planting"],
-      correctAnswer: 0,
-      explanation: "Rotation helps maintain soil fertility and break pest cycles."
+      id: 'ag5',
+      question: "The tool used for digging soil is",
+      options: ["Hoe", "Cutlass", "Spade", "Rake"],
+      correctAnswer: 2,
+      explanation: "A spade is a tool primarily for digging or moving soil, featuring a long handle and a flat, rectangular blade."
     },
     {
-      id: 'a6',
-      question: "What is the term for the breeding and raising of fish in controlled environments?",
-      options: ["Aquaculture", "Apiculture", "Sericulture", "Floriculture"],
-      correctAnswer: 0,
-      explanation: "Aquaculture includes fish farming in ponds, tanks, or cages."
+      id: 'ag6',
+      question: "The male reproductive organ of a flower is",
+      options: ["Stigma", "Anther", "Ovary", "Style"],
+      correctAnswer: 1,
+      explanation: "The stamen is the male part of a flower, consisting of the anther (which produces pollen) and the filament."
     },
     {
-      id: 'a7',
-      question: "Which of the following is a 'Leguminous' crop?",
-      options: ["Cowpea", "Rice", "Sorghum", "Millet"],
-      correctAnswer: 0,
-      explanation: "Legumes have root nodules that contain nitrogen-fixing bacteria."
+      id: 'ag7',
+      question: "Which farming system involves growing one crop?",
+      options: ["Mixed farming", "Monocropping", "Crop rotation", "Mixed cropping"],
+      correctAnswer: 1,
+      explanation: "Monocropping is the agricultural practice of growing a single crop year after year on the same land."
     },
     {
-      id: 'a8',
-      question: "What is 'Irrigation'?",
-      options: ["The artificial application of water to land to assist in crop growth", "The natural rainfall on a farm", "The drainage of water from a swamp", "The study of water quality"],
-      correctAnswer: 0,
-      explanation: "Irrigation is essential in arid and semi-arid regions."
+      id: 'ag8',
+      question: "Which animal produces wool?",
+      options: ["Goat", "Sheep", "Cow", "Pig"],
+      correctAnswer: 1,
+      explanation: "Wool is the textile fiber obtained from sheep and other animals, including certain species of goats and camels."
     },
     {
-      id: 'a9',
-      question: "What is the 'Gestatonal Period' of a cow?",
-      options: ["283 days", "150 days", "114 days", "336 days"],
-      correctAnswer: 0,
-      explanation: "Gestation is the duration of pregnancy in animals."
+      id: 'ag9',
+      question: "The process of removing weeds is",
+      options: ["Harvesting", "Weeding", "Thinning", "Pruning"],
+      correctAnswer: 1,
+      explanation: "Weeding is the removal of unwanted plants (weeds) from a cultivated area to reduce competition for nutrients, water, and light."
     },
     {
-      id: 'a10',
-      question: "What is the primary function of a 'Tractor' on a farm?",
-      options: ["Providing power for various agricultural tasks", "Transporting people only", "Storing grain", "Measuring soil pH"],
-      correctAnswer: 0,
-      explanation: "Tractors can pull plows, harrows, and other implements."
+      id: 'ag10',
+      question: "Which soil nutrient helps root development?",
+      options: ["Nitrogen", "Phosphorus", "Potassium", "Magnesium"],
+      correctAnswer: 1,
+      explanation: "Phosphorus is critical for energy transfer within the plant and is essential for root development and early growth."
     },
     {
-      id: 'a11',
-      question: "What is 'Soil pH' a measure of?",
-      options: ["The acidity or alkalinity of the soil", "The amount of water in the soil", "The texture of the soil", "The depth of the soil"],
-      correctAnswer: 0,
-      explanation: "Soil pH affects the availability of nutrients to plants."
+      id: 'ag11',
+      question: "Which of the following animals belongs to the poultry group?",
+      options: ["Goat", "Cow", "Chicken", "Sheep"],
+      correctAnswer: 2,
+      explanation: "Poultry refers to domesticated birds kept by humans for their eggs, their meat or their feathers."
     },
     {
-      id: 'a12',
-      question: "What is 'Afforestation'?",
-      options: ["The establishment of a forest in an area where there was no previous tree cover", "Cutting down trees for timber", "The study of forest animals", "Burning forests for farming"],
+      id: 'ag12',
+      question: "The process of transferring seedlings from nursery to field is called",
+      options: ["Transplanting", "Thinning", "Weeding", "Pruning"],
       correctAnswer: 0,
-      explanation: "Afforestation helps in combating climate change and soil erosion."
+      explanation: "Transplanting involves moving a plant from its initial place of growth (nursery) to a permanent location in the field."
     },
     {
-      id: 'a13',
-      question: "Which of the following is a 'Fungal' disease in crops?",
-      options: ["Maize rust", "Cassava mosaic", "Citrus canker", "Bacterial wilt"],
-      correctAnswer: 0,
-      explanation: "Rusts are common fungal infections that appear as reddish-brown spots on leaves."
+      id: 'ag13',
+      question: "Animals kept mainly for milk production are",
+      options: ["Beef cattle", "Dairy cattle", "Sheep", "Goats"],
+      correctAnswer: 1,
+      explanation: "Dairy cattle are breeds of cows specifically raised for their high milk-producing capabilities."
     },
     {
-      id: 'a14',
-      question: "What is 'Silage'?",
-      options: ["Fermented, high-moisture stored fodder used for animal feed", "Dry grass used for bedding", "A type of fertilizer", "A method of soil conservation"],
-      correctAnswer: 0,
-      explanation: "Silage is usually made from green crops like maize or grass."
+      id: 'ag14',
+      question: "Irrigation means",
+      options: ["Natural rainfall", "Artificial watering of crops", "Planting crops", "Fertilizing soil"],
+      correctAnswer: 1,
+      explanation: "Irrigation is the controlled application of water to plants at needed intervals to assist in the production of crops."
     },
     {
-      id: 'a15',
-      question: "What is the 'Cation Exchange Capacity' (CEC) of soil?",
-      options: ["The ability of soil to hold and exchange positively charged ions", "The speed at which water moves through soil", "The total amount of sand in soil", "The weight of the soil"],
-      correctAnswer: 0,
-      explanation: "A higher CEC generally indicates more fertile soil."
+      id: 'ag15',
+      question: "Leguminous crops improve soil fertility by",
+      options: ["Increasing moisture", "Nitrogen fixation", "Adding potassium", "Reducing weeds"],
+      correctAnswer: 1,
+      explanation: "Legumes have a symbiotic relationship with nitrogen-fixing bacteria (Rhizobium) in their root nodules, which convert atmospheric nitrogen into a form plants can use."
     },
     {
-      id: 'a16',
-      question: "Which of the following is a 'Macro-nutrient' for plants?",
-      options: ["Phosphorus", "Iron", "Zinc", "Boron"],
-      correctAnswer: 0,
-      explanation: "Macro-nutrients (N, P, K) are required by plants in large quantities."
+      id: 'ag16',
+      question: "Which of the following is a root crop?",
+      options: ["Maize", "Cassava", "Rice", "Millet"],
+      correctAnswer: 1,
+      explanation: "Root crops are underground plant parts that are used as food, such as cassava, sweet potatoes, and carrots."
     },
     {
-      id: 'a17',
-      question: "What is 'Pisciculture'?",
-      options: ["Fish farming", "Bee keeping", "Bird rearing", "Snail farming"],
-      correctAnswer: 0,
-      explanation: "It is a branch of aquaculture focused specifically on fish."
+      id: 'ag17',
+      question: "Which of the following is a cereal crop?",
+      options: ["Yam", "Cassava", "Maize", "Potato"],
+      correctAnswer: 2,
+      explanation: "Cereals are grasses cultivated for their edible grains, such as maize, rice, wheat, and millet."
     },
     {
-      id: 'a18',
-      question: "What is the function of 'Ruminant' animals' stomachs?",
-      options: ["To digest cellulose through fermentation", "To store water for long periods", "To produce milk directly", "To grind grain with stones"],
-      correctAnswer: 0,
-      explanation: "Ruminants (like cows and sheep) have four-chambered stomachs."
+      id: 'ag18',
+      question: "Fish farming is also known as",
+      options: ["Apiculture", "Aquaculture", "Sericulture", "Horticulture"],
+      correctAnswer: 1,
+      explanation: "Aquaculture is the farming of fish, crustaceans, molluscs, aquatic plants, algae, and other organisms."
     },
     {
-      id: 'a19',
-      question: "What is 'Green Manure'?",
-      options: ["Growing crops specifically to be plowed back into the soil to improve fertility", "Manure from animals that eat only grass", "A type of chemical fertilizer", "Artificial grass used in greenhouses"],
-      correctAnswer: 0,
-      explanation: "Legumes are often used as green manure."
+      id: 'ag19',
+      question: "The main product obtained from beekeeping is",
+      options: ["Wax", "Honey", "Nectar", "Sugar"],
+      correctAnswer: 1,
+      explanation: "Honey is the primary product of apiculture (beekeeping), produced by bees from the nectar of flowers."
     },
     {
-      id: 'a20',
-      question: "What is 'Erosion'?",
-      options: ["The wearing away of the Earth's surface by wind, water, or ice", "The deposition of sediment", "The process of soil formation", "The growth of plants on a hill"],
-      correctAnswer: 0,
-      explanation: "Agricultural practices can significantly increase or decrease erosion rates."
+      id: 'ag20',
+      question: "A common poultry disease is",
+      options: ["Anthrax", "Newcastle disease", "Rabies", "Foot and mouth disease"],
+      correctAnswer: 1,
+      explanation: "Newcastle disease is a highly contagious viral disease affecting many species of birds, particularly poultry."
     },
     {
-      id: 'a21',
-      question: "What is 'Extension Service' in agriculture?",
-      options: ["The transfer of scientific research and knowledge to farmers", "Extending the length of the growing season", "Increasing the size of a farm", "A type of loan for farmers"],
-      correctAnswer: 0,
-      explanation: "Extension agents help farmers adopt better techniques and technologies."
+      id: 'ag21',
+      question: "Which crop belongs to the cereal group?",
+      options: ["Cassava", "Rice", "Yam", "Potato"],
+      correctAnswer: 1,
+      explanation: "Rice is a staple cereal grain and is a primary food source for a large part of the world's human population."
     },
     {
-      id: 'a22',
-      question: "Which of the following is a 'Sucking' pest?",
-      options: ["Aphid", "Grasshopper", "Weevil", "Caterpillar"],
+      id: 'ag22',
+      question: "The artificial application of water to crops is called",
+      options: ["Irrigation", "Drainage", "Mulching", "Fertilization"],
       correctAnswer: 0,
-      explanation: "Aphids have needle-like mouthparts to suck sap from plants."
+      explanation: "Irrigation is used to assist in the growing of agricultural crops, maintenance of landscapes, and revegetation of disturbed soils in dry areas."
     },
     {
-      id: 'a23',
-      question: "What is 'Soil Texture'?",
-      options: ["The relative proportions of sand, silt, and clay in the soil", "How the soil feels when wet", "The color of the soil", "The depth of the topsoil"],
-      correctAnswer: 0,
-      explanation: "Texture determines the soil's ability to hold water and nutrients."
+      id: 'ag23',
+      question: "A crop grown mainly for feeding animals is called",
+      options: ["Cash crop", "Food crop", "Fodder crop", "Beverage crop"],
+      correctAnswer: 2,
+      explanation: "Fodder crops are crops cultivated primarily for animal feed, such as hay, silage, and certain grasses."
     },
     {
-      id: 'a24',
-      question: "What is 'Broiler' production?",
-      options: ["Raising chickens for meat", "Raising chickens for eggs", "Raising ducks for feathers", "Raising turkeys for holidays"],
-      correctAnswer: 0,
-      explanation: "Broilers are bred for fast growth and high meat yield."
+      id: 'ag24',
+      question: "The removal of excess seedlings from a farm is called",
+      options: ["Weeding", "Thinning", "Pruning", "Harvesting"],
+      correctAnswer: 1,
+      explanation: "Thinning is the process of removing excess seedlings to ensure adequate space, nutrients, and light for the remaining plants to grow properly."
     },
     {
-      id: 'a25',
-      question: "What is 'Transplanting'?",
-      options: ["Moving a plant from a nursery to its permanent position in the field", "Moving a farm to a new location", "Grafting one plant onto another", "Planting seeds directly in the soil"],
-      correctAnswer: 0,
-      explanation: "Transplanting gives young plants a better start in a controlled environment."
+      id: 'ag25',
+      question: "Which farm animal produces milk?",
+      options: ["Goat", "Cow", "Pig", "Sheep"],
+      correctAnswer: 1,
+      explanation: "While goats and sheep can also produce milk, cows are the primary source of commercial milk production globally."
     },
     {
-      id: 'a26',
-      question: "What is the primary use of a 'Disc Plow'?",
-      options: ["To break up and turn over heavy or hard soil", "To spray chemicals", "To harvest grain", "To plant seeds in rows"],
+      id: 'ag26',
+      question: "The main product obtained from bees is",
+      options: ["Honey", "Wax", "Pollen", "Nectar"],
       correctAnswer: 0,
-      explanation: "Disc plows are effective in soils with many roots or stones."
+      explanation: "Honey is the most well-known and commercially important product obtained from honeybees."
     },
     {
-      id: 'a27',
-      question: "What is 'Hybridization'?",
-      options: ["The crossing of two different varieties or species to produce offspring with superior traits", "The study of ancient plants", "A type of organic farming", "The use of robots on a farm"],
-      correctAnswer: 0,
-      explanation: "Hybrids often exhibit 'heterosis' or hybrid vigor."
+      id: 'ag27',
+      question: "Which nutrient promotes flowering and fruiting in plants?",
+      options: ["Nitrogen", "Phosphorus", "Potassium", "Calcium"],
+      correctAnswer: 1,
+      explanation: "Phosphorus is essential for reproductive growth, including the development of flowers, fruits, and seeds."
     },
     {
-      id: 'a28',
-      question: "What is 'Mixed Farming'?",
-      options: ["The combination of crop production and livestock rearing on the same farm", "Growing many different types of crops together", "Using both traditional and modern tools", "Selling goods to both local and foreign markets"],
-      correctAnswer: 0,
-      explanation: "Mixed farming provides multiple sources of income and recycles nutrients."
+      id: 'ag28',
+      question: "Fish farming is called",
+      options: ["Apiculture", "Aquaculture", "Horticulture", "Forestry"],
+      correctAnswer: 1,
+      explanation: "Aquaculture involves the cultivation of aquatic organisms in controlled environments."
     },
     {
-      id: 'a29',
-      question: "What is 'Potash' primarily a source of?",
-      options: ["Potassium", "Phosphorus", "Calcium", "Magnesium"],
-      correctAnswer: 0,
-      explanation: "Potassium is essential for water regulation and enzyme activation in plants."
+      id: 'ag29',
+      question: "Which pest commonly attacks stored grains?",
+      options: ["Termite", "Weevil", "Caterpillar", "Grasshopper"],
+      correctAnswer: 1,
+      explanation: "Weevils are a type of beetle known for infesting and damaging stored grains like rice, maize, and beans."
     },
     {
-      id: 'a30',
-      question: "What is 'Zero Tillage'?",
-      options: ["A way of farming where the soil is not disturbed by plowing", "Having no crops in the field", "A farm with no machines", "Using only manual labor for planting"],
-      correctAnswer: 0,
-      explanation: "Zero tillage helps in preserving soil structure and moisture."
+      id: 'ag30',
+      question: "Growing two or more crops on the same land simultaneously is called",
+      options: ["Crop rotation", "Mixed cropping", "Monocropping", "Shifting cultivation"],
+      correctAnswer: 1,
+      explanation: "Mixed cropping (or intercropping) involves growing multiple crops together in the same field to maximize land use and reduce risk."
     },
     {
-      id: 'a31',
-      question: "What is the function of the 'Gizzard' in poultry?",
-      options: ["To grind food using swallowed stones", "To produce eggs", "To store fat", "To filter blood"],
-      correctAnswer: 0,
-      explanation: "The gizzard compensates for the lack of teeth in birds."
+      id: 'ag31',
+      question: "The farm tool used for cutting weeds is",
+      options: ["Hoe", "Cutlass", "Spade", "Rake"],
+      correctAnswer: 1,
+      explanation: "A cutlass (or machete) is a versatile tool used for clearing weeds, brush, and small trees."
     },
     {
-      id: 'a32',
-      question: "What is 'Liming'?",
-      options: ["The application of calcium-rich materials to soil to reduce acidity", "Applying lime juice to plants to kill pests", "Painting tree trunks white", "A method of preserving fruit"],
-      correctAnswer: 0,
-      explanation: "Liming improves soil structure and nutrient availability in acid soils."
+      id: 'ag32',
+      question: "Animals that chew cud are known as",
+      options: ["Carnivores", "Ruminants", "Omnivores", "Herbivores"],
+      correctAnswer: 1,
+      explanation: "Ruminants have a complex stomach and the unique ability to regurgitate and re-chew partially digested food (cud)."
     },
     {
-      id: 'a33',
-      question: "Which of the following is a 'Viral' disease in livestock?",
-      options: ["Foot and Mouth Disease", "Anthrax", "Tuberculosis", "Coccidiosis"],
-      correctAnswer: 0,
-      explanation: "Foot and Mouth is a highly contagious viral disease affecting cloven-hoofed animals."
+      id: 'ag33',
+      question: "The process of collecting mature crops from the field is called",
+      options: ["Planting", "Harvesting", "Weeding", "Transplanting"],
+      correctAnswer: 1,
+      explanation: "Harvesting is the act of gathering mature crops from the field at the end of their growing cycle."
     },
     {
-      id: 'a34',
-      question: "What is 'Agro-forestry'?",
-      options: ["The integration of trees and shrubs into crop and livestock systems", "Large-scale logging for profit", "Studying the history of forests", "Building farms inside forests"],
-      correctAnswer: 0,
-      explanation: "Agro-forestry provides environmental benefits and diversified products."
+      id: 'ag34',
+      question: "Cassava is propagated mainly by",
+      options: ["Seeds", "Stem cuttings", "Roots", "Leaves"],
+      correctAnswer: 1,
+      explanation: "Cassava is usually grown from stem cuttings (stakes) taken from mature plants."
     },
     {
-      id: 'a35',
-      question: "What is 'Post-harvest Loss'?",
-      options: ["The loss of quantity or quality of food between harvest and consumption", "The death of crops during a drought", "The cost of buying new seeds", "A decrease in the price of crops after harvest"],
-      correctAnswer: 0,
-      explanation: "Reducing post-harvest loss is critical for food security."
+      id: 'ag35',
+      question: "Newcastle disease affects mainly",
+      options: ["Cattle", "Poultry", "Sheep", "Goats"],
+      correctAnswer: 1,
+      explanation: "Newcastle disease is one of the most serious viral diseases affecting domestic poultry worldwide."
     },
     {
-      id: 'a36',
-      question: "What is the 'Callus' in plant tissue culture?",
-      options: ["A mass of unorganized, undifferentiated plant cells", "The root of a new plant", "The seed of a plant", "A type of plant pest"],
-      correctAnswer: 0,
-      explanation: "Callus can be induced to form new organs like shoots and roots."
+      id: 'ag36',
+      question: "The removal of excess water from farmland is called",
+      options: ["Irrigation", "Drainage", "Mulching", "Fertilization"],
+      correctAnswer: 1,
+      explanation: "Drainage is the natural or artificial removal of surface and sub-surface water from an area."
     },
     {
-      id: 'a37',
-      question: "What is 'Hydroponics'?",
-      options: ["The practice of growing plants in nutrient-rich water solutions without soil", "The study of water animals", "A type of irrigation using pipes", "Growing plants in a very humid environment"],
-      correctAnswer: 0,
-      explanation: "Hydroponics allows for precise control over plant nutrition."
+      id: 'ag37',
+      question: "The male parent used for breeding cattle is called",
+      options: ["Cow", "Bull", "Ram", "Boar"],
+      correctAnswer: 1,
+      explanation: "A bull is an intact (not castrated) adult male of the species Bos taurus (cattle)."
     },
     {
-      id: 'a38',
-      question: "What is 'Biological Control' of pests?",
-      options: ["The use of natural enemies (predators, parasites) to manage pest populations", "The use of chemical pesticides", "Genetically modifying crops to be resistant", "Hand-picking pests from the field"],
-      correctAnswer: 0,
-      explanation: "Biological control is an eco-friendly alternative to chemicals."
+      id: 'ag38',
+      question: "A structure used for keeping farm animals is called",
+      options: ["Pen", "Cage", "Shed", "All of the above"],
+      correctAnswer: 3,
+      explanation: "Pens, cages, and sheds are all common types of housing structures used for various farm animals."
     },
     {
-      id: 'a39',
-      question: "What is 'Diversified Farming'?",
-      options: ["A farm that produces many different types of products", "A farm that uses many different languages", "A farm that is owned by many people", "A farm that is spread across different states"],
-      correctAnswer: 0,
-      explanation: "Diversification reduces the risk of total failure from one product."
+      id: 'ag39',
+      question: "Crop rotation helps mainly to",
+      options: ["Reduce yield", "Maintain soil fertility", "Increase pests", "Destroy soil"],
+      correctAnswer: 1,
+      explanation: "Crop rotation helps maintain soil health, manage pests and diseases, and improve overall crop yields by alternating crops with different nutrient needs."
     },
     {
-      id: 'a40',
-      question: "What is the 'Fertilizer Ratio'?",
-      options: ["The relative percentage of N, P, and K in a fertilizer bag", "The amount of fertilizer per hectare", "The price of fertilizer compared to seeds", "The weight of the bag"],
+      id: 'ag40',
+      question: "The branch of agriculture concerned with crop production is",
+      options: ["Agronomy", "Zoology", "Forestry", "Fisheries"],
       correctAnswer: 0,
-      explanation: "For example, a 15-15-15 fertilizer contains 15% each of N, P₂O₅, and K₂O."
+      explanation: "Agronomy is the science and technology of producing and using plants for food, fuel, fiber, and land reclamation."
     }
   ],
   accounting: [
