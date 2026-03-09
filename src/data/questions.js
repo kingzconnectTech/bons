@@ -2,1010 +2,705 @@ export const QUESTIONS = {
   english: [
     {
       id: 'e1',
-      question: "Which of the following sentences correctly employs the subjunctive mood for a hypothetical situation in the past?",
-      options: [
-        "If I was there, I would have helped you.",
-        "Had I been there, I would have helped you.",
-        "If I were there, I would help you.",
-        "If I had been there, I will have helped you."
-      ],
-      correctAnswer: 1,
-      explanation: "The structure 'Had I been...' is an inverted form of 'If I had been...', which is the correct third conditional for hypothetical past situations."
+      question: "What was the common ritual at the morning assembly at Stardom on Tuesdays and Thursdays?",
+      options: ["The second stanza of the national anthem", "Christian and Muslim prayers", "Words of exaltation", "The principal’s address"],
+      correctAnswer: 0,
+      explanation: "On Tuesdays and Thursdays, the school assembly used the second stanza of Nigeria's National Anthem ('Oh God of creation...') as a short prayer."
     },
     {
       id: 'e2',
-      question: "Choose the word that most precisely describes a style of speaking or writing that is pompous and using high-flown language.",
-      options: ["Laconical", "Bombastic", "Pithy", "Succinct"],
+      question: "How much was the boarding house fee per session before it was reduced?",
+      options: ["₦163,000", "₦250,000", "₦160,000", "₦93,000"],
       correctAnswer: 1,
-      explanation: "'Bombastic' specifically refers to high-sounding language with little meaning, used to impress."
+      explanation: "The boarding fee was initially ₦250,000 per session before the management reduced it to ₦165,000 as a 'shrewd incentive' to encourage punctuality."
     },
     {
       id: 'e3',
-      question: "What is the nuance between 'disinterested' and 'uninterested'?",
-      options: [
-        "They are interchangeable synonyms.",
-        "'Disinterested' means bored, 'uninterested' means impartial.",
-        "'Disinterested' means impartial, 'uninterested' means lack of interest.",
-        "'Disinterested' is used for people, 'uninterested' for objects."
-      ],
+      question: "Who instructed the Chemistry teacher to conclude the assembly after Mr Bepo burst into tears?",
+      options: ["The managing director", "The principal", "The vice principal", "The school nurse"],
       correctAnswer: 2,
-      explanation: "In formal English, 'disinterested' means having no personal stake or bias (impartial), whereas 'uninterested' means lacking interest or enthusiasm."
+      explanation: "Mrs. Grace Apeh, the Vice Principal, took charge and instructed the Chemistry teacher, Mr. Justus Anabel, to conclude the assembly."
     },
     {
       id: 'e4',
-      question: "Identify the rhetorical device used here: 'The pen is mightier than the sword.'",
-      options: ["Synecdoche", "Metonymy", "Hyperbole", "Oxymoron"],
+      question: "Mr Bepo was best known in the school for his",
+      options: ["discipline", "punctuality", "emotional speeches", "friendliness"],
       correctAnswer: 1,
-      explanation: "Metonymy uses a related object or concept (pen for writing/ideas, sword for military force) to represent the whole."
+      explanation: "Mr. Bepo was highly regarded for his punctuality and his inspiring leadership at Stardom Schools."
     },
     {
       id: 'e5',
-      question: "Which of the following is a 'solecism'?",
-      options: [
-        "A clever pun or play on words.",
-        "A grammatical mistake or intentional breaking of rules.",
-        "A formal greeting in a diplomatic setting.",
-        "A type of poetic meter."
-      ],
-      correctAnswer: 1,
-      explanation: "A solecism is a nonstandard usage or grammatical error."
+      question: "The school where Mr Bepo worked was called",
+      options: ["Stardom Schools", "Lekki Academy", "Golden Future College", "Royal Scholars School"],
+      correctAnswer: 0,
+      explanation: "The story is set at Stardom Schools, an elite institution located in Lekki, Lagos."
     },
     {
       id: 'e6',
-      question: "In the sentence 'The task was arduous, yet they persevered,' what is the function of 'yet'?",
-      options: ["Subordinating conjunction", "Adverbial intensifier", "Coordinating conjunction", "Prepositional phrase"],
+      question: "Stardom School is located in",
+      options: ["Ibadan", "Abuja", "Lekki", "Kano"],
       correctAnswer: 2,
-      explanation: "'Yet' functions as a coordinating conjunction here, connecting two independent clauses."
+      explanation: "The school is situated in the affluent Lekki suburb of Lagos, as indicated by the title 'The Lekki Headmaster'."
     },
     {
       id: 'e7',
-      question: "Which word best describes a person who is habitually silent or reserved in speech?",
-      options: ["Loquacious", "Taciturn", "Garrulous", "Voluble"],
+      question: "The headmaster’s leadership style could best be described as",
+      options: ["authoritarian", "democratic", "careless", "corrupt"],
       correctAnswer: 1,
-      explanation: "'Taciturn' means reserved or uncommunicative in speech."
+      explanation: "Mr. Bepo is portrayed as a democratic and inspiring leader who cares deeply for his students and staff."
     },
     {
       id: 'e8',
-      question: "What does the idiom 'to throw down the gauntlet' mean?",
-      options: [
-        "To surrender in a conflict.",
-        "To issue a challenge.",
-        "To clean up a mess.",
-        "To reveal a secret."
-      ],
+      question: "Students respected the headmaster mainly because of his",
+      options: ["strict punishment", "honesty and discipline", "wealth", "political connections"],
       correctAnswer: 1,
-      explanation: "Historically, throwing down a gauntlet (a glove) was a way of challenging someone to a duel."
+      explanation: "The students' respect for Mr. Bepo stemmed from his integrity, discipline, and his role as a 'school builder'."
     },
     {
       id: 'e9',
-      question: "Select the correctly punctuated sentence:",
-      options: [
-        "The professor said 'the exam is hard;' however, many passed.",
-        "The professor said, 'The exam is hard'; however, many passed.",
-        "The professor said: 'The exam is hard,' however many passed.",
-        "The professor said 'The exam is hard,' however, many passed."
-      ],
+      question: "The major theme of the novel is",
+      options: ["political power", "education and leadership", "war and conflict", "economic struggle"],
       correctAnswer: 1,
-      explanation: "A comma follows 'said', the quote is capitalized, and a semicolon correctly separates the independent clause starting with 'however'."
+      explanation: "The novel primarily explores the dynamics of educational leadership and the value of quality education."
     },
     {
       id: 'e10',
-      question: "Which of the following is an example of an oxymoron?",
-      options: ["Brave lion", "Deafening silence", "Bright sun", "Cold ice"],
+      question: "Mr Bepo’s emotional breakdown occurred during",
+      options: ["classroom teaching", "school assembly", "staff meeting", "prize-giving day"],
       correctAnswer: 1,
-      explanation: "An oxymoron combines two contradictory terms, like 'deafening' and 'silence'."
+      explanation: "The novel opens with the dramatic scene of Mr. Bepo breaking down in tears during the morning assembly."
     },
     {
       id: 'e11',
-      question: "What is the meaning of the word 'perfunctory'?",
-      options: [
-        "Carried out with a minimum of effort or reflection.",
-        "Thorough and detailed.",
-        "Extremely fast and efficient.",
-        "Done with great passion and intensity."
-      ],
-      correctAnswer: 0,
-      explanation: "'Perfunctory' describes an action performed as a routine duty without interest or care."
+      question: "The relationship between the teachers and students was mostly",
+      options: ["hostile", "cooperative", "distant", "disrespectful"],
+      correctAnswer: 1,
+      explanation: "The atmosphere at Stardom Schools is depicted as cooperative, with teachers serving as mentors."
     },
     {
       id: 'e12',
-      question: "Which of the following sentences uses 'mitigate' correctly?",
-      options: [
-        "He tried to mitigate the law to suit his needs.",
-        "The doctor prescribed medicine to mitigate the pain.",
-        "She tried to mitigate the crime she committed.",
-        "The teacher mitigated the students for their behavior."
-      ],
+      question: "The managing director of the school represents",
+      options: ["corruption", "authority in school management", "religious leadership", "parental authority"],
       correctAnswer: 1,
-      explanation: "'Mitigate' means to make something less severe, serious, or painful."
+      explanation: "Mrs. Ibidun Gloss, the Managing Director, represents the ultimate administrative authority in the school."
     },
     {
       id: 'e13',
-      question: "Identify the error in this sentence: 'Between you and I, the plan is flawed.'",
-      options: [
-        "Use of 'Between' instead of 'Among'.",
-        "Use of 'I' instead of 'me'.",
-        "Use of 'flawed' instead of 'faulty'.",
-        "No error."
-      ],
-      correctAnswer: 1,
-      explanation: "'Between' is a preposition, and its object must be in the objective case ('me')."
+      question: "Which character served as a moral example to the students?",
+      options: ["Mr Bepo", "The vice principal", "The nurse", "The gatekeeper"],
+      correctAnswer: 0,
+      explanation: "Mr. Bepo, the principal, is the central moral figure and role model for the school community."
     },
     {
       id: 'e14',
-      question: "What is the primary characteristic of an 'epistolary' novel?",
-      options: [
-        "It is written in the first person.",
-        "It is written in the form of letters or documents.",
-        "It focuses on the inner thoughts of the characters.",
-        "It features a tragic hero."
-      ],
+      question: "Stardom school emphasised",
+      options: ["sports alone", "academic excellence and discipline", "music only", "political activism"],
       correctAnswer: 1,
-      explanation: "'Epistolary' comes from 'epistle', meaning a letter."
+      explanation: "The school is known for its high academic standards and its strict but fair disciplinary policies."
     },
     {
       id: 'e15',
-      question: "What does the term 'non sequitur' refer to?",
-      options: [
-        "A logical conclusion.",
-        "A statement that does not logically follow from the previous one.",
-        "A type of rhythmic pattern in poetry.",
-        "A character's internal monologue."
-      ],
+      question: "The title “Lekki Headmaster” mainly refers to",
+      options: ["the school owner", "the principal’s leadership", "a student leader", "a government official"],
       correctAnswer: 1,
-      explanation: "In Latin, 'non sequitur' means 'it does not follow'."
+      explanation: "The nickname 'The Lekki Headmaster' refers to Mr. Bepo's long-standing leadership at the school."
     },
     {
       id: 'e16',
-      question: "Which of these is a synonym for 'ephemeral'?",
-      options: ["Eternal", "Transient", "Constant", "Durable"],
+      question: "The emotional scene involving Mr Bepo reveals his",
+      options: ["weakness", "deep commitment to the school", "fear of punishment", "lack of experience"],
       correctAnswer: 1,
-      explanation: "'Ephemeral' and 'transient' both describe something that lasts for a very short time."
+      explanation: "His breakdown highlights his deep emotional investment in the school's success."
     },
     {
       id: 'e17',
-      question: "What is 'enjambment' in poetry?",
-      options: [
-        "A break between words within a metrical foot.",
-        "The continuation of a sentence without a pause beyond the end of a line.",
-        "A rhyme occurring within a single line of verse.",
-        "The repetition of vowel sounds."
-      ],
+      question: "Which literary device is most used to portray the school environment?",
+      options: ["Symbolism", "Imagery", "Irony", "Hyperbole"],
       correctAnswer: 1,
-      explanation: "Enjambment is when a sentence carries over from one line of poetry to the next without terminal punctuation."
+      explanation: "The author uses vivid imagery to describe the school environment and the principal's emotional state."
     },
     {
       id: 'e18',
-      question: "Which word describes a person who has an excessive interest in or admiration of themselves?",
-      options: ["Altruist", "Narcissist", "Philanthropist", "Misanthrope"],
+      question: "The school assembly was important because it",
+      options: ["punished students", "united the school community", "replaced classroom teaching", "entertained students"],
       correctAnswer: 1,
-      explanation: "A narcissist is characterized by extreme self-involvement."
+      explanation: "The assembly served as a central gathering point that fostered unity within the school."
     },
     {
       id: 'e19',
-      question: "What is the meaning of 'cogent'?",
-      options: [
-        "Confusing and unclear.",
-        "Clear, logical, and convincing.",
-        "Aggressive and argumentative.",
-        "Boring and repetitive."
-      ],
-      correctAnswer: 1,
-      explanation: "'Cogent' is used to describe an argument or case that is strong and persuasive."
+      question: "The discipline at Stardom school reflects",
+      options: ["strong educational values", "poor administration", "military training", "lack of leadership"],
+      correctAnswer: 0,
+      explanation: "The school's discipline reflects its commitment to building character and academic success."
     },
     {
       id: 'e20',
-      question: "Choose the correct collective noun for a group of owls:",
-      options: ["A flock", "A parliament", "A murder", "A pride"],
+      question: "The setting of the novel is mainly",
+      options: ["rural Nigeria", "urban Lagos", "northern Nigeria", "coastal villages"],
       correctAnswer: 1,
-      explanation: "The traditional collective noun for owls is a 'parliament'."
+      explanation: "The story is set in the urban, affluent environment of Lekki in Lagos State."
     },
     {
       id: 'e21',
-      question: "Which of the following is a 'malapropism'?",
-      options: [
-        "Using 'affect' instead of 'effect'.",
-        "Saying 'electrical' instead of 'electronic'.",
-        "Using 'allegory' instead of 'alligator'.",
-        "Using 'their' instead of 'there'."
-      ],
-      correctAnswer: 2,
-      explanation: "A malapropism is the mistaken use of a word in place of a similar-sounding one, often with an amusing effect (e.g., 'allegory' vs 'alligator')."
+      question: "The novel highlights the importance of",
+      options: ["wealth", "education", "entertainment", "politics"],
+      correctAnswer: 1,
+      explanation: "Education is the central theme, emphasizing its role in individual and national development."
     },
     {
       id: 'e22',
-      question: "What is the function of an 'appositive'?",
-      options: [
-        "To express strong emotion.",
-        "To rename or explain a noun or pronoun that comes before it.",
-        "To indicate the time an action occurred.",
-        "To connect two dependent clauses."
-      ],
+      question: "Mr Bepo’s character can best be described as",
+      options: ["careless", "emotional and dedicated", "dishonest", "greedy"],
       correctAnswer: 1,
-      explanation: "An appositive is a noun or noun phrase that re-identifies a nearby noun (e.g., 'My friend, the doctor, is here')."
+      explanation: "Mr. Bepo is shown to be highly dedicated while also possessing a deep emotional sensitivity."
     },
     {
       id: 'e23',
-      question: "What does 'capricious' mean?",
-      options: [
-        "Steady and reliable.",
-        "Given to sudden and unaccountable changes of mood or behavior.",
-        "Extremely careful and meticulous.",
-        "Brave and courageous."
-      ],
+      question: "The school management tried to reduce boarding fees mainly to",
+      options: ["increase profit", "help parents financially", "punish students", "avoid government tax"],
       correctAnswer: 1,
-      explanation: "'Capricious' describes someone whose behavior is unpredictable."
+      explanation: "The fee reduction was a strategic move to help parents and encourage students to stay on campus."
     },
     {
       id: 'e24',
-      question: "Identify the figure of speech: 'The wind whispered through the trees.'",
-      options: ["Simile", "Metaphor", "Personification", "Hyperbole"],
-      correctAnswer: 2,
-      explanation: "Personification gives human qualities (whispering) to non-human things (the wind)."
+      question: "Which of the following best describes the students at Stardom?",
+      options: ["rebellious", "hardworking", "lazy", "dishonest"],
+      correctAnswer: 1,
+      explanation: "The students are generally portrayed as diligent and hardworking, reflecting the school's culture."
     },
     {
       id: 'e25',
-      question: "What is 'anaphora'?",
-      options: [
-        "The repetition of a word or phrase at the beginning of successive clauses.",
-        "The use of a word that sounds like what it describes.",
-        "An exaggerated statement not meant to be taken literally.",
-        "The omission of a word or phrase from a sentence."
-      ],
-      correctAnswer: 0,
-      explanation: "Anaphora is a common rhetorical device used for emphasis (e.g., 'I have a dream... I have a dream...')."
+      question: "The headmaster’s actions show",
+      options: ["selfish leadership", "servant leadership", "military rule", "political ambition"],
+      correctAnswer: 1,
+      explanation: "Mr. Bepo practices servant leadership, putting the needs of the school above his own."
     },
     {
       id: 'e26',
-      question: "Which word means 'to spread through or be present throughout'?",
-      options: ["Pervade", "Evade", "Invade", "Persuade"],
+      question: "The main conflict in the story revolves around",
+      options: ["school leadership challenges", "family disagreements", "political rivalry", "land disputes"],
       correctAnswer: 0,
-      explanation: "'Pervade' means to spread through every part of something."
+      explanation: "The narrative centers on the pressures of leading a school and personal sacrifices."
     },
     {
       id: 'e27',
-      question: "What is the meaning of 'ineffable'?",
-      options: [
-        "Too great or extreme to be expressed or described in words.",
-        "Easy to understand and explain.",
-        "Lacking in intelligence or wisdom.",
-        "Permanent and unchanging."
-      ],
-      correctAnswer: 0,
-      explanation: "'Ineffable' describes something so profound it cannot be captured by language."
+      question: "The novel portrays teachers as",
+      options: ["irresponsible", "mentors and role models", "enemies of students", "political actors"],
+      correctAnswer: 1,
+      explanation: "Teachers at Stardom are shown as dedicated professionals who guide their students."
     },
     {
       id: 'e28',
-      question: "Which of these sentences is in the 'passive voice'?",
-      options: [
-        "The chef prepared the meal.",
-        "The meal was prepared by the chef.",
-        "The chef is preparing the meal.",
-        "The chef will prepare the meal."
-      ],
+      question: "The emotional atmosphere in the assembly suggests",
+      options: ["joy", "tension and concern", "celebration", "confusion"],
       correctAnswer: 1,
-      explanation: "In the passive voice, the subject (the meal) is the recipient of the action."
+      explanation: "The principal's tears create an atmosphere of tension and genuine concern."
     },
     {
       id: 'e29',
-      question: "What is 'hubris'?",
-      options: [
-        "Extreme pride or self-confidence.",
-        "A type of ancient Greek tragedy.",
-        "A state of total confusion.",
-        "The final resolution of a story."
-      ],
-      correctAnswer: 0,
-      explanation: "In literature and mythology, hubris often leads to the downfall of a hero."
+      question: "The leadership style of the headmaster promotes",
+      options: ["fear", "cooperation", "corruption", "competition"],
+      correctAnswer: 1,
+      explanation: "Mr. Bepo's approach encourages a spirit of cooperation within the school."
     },
     {
       id: 'e30',
-      question: "Which word is an antonym for 'altruistic'?",
-      options: ["Selfless", "Benevolent", "Egotistical", "Magnanimous"],
-      correctAnswer: 2,
-      explanation: "Altruistic means showing selfless concern for others, while egotistical means self-centered."
+      question: "Students admired the headmaster because he was",
+      options: ["wealthy", "disciplined", "powerful", "famous"],
+      correctAnswer: 1,
+      explanation: "Admiration for the principal was based on his personal discipline and commitment."
     },
     {
       id: 'e31',
-      question: "What does 'ubiquitous' mean?",
-      options: ["Rare and hard to find.", "Present, appearing, or found everywhere.", "Unique and one-of-a-kind.", "Hidden from view."],
+      question: "The school environment reflects",
+      options: ["chaos", "organized learning", "violence", "political protest"],
       correctAnswer: 1,
-      explanation: "'Ubiquitous' describes something that is omnipresent."
+      explanation: "Stardom Schools is depicted as a well-ordered environment dedicated to learning."
     },
     {
       id: 'e32',
-      question: "Identify the 'dangling modifier' in this sentence: 'After eating lunch, the car wouldn't start.'",
-      options: [
-        "After eating lunch",
-        "the car",
-        "wouldn't start",
-        "No error"
-      ],
-      correctAnswer: 0,
-      explanation: "The phrase 'After eating lunch' incorrectly suggests that the car was the one eating lunch."
+      question: "The assembly ritual symbolizes",
+      options: ["national pride", "school unity", "religious devotion", "political loyalty"],
+      correctAnswer: 1,
+      explanation: "The morning assembly serves as a symbol of the school's unified identity."
     },
     {
       id: 'e33',
-      question: "What is the meaning of 'vituperative'?",
-      options: [
-        "Full of praise and admiration.",
-        "Bitter and abusive.",
-        "Highly technical and complex.",
-        "Short and concise."
-      ],
+      question: "Mr Bepo’s tears reveal",
+      options: ["anger", "deep emotional involvement", "fear", "weakness"],
       correctAnswer: 1,
-      explanation: "'Vituperative' describes language that is harsh, critical, and insulting."
+      explanation: "The tears are a sign of the principal's deep emotional investment in his work."
     },
     {
       id: 'e34',
-      question: "Which of the following is a 'portmanteau' word?",
-      options: ["Book", "Smog", "Table", "House"],
-      correctAnswer: 1,
-      explanation: "A portmanteau blends two words together (smoke + fog = smog)."
+      question: "The school authority represents",
+      options: ["discipline and order", "corruption", "violence", "rebellion"],
+      correctAnswer: 0,
+      explanation: "The school management is the embodiment of the discipline and order of the institution."
     },
     {
       id: 'e35',
-      question: "What is the function of the 'subjunctive' mood?",
-      options: [
-        "To state facts and certainties.",
-        "To express wishes, doubts, or hypothetical situations.",
-        "To give direct commands or requests.",
-        "To ask questions."
-      ],
+      question: "The novel encourages students to",
+      options: ["avoid school rules", "respect authority", "reject education", "challenge teachers"],
       correctAnswer: 1,
-      explanation: "The subjunctive is used for things that are not necessarily true or are desired (e.g., 'I wish I were rich')."
+      explanation: "A key message of the book is the value of respecting authority and rules."
     },
     {
       id: 'e36',
-      question: "What does 'fastidious' mean?",
-      options: [
-        "Very attentive to and concerned about accuracy and detail.",
-        "Fast-moving and energetic.",
-        "Lacking in cleanliness and order.",
-        "Friendly and easy-going."
-      ],
+      question: "The story emphasizes the role of",
+      options: ["education in national development", "politics in schools", "sports competitions", "religious rivalry"],
       correctAnswer: 0,
-      explanation: "'Fastidious' describes someone who is very particular and hard to please."
+      explanation: "The narrative links quality education to the broader goal of national development."
     },
     {
       id: 'e37',
-      question: "Identify the type of sentence: 'Although it was raining, we went for a walk.'",
-      options: ["Simple", "Compound", "Complex", "Compound-complex"],
-      correctAnswer: 2,
-      explanation: "A complex sentence contains one independent clause and at least one dependent clause (the one starting with 'Although')."
+      question: "Which value is strongly promoted in the novel?",
+      options: ["dishonesty", "discipline", "revenge", "greed"],
+      correctAnswer: 1,
+      explanation: "Discipline is presented as a fundamental requirement for success."
     },
     {
       id: 'e38',
-      question: "What is the meaning of 'obsequious'?",
-      options: [
-        "Obedient or attentive to an excessive or servile degree.",
-        "Rude and disrespectful.",
-        "Intelligent and wise.",
-        "Strong and powerful."
-      ],
+      question: "The headmaster’s character represents",
+      options: ["integrity", "corruption", "arrogance", "selfishness"],
       correctAnswer: 0,
-      explanation: "'Obsequious' is often used to describe someone who is overly eager to please or 'fawning'."
+      explanation: "Mr. Bepo is the personification of integrity."
     },
     {
       id: 'e39',
-      question: "Which word means 'to waver between different opinions or actions'?",
-      options: ["Vacillate", "Precipitate", "Facilitate", "Ameliorate"],
-      correctAnswer: 0,
-      explanation: "'Vacillate' means to be indecisive or to swing between choices."
+      question: "The school’s strict rules aim to",
+      options: ["frighten students", "improve student behaviour", "punish teachers", "reduce enrollment"],
+      correctAnswer: 1,
+      explanation: "The rules are intended to foster a positive environment for student growth."
     },
     {
       id: 'e40',
-      question: "What is 'synecdoche'?",
-      options: [
-        "A figure of speech in which a part is made to represent the whole or vice versa.",
-        "The use of words that imitate natural sounds.",
-        "An indirect reference to a person, place, or event.",
-        "A comparison using 'like' or 'as'."
-      ],
-      correctAnswer: 0,
-      explanation: "An example of synecdoche is saying 'all hands on deck', where 'hands' represents the sailors (the whole person)."
+      question: "The narrative perspective of the novel is mainly",
+      options: ["first-person", "second-person", "third-person", "dramatic narration"],
+      correctAnswer: 2,
+      explanation: "The story is told by a third-person narrator who observes the events."
     },
     {
       id: 'e41',
-      question: "What is the meaning of 'gregarious'?",
-      options: ["Fond of company; sociable.", "Shy and introverted.", "Aggressive and hostile.", "Quiet and reflective."],
-      correctAnswer: 0,
-      explanation: "'Gregarious' comes from the Latin 'grex', meaning a flock or herd."
+      question: "The school’s reputation depends largely on",
+      options: ["the government", "the headmaster’s leadership", "student wealth", "parental influence"],
+      correctAnswer: 1,
+      explanation: "The novel portrays Mr. Bepo's leadership as the cornerstone of Stardom Schools' reputation and success over his 24-year tenure."
     },
     {
       id: 'e42',
-      question: "Which of these is a 'tautology'?",
-      options: [
-        "A beautiful sunset.",
-        "Free gift.",
-        "Cold winter.",
-        "Fast car."
-      ],
+      question: "The novel portrays education as a tool for",
+      options: ["oppression", "personal development", "corruption", "political power"],
       correctAnswer: 1,
-      explanation: "A tautology is a redundant expression (a gift is by definition free)."
+      explanation: "A recurring theme in 'The Lekki Headmaster' is how quality education at institutions like Stardom serves as the primary engine for personal growth and character building."
     },
     {
       id: 'e43',
-      question: "What does 'laconic' mean?",
-      options: [
-        "Using very few words.",
-        "Extremely talkative.",
-        "Full of energy and life.",
-        "Very sad and depressed."
-      ],
-      correctAnswer: 0,
-      explanation: "The term originates from Laconia (Sparta), whose inhabitants were known for their brief speech."
+      question: "The emotional tone of the assembly scene is",
+      options: ["comic", "dramatic", "celebratory", "romantic"],
+      correctAnswer: 1,
+      explanation: "The unexpected breakdown of the principal during the morning assembly creates a high-stakes, dramatic atmosphere that captures the attention of both staff and students."
     },
     {
       id: 'e44',
-      question: "Identify the 'split infinitive' in this sentence: 'To boldly go where no one has gone before.'",
-      options: ["To boldly go", "where no one", "has gone", "before"],
-      correctAnswer: 0,
-      explanation: "A split infinitive occurs when an adverb ('boldly') is placed between 'to' and the verb ('go')."
+      question: "The teachers at Stardom demonstrate",
+      options: ["laziness", "commitment", "dishonesty", "hostility"],
+      correctAnswer: 1,
+      explanation: "The staff members, such as Pastor Wande and the Vice Principal, are depicted as dedicated professionals who care deeply about the school's mission and the principal's well-being."
     },
     {
       id: 'e45',
-      question: "What is the meaning of 'equivocal'?",
-      options: [
-        "Open to more than one interpretation; ambiguous.",
-        "Clear and easy to understand.",
-        "Certain and definite.",
-        "Strong and powerful."
-      ],
+      question: "The title of the novel emphasizes",
+      options: ["the location and leadership", "student rebellion", "political conflict", "economic hardship"],
       correctAnswer: 0,
-      explanation: "'Equivocal' describes something that is not certain or could mean several things."
+      explanation: "The title 'The Lekki Headmaster' directly highlights the affluent setting of the school and the central figure of the principal, Mr. Bepo."
     },
     {
       id: 'e46',
-      question: "Which word means 'to make something bad better'?",
-      options: ["Ameliorate", "Exacerbate", "Deteriorate", "Invalidate"],
-      correctAnswer: 0,
-      explanation: "'Ameliorate' is used to describe improving a situation."
+      question: "The author mainly uses the school setting to discuss",
+      options: ["national politics", "social values", "economic crisis", "sports competition"],
+      correctAnswer: 1,
+      explanation: "By focusing on the micro-environment of Stardom Schools, Kabir Alabi Garba explores broader Nigerian social values, ethics, and the 'Japa' syndrome."
     },
     {
       id: 'e47',
-      question: "What is an 'allegory'?",
-      options: [
-        "A short, amusing story about a real incident or person.",
-        "A story, poem, or picture that can be interpreted to reveal a hidden meaning.",
-        "The repetition of the same letter or sound at the beginning of adjacent words.",
-        "An exaggerated statement."
-      ],
-      correctAnswer: 1,
-      explanation: "Allegories often use characters or events to symbolize abstract ideas (e.g., Orwell's 'Animal Farm')."
+      question: "The character of the headmaster reflects",
+      options: ["discipline and integrity", "fear and weakness", "corruption", "selfish ambition"],
+      correctAnswer: 0,
+      explanation: "Mr. Bepo is the embodiment of integrity and discipline, serving as a beacon of high moral standards for everyone at Stardom."
     },
     {
       id: 'e48',
-      question: "What does 'loquacious' mean?",
-      options: ["Tending to talk a great deal; talkative.", "Quiet and reserved.", "Sad and mournful.", "Brave and courageous."],
+      question: "The assembly scene serves to",
+      options: ["develop tension", "introduce comedy", "end the story", "resolve conflict"],
       correctAnswer: 0,
-      explanation: "'Loquacious' is a more formal synonym for 'talkative'."
+      explanation: "The dramatic opening at the assembly immediately builds tension, setting the stage for the exploration of the principal's hidden internal struggles."
     },
     {
       id: 'e49',
-      question: "Identify the 'oxymoron' in this sentence: 'The comedian was seriously funny.'",
-      options: ["The comedian", "was", "seriously funny", "No error"],
-      correctAnswer: 2,
-      explanation: "'Seriously' and 'funny' are contradictory terms used together for effect."
+      question: "The school community is portrayed as",
+      options: ["divided", "united", "violent", "rebellious"],
+      correctAnswer: 1,
+      explanation: "Despite the crisis involving the principal, the staff and students are shown to be a cohesive, united front focused on maintaining the school's standards."
     },
     {
       id: 'e50',
-      question: "What is the meaning of 'esoteric'?",
-      options: [
-        "Intended for or likely to be understood by only a small number of people with a specialized knowledge.",
-        "Easy to understand by everyone.",
-        "Very old and ancient.",
-        "Extremely large and massive."
-      ],
-      correctAnswer: 0,
-      explanation: "'Esoteric' describes knowledge that is restricted to a small circle of 'insiders'."
+      question: "The major message of the novel is that",
+      options: ["wealth is important", "discipline builds character", "power controls education", "politics controls schools"],
+      correctAnswer: 1,
+      explanation: "The narrative consistently reinforces the idea that institutional and personal discipline are essential for success and moral development."
     },
     {
       id: 'e51',
-      question: "Which word means 'to prevent something from happening'?",
-      options: ["Obviate", "Instigate", "Propagate", "Cultivate"],
-      correctAnswer: 0,
-      explanation: "'Obviate' means to remove a need or difficulty, thereby preventing something from being necessary or happening."
+      question: "The headmaster is respected mainly for",
+      options: ["strict punishments", "moral leadership", "wealth", "political connections"],
+      correctAnswer: 1,
+      explanation: "Mr. Bepo's authority comes from his moral leadership and his role as a mentor rather than from fear or social status."
     },
     {
       id: 'e52',
-      question: "What is a 'spoonerism'?",
-      options: [
-        "A type of rhythmic pattern in poetry.",
-        "An error in speech in which corresponding consonants or vowels are switched between two words.",
-        "A figure of speech using 'like' or 'as'.",
-        "The repetition of the same sound."
-      ],
-      correctAnswer: 1,
-      explanation: "An example of a spoonerism is saying 'a blushing crow' instead of 'a crushing blow'."
+      question: "The emotional events in the story highlight",
+      options: ["leadership challenges", "sports rivalry", "political struggles", "economic problems"],
+      correctAnswer: 0,
+      explanation: "The story uses the principal's breakdown to shine a light on the immense psychological and personal challenges faced by those in leadership positions."
     },
     {
       id: 'e53',
-      question: "What does 'mercurial' mean?",
-      options: [
-        "Subject to sudden or unpredictable changes of mood or mind.",
-        "Steady and reliable.",
-        "Very slow and sluggish.",
-        "Strong and powerful."
-      ],
-      correctAnswer: 0,
-      explanation: "The term comes from the god Mercury, known for being swift and changeable."
+      question: "The school assembly acts as a platform for",
+      options: ["punishment", "communication", "entertainment", "competition"],
+      correctAnswer: 1,
+      explanation: "The assembly is the primary venue for sharing school values, celebrating successes like WASSCE results, and addressing the entire community."
     },
     {
       id: 'e54',
-      question: "Identify the 'euphemism' in this sentence: 'He has passed away.'",
-      options: ["He", "has", "passed away", "No error"],
-      correctAnswer: 2,
-      explanation: "'Passed away' is a milder way of saying 'died'."
+      question: "The headmaster’s leadership inspires",
+      options: ["fear", "discipline and respect", "rebellion", "laziness"],
+      correctAnswer: 1,
+      explanation: "Mr. Bepo's example encourages students and staff to adopt his high standards of discipline and professional conduct."
     },
     {
       id: 'e55',
-      question: "What is the meaning of 'didactic'?",
-      options: [
-        "Intended to teach, particularly in having moral instruction as an ulterior motive.",
-        "Intended to entertain and amuse.",
-        "Very confusing and unclear.",
-        "Aggressive and hostile."
-      ],
-      correctAnswer: 0,
-      explanation: "'Didactic' art or literature is designed to convey a message or moral lesson."
+      question: "The novel emphasizes",
+      options: ["corruption", "discipline and integrity", "politics", "entertainment"],
+      correctAnswer: 1,
+      explanation: "Integrity and discipline are the central moral pillars of the story, contrasted with the external pressures of the migration 'tug-of-war'."
     },
     {
       id: 'e56',
-      question: "Which word means 'to renounce a throne, high office, or function'?",
-      options: ["Abdicate", "Vindicate", "Replicate", "Complicate"],
-      correctAnswer: 0,
-      explanation: "'Abdicate' is specifically used for giving up a position of power."
+      question: "The story is primarily about",
+      options: ["family conflict", "school leadership", "business competition", "political power"],
+      correctAnswer: 1,
+      explanation: "At its core, the novel is a study of the burdens and triumphs of leading a high-performing educational institution in contemporary Nigeria."
     },
     {
       id: 'e57',
-      question: "What is a 'litotes'?",
-      options: [
-        "An ironic understatement in which an affirmative is expressed by the negative of its contrary.",
-        "An exaggerated statement.",
-        "A figure of speech using 'like' or 'as'.",
-        "The repetition of the same sound."
-      ],
-      correctAnswer: 0,
-      explanation: "An example of litotes is saying 'not bad' to mean 'good'."
+      question: "The headmaster represents",
+      options: ["corruption", "responsible leadership", "political ambition", "selfishness"],
+      correctAnswer: 1,
+      explanation: "Mr. Bepo is the archetype of the responsible, dedicated leader who puts the interests of his institution first."
     },
     {
       id: 'e58',
-      question: "What does 'cacophony' mean?",
-      options: [
-        "A harsh, discordant mixture of sounds.",
-        "A beautiful, harmonious sound.",
-        "A total lack of sound.",
-        "A type of musical instrument."
-      ],
-      correctAnswer: 0,
-      explanation: "The opposite of cacophony is 'euphony'."
+      question: "Students learn from the headmaster through",
+      options: ["punishment", "example and discipline", "fear", "rewards"],
+      correctAnswer: 1,
+      explanation: "The principal's influence is rooted in his personal example and the structured discipline he maintains at Stardom."
     },
     {
       id: 'e59',
-      question: "Identify the 'paradox' in this sentence: 'This is the beginning of the end.'",
-      options: ["This is", "the beginning", "of the end", "No error"],
-      correctAnswer: 2,
-      explanation: "A paradox is a statement that seems self-contradictory but may reveal a deeper truth."
+      question: "The novel encourages",
+      options: ["rebellion against authority", "respect for education", "rejection of discipline", "wealth accumulation"],
+      correctAnswer: 1,
+      explanation: "The book fosters a deep appreciation for the value of education and the institutions that provide it."
     },
     {
       id: 'e60',
-      question: "What is the meaning of 'grandiloquent'?",
-      options: [
-        "Pompous or extravagant in language, style, or manner.",
-        "Short and concise.",
-        "Simple and easy to understand.",
-        "Very sad and depressed."
-      ],
+      question: "The central lesson of the novel is that",
+      options: ["education shapes character", "politics controls schools", "wealth brings success", "sports builds discipline"],
       correctAnswer: 0,
-      explanation: "'Grandiloquent' is a synonym for 'bombastic' or 'pretentious'."
+      explanation: "The novel concludes that the primary purpose of education, as seen through the lens of Stardom Schools, is to shape the character and future of the youth."
     }
   ],
   irs: [
     {
-      id: 'i1',
-      question: "What is the primary difference between 'Tawhid al-Rububiyyah' and 'Tawhid al-Uluhiyyah'?",
-      options: [
-        "Rububiyyah is about God's oneness in Lordship; Uluhiyyah is about God's oneness in Worship.",
-        "Rububiyyah is about God's names; Uluhiyyah is about God's attributes.",
-        "Rububiyyah is for Muslims only; Uluhiyyah is for all humans.",
-        "There is no difference between them."
-      ],
+      id: 'irs1',
+      question: "The first revelation received by Prophet Muhammad (SAW) was in the cave of",
+      options: ["Thawr", "Hira", "Safa", "Mina"],
+      correctAnswer: 1,
+      explanation: "Prophet Muhammad (SAW) used to retreat to the Cave of Hira on Mount al-Nour for meditation. It was there, at the age of 40, that he received the first revelation from Allah through Angel Jibril."
+    },
+    {
+      id: 'irs2',
+      question: "The first verse revealed to Prophet Muhammad (SAW) begins with",
+      options: ["Bismillah", "Iqra", "Alhamdulillah", "Subhanallah"],
+      correctAnswer: 1,
+      explanation: "The first word revealed was 'Iqra' (Read/Proclaim), which is the beginning of Surah al-Alaq (Chapter 96). This emphasized the importance of seeking knowledge in Islam."
+    },
+    {
+      id: 'irs3',
+      question: "The Angel who brought revelation to Prophet Muhammad (SAW) was",
+      options: ["Mikail", "Israfil", "Jibril", "Azrail"],
+      correctAnswer: 2,
+      explanation: "Jibril (Gabriel) is the Archangel responsible for delivering Allah's messages and revelations to all the Prophets, including Prophet Muhammad (SAW)."
+    },
+    {
+      id: 'irs4',
+      question: "The migration of Prophet Muhammad (SAW) from Makkah to Madinah is known as",
+      options: ["Hijrah", "Jihad", "Da’wah", "Tawbah"],
       correctAnswer: 0,
-      explanation: "Tawhid al-Rububiyyah refers to the belief that Allah is the only Creator, Provider, and Sustainer. Tawhid al-Uluhiyyah is the belief that Allah alone deserves to be worshipped."
+      explanation: "The Hijrah took place in 622 CE. It was a pivotal move that allowed the Muslim community to escape persecution in Makkah and establish an Islamic state in Madinah."
     },
     {
-      id: 'i2',
-      question: "In the context of Usul al-Fiqh, what does 'Qiyas' refer to?",
-      options: [
-        "Direct revelation from the Quran.",
-        "The consensus of scholars.",
-        "Analogical reasoning based on an existing ruling.",
-        "Personal opinion of a judge."
-      ],
+      id: 'irs5',
+      question: "The Islamic calendar began with the event of",
+      options: ["Birth of the Prophet", "Hijrah", "First revelation", "Conquest of Makkah"],
+      correctAnswer: 1,
+      explanation: "The Islamic (Hijri) calendar was established during the caliphate of Umar ibn al-Khattab, using the year of the Hijrah as the starting point (Year 1 AH)."
+    },
+    {
+      id: 'irs6',
+      question: "The holy book of Islam is the",
+      options: ["Torah", "Bible", "Qur’an", "Zabur"],
       correctAnswer: 2,
-      explanation: "Qiyas is the fourth source of Islamic law, involving the application of a ruling from an established case to a new case with the same underlying cause ('illah)."
+      explanation: "The Qur'an is the final and complete revelation from Allah to humanity, revealed to Prophet Muhammad (SAW) over a period of 23 years."
     },
     {
-      id: 'i3',
-      question: "Which battle is known as 'Yawm al-Furqan' (The Day of Criterion) in Islamic history?",
-      options: ["Battle of Uhud", "Battle of Badr", "Battle of the Trench", "Battle of Khaybar"],
-      correctAnswer: 1,
-      explanation: "The Battle of Badr is called 'Yawm al-Furqan' because it clearly distinguished between truth and falsehood."
-    },
-    {
-      id: 'i4',
-      question: "What is the meaning of 'Maqasid al-Shari'ah'?",
-      options: [
-        "The literal meanings of Quranic verses.",
-        "The higher objectives or goals of Islamic law.",
-        "The historical context of revelation.",
-        "The grammatical rules of Arabic."
-      ],
-      correctAnswer: 1,
-      explanation: "Maqasid al-Shari'ah refers to the ultimate goals of Islamic law, such as the preservation of life, religion, intellect, lineage, and property."
-    },
-    {
-      id: 'i5',
-      question: "Who was the first compiler of the Hadith into a formal collection known as 'Al-Muwatta'?",
-      options: ["Imam Bukhari", "Imam Muslim", "Imam Malik", "Imam Ahmad"],
+      id: 'irs7',
+      question: "The Qur’an was revealed over a period of",
+      options: ["10 years", "15 years", "23 years", "30 years"],
       correctAnswer: 2,
-      explanation: "Imam Malik ibn Anas compiled Al-Muwatta, one of the earliest and most respected collections of Hadith and legal rulings."
+      explanation: "The revelation began in 610 CE in Makkah and continued until shortly before the Prophet's death in 632 CE in Madinah, totaling approximately 23 years."
     },
     {
-      id: 'i6',
-      question: "In Islamic jurisprudence, what is the status of an action that is 'Makruh'?",
-      options: [
-        "Obligatory and rewarded.",
-        "Recommended but not required.",
-        "Disliked but not forbidden.",
-        "Strictly prohibited."
-      ],
+      id: 'irs8',
+      question: "The longest Surah in the Qur’an is",
+      options: ["Al-Imran", "Al-Baqarah", "An-Nisa", "Al-Ma’idah"],
+      correctAnswer: 1,
+      explanation: "Surah al-Baqarah (The Cow) is the second chapter of the Qur'an and consists of 286 verses. It covers a wide range of legal, social, and spiritual guidance."
+    },
+    {
+      id: 'irs9',
+      question: "The shortest Surah in the Qur’an is",
+      options: ["Al-Ikhlas", "Al-Asr", "Al-Kawthar", "Al-Falaq"],
       correctAnswer: 2,
-      explanation: "A 'Makruh' action is one that is disliked; avoiding it is rewarded, but performing it is not punished."
+      explanation: "Surah al-Kawthar (Abundance) is the 108th chapter and contains only 3 verses. It was revealed to comfort the Prophet (SAW) regarding his lineage."
     },
     {
-      id: 'i7',
-      question: "What does the term 'Ihsan' signify in the 'Hadith of Jibril'?",
-      options: [
-        "Giving charity to the poor.",
-        "Worshipping Allah as if you see Him, or knowing He sees you.",
-        "Performing the five daily prayers.",
-        "Believing in the six pillars of faith."
-      ],
-      correctAnswer: 1,
-      explanation: "Ihsan is the highest level of faith, characterized by excellence and constant awareness of Allah's presence."
-    },
-    {
-      id: 'i8',
-      question: "Which Caliph is credited with the final standardization and distribution of the Quranic text?",
-      options: ["Abu Bakr", "Umar ibn al-Khattab", "Uthman ibn Affan", "Ali ibn Abi Talib"],
-      correctAnswer: 2,
-      explanation: "Caliph Uthman (RA) ordered the compilation of the standard Mushaf to ensure uniformity in recitation across the expanding empire."
-    },
-    {
-      id: 'i9',
-      question: "What is 'Istihsan' in Islamic legal theory?",
-      options: [
-        "Following the majority opinion.",
-        "Juristic preference for a better solution over a strict literal analogy.",
-        "Rejecting a Hadith that contradicts the Quran.",
-        "Adopting local customs regardless of Shari'ah."
-      ],
-      correctAnswer: 1,
-      explanation: "Istihsan (juristic preference) allows a scholar to depart from a strict Qiyas if it leads to an unfair or impractical result."
-    },
-    {
-      id: 'i10',
-      question: "In the Seerah, what was the 'Pledge of Ridwan' (Bay'at al-Ridwan) about?",
-      options: [
-        "A pledge to fight the Romans.",
-        "A pledge of loyalty to the Prophet at Hudaybiyyah.",
-        "A pledge to migrate to Abyssinia.",
-        "A pledge to support the poor in Madinah."
-      ],
-      correctAnswer: 1,
-      explanation: "The Pledge of Ridwan occurred under a tree at Hudaybiyyah when the companions pledged to stand by the Prophet (SAW) after a rumor spread that Uthman (RA) had been killed."
-    },
-    {
-      id: 'i11',
-      question: "What is 'Riba al-Fadl'?",
-      options: [
-        "Interest on a cash loan.",
-        "Interest involving the unequal exchange of certain commodities.",
-        "A type of charitable donation.",
-        "A business partnership."
-      ],
-      correctAnswer: 1,
-      explanation: "Riba al-Fadl involves the exchange of similar commodities (like gold for gold) in unequal amounts or with delayed delivery."
-    },
-    {
-      id: 'i12',
-      question: "Who are the 'Ashab al-Suffah'?",
-      options: [
-        "The warriors of the Battle of Badr.",
-        "Poor companions who lived in the Prophet's mosque and dedicated themselves to learning.",
-        "The scribes who wrote down the Quran.",
-        "The governors appointed by the Caliphs."
-      ],
-      correctAnswer: 1,
-      explanation: "The Ashab al-Suffah were a group of dedicated students and worshippers who resided on a raised platform (Suffah) in Al-Masjid an-Nabawi."
-    },
-    {
-      id: 'i13',
-      question: "In the context of Quranic sciences, what is 'Asbab al-Nuzul'?",
-      options: [
-        "The rules of tajweed.",
-        "The reasons or circumstances behind the revelation of specific verses.",
-        "The different modes of recitation.",
-        "The classification of verses as Meccan or Medinan."
-      ],
-      correctAnswer: 1,
-      explanation: "Understanding Asbab al-Nuzul is crucial for the correct interpretation (Tafsir) of the Quran."
-    },
-    {
-      id: 'i14',
-      question: "Which Islamic school of law (Madhhab) is primarily known for its emphasis on the practice of the people of Madinah?",
-      options: ["Hanafi", "Maliki", "Shafi'i", "Hanbali"],
-      correctAnswer: 1,
-      explanation: "Imam Malik considered the 'Amal (practice) of the people of Madinah to be a valid source of law because they inherited the Prophet's traditions directly."
-    },
-    {
-      id: 'i15',
-      question: "What is 'Taqwa' often translated as in a comprehensive sense?",
-      options: ["Fear only.", "Blind obedience.", "God-consciousness and guarding oneself against sin.", "Ritual purity."],
-      correctAnswer: 2,
-      explanation: "Taqwa is the core of Islamic ethics, involving a deep awareness of Allah that motivates one to do good and avoid evil."
-    },
-    {
-      id: 'i16',
-      question: "What does 'Ijtihad' mean?",
-      options: [
-        "Imitating a previous scholar's ruling.",
-        "The independent legal reasoning of a qualified scholar to derive a ruling.",
-        "Rejecting all traditional schools of thought.",
-        "Fighting in the path of Allah."
-      ],
-      correctAnswer: 1,
-      explanation: "Ijtihad is the process of extracting legal rulings from the primary sources (Quran and Sunnah) when no direct text exists."
-    },
-    {
-      id: 'i17',
-      question: "Which Prophet is mentioned most frequently by name in the Quran?",
-      options: ["Prophet Muhammad (SAW)", "Prophet Ibrahim (AS)", "Prophet Musa (AS)", "Prophet Isa (AS)"],
-      correctAnswer: 2,
-      explanation: "Prophet Musa (AS) is mentioned 136 times in the Quran, reflecting the deep lessons in his story for the Muslim Ummah."
-    },
-    {
-      id: 'i18',
-      question: "What is 'Zakat al-Mal' and what is its standard rate for most wealth types?",
-      options: ["A tax on income; 10%.", "A mandatory charity on accumulated wealth; 2.5%.", "A voluntary donation; any amount.", "A tax on land; 5%."],
-      correctAnswer: 1,
-      explanation: "Zakat is 2.5% of one's surplus wealth held for a lunar year, provided it meets the minimum threshold (Nisab)."
-    },
-    {
-      id: 'i19',
-      question: "What was the primary focus of the 'Meccan period' of revelation?",
-      options: [
-        "Social and political laws.",
-        "Detailed rulings on inheritance and marriage.",
-        "Establishment of Monotheism (Tawhid) and the Hereafter.",
-        "Rules of warfare."
-      ],
-      correctAnswer: 2,
-      explanation: "The Meccan Surahs focus on building the foundation of faith, belief in Allah, and the Day of Judgment."
-    },
-    {
-      id: 'i20',
-      question: "In Islamic ethics, what is 'Ghibah'?",
-      options: ["Lying.", "Backbiting (saying something true about someone they would dislike).", "Slander (saying something false about someone).", "Pride."],
-      correctAnswer: 1,
-      explanation: "Ghibah is backbiting. If the statement is false, it is 'Buhtan' (slander)."
-    },
-    {
-      id: 'i21',
-      question: "What is the 'Charter of Madinah' (Mithaq al-Madinah)?",
-      options: [
-        "A map of the city.",
-        "A constitution establishing the rights and responsibilities of different groups in Madinah.",
-        "A list of the Prophet's companions.",
-        "A treaty with the Romans."
-      ],
-      correctAnswer: 1,
-      explanation: "The Charter of Madinah is considered the world's first written constitution, ensuring religious freedom and mutual defense."
-    },
-    {
-      id: 'i22',
-      question: "What is 'Sadaqah Jariyah'?",
-      options: [
-        "A one-time charity.",
-        "A continuous, ongoing charity that benefits the giver even after death.",
-        "Charity given only in Ramadan.",
-        "Charity given by the state."
-      ],
-      correctAnswer: 1,
-      explanation: "Examples include building a well, a school, or planting a tree."
-    },
-    {
-      id: 'i23',
-      question: "Who was the first woman to embrace Islam?",
-      options: ["Aisha bint Abi Bakr", "Fatimah bint Muhammad", "Khadijah bint Khuwaylid", "Sumayyah bint Khayyat"],
-      correctAnswer: 2,
-      explanation: "Khadijah (RA), the Prophet's first wife, was the first person to believe in his message."
-    },
-    {
-      id: 'i24',
-      question: "In Hadith science, what does 'Muttafaqun Alayh' mean?",
-      options: [
-        "Agreed upon by all Muslims.",
-        "Narrated by both Bukhari and Muslim.",
-        "Agreed upon by the four Imams.",
-        "Narrated by more than ten companions."
-      ],
-      correctAnswer: 1,
-      explanation: "It indicates the highest level of authenticity for a Hadith."
-    },
-    {
-      id: 'i25',
-      question: "What is the meaning of 'Al-Asma al-Husna'?",
-      options: ["The beautiful houses of Madinah.", "The most beautiful names of Allah.", "The names of the Prophet's companions.", "The names of the Surahs."],
-      correctAnswer: 1,
-      explanation: "The Quran mentions that to Allah belong the most beautiful names, and we should call upon Him by them."
-    },
-    {
-      id: 'i26',
-      question: "What is 'Fitrah' in Islamic theology?",
-      options: [
-        "The innate natural inclination towards monotheism and goodness.",
-        "A type of ritual prayer.",
-        "The end of the fasting month.",
-        "A historical document."
-      ],
+      id: 'irs10',
+      question: "The night when the Qur’an was first revealed is called",
+      options: ["Laylatul Qadr", "Laylatul Bara’ah", "Laylatul Isra", "Laylatul Mi’raj"],
       correctAnswer: 0,
-      explanation: "Islam teaches that every child is born with an innate nature (Fitrah) that recognizes the Creator."
+      explanation: "Laylatul Qadr (The Night of Decree/Power) occurs during the last ten nights of Ramadan. It is described as being 'better than a thousand months'."
     },
     {
-      id: 'i27',
-      question: "Which companion was known as 'Dhun-Nurayn' (The Possessor of Two Lights)?",
-      options: ["Ali ibn Abi Talib", "Uthman ibn Affan", "Abu Bakr as-Siddiq", "Umar ibn al-Khattab"],
-      correctAnswer: 1,
-      explanation: "Uthman (RA) was given this title because he married two of the Prophet's daughters, Ruqayyah and Umm Kulthum."
+      id: 'irs11',
+      question: "The five pillars of Islam include all except",
+      options: ["Shahadah", "Salat", "Zakat", "Jihad"],
+      correctAnswer: 3,
+      explanation: "The five pillars are Shahadah (Faith), Salat (Prayer), Zakat (Charity), Sawm (Fasting), and Hajj (Pilgrimage). While Jihad is important, it is not one of the five core pillars."
     },
     {
-      id: 'i28',
-      question: "What is 'Shirk'?",
-      options: [
-        "Associating partners with Allah in His Lordship, Worship, or Names and Attributes.",
-        "Committing a major sin like theft.",
-        "Disobeying one's parents.",
-        "Neglecting the daily prayers."
-      ],
-      correctAnswer: 0,
-      explanation: "Shirk is the opposite of Tawhid and is considered the gravest sin in Islam."
-    },
-    {
-      id: 'i29',
-      question: "What is 'Nisab' in the context of Zakat?",
-      options: [
-        "The time of the year when Zakat is due.",
-        "The minimum amount of wealth a person must possess before Zakat becomes obligatory.",
-        "The percentage of wealth to be given.",
-        "The list of people eligible to receive Zakat."
-      ],
-      correctAnswer: 1,
-      explanation: "Nisab is usually calculated based on the value of gold or silver."
-    },
-    {
-      id: 'i30',
-      question: "Which angel is responsible for bringing revelation (Wahy) to the Prophets?",
-      options: ["Mikail", "Israfil", "Jibril", "Malik"],
+      id: 'irs12',
+      question: "Muslims pray how many times daily?",
+      options: ["3", "4", "5", "6"],
       correctAnswer: 2,
-      explanation: "Jibril (Gabriel) is the leader of the angels and the messenger to the messengers."
+      explanation: "The five obligatory (Fard) prayers are Fajr, Dhuhr, Asr, Maghrib, and Isha. They are performed at specific intervals throughout the day and night."
     },
     {
-      id: 'i31',
-      question: "What is 'Sunnah' in the technical sense of Islamic law?",
-      options: [
-        "The literal words of the Quran.",
-        "The sayings, actions, and silent approvals of the Prophet Muhammad (SAW).",
-        "The local customs of Arabia.",
-        "The personal opinions of the Caliphs."
-      ],
+      id: 'irs13',
+      question: "The direction Muslims face during prayer is called",
+      options: ["Kaabah", "Qiblah", "Haram", "Minaret"],
       correctAnswer: 1,
-      explanation: "The Sunnah is the second primary source of Islamic law, explaining and complementing the Quran."
+      explanation: "The Qiblah is the fixed direction towards the Kaabah in the Great Mosque of Makkah. It symbolizes the unity of the Muslim Ummah in worship."
     },
     {
-      id: 'i32',
-      question: "What is the difference between 'Nabi' and 'Rasul'?",
-      options: [
-        "They are exactly the same.",
-        "A Rasul is sent with a new law/book; a Nabi follows and confirms the previous law.",
-        "A Nabi is for Arabs; a Rasul is for non-Arabs.",
-        "A Rasul is higher in rank than a Nabi."
-      ],
+      id: 'irs14',
+      question: "The pilgrimage to Makkah is known as",
+      options: ["Zakat", "Hajj", "Sawm", "Shahadah"],
       correctAnswer: 1,
-      explanation: "Every Rasul is a Nabi, but not every Nabi is a Rasul."
+      explanation: "Hajj is the annual pilgrimage to Makkah that every adult, sane, and financially/physically able Muslim must perform at least once in their lifetime."
     },
     {
-      id: 'i33',
-      question: "What is 'Isra and Mi'raj'?",
-      options: [
-        "The migration to Madinah.",
-        "The Night Journey from Makkah to Jerusalem and the Ascension to the Heavens.",
-        "The conquest of Makkah.",
-        "The farewell pilgrimage."
-      ],
+      id: 'irs15',
+      question: "The fasting month in Islam is",
+      options: ["Rajab", "Sha’ban", "Ramadan", "Muharram"],
+      correctAnswer: 2,
+      explanation: "Sawm (fasting) is obligatory for Muslims during the month of Ramadan, the ninth month of the Islamic lunar calendar, from dawn until sunset."
+    },
+    {
+      id: 'irs16',
+      question: "The mosque built by the Prophet in Madinah is",
+      options: ["Masjid al-Haram", "Masjid al-Nabawi", "Masjid al-Aqsa", "Masjid Quba"],
       correctAnswer: 1,
-      explanation: "This miraculous journey took place in a single night and was a great honor for the Prophet (SAW)."
+      explanation: "Masjid al-Nabawi (The Prophet's Mosque) was the center of the first Islamic community in Madinah and is where the Prophet (SAW) is buried."
     },
     {
-      id: 'i34',
-      question: "What is 'Tafsir'?",
-      options: [
-        "The memorization of the Quran.",
-        "The science of interpreting and explaining the meanings of the Quran.",
-        "The rules of Arabic grammar.",
-        "The historical chronology of the Caliphs."
-      ],
+      id: 'irs17',
+      question: "The first mosque built in Islam is",
+      options: ["Masjid al-Haram", "Masjid Quba", "Masjid al-Nabawi", "Masjid al-Aqsa"],
       correctAnswer: 1,
-      explanation: "Tafsir helps believers understand the message and context of the divine revelation."
+      explanation: "Masjid Quba was the first mosque ever built. It was established by Prophet Muhammad (SAW) on his way to Madinah during the Hijrah."
     },
     {
-      id: 'i35',
-      question: "What are the 'Arkan al-Iman' (Pillars of Faith)?",
-      options: [
-        "The five daily prayers.",
-        "Belief in Allah, His Angels, His Books, His Messengers, the Last Day, and Divine Decree.",
-        "Zakat, Fasting, and Hajj.",
-        "The testimony of faith (Shahadah)."
-      ],
+      id: 'irs18',
+      question: "The collection of sayings and actions of Prophet Muhammad is called",
+      options: ["Tafsir", "Hadith", "Sunnah", "Fiqh"],
       correctAnswer: 1,
-      explanation: "These are the core beliefs that define a Muslim's inner faith."
+      explanation: "A Hadith is a report of the words, actions, or silent approvals of the Prophet (SAW). The collective body of Hadith is the secondary source of Islamic law."
     },
     {
-      id: 'i36',
-      question: "What is 'Wudu' and when is it required?",
-      options: [
-        "A full body bath; required after major impurity.",
-        "Ritual ablution; required before performing Salah.",
-        "A type of prayer; required on Fridays.",
-        "A charity; required after Ramadan."
-      ],
+      id: 'irs19',
+      question: "The migration of Muslims to Abyssinia was due to",
+      options: ["Trade", "War", "Persecution in Makkah", "Invitation by the king"],
+      correctAnswer: 2,
+      explanation: "In the 5th year of the Prophethood, the Prophet (SAW) advised some Muslims to migrate to Abyssinia (Ethiopia) to escape the increasing torture by the Quraysh."
+    },
+    {
+      id: 'irs20',
+      question: "The ruler of Abyssinia who gave protection to Muslims was",
+      options: ["Caesar", "Negus", "Kisra", "Pharaoh"],
       correctAnswer: 1,
-      explanation: "Wudu involves washing specific parts of the body to achieve ritual purity for worship."
+      explanation: "The Negus (Najashi), the Christian king of Abyssinia, was known for his justice and refused to hand over the Muslim refugees to the Quraysh."
     },
     {
-      id: 'i37',
-      question: "What is 'Ghusl'?",
-      options: ["Partial ablution.", "Full ritual bath.", "Dry ablution with sand.", "Wiping over socks."],
+      id: 'irs21',
+      question: "The first caliph after the Prophet was",
+      options: ["Umar", "Ali", "Abu Bakr", "Uthman"],
+      correctAnswer: 2,
+      explanation: "Abu Bakr as-Siddiq (RA) was chosen as the first of the four Rightly Guided Caliphs (Khulafa al-Rashidun) following the death of the Prophet (SAW)."
+    },
+    {
+      id: 'irs22',
+      question: "The caliph known for compiling the Qur’an into a single book was",
+      options: ["Abu Bakr", "Umar", "Uthman", "Ali"],
+      correctAnswer: 2,
+      explanation: "Caliph Uthman ibn Affan (RA) ordered the standardization of the Qur'anic text into a single dialect (Quraysh) to prevent confusion among Muslims."
+    },
+    {
+      id: 'irs23',
+      question: "The caliph famous for justice and administrative reforms was",
+      options: ["Abu Bakr", "Umar", "Uthman", "Ali"],
       correctAnswer: 1,
-      explanation: "Ghusl is required after major states of impurity (Janabah, menstruation, etc.)."
+      explanation: "Umar ibn al-Khattab (RA) established many institutions, including the judiciary, treasury (Bayt al-Mal), and the Hijri calendar."
     },
     {
-      id: 'i38',
-      question: "What is 'Tayammum'?",
-      options: [
-        "A type of voluntary prayer.",
-        "Dry ablution using clean earth or sand when water is unavailable or harmful.",
-        "The act of standing in prayer.",
-        "The end of the pilgrimage."
-      ],
+      id: 'irs24',
+      question: "The third caliph of Islam was",
+      options: ["Umar", "Ali", "Uthman", "Abu Bakr"],
+      correctAnswer: 2,
+      explanation: "Uthman ibn Affan (RA) succeeded Umar and served as the third caliph for 12 years, during which the Islamic empire expanded significantly."
+    },
+    {
+      id: 'irs25',
+      question: "The fourth caliph was",
+      options: ["Umar", "Ali", "Abu Bakr", "Uthman"],
       correctAnswer: 1,
-      explanation: "Tayammum is a concession (Rukhsa) provided by Allah for ease."
+      explanation: "Ali ibn Abi Talib (RA), the cousin and son-in-law of the Prophet (SAW), was the fourth and final of the Rightly Guided Caliphs."
     },
     {
-      id: 'i39',
-      question: "What is the 'Qiblah' and where is it located?",
-      options: ["The direction of prayer; towards the Kaaba in Makkah.", "The place of pilgrimage; in Madinah.", "The first mosque; in Jerusalem.", "The direction of the sunrise."],
+      id: 'irs26',
+      question: "The battle fought between Muslims and Quraysh in 624 AD was",
+      options: ["Uhud", "Badr", "Khandaq", "Hunayn"],
+      correctAnswer: 1,
+      explanation: "The Battle of Badr was the first major military conflict between the Muslims and the Quraysh. Despite being outnumbered, the Muslims achieved a decisive victory."
+    },
+    {
+      id: 'irs27',
+      question: "The battle where Muslims dug a trench was",
+      options: ["Uhud", "Badr", "Khandaq", "Tabuk"],
+      correctAnswer: 2,
+      explanation: "The Battle of Khandaq (The Trench) occurred when the Prophet (SAW) accepted Salman al-Farsi's suggestion to dig a trench around Madinah for defense."
+    },
+    {
+      id: 'irs28',
+      question: "The treaty signed between Muslims and Quraysh was",
+      options: ["Treaty of Badr", "Treaty of Hudaybiyyah", "Treaty of Uhud", "Treaty of Madinah"],
+      correctAnswer: 1,
+      explanation: "The Treaty of Hudaybiyyah (6 AH) was a 10-year peace pact that was initially seen as a disadvantage but led to a massive increase in the number of Muslims."
+    },
+    {
+      id: 'irs29',
+      question: "The conquest of Makkah occurred in",
+      options: ["6 AH", "7 AH", "8 AH", "9 AH"],
+      correctAnswer: 2,
+      explanation: "In 8 AH, after the Quraysh violated the Treaty of Hudaybiyyah, the Prophet (SAW) led an army of 10,000 and took Makkah without bloodshed."
+    },
+    {
+      id: 'irs30',
+      question: "The farewell pilgrimage of the Prophet is called",
+      options: ["Hajj al-Akbar", "Hajj al-Wada", "Hajj al-Sunnah", "Hajj al-Fard"],
+      correctAnswer: 1,
+      explanation: "Hajj al-Wada was the only Hajj performed by the Prophet (SAW). During this journey, he delivered the famous Farewell Sermon (Khutbat al-Wada)."
+    },
+    {
+      id: 'irs31',
+      question: "The pillar of Islam involving charity is",
+      options: ["Salat", "Zakat", "Sawm", "Hajj"],
+      correctAnswer: 1,
+      explanation: "Zakat is the obligatory giving of a set proportion (usually 2.5%) of one's wealth to specific categories of needy people."
+    },
+    {
+      id: 'irs32',
+      question: "The first person to accept Islam among women was",
+      options: ["Aisha", "Khadijah", "Hafsa", "Fatimah"],
+      correctAnswer: 1,
+      explanation: "Khadijah bint Khuwaylid (RA), the Prophet's first wife, was the first human to believe in his mission and supported him with her wealth and heart."
+    },
+    {
+      id: 'irs33',
+      question: "The first male to accept Islam was",
+      options: ["Ali", "Abu Bakr", "Umar", "Uthman"],
+      correctAnswer: 1,
+      explanation: "Abu Bakr as-Siddiq (RA) was the first adult male to accept Islam. He was the Prophet's closest friend and spent his entire fortune for the cause of Islam."
+    },
+    {
+      id: 'irs34',
+      question: "The first child to accept Islam was",
+      options: ["Hassan", "Hussain", "Ali", "Abdullah"],
+      correctAnswer: 2,
+      explanation: "Ali ibn Abi Talib (RA) accepted Islam at the age of about ten. He was raised in the Prophet's household and remained loyal throughout his life."
+    },
+    {
+      id: 'irs35',
+      question: "The Kaabah is located in",
+      options: ["Madinah", "Jerusalem", "Makkah", "Taif"],
+      correctAnswer: 2,
+      explanation: "The Kaabah is the cube-shaped building at the center of Islam's most important mosque, the Masjid al-Haram in Makkah."
+    },
+    {
+      id: 'irs36',
+      question: "The night journey of the Prophet from Makkah to Jerusalem is called",
+      options: ["Hijrah", "Isra", "Mi’raj", "Jihad"],
+      correctAnswer: 1,
+      explanation: "The Isra is the first part of the miraculous night journey where the Prophet (SAW) traveled from Makkah to Al-Aqsa Mosque in Jerusalem."
+    },
+    {
+      id: 'irs37',
+      question: "The ascension of the Prophet to heaven is called",
+      options: ["Isra", "Mi’raj", "Hijrah", "Jihad"],
+      correctAnswer: 1,
+      explanation: "The Mi'raj is the second part of the night journey where the Prophet (SAW) ascended from Jerusalem to the heavens to meet Allah."
+    },
+    {
+      id: 'irs38',
+      question: "The companions of the Prophet are known as",
+      options: ["Tabi’un", "Sahabah", "Ulama", "Fuqaha"],
+      correctAnswer: 1,
+      explanation: "The Sahabah (Companions) are the generation of Muslims who saw or met the Prophet (SAW) and died as believers."
+    },
+    {
+      id: 'irs39',
+      question: "The science of interpreting the Qur’an is called",
+      options: ["Fiqh", "Hadith", "Tafsir", "Aqidah"],
+      correctAnswer: 2,
+      explanation: "Tafsir involves explaining the meanings, context, and legal implications of the Qur'anic verses based on the Prophet's traditions and linguistic rules."
+    },
+    {
+      id: 'irs40',
+      question: "The Islamic law derived from Qur’an and Hadith is called",
+      options: ["Sharia", "Aqidah", "Sunnah", "Tafsir"],
       correctAnswer: 0,
-      explanation: "The Qiblah was originally towards Jerusalem before being changed to Makkah."
-    },
-    {
-      id: 'i40',
-      question: "What is 'Adhan'?",
-      options: ["The start of the prayer.", "The call to prayer.", "The end of the prayer.", "The sermon on Friday."],
-      correctAnswer: 1,
-      explanation: "The Adhan is a beautiful call that announces the time for each of the five daily prayers."
+      explanation: "Sharia is the divine law of Islam, providing a code of conduct for all aspects of life, including worship, ethics, and social interactions."
     }
   ],
   maths: [
@@ -1856,848 +1551,848 @@ export const QUESTIONS = {
   ],
   biology: [
     {
-      id: 'b1',
-      question: "Which of the following processes results in the formation of two identical daughter cells?",
-      options: ["Mitosis", "Meiosis", "Fertilization", "Budding"],
-      correctAnswer: 0,
-      explanation: "Mitosis is a type of cell division that results in two daughter cells each having the same number and kind of chromosomes as the parent nucleus."
+      id: 'bio1',
+      question: "The basic unit of life is the",
+      options: ["Tissue", "Organ", "Cell", "Organism"],
+      correctAnswer: 2,
+      explanation: "The cell is the fundamental structural and functional unit of all living organisms."
     },
     {
-      id: 'b2',
-      question: "What is the primary function of the ribosomes in a cell?",
-      options: ["Protein synthesis", "Energy production", "DNA replication", "Waste disposal"],
-      correctAnswer: 0,
-      explanation: "Ribosomes are the sites of protein synthesis, where genetic information from mRNA is translated into amino acid chains."
+      id: 'bio2',
+      question: "The organelle responsible for respiration in the cell is the",
+      options: ["Ribosome", "Mitochondrion", "Nucleus", "Vacuole"],
+      correctAnswer: 1,
+      explanation: "Mitochondria are known as the powerhouses of the cell because they generate ATP through aerobic respiration."
     },
     {
-      id: 'b3',
-      question: "Which organelle is often referred to as the 'powerhouse' of the cell?",
-      options: ["Mitochondria", "Nucleus", "Endoplasmic reticulum", "Golgi apparatus"],
-      correctAnswer: 0,
-      explanation: "Mitochondria generate most of the cell's supply of adenosine triphosphate (ATP), used as a source of chemical energy."
+      id: 'bio3',
+      question: "Photosynthesis occurs mainly in the",
+      options: ["Mitochondria", "Chloroplast", "Nucleus", "Cytoplasm"],
+      correctAnswer: 1,
+      explanation: "Chloroplasts contain chlorophyll, which captures light energy for photosynthesis."
     },
     {
-      id: 'b4',
-      question: "In the human circulatory system, which vessel carries oxygenated blood from the lungs to the heart?",
-      options: ["Pulmonary vein", "Pulmonary artery", "Aorta", "Vena cava"],
-      correctAnswer: 0,
-      explanation: "Unlike most veins, the pulmonary vein carries oxygen-rich blood from the lungs to the left atrium of the heart."
+      id: 'bio4',
+      question: "Which of the following is a mammal?",
+      options: ["Lizard", "Frog", "Whale", "Crocodile"],
+      correctAnswer: 2,
+      explanation: "Whales are marine mammals that breathe air, have hair (though sparse), and nurse their young with milk."
     },
     {
-      id: 'b5',
-      question: "Which of the following is a key difference between plant and animal cells?",
-      options: ["Presence of a cell wall", "Presence of a nucleus", "Presence of mitochondria", "Presence of a cell membrane"],
-      correctAnswer: 0,
-      explanation: "Plant cells have a rigid cell wall made of cellulose and chloroplasts for photosynthesis, which animal cells lack."
+      id: 'bio5',
+      question: "The process by which plants lose water through their leaves is called",
+      options: ["Respiration", "Transpiration", "Photosynthesis", "Germination"],
+      correctAnswer: 1,
+      explanation: "Transpiration is the evaporation of water from the surface of leaf cells in plants."
     },
     {
-      id: 'b6',
-      question: "What is the primary site of photosynthesis in most plants?",
-      options: ["Leaves", "Roots", "Stems", "Flowers"],
+      id: 'bio6',
+      question: "Which blood cells help in clotting?",
+      options: ["Platelets", "Red blood cells", "White blood cells", "Plasma"],
       correctAnswer: 0,
-      explanation: "Leaves contain high concentrations of chloroplasts, specifically in the mesophyll cells, where photosynthesis occurs."
+      explanation: "Platelets (thrombocytes) are cell fragments that play a crucial role in forming blood clots to stop bleeding."
     },
     {
-      id: 'b7',
-      question: "Which hormone is responsible for regulating blood sugar levels in the human body?",
-      options: ["Insulin", "Adrenaline", "Thyroxine", "Estrogen"],
+      id: 'bio7',
+      question: "The green pigment in plants responsible for photosynthesis is",
+      options: ["Chlorophyll", "Xanthophyll", "Carotene", "Melanin"],
       correctAnswer: 0,
-      explanation: "Insulin, produced by the pancreas, allows cells to take up glucose from the bloodstream, thereby lowering blood sugar levels."
+      explanation: "Chlorophyll is the primary pigment used by plants to absorb light energy for photosynthesis."
     },
     {
-      id: 'b8',
-      question: "What is the basic unit of heredity?",
-      options: ["Gene", "Chromosome", "Nucleotide", "Protein"],
-      correctAnswer: 0,
-      explanation: "A gene is a sequence of DNA that encodes for a specific trait or protein and is the fundamental unit of inheritance."
+      id: 'bio8',
+      question: "Which organ pumps blood throughout the body?",
+      options: ["Liver", "Kidney", "Heart", "Lung"],
+      correctAnswer: 2,
+      explanation: "The heart is a muscular organ that functions as a pump to circulate blood through the body's vascular system."
     },
     {
-      id: 'b9',
-      question: "Which of the following is an example of a decomposer in an ecosystem?",
-      options: ["Fungi", "Green plants", "Herbivores", "Carnivores"],
-      correctAnswer: 0,
-      explanation: "Decomposers like fungi and bacteria break down dead organic matter, recycling nutrients back into the soil."
-    },
-    {
-      id: 'b10',
-      question: "What is the main function of the large intestine in humans?",
-      options: ["Absorption of water", "Digestion of proteins", "Absorption of nutrients", "Production of bile"],
-      correctAnswer: 0,
-      explanation: "The large intestine primarily absorbs water and salts from the material that has not been digested as food."
-    },
-    {
-      id: 'b11',
-      question: "Which type of joint allows for the greatest range of motion?",
-      options: ["Ball and socket joint", "Hinge joint", "Pivot joint", "Saddle joint"],
-      correctAnswer: 0,
-      explanation: "Ball and socket joints, such as the shoulder and hip, allow for movement in multiple planes."
-    },
-    {
-      id: 'b12',
-      question: "What is the term for the movement of water across a semi-permeable membrane from a region of high concentration to low concentration?",
-      options: ["Osmosis", "Diffusion", "Active transport", "Facilitated diffusion"],
-      correctAnswer: 0,
-      explanation: "Osmosis is a specific type of diffusion involving the movement of solvent (water) molecules."
-    },
-    {
-      id: 'b13',
-      question: "Which of the following is a characteristic of all living organisms?",
-      options: ["Excretion", "Locomotion", "Photosynthesis", "Sexual reproduction"],
-      correctAnswer: 0,
-      explanation: "Excretion (the removal of metabolic waste) is one of the seven life processes (MRS GREN)."
-    },
-    {
-      id: 'b14',
-      question: "What is the primary function of white blood cells?",
-      options: ["Defending against pathogens", "Transporting oxygen", "Clotting blood", "Regulating body temperature"],
-      correctAnswer: 0,
-      explanation: "White blood cells (leukocytes) are part of the immune system and help fight infections and foreign invaders."
-    },
-    {
-      id: 'b15',
-      question: "In DNA, which nitrogenous base always pairs with Cytosine?",
-      options: ["Guanine", "Adenine", "Thymine", "Uracil"],
-      correctAnswer: 0,
-      explanation: "According to Chargaff's rules, Guanine (G) always pairs with Cytosine (C) via three hydrogen bonds."
-    },
-    {
-      id: 'b16',
-      question: "What is the function of the xylem in plants?",
-      options: ["Transporting water and minerals", "Transporting sugars", "Providing structural support", "A and C"],
+      id: 'bio9',
+      question: "The part of the plant that produces seeds is the",
+      options: ["Root", "Stem", "Leaf", "Flower"],
       correctAnswer: 3,
-      explanation: "Xylem vessels transport water and dissolved minerals from the roots to the rest of the plant and also provide mechanical support due to lignin."
+      explanation: "Flowers contain the reproductive organs of the plant, and after fertilization, they develop into fruits and seeds."
     },
     {
-      id: 'b17',
-      question: "Which theory explains how species evolve over time through the survival of the fittest?",
-      options: ["Natural Selection", "Spontaneous Generation", "Cell Theory", "Germ Theory"],
+      id: 'bio10',
+      question: "Which of the following is a producer in an ecosystem?",
+      options: ["Grass", "Lion", "Goat", "Man"],
       correctAnswer: 0,
-      explanation: "Proposed by Charles Darwin, natural selection describes how favorable traits become more common in a population over generations."
+      explanation: "Producers (autotrophs) like grass make their own food using energy from sunlight."
     },
     {
-      id: 'b18',
-      question: "What is the destination of air after it leaves the trachea in the human respiratory system?",
-      options: ["Bronchi", "Alveoli", "Pharynx", "Larynx"],
-      correctAnswer: 0,
-      explanation: "The trachea branches into two primary bronchi, which lead into the lungs."
+      id: 'bio11',
+      question: "The process of cell division that produces identical cells is",
+      options: ["Meiosis", "Mitosis", "Fertilization", "Mutation"],
+      correctAnswer: 1,
+      explanation: "Mitosis results in two daughter cells each having the same number and kind of chromosomes as the parent nucleus."
     },
     {
-      id: 'b19',
-      question: "Which of the following is a cold-blooded (ectothermic) animal?",
-      options: ["Lizard", "Eagle", "Elephant", "Whale"],
-      correctAnswer: 0,
-      explanation: "Ectotherms rely on external sources of heat to regulate their body temperature, unlike endotherms (birds and mammals)."
+      id: 'bio12',
+      question: "Which organ removes waste products from the blood?",
+      options: ["Heart", "Liver", "Kidney", "Lung"],
+      correctAnswer: 2,
+      explanation: "The kidneys filter the blood to remove metabolic wastes and excess substances, which are then excreted as urine."
     },
     {
-      id: 'b20',
-      question: "What is the function of the gallbladder?",
-      options: ["Storing bile", "Producing insulin", "Filtering blood", "Digesting fats"],
-      correctAnswer: 0,
-      explanation: "The gallbladder stores and concentrates bile produced by the liver before releasing it into the small intestine."
+      id: 'bio13',
+      question: "The genetic material in cells is called",
+      options: ["RNA", "DNA", "Protein", "Enzyme"],
+      correctAnswer: 1,
+      explanation: "DNA (Deoxyribonucleic Acid) carries the genetic instructions for the development, functioning, growth, and reproduction of all known organisms."
     },
     {
-      id: 'b21',
-      question: "In genetics, what does the term 'phenotype' refer to?",
-      options: ["The observable physical characteristics of an organism", "The genetic makeup of an organism", "A mutation in a gene", "The number of chromosomes"],
-      correctAnswer: 0,
-      explanation: "The phenotype is the expression of the genotype in a given environment."
+      id: 'bio14',
+      question: "Animals that eat only plants are called",
+      options: ["Carnivores", "Omnivores", "Herbivores", "Scavengers"],
+      correctAnswer: 2,
+      explanation: "Herbivores are animals whose primary food source is plant-based."
     },
     {
-      id: 'b22',
-      question: "Which part of the brain is primarily responsible for coordination and balance?",
-      options: ["Cerebellum", "Cerebrum", "Medulla oblongata", "Hypothalamus"],
-      correctAnswer: 0,
-      explanation: "The cerebellum (little brain) coordinates voluntary movements and maintains posture and balance."
+      id: 'bio15',
+      question: "Which vitamin is obtained from sunlight?",
+      options: ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+      correctAnswer: 3,
+      explanation: "The body produces Vitamin D when the skin is exposed to direct sunlight."
     },
     {
-      id: 'b23',
-      question: "What is the primary role of the ozone layer in the atmosphere?",
-      options: ["Absorbing harmful UV radiation", "Trapping heat for the greenhouse effect", "Producing oxygen", "Preventing meteor strikes"],
-      correctAnswer: 0,
-      explanation: "The ozone layer (O₃) in the stratosphere protects life on Earth by absorbing most of the Sun's harmful ultraviolet radiation."
+      id: 'bio16',
+      question: "The process by which green plants make food is",
+      options: ["Respiration", "Photosynthesis", "Fermentation", "Digestion"],
+      correctAnswer: 1,
+      explanation: "Photosynthesis is the process by which green plants use sunlight to synthesize nutrients from carbon dioxide and water."
     },
     {
-      id: 'b24',
-      question: "Which of the following is an example of an abiotic factor in an ecosystem?",
-      options: ["Sunlight", "Bacteria", "Plants", "Animals"],
+      id: 'bio17',
+      question: "Which structure controls the activities of the cell?",
+      options: ["Nucleus", "Cytoplasm", "Ribosome", "Vacuole"],
       correctAnswer: 0,
-      explanation: "Abiotic factors are the non-living chemical and physical parts of the environment."
+      explanation: "The nucleus contains the cell's DNA and acts as the control center for cellular activities."
     },
     {
-      id: 'b25',
-      question: "What is the function of the enzyme 'amylase'?",
-      options: ["Breaking down starch into sugars", "Breaking down proteins", "Breaking down fats", "Synthesizing DNA"],
-      correctAnswer: 0,
-      explanation: "Amylase, found in saliva and pancreatic juice, initiates the digestion of complex carbohydrates."
+      id: 'bio18',
+      question: "The breaking down of food to release energy is called",
+      options: ["Digestion", "Respiration", "Excretion", "Absorption"],
+      correctAnswer: 1,
+      explanation: "Cellular respiration is the process of breaking down glucose and other molecules in the presence of oxygen to produce ATP."
     },
     {
-      id: 'b26',
-      question: "Which phylum do insects belong to?",
-      options: ["Arthropoda", "Mollusca", "Chordata", "Annelida"],
+      id: 'bio19',
+      question: "Which of the following organisms is unicellular?",
+      options: ["Amoeba", "Earthworm", "Frog", "Grasshopper"],
       correctAnswer: 0,
-      explanation: "Arthropods are characterized by jointed appendages and an exoskeleton made of chitin."
+      explanation: "An amoeba is a single-celled eukaryotic organism."
     },
     {
-      id: 'b27',
-      question: "What is the function of the stomata on a leaf?",
-      options: ["Gas exchange", "Water absorption", "Light capture", "Nutrient storage"],
-      correctAnswer: 0,
-      explanation: "Stomata are small pores that allow CO₂ to enter for photosynthesis and O₂ and water vapor to exit."
+      id: 'bio20',
+      question: "The movement of water across a semi-permeable membrane is",
+      options: ["Diffusion", "Osmosis", "Respiration", "Filtration"],
+      correctAnswer: 1,
+      explanation: "Osmosis is the spontaneous net movement of solvent molecules through a semi-permeable membrane into a region of higher solute concentration."
     },
     {
-      id: 'b28',
-      question: "Which of the following is a viral disease?",
-      options: ["Influenza", "Tuberculosis", "Malaria", "Cholera"],
-      correctAnswer: 0,
-      explanation: "Influenza is caused by the flu virus, whereas TB and cholera are bacterial, and malaria is caused by a protozoan."
+      id: 'bio21',
+      question: "The largest organ in the human body is the",
+      options: ["Liver", "Skin", "Brain", "Lung"],
+      correctAnswer: 1,
+      explanation: "The skin is the body's largest organ, providing protection and regulating temperature."
     },
     {
-      id: 'b29',
-      question: "What is the primary function of the kidneys?",
-      options: ["Filtering blood and removing waste", "Producing red blood cells", "Regulating body temperature", "Digesting proteins"],
-      correctAnswer: 0,
-      explanation: "The kidneys maintain homeostasis by filtering the blood to produce urine, removing metabolic wastes and excess ions."
+      id: 'bio22',
+      question: "Which gas is used by plants during photosynthesis?",
+      options: ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+      correctAnswer: 2,
+      explanation: "Plants take in carbon dioxide from the atmosphere to use in the light-independent reactions of photosynthesis."
     },
     {
-      id: 'b30',
-      question: "In an ecosystem, what is the term for the position an organism occupies in a food chain?",
-      options: ["Trophic level", "Niche", "Habitat", "Biome"],
-      correctAnswer: 0,
-      explanation: "Trophic levels start with producers and move up through various levels of consumers."
+      id: 'bio23',
+      question: "Which blood cells fight infection?",
+      options: ["Red blood cells", "White blood cells", "Platelets", "Plasma"],
+      correctAnswer: 1,
+      explanation: "White blood cells (leukocytes) are part of the immune system and help protect the body against infectious diseases and foreign invaders."
     },
     {
-      id: 'b31',
-      question: "What is the function of the retina in the eye?",
-      options: ["Detecting light and forming images", "Regulating the amount of light entering", "Focusing light onto the lens", "Protecting the inner eye"],
-      correctAnswer: 0,
-      explanation: "The retina contains photoreceptor cells (rods and cones) that convert light into neural signals."
+      id: 'bio24',
+      question: "The human skeleton is mainly responsible for",
+      options: ["Digestion", "Movement and support", "Respiration", "Circulation"],
+      correctAnswer: 1,
+      explanation: "The skeletal system provides structural support for the body and allows for movement through its interaction with muscles."
     },
     {
-      id: 'b32',
-      question: "Which vitamin is essential for blood clotting?",
-      options: ["Vitamin K", "Vitamin C", "Vitamin D", "Vitamin A"],
-      correctAnswer: 0,
-      explanation: "Vitamin K is required for the synthesis of proteins needed for blood coagulation."
+      id: 'bio25',
+      question: "Which of the following is a reptile?",
+      options: ["Toad", "Snake", "Whale", "Bat"],
+      correctAnswer: 1,
+      explanation: "Snakes are cold-blooded vertebrates with dry, scaly skin, which are characteristics of reptiles."
     },
     {
-      id: 'b33',
-      question: "What is the term for a symbiotic relationship where both organisms benefit?",
-      options: ["Mutualism", "Commensalism", "Parasitism", "Predation"],
-      correctAnswer: 0,
-      explanation: "An example of mutualism is the relationship between bees and flowering plants."
+      id: 'bio26',
+      question: "Which organ produces insulin?",
+      options: ["Liver", "Kidney", "Pancreas", "Heart"],
+      correctAnswer: 2,
+      explanation: "The pancreas is a gland that produces insulin, a hormone that regulates blood glucose levels."
     },
     {
-      id: 'b34',
-      question: "Which of the following is the largest organ of the human body?",
-      options: ["Skin", "Liver", "Lungs", "Brain"],
-      correctAnswer: 0,
-      explanation: "The skin covers the entire body and accounts for about 15% of total body weight."
+      id: 'bio27',
+      question: "The study of plants is called",
+      options: ["Zoology", "Botany", "Ecology", "Genetics"],
+      correctAnswer: 1,
+      explanation: "Botany is the branch of biology that deals with the study of plants."
     },
     {
-      id: 'b35',
-      question: "What is the primary function of the phloem in plants?",
-      options: ["Transporting manufactured food (sugars)", "Transporting water", "Anchoring the plant", "Protecting the stem"],
-      correctAnswer: 0,
-      explanation: "Phloem transports the products of photosynthesis (translocation) from leaves to other parts of the plant."
+      id: 'bio28',
+      question: "Animals that eat both plants and animals are",
+      options: ["Herbivores", "Carnivores", "Omnivores", "Parasites"],
+      correctAnswer: 2,
+      explanation: "Omnivores have a diet that consists of both plant and animal matter."
     },
     {
-      id: 'b36',
-      question: "Which blood group is known as the 'universal donor'?",
-      options: ["O negative", "AB positive", "A positive", "B negative"],
-      correctAnswer: 0,
-      explanation: "O negative blood lacks A, B, and Rh antigens, making it safe to give to almost any recipient."
+      id: 'bio29',
+      question: "Which process releases oxygen in plants?",
+      options: ["Respiration", "Photosynthesis", "Transpiration", "Germination"],
+      correctAnswer: 1,
+      explanation: "Oxygen is produced as a byproduct during the light-dependent reactions of photosynthesis."
     },
     {
-      id: 'b37',
-      question: "What is the function of the umbilical cord?",
-      options: ["Connecting the fetus to the placenta for nutrient and waste exchange", "Protecting the fetus from physical shock", "Providing warmth to the fetus", "Producing amniotic fluid"],
-      correctAnswer: 0,
-      explanation: "The umbilical cord contains blood vessels that transport oxygen and nutrients to the fetus and remove wastes."
+      id: 'bio30',
+      question: "The unit of heredity is called",
+      options: ["Chromosome", "Gene", "DNA", "Protein"],
+      correctAnswer: 1,
+      explanation: "A gene is the basic physical and functional unit of heredity, made up of DNA."
     },
     {
-      id: 'b38',
-      question: "Which of the following is a major greenhouse gas?",
-      options: ["Methane", "Nitrogen", "Oxygen", "Argon"],
-      correctAnswer: 0,
-      explanation: "Methane is significantly more potent than CO₂ as a greenhouse gas, although it has a shorter atmospheric lifespan."
+      id: 'bio31',
+      question: "The liquid part of blood is",
+      options: ["Serum", "Plasma", "Platelets", "Hemoglobin"],
+      correctAnswer: 1,
+      explanation: "Plasma is the yellowish liquid component of blood that holds the blood cells in whole blood in suspension."
     },
     {
-      id: 'b39',
-      question: "What is the function of the myelin sheath around a neuron?",
-      options: ["Increasing the speed of nerve impulses", "Protecting the nucleus", "Receiving signals from other neurons", "Producing neurotransmitters"],
-      correctAnswer: 0,
-      explanation: "The insulating layer of myelin allows electrical impulses to transmit quickly and efficiently along the nerve cells."
+      id: 'bio32',
+      question: "Which part of the eye controls light entering the eye?",
+      options: ["Retina", "Pupil", "Cornea", "Lens"],
+      correctAnswer: 1,
+      explanation: "The pupil is the opening in the center of the iris that regulates the amount of light reaching the retina."
     },
     {
-      id: 'b40',
-      question: "What is the name of the process by which plants release water vapor into the atmosphere?",
-      options: ["Transpiration", "Evaporation", "Condensation", "Respiration"],
+      id: 'bio33',
+      question: "Which nutrient mainly provides energy?",
+      options: ["Protein", "Carbohydrate", "Vitamin", "Mineral"],
+      correctAnswer: 1,
+      explanation: "Carbohydrates are the body's primary source of energy."
+    },
+    {
+      id: 'bio34',
+      question: "Which disease is caused by a virus?",
+      options: ["Malaria", "Typhoid", "Measles", "Cholera"],
+      correctAnswer: 2,
+      explanation: "Measles is a highly contagious infectious disease caused by the measles virus."
+    },
+    {
+      id: 'bio35',
+      question: "Which organ system controls body activities?",
+      options: ["Digestive system", "Nervous system", "Respiratory system", "Circulatory system"],
+      correctAnswer: 1,
+      explanation: "The nervous system coordinates body actions and transmits signals between different parts of the body."
+    },
+    {
+      id: 'bio36',
+      question: "Which structure protects the brain?",
+      options: ["Skull", "Rib cage", "Vertebrae", "Pelvis"],
       correctAnswer: 0,
-      explanation: "Transpiration occurs primarily through the stomata and helps in the ascent of sap and cooling the plant."
+      explanation: "The skull (cranium) is the bony structure that encases and protects the brain."
+    },
+    {
+      id: 'bio37',
+      question: "Plants absorb water mainly through the",
+      options: ["Stem", "Leaves", "Roots", "Flowers"],
+      correctAnswer: 2,
+      explanation: "The root system is primarily responsible for absorbing water and minerals from the soil."
+    },
+    {
+      id: 'bio38',
+      question: "The process of producing offspring is called",
+      options: ["Respiration", "Reproduction", "Nutrition", "Excretion"],
+      correctAnswer: 1,
+      explanation: "Reproduction is the biological process by which new individual organisms are produced from their parents."
+    },
+    {
+      id: 'bio39',
+      question: "Which organism decomposes dead matter?",
+      options: ["Fungi", "Goat", "Lion", "Grass"],
+      correctAnswer: 0,
+      explanation: "Fungi and bacteria are the primary decomposers in most ecosystems, breaking down dead organic material."
+    },
+    {
+      id: 'bio40',
+      question: "The habitat of fish is",
+      options: ["Land", "Air", "Water", "Desert"],
+      correctAnswer: 2,
+      explanation: "Fish are aquatic vertebrates that live in water and breathe through gills."
     }
   ],
   economics: [
     {
       id: 'ec1',
-      question: "What is the fundamental economic problem?",
-      options: ["Scarcity of resources relative to unlimited wants", "Inflation", "Unemployment", "Government debt"],
-      correctAnswer: 0,
-      explanation: "Scarcity forces individuals and societies to make choices about how to allocate limited resources."
+      question: "Economics is often defined as the study of how",
+      options: ["To make money", "People make choices under scarcity", "Governments control businesses", "Banks manage deposits"],
+      correctAnswer: 1,
+      explanation: "Economics is a social science that studies how individuals, businesses, and governments allocate limited resources to satisfy unlimited wants."
     },
     {
       id: 'ec2',
-      question: "In economics, what does 'Opportunity Cost' represent?",
-      options: ["The value of the next best alternative foregone", "The monetary cost of a good", "The total cost of production", "The profit lost by a firm"],
+      question: "The fundamental economic problem facing all societies is",
+      options: ["Scarcity", "Unemployment", "Inflation", "Poverty"],
       correctAnswer: 0,
-      explanation: "Every choice involves a trade-off; the opportunity cost is what you give up to get something else."
+      explanation: "Scarcity is the basic economic problem where resources are limited but human wants are unlimited, necessitating choices."
     },
     {
       id: 'ec3',
-      question: "Which of the following is a characteristic of a perfectly competitive market?",
-      options: ["Many buyers and sellers", "A single seller", "Product differentiation", "Barriers to entry"],
-      correctAnswer: 0,
-      explanation: "In perfect competition, no single firm has the power to influence market prices."
+      question: "Opportunity cost refers to",
+      options: ["The monetary cost of a good", "The value of the next best alternative foregone", "The total cost of production", "The price of labor"],
+      correctAnswer: 1,
+      explanation: "Opportunity cost is the benefit or value of the second-best option that is sacrificed when a choice is made."
     },
     {
       id: 'ec4',
-      question: "What is the 'Law of Demand'?",
-      options: ["Price and quantity demanded are inversely related", "Price and quantity demanded are directly related", "Supply creates its own demand", "Demand is always equal to supply"],
-      correctAnswer: 0,
-      explanation: "As the price of a good falls, the quantity demanded typically increases, ceteris paribus."
+      question: "A shift in the demand curve for a product can be caused by a change in",
+      options: ["The price of the product itself", "The cost of production", "Technology", "Consumer income"],
+      correctAnswer: 3,
+      explanation: "A change in the price of the product causes movement along the curve, while factors like income, tastes, and prices of related goods cause the entire curve to shift."
     },
     {
       id: 'ec5',
-      question: "What does GDP (Gross Domestic Product) measure?",
-      options: ["The total market value of all final goods and services produced within a country in a year", "The total wealth of all citizens", "The total exports of a country", "The total amount of money in circulation"],
+      question: "The law of supply states that, other things being equal",
+      options: ["Price and quantity supplied are directly related", "Price and quantity supplied are inversely related", "Supply creates its own demand", "Demand is always equal to supply"],
       correctAnswer: 0,
-      explanation: "GDP is a standard measure of a country's economic activity and performance."
+      explanation: "As the price of a good increases, producers are willing to offer more of that good for sale, assuming other factors remain constant."
     },
     {
       id: 'ec6',
-      question: "Which type of inflation occurs when the total demand for goods exceeds the total supply?",
-      options: ["Demand-pull inflation", "Cost-push inflation", "Hyperinflation", "Stagflation"],
-      correctAnswer: 0,
-      explanation: "Demand-pull inflation happens when 'too much money is chasing too few goods'."
+      question: "Market equilibrium price is reached when",
+      options: ["Demand exceeds supply", "Supply exceeds demand", "Quantity demanded equals quantity supplied", "The government sets the price"],
+      correctAnswer: 2,
+      explanation: "Equilibrium occurs at the price point where the amount consumers want to buy exactly matches the amount producers want to sell."
     },
     {
       id: 'ec7',
-      question: "What is the primary function of a Central Bank?",
-      options: ["Managing monetary policy and the currency", "Providing loans to individuals", "Collecting taxes", "Setting prices for goods"],
-      correctAnswer: 0,
-      explanation: "Central banks (like the CBN) control the money supply and interest rates to achieve economic stability."
+      question: "A price ceiling set below the equilibrium price usually leads to",
+      options: ["A surplus of goods", "A shortage of goods", "Higher prices for consumers", "Increased production"],
+      correctAnswer: 1,
+      explanation: "A price ceiling is a maximum legal price. If set below equilibrium, it increases demand but decreases supply, resulting in a shortage."
     },
     {
       id: 'ec8',
-      question: "In the context of international trade, what is a 'Tariff'?",
-      options: ["A tax on imported goods", "A limit on the quantity of imports", "A government subsidy for exports", "A ban on trade with a country"],
+      question: "Price elasticity of demand measures the",
+      options: ["Responsiveness of quantity demanded to a change in price", "Change in supply when demand increases", "Total revenue earned by a firm", "Shift in the demand curve"],
       correctAnswer: 0,
-      explanation: "Tariffs are used to protect domestic industries and generate government revenue."
+      explanation: "Elasticity quantifies how much consumers adjust their buying habits when the price of a good changes."
     },
     {
       id: 'ec9',
-      question: "What is 'Elasticity of Demand'?",
-      options: ["The responsiveness of quantity demanded to a change in price", "The change in supply when demand increases", "The total revenue earned by a firm", "The shift in the demand curve"],
-      correctAnswer: 0,
-      explanation: "If demand is elastic, a small change in price leads to a large change in quantity demanded."
+      question: "In a perfectly competitive market, there are",
+      options: ["Only one seller", "A few large sellers", "Two dominant sellers", "Many buyers and many sellers"],
+      correctAnswer: 3,
+      explanation: "Perfect competition is characterized by a large number of small firms, homogeneous products, and no barriers to entry or exit."
     },
     {
       id: 'ec10',
-      question: "What are the four factors of production?",
-      options: ["Land, Labor, Capital, and Entrepreneurship", "Money, Machines, Men, and Materials", "Rent, Wages, Interest, and Profit", "Government, Business, Households, and Foreigners"],
+      question: "A monopoly is characterized by",
+      options: ["A single seller of a product with no close substitutes", "Many firms selling differentiated products", "A few large firms dominating the market", "Government ownership of all industries"],
       correctAnswer: 0,
-      explanation: "These are the essential resources needed to produce goods and services."
+      explanation: "A monopolist is the sole producer in the market and has significant power to set prices."
     },
     {
       id: 'ec11',
-      question: "What does a 'Budget Deficit' occur?",
-      options: ["When government spending exceeds government revenue", "When exports exceed imports", "When the money supply decreases", "When unemployment is high"],
-      correctAnswer: 0,
-      explanation: "A deficit must usually be financed through borrowing, which increases national debt."
+      question: "GDP (Gross Domestic Product) is defined as the",
+      options: ["Total wealth of all citizens in a country", "Total market value of all final goods and services produced within a country in a year", "Total amount of money in circulation", "Total value of exports minus imports"],
+      correctAnswer: 1,
+      explanation: "GDP is the standard measure of the value of all economic activity occurring within a nation's borders."
     },
     {
       id: 'ec12',
-      question: "Which economic system is characterized by private ownership and market-determined prices?",
-      options: ["Capitalism", "Socialism", "Communism", "Traditional economy"],
-      correctAnswer: 0,
-      explanation: "Capitalism (or a free market economy) relies on the 'invisible hand' of the market."
+      question: "Inflation is defined as",
+      options: ["A one-time increase in the price of a single good", "A decrease in the general price level", "A sustained increase in the general price level of goods and services", "A decrease in the money supply"],
+      correctAnswer: 2,
+      explanation: "Inflation reduces the purchasing power of money over time as prices rise across the economy."
     },
     {
       id: 'ec13',
-      question: "What is 'Monopoly'?",
-      options: ["A market structure with only one seller", "A market with two sellers", "A market with many small sellers", "A market where the government sets all prices"],
+      question: "The primary function of money in an economy is to serve as a",
+      options: ["Medium of exchange", "Source of wealth", "Government tool for taxation", "Method of saving for the future"],
       correctAnswer: 0,
-      explanation: "Monopolies can lead to higher prices and lower output due to a lack of competition."
+      explanation: "Money facilitates trade by providing a universally accepted item that can be exchanged for goods and services."
     },
     {
       id: 'ec14',
-      question: "What is the 'Multiplier Effect' in macroeconomics?",
-      options: ["The proportional increase in final income that results from an injection of spending", "The increase in population over time", "The effect of inflation on savings", "The growth of a company's stock price"],
-      correctAnswer: 0,
-      explanation: "An initial increase in spending (e.g., government investment) leads to a larger overall increase in national income."
+      question: "Monetary policy in most countries is controlled by the",
+      options: ["Ministry of Finance", "Central Bank", "Commercial Banks", "Legislative body"],
+      correctAnswer: 1,
+      explanation: "The Central Bank (e.g., the CBN in Nigeria) manages the money supply and interest rates to achieve economic stability."
     },
     {
       id: 'ec15',
-      question: "What is 'Balance of Trade'?",
-      options: ["The difference between the value of a country's exports and imports", "The total amount of gold held by a country", "The exchange rate between two currencies", "The total debt owed to foreign countries"],
-      correctAnswer: 0,
-      explanation: "A positive balance is a trade surplus; a negative balance is a trade deficit."
+      question: "Fiscal policy involves the use of",
+      options: ["Interest rates and money supply", "Exchange rates and tariffs", "Government spending and taxation", "Bank regulations and reserve requirements"],
+      correctAnswer: 2,
+      explanation: "Fiscal policy is the use of the government budget to influence the economy's level of aggregate demand."
     },
     {
       id: 'ec16',
-      question: "Which of the following is an example of a 'Public Good'?",
-      options: ["National defense", "A private car", "A loaf of bread", "A movie ticket"],
+      question: "A budget deficit occurs when",
+      options: ["Government spending exceeds government revenue", "Exports exceed imports", "Tax revenue exceeds government spending", "The money supply decreases"],
       correctAnswer: 0,
-      explanation: "Public goods are non-excludable and non-rivalrous in consumption."
+      explanation: "A deficit must be financed through borrowing, which contributes to the national debt."
     },
     {
       id: 'ec17',
-      question: "What is 'Fiscal Policy'?",
-      options: ["The use of government spending and taxation to influence the economy", "The control of the money supply by the central bank", "The regulation of the stock market", "The management of international trade treaties"],
-      correctAnswer: 0,
-      explanation: "Fiscal policy is determined by the executive and legislative branches of government."
+      question: "Comparative advantage is the basis for",
+      options: ["Domestic trade only", "Setting high tariffs", "Restricting imports", "Mutually beneficial international trade"],
+      correctAnswer: 3,
+      explanation: "Countries benefit by specializing in producing goods where they have a lower opportunity cost and trading for others."
     },
     {
       id: 'ec18',
-      question: "What does the 'Law of Diminishing Marginal Utility' state?",
-      options: ["As a person consumes more of a good, the additional satisfaction from each new unit decreases", "As production increases, costs decrease", "Prices always return to their equilibrium level", "Wealth tends to concentrate in the hands of a few"],
-      correctAnswer: 0,
-      explanation: "This principle explains why demand curves are generally downward-sloping."
+      question: "A tariff is a",
+      options: ["Limit on the quantity of imports", "Tax on imported goods", "Government subsidy for exports", "Ban on trade with a country"],
+      correctAnswer: 1,
+      explanation: "Tariffs are used to protect domestic industries from foreign competition and generate revenue for the government."
     },
     {
       id: 'ec19',
-      question: "What is 'Stagflation'?",
-      options: ["A combination of stagnant economic growth and high inflation", "High economic growth with low inflation", "Deflation during a recession", "A sudden crash in the stock market"],
+      question: "The balance of payments is a record of",
+      options: ["All economic transactions between a country and the rest of the world", "Only the exports and imports of a country", "The total debt of the government", "The gold reserves held by the central bank"],
       correctAnswer: 0,
-      explanation: "Stagflation is difficult for policymakers to manage because the tools to fight inflation can worsen unemployment."
+      explanation: "It includes the current account (trade in goods/services) and the capital/financial account."
     },
     {
       id: 'ec20',
-      question: "What is the main goal of a 'Subsidy'?",
-      options: ["To lower the cost of production and encourage the supply of a good", "To discourage the consumption of a harmful good", "To increase government tax revenue", "To limit the amount of imports"],
-      correctAnswer: 0,
-      explanation: "Subsidies are often given to farmers or essential industries to keep prices low for consumers."
+      question: "Economic development differs from economic growth because it includes",
+      options: ["Only an increase in GDP", "An increase in population", "Qualitative improvements in the standard of living and social welfare", "A decrease in the unemployment rate only"],
+      correctAnswer: 2,
+      explanation: "Growth is a quantitative increase in output, while development encompasses broader improvements in health, education, and equality."
     },
     {
       id: 'ec21',
-      question: "What is 'Structural Unemployment'?",
-      options: ["Unemployment caused by a mismatch between workers' skills and the requirements of available jobs", "Unemployment during a temporary economic downturn", "Unemployment when people are moving between jobs", "Unemployment during specific seasons of the year"],
-      correctAnswer: 0,
-      explanation: "Structural unemployment often results from technological changes or shifts in the economy."
+      question: "The main source of government revenue in Nigeria is",
+      options: ["Agriculture", "Petroleum (Crude Oil)", "Manufacturing", "Tourism"],
+      correctAnswer: 1,
+      explanation: "Nigeria's economy relies heavily on the export of crude oil for foreign exchange and government funding."
     },
     {
       id: 'ec22',
-      question: "What does the 'Production Possibility Frontier' (PPF) represent?",
-      options: ["The maximum possible combinations of two goods an economy can produce", "The total amount of wealth in an economy", "The demand for goods at different price levels", "The rate of inflation over time"],
+      question: "Scarcity means that",
+      options: ["Resources are limited relative to unlimited human wants", "There is a temporary shortage of a good", "Poverty has been eliminated", "Everyone has what they need"],
       correctAnswer: 0,
-      explanation: "Points on the PPF curve represent efficient use of resources."
+      explanation: "Scarcity is the universal economic condition that forces individuals and societies to make choices."
     },
     {
       id: 'ec23',
-      question: "What is 'Appreciation' of a currency?",
-      options: ["An increase in the value of a currency relative to another", "A decrease in the value of a currency", "The total amount of currency in circulation", "The interest rate set by the central bank"],
-      correctAnswer: 0,
-      explanation: "Appreciation makes imports cheaper but exports more expensive for foreign buyers."
+      question: "Labor, as a factor of production, earns",
+      options: ["Rent", "Interest", "Profit", "Wages"],
+      correctAnswer: 3,
+      explanation: "Wages (or salaries) are the payment made to workers for their physical or mental contribution to production."
     },
     {
       id: 'ec24',
-      question: "What is 'Comparative Advantage'?",
-      options: ["The ability of a country to produce a good at a lower opportunity cost than another country", "The ability to produce more of a good than any other country", "Having more natural resources than other countries", "Having a larger population and workforce"],
-      correctAnswer: 0,
-      explanation: "Comparative advantage is the basis for mutually beneficial international trade."
+      question: "In economics, 'Capital' refers to",
+      options: ["The money in a person's bank account", "Natural resources like land and water", "Man-made tools, machinery, and buildings used in production", "The skill and knowledge of workers"],
+      correctAnswer: 2,
+      explanation: "Capital is the produced means of production used to create other goods and services."
     },
     {
       id: 'ec25',
-      question: "What is 'Microeconomics'?",
-      options: ["The study of individual consumers and firms", "The study of the economy as a whole", "The study of international trade", "The study of government banking"],
-      correctAnswer: 0,
-      explanation: "Microeconomics focuses on decision-making at the individual and small-group level."
+      question: "An entrepreneur is a person who",
+      options: ["Works for a fixed wage", "Takes risks and coordinates the other factors of production", "Lends money to businesses", "Regulates the market for the government"],
+      correctAnswer: 1,
+      explanation: "Entrepreneurs organize land, labor, and capital, taking the risk of loss in pursuit of profit."
     },
     {
       id: 'ec26',
-      question: "What is 'Market Equilibrium'?",
-      options: ["The point where quantity demanded equals quantity supplied", "The point where prices are highest", "The point where the government intervenes", "The point where there is a surplus of goods"],
+      question: "The law of diminishing marginal utility states that",
+      options: ["Satisfaction from each additional unit of a good decreases as more is consumed", "Total utility decreases as consumption increases", "Prices always fall as supply increases", "Wealth is distributed unequally"],
       correctAnswer: 0,
-      explanation: "At equilibrium, there is no pressure for the price to change."
+      explanation: "This explains why consumers are willing to pay less for additional units of a good."
     },
     {
       id: 'ec27',
-      question: "What is a 'Progressive Tax'?",
-      options: ["A tax where the rate increases as income increases", "A tax where everyone pays the same amount", "A tax on luxury goods only", "A tax that is used only for environmental projects"],
-      correctAnswer: 0,
-      explanation: "Progressive taxes (like most income taxes) are designed to reduce income inequality."
+      question: "A 'Normal Good' is one for which demand",
+      options: ["Decreases as income increases", "Stays the same regardless of income", "Increases as the price of a substitute increases", "Increases as consumer income increases"],
+      correctAnswer: 3,
+      explanation: "For normal goods, there is a direct relationship between income and demand."
     },
     {
       id: 'ec28',
-      question: "What is 'Deflation'?",
-      options: ["A sustained decrease in the general price level of goods and services", "A decrease in the rate of inflation", "A decrease in the value of the stock market", "A decrease in government spending"],
-      correctAnswer: 0,
-      explanation: "While it sounds good for consumers, deflation can lead to lower spending and economic recession."
+      question: "An 'Inferior Good' is one for which demand",
+      options: ["Increases as income increases", "Decreases as consumer income increases", "Increases as the price falls", "Is always zero"],
+      correctAnswer: 1,
+      explanation: "As people get richer, they tend to replace inferior goods (like low-quality food) with better alternatives."
     },
     {
       id: 'ec29',
-      question: "What is 'Human Capital'?",
-      options: ["The skills, knowledge, and experience possessed by an individual", "The total number of workers in a country", "The machines and tools used by workers", "The amount of money workers have in savings"],
-      correctAnswer: 0,
-      explanation: "Investing in education and training increases human capital and productivity."
+      question: "Fixed costs are costs that",
+      options: ["Change with the level of output", "Are always zero in the long run", "Do not change with the level of output in the short run", "Are paid only by large corporations"],
+      correctAnswer: 2,
+      explanation: "Examples of fixed costs include rent and salaries of permanent staff, which must be paid even if output is zero."
     },
     {
       id: 'ec30',
-      question: "What is 'Laissez-faire'?",
-      options: ["An economic policy of minimal government intervention", "A policy of high government control", "A type of international trade agreement", "A method of calculating GDP"],
+      question: "Variable costs are costs that",
+      options: ["Change directly with the level of output produced", "Remain constant regardless of production", "Are only for raw materials", "Are set by the government"],
       correctAnswer: 0,
-      explanation: "The term is French for 'let it be' or 'allow to do'."
+      explanation: "Variable costs, such as electricity and raw materials, increase as the volume of production increases."
     },
     {
       id: 'ec31',
-      question: "What is a 'Regressive Tax'?",
-      options: ["A tax that takes a larger percentage of income from low-income earners than from high-income earners", "A tax that decreases over time", "A tax on outdated technology", "A tax that is no longer in use"],
-      correctAnswer: 0,
-      explanation: "Sales taxes are often considered regressive because poor people spend a larger portion of their income on taxable goods."
+      question: "Marginal cost is defined as the",
+      options: ["Total cost of production divided by total output", "Cost of the most expensive factor of production", "Average cost of all units produced", "Additional cost incurred by producing one more unit of output"],
+      correctAnswer: 3,
+      explanation: "Marginal cost is critical for firms in determining the optimal level of production."
     },
     {
       id: 'ec32',
-      question: "What is 'Capital Formation'?",
-      options: ["The process of increasing the stock of real capital in an economy", "The process of starting a new business", "The printing of new money by the central bank", "The accumulation of gold reserves"],
-      correctAnswer: 0,
-      explanation: "Capital formation involves investment in infrastructure, machinery, and equipment."
+      question: "The World Bank is primarily concerned with providing",
+      options: ["Short-term loans for balance of payments support", "Long-term loans for development projects in member countries", "Currency exchange services for travelers", "Regulation for commercial banks worldwide"],
+      correctAnswer: 1,
+      explanation: "The World Bank focuses on poverty reduction and sustainable economic development through infrastructure and education projects."
     },
     {
       id: 'ec33',
-      question: "What is 'Elastic Supply'?",
-      options: ["When quantity supplied changes significantly in response to a small change in price", "When supply cannot be changed regardless of price", "When the government sets the supply level", "When supply is only for the domestic market"],
+      question: "The International Monetary Fund (IMF) is primarily concerned with",
+      options: ["Maintaining international monetary stability and providing short-term financial assistance", "Building roads and bridges in developing nations", "Protecting the environment", "Managing global trade disputes"],
       correctAnswer: 0,
-      explanation: "Goods that are easy to produce or store tend to have more elastic supply."
+      explanation: "The IMF monitors the global economy and helps countries facing balance of payments crises."
     },
     {
       id: 'ec34',
-      question: "What is 'National Income'?",
-      options: ["The total value of all income earned by the residents of a country", "The total tax revenue of the government", "The total value of exports", "The amount of money held in the central bank"],
-      correctAnswer: 0,
-      explanation: "National income is closely related to GDP but accounts for depreciation and foreign income."
+      question: "ECOWAS stands for",
+      options: ["Economic Commission of West African States", "European Committee of West African States", "Economic Community of West African States", "Eastern Community of West African States"],
+      correctAnswer: 2,
+      explanation: "ECOWAS is a regional political and economic union of fifteen countries located in West Africa."
     },
     {
       id: 'ec35',
-      question: "What is a 'Price Ceiling'?",
-      options: ["A maximum legal price set by the government", "A minimum legal price", "The highest price reached in a stock market", "The price of goods in the luxury sector"],
-      correctAnswer: 0,
-      explanation: "Price ceilings are often used for essential goods but can lead to shortages."
+      question: "In economic theory, the main objective of a private firm is",
+      options: ["To provide employment", "To help the government", "To produce as much as possible", "To maximize profit"],
+      correctAnswer: 3,
+      explanation: "Firms aim to achieve the largest possible difference between their total revenue and total costs."
     },
     {
       id: 'ec36',
-      question: "What is 'Direct Tax'?",
-      options: ["A tax paid directly by the person or organization on whom it is levied", "A tax on goods and services", "A tax that is automatically included in the price", "A tax paid by the seller only"],
-      correctAnswer: 0,
-      explanation: "Income tax and corporate tax are examples of direct taxes."
+      question: "Utility is defined in economics as",
+      options: ["The price of a good", "The satisfaction or usefulness derived from consuming a good", "The cost of producing a good", "The amount of a good available in the market"],
+      correctAnswer: 1,
+      explanation: "Utility is a subjective measure of the pleasure or benefit a consumer gets from a product."
     },
     {
       id: 'ec37',
-      question: "What is 'Consumer Sovereignty'?",
-      options: ["The idea that consumers determine what is produced through their spending choices", "The power of the government to control consumption", "The dominance of a few large companies in a market", "The protection of consumer rights by law"],
+      question: "Division of labor typically leads to",
+      options: ["Specialization and increased productivity", "Higher costs of production", "Less efficiency in the workplace", "Decreased output"],
       correctAnswer: 0,
-      explanation: "In a market economy, businesses must produce what consumers want to stay profitable."
+      explanation: "By breaking down a task into smaller parts, workers become more skilled and efficient at their specific roles."
     },
     {
       id: 'ec38',
-      question: "What is 'Devaluation'?",
-      options: ["A deliberate downward adjustment of a country's currency value relative to another", "A natural drop in the value of a currency", "The loss of value of physical assets over time", "A decrease in the quality of goods produced"],
-      correctAnswer: 0,
-      explanation: "Devaluation is often used by governments to make exports more competitive."
+      question: "Localization of industry refers to the",
+      options: ["Sale of goods in the local market only", "Ownership of industries by local citizens", "Concentration of many industries of the same type in a particular area", "Government control of local businesses"],
+      correctAnswer: 2,
+      explanation: "Localization (or industrial clustering) provides benefits like shared infrastructure and a specialized labor pool."
     },
     {
       id: 'ec39',
-      question: "What is 'Liquidity'?",
-      options: ["The ease with which an asset can be converted into cash", "The total amount of water resources in an economy", "The flow of money between countries", "The profitability of a company"],
-      correctAnswer: 0,
-      explanation: "Cash is the most liquid asset; real estate is relatively illiquid."
+      question: "National Income is defined as",
+      options: ["Government revenue", "Total income earned by factors of production", "Total population income", "Bank deposits"],
+      correctAnswer: 1,
+      explanation: "National income is the sum of all wages, rents, interest, and profits earned by a country's residents for their contribution to production."
     },
     {
       id: 'ec40',
-      question: "What is 'Economic Growth'?",
-      options: ["An increase in the production of goods and services over time", "An increase in the population", "A decrease in the national debt", "An increase in the number of banks"],
-      correctAnswer: 0,
-      explanation: "Economic growth is usually measured as the percentage rate of increase in real GDP."
+      question: "Economic growth refers to",
+      options: ["Increase in population", "Increase in national output", "Increase in taxes", "Increase in imports"],
+      correctAnswer: 1,
+      explanation: "Economic growth is a long-term increase in the capacity of an economy to produce goods and services, often measured as an increase in real GDP."
     }
   ],
   government: [
     {
-      id: 'g1',
-      question: "What is 'Sovereignty' in political science?",
-      options: ["The supreme authority of a state over its own territory and people", "The power of a king", "The ability to win a war", "The right to vote in elections"],
-      correctAnswer: 0,
-      explanation: "Sovereignty means a state is independent and has the final say in its internal and external affairs."
+      id: 'gov1',
+      question: "Government is the system by which a state is",
+      options: ["Controlled", "Ruled", "Managed", "All of the above"],
+      correctAnswer: 3,
+      explanation: "Government is the agency or machinery through which the will of the state is formulated, expressed, and realized. It involves ruling, controlling, and managing the affairs of the state."
     },
     {
-      id: 'g2',
-      question: "Which arm of government is responsible for making laws?",
-      options: ["Legislature", "Executive", "Judiciary", "Bureaucracy"],
+      id: 'gov2',
+      question: "The highest law of a country is the",
+      options: ["Constitution", "Act", "Bill", "Law"],
       correctAnswer: 0,
-      explanation: "In Nigeria, the National Assembly (Senate and House of Representatives) performs this function."
+      explanation: "A constitution is the supreme law of a land. Any other law that is inconsistent with the provisions of the constitution is null and void to the extent of its inconsistency."
     },
     {
-      id: 'g3',
-      question: "What is the primary function of the Judiciary?",
-      options: ["Interpreting the law and settling disputes", "Enforcing laws", "Creating new laws", "Appointing the President"],
-      correctAnswer: 0,
-      explanation: "The Judiciary ensures that the actions of the other arms of government are constitutional."
+      id: 'gov3',
+      question: "Democracy means government of the",
+      options: ["Rich", "Elite", "People", "Soldiers"],
+      correctAnswer: 2,
+      explanation: "Derived from the Greek words 'demos' (people) and 'kratos' (rule), democracy is famously defined as the government of the people, by the people, and for the people."
     },
     {
-      id: 'g4',
-      question: "What is 'Rule of Law'?",
-      options: ["The principle that everyone, including the government, is subject to the law", "The power of the police to enforce rules", "The list of laws in the constitution", "The absolute power of the leader"],
-      correctAnswer: 0,
-      explanation: "Rule of Law prevents arbitrary exercise of power and ensures equality before the law."
+      id: 'gov4',
+      question: "The arm of government responsible for law making is",
+      options: ["Executive", "Judiciary", "Legislature", "Cabinet"],
+      correctAnswer: 2,
+      explanation: "The legislature is the branch of government empowered to make, amend, and repeal laws. In Nigeria, this is the National Assembly."
     },
     {
-      id: 'g5',
-      question: "Which system of government divides power between a central authority and constituent units (states)?",
-      options: ["Federalism", "Unitary system", "Confederation", "Monarchy"],
-      correctAnswer: 0,
-      explanation: "Nigeria and the USA are examples of federal systems."
+      id: 'gov5',
+      question: "The arm of government responsible for executing laws is",
+      options: ["Legislature", "Executive", "Judiciary", "Senate"],
+      correctAnswer: 1,
+      explanation: "The executive branch is responsible for implementing and enforcing the laws made by the legislature and interpreted by the judiciary."
     },
     {
-      id: 'g6',
-      question: "What is a 'Constitution'?",
-      options: ["A body of fundamental principles according to which a state is governed", "A book of history", "A speech made by the President", "A list of all citizens in a country"],
+      id: 'gov6',
+      question: "The arm of government that interprets laws is",
+      options: ["Judiciary", "Legislature", "Executive", "Cabinet"],
       correctAnswer: 0,
-      explanation: "The constitution is the supreme law of the land and outlines the structure of government."
+      explanation: "The judiciary is the system of courts that interprets and applies the law in the name of the state. It also provides a mechanism for the resolution of disputes."
     },
     {
-      id: 'g7',
-      question: "What is 'Separation of Powers'?",
-      options: ["The division of government responsibilities into distinct branches to prevent any one branch from becoming too powerful", "The division of a country into different states", "The difference between political parties", "The process of removing a leader from office"],
-      correctAnswer: 0,
-      explanation: "This concept was famously promoted by the philosopher Montesquieu."
+      id: 'gov7',
+      question: "A system of government where power is shared between central and regional governments is",
+      options: ["Unitary system", "Federal system", "Monarchy", "Oligarchy"],
+      correctAnswer: 1,
+      explanation: "Federalism is a system of government in which power is constitutionally divided between a central governing authority and constituent political units (like states or provinces)."
     },
     {
-      id: 'g8',
-      question: "What is 'Universal Adult Suffrage'?",
-      options: ["The right of all adult citizens to vote", "The right to free education", "The right to travel anywhere", "The right to join a political party"],
-      correctAnswer: 0,
-      explanation: "It is a core principle of modern democracy."
+      id: 'gov8',
+      question: "A country ruled by a king or queen is called",
+      options: ["Republic", "Monarchy", "Democracy", "Federation"],
+      correctAnswer: 1,
+      explanation: "A monarchy is a form of government in which a person, the monarch, is head of state for life or until abdication."
     },
     {
-      id: 'g9',
-      question: "In a Parliamentary system, who is the Head of Government?",
-      options: ["Prime Minister", "President", "Monarch", "Speaker of the House"],
+      id: 'gov9',
+      question: "The Nigerian legislature is called the",
+      options: ["National Assembly", "Senate", "House of Lords", "Parliament"],
       correctAnswer: 0,
-      explanation: "The Prime Minister is usually the leader of the majority party in parliament."
+      explanation: "The National Assembly of the Federal Republic of Nigeria is a bicameral legislature established under section 4 of the Nigerian Constitution."
     },
     {
-      id: 'g10',
-      question: "What is the 'Bill of Rights'?",
-      options: ["A list of fundamental rights and freedoms guaranteed to citizens", "A document showing how much the government owes", "A law about paying taxes", "A plan for new infrastructure"],
-      correctAnswer: 0,
-      explanation: "The Bill of Rights protects individuals from government overreach."
+      id: 'gov10',
+      question: "The Nigerian constitution currently in use was adopted in",
+      options: ["1979", "1989", "1999", "1963"],
+      correctAnswer: 2,
+      explanation: "The 1999 Constitution of Nigeria is the supreme law of the Federal Republic of Nigeria, which ushered in the Fourth Republic."
     },
     {
-      id: 'g11',
-      question: "What is 'Delegated Legislation'?",
-      options: ["Laws made by bodies other than the legislature under the authority of an Act of Parliament", "Laws made by the President alone", "Laws that are no longer in use", "Laws passed by the UN"],
-      correctAnswer: 0,
-      explanation: "This is often necessary to handle technical or local details that the main legislature cannot address."
+      id: 'gov11',
+      question: "The head of state in Nigeria is the",
+      options: ["Prime Minister", "President", "Governor", "Speaker"],
+      correctAnswer: 1,
+      explanation: "Under the presidential system, the President of Nigeria serves as both the head of state and the head of government."
     },
     {
-      id: 'g12',
-      question: "What is 'Gerrymandering'?",
-      options: ["Manipulating the boundaries of an electoral constituency to favor one party", "The process of counting votes", "A type of political debate", "The appointment of judges"],
-      correctAnswer: 0,
-      explanation: "Gerrymandering can undermine the fairness of democratic elections."
+      id: 'gov12',
+      question: "The lower house of the National Assembly is the",
+      options: ["Senate", "House of Representatives", "Parliament", "Council"],
+      correctAnswer: 1,
+      explanation: "The House of Representatives is the lower house of Nigeria's bicameral National Assembly, consisting of 360 members."
     },
     {
-      id: 'g13',
-      question: "What is 'Public Opinion'?",
-      options: ["The collective views of the people on a particular issue or candidate", "The opinion of the President", "The laws passed by the government", "The news reported by journalists"],
+      id: 'gov13',
+      question: "The upper house of the National Assembly is the",
+      options: ["Senate", "House of Representatives", "Council", "Assembly"],
       correctAnswer: 0,
-      explanation: "Public opinion is often measured through polls and surveys."
+      explanation: "The Senate is the upper house of Nigeria's bicameral National Assembly, consisting of 109 senators (3 from each state and 1 from the FCT)."
     },
     {
-      id: 'g14',
-      question: "What is a 'Pressure Group'?",
-      options: ["An organized group that seeks to influence government policy without seeking to control government", "A political party", "The military", "A group of foreign diplomats"],
+      id: 'gov14',
+      question: "Voting in elections is known as",
+      options: ["Franchise", "Election", "Nomination", "Campaign"],
       correctAnswer: 0,
-      explanation: "Examples include labor unions and environmental organizations."
+      explanation: "Franchise (or suffrage) is the right to vote in public, political elections."
     },
     {
-      id: 'g15',
-      question: "What is 'Bureaucracy'?",
-      options: ["A system of government administration characterized by specialized functions and fixed rules", "Rule by the wealthy", "A government with no laws", "A system where everyone is a leader"],
-      correctAnswer: 0,
-      explanation: "Civil servants are the backbone of the government bureaucracy."
+      id: 'gov15',
+      question: "A system where citizens elect representatives is",
+      options: ["Direct democracy", "Indirect democracy", "Monarchy", "Oligarchy"],
+      correctAnswer: 1,
+      explanation: "Indirect democracy (or representative democracy) is a type of democracy where elected persons represent a group of people."
     },
     {
-      id: 'g16',
-      question: "What is 'Judicial Review'?",
-      options: ["The power of courts to declare laws or executive actions unconstitutional", "The process of appointing new judges", "A review of a judge's salary", "A summary of a court case"],
+      id: 'gov16',
+      question: "The rule of law means",
+      options: ["Law applies to everyone equally", "Only leaders obey law", "Military controls law", "Law applies to citizens only"],
       correctAnswer: 0,
-      explanation: "Judicial review is a key check on the power of the other branches."
+      explanation: "The rule of law is the political philosophy that all citizens and institutions within a country, state, or community are accountable to the same laws."
     },
     {
-      id: 'g17',
-      question: "What is 'Bicameralism'?",
-      options: ["A legislature consisting of two houses", "A government with two presidents", "A country with two official languages", "A political party with two leaders"],
-      correctAnswer: 0,
-      explanation: "Nigeria has a bicameral legislature: the Senate and the House of Representatives."
+      id: 'gov17',
+      question: "A political party is an organization that seeks to",
+      options: ["Win elections", "Control government", "Both A and B", "None"],
+      correctAnswer: 2,
+      explanation: "A political party is an organized group of people who have the same ideology and field candidates for elections, in an attempt to get them elected and thereby implement their agenda."
     },
     {
-      id: 'g18',
-      question: "What is 'Citizenship'?",
-      options: ["The status of being a member of a particular country with associated rights and duties", "The act of living in a city", "Having a passport", "Voting in an election"],
+      id: 'gov18',
+      question: "Nigeria operates a",
+      options: ["Federal system", "Unitary system", "Monarchy", "Confederal system"],
       correctAnswer: 0,
-      explanation: "Citizenship can be acquired by birth, descent, or naturalization."
+      explanation: "Nigeria is a federal republic, with power shared between the federal government and the 36 states."
     },
     {
-      id: 'g19',
-      question: "What is 'Imperialism'?",
-      options: ["The policy of extending a country's power and influence through colonization or military force", "A system of absolute monarchy", "The study of ancient empires", "A type of international trade"],
-      correctAnswer: 0,
-      explanation: "Colonialism is a specific form of imperialism."
+      id: 'gov19',
+      question: "Local government is mainly responsible for",
+      options: ["Foreign affairs", "Grassroots administration", "National defense", "Currency control"],
+      correctAnswer: 1,
+      explanation: "Local government is the third tier of government in Nigeria, designed to bring government closer to the people at the grassroots level."
     },
     {
-      id: 'g20',
-      question: "What is 'Decentralization'?",
-      options: ["The transfer of authority from central to local government", "The removal of the capital city", "A decrease in the number of government workers", "The breakup of a country into smaller nations"],
-      correctAnswer: 0,
-      explanation: "Decentralization aims to bring government closer to the people."
+      id: 'gov20',
+      question: "The process of removing a president from office is called",
+      options: ["Abdication", "Impeachment", "Recall", "Suspension"],
+      correctAnswer: 1,
+      explanation: "Impeachment is the process by which a legislative body levels charges against a high-ranking government official, such as a president, for misconduct."
     },
     {
-      id: 'g21',
-      question: "What is 'Legitimacy' in government?",
-      options: ["The popular acceptance of an authority or a governing law", "The legal right to rule", "Winning a war", "Having a large army"],
-      correctAnswer: 0,
-      explanation: "A government is legitimate when the people believe it has the right to rule."
+      id: 'gov21',
+      question: "Separation of powers was proposed by",
+      options: ["John Locke", "Montesquieu", "Karl Marx", "Rousseau"],
+      correctAnswer: 1,
+      explanation: "Baron de Montesquieu, a French philosopher, famously argued for the separation of government into legislative, executive, and judicial branches."
     },
     {
-      id: 'g22',
-      question: "What is a 'Unitary State'?",
-      options: ["A state governed as a single power in which the central government is supreme", "A state with only one political party", "A state that has no states or provinces", "A state that is part of a larger empire"],
-      correctAnswer: 0,
-      explanation: "The UK and France are examples of unitary states."
+      id: 'gov22',
+      question: "A government ruled by the military is",
+      options: ["Democracy", "Civil rule", "Military regime", "Monarchy"],
+      correctAnswer: 2,
+      explanation: "A military regime (or junta) is a form of government where the political power resides with the military."
     },
     {
-      id: 'g23',
-      question: "What is 'Franchise' in a political context?",
-      options: ["The right to vote in public elections", "A business owned by the government", "A type of political party", "A legal immunity given to diplomats"],
+      id: 'gov23',
+      question: "Citizenship means",
+      options: ["Being a member of a state", "Living in a state", "Working in a state", "Visiting a state"],
       correctAnswer: 0,
-      explanation: "Expanding the franchise is a key part of democratic history."
+      explanation: "Citizenship is the status of a person recognized under the custom or law as being a legal member of a sovereign state or belonging to a nation."
     },
     {
-      id: 'g24',
-      question: "What is the 'Civil Service'?",
-      options: ["The body of government officials who are employed in civil occupations that are neither political nor judicial", "The military", "The police force", "The group of people who volunteer for the community"],
-      correctAnswer: 0,
-      explanation: "Civil servants are expected to be neutral and permanent."
+      id: 'gov24',
+      question: "Pressure groups are formed to",
+      options: ["Contest elections", "Influence government policies", "Form government", "Rule the country"],
+      correctAnswer: 1,
+      explanation: "Unlike political parties, pressure groups do not seek to win elections but rather to influence government decisions and policies in favor of their interests."
     },
     {
-      id: 'g25',
-      question: "What is 'Communism'?",
-      options: ["A political theory advocating for a classless society where all property is publicly owned", "A system with a strong king", "A system where only one religion is allowed", "A system based on high taxes on the poor"],
-      correctAnswer: 0,
-      explanation: "Communism is based on the ideas of Karl Marx and Friedrich Engels."
+      id: 'gov25',
+      question: "An election conducted to fill a vacant seat is",
+      options: ["General election", "By-election", "Primary election", "Referendum"],
+      correctAnswer: 1,
+      explanation: "A by-election is an election held in a single political constituency to fill a vacancy that occurs during a government's term of office."
     },
     {
-      id: 'g26',
-      question: "What is 'Federal Character' in the Nigerian context?",
-      options: ["The principle of ensuring equitable representation of different ethnic and regional groups in government appointments", "The personality of the President", "The laws governing the states", "The style of the national anthem"],
+      id: 'gov26',
+      question: "The electoral body in Nigeria is",
+      options: ["INEC", "EFCC", "ICPC", "NNPC"],
       correctAnswer: 0,
-      explanation: "It is designed to promote national unity and prevent dominance by any single group."
+      explanation: "The Independent National Electoral Commission (INEC) is the body established to manage and conduct elections in Nigeria."
     },
     {
-      id: 'g27',
-      question: "What is an 'Ombudsman'?",
-      options: ["An official appointed to investigate individuals' complaints against maladministration by public authorities", "A judge in the supreme court", "A leader of a political party", "A foreign ambassador"],
-      correctAnswer: 0,
-      explanation: "In Nigeria, the Public Complaints Commission performs this role."
+      id: 'gov27',
+      question: "Universal adult suffrage means",
+      options: ["Only men vote", "Only women vote", "All adults vote", "Only elites vote"],
+      correctAnswer: 2,
+      explanation: "Universal adult suffrage gives the right to vote to all adult citizens, regardless of wealth, income, gender, social status, race, or ethnicity."
     },
     {
-      id: 'g28',
-      question: "What is 'Diplomacy'?",
-      options: ["The profession, activity, or skill of managing international relations", "The act of declaring war", "The process of counting votes in an embassy", "A type of secret code"],
+      id: 'gov28',
+      question: "The rule of the majority is a principle of",
+      options: ["Democracy", "Monarchy", "Military rule", "Oligarchy"],
       correctAnswer: 0,
-      explanation: "Diplomats represent their country's interests abroad through negotiation."
+      explanation: "Majority rule is a fundamental principle of democracy, though it is often balanced by the protection of minority rights."
     },
     {
-      id: 'g29',
-      question: "What is 'Totalitarianism'?",
-      options: ["A system of government that is centralized and dictatorial and requires complete subservience to the state", "A government where everyone has a total say", "A system with a lot of political parties", "A government that has total control over its borders only"],
+      id: 'gov29',
+      question: "A constitution that can easily be changed is called",
+      options: ["Flexible constitution", "Rigid constitution", "Written constitution", "Unwritten constitution"],
       correctAnswer: 0,
-      explanation: "Totalitarian states often use surveillance and propaganda to control all aspects of life."
+      explanation: "A flexible constitution is one that can be amended by the same process as ordinary laws, without requiring a special or complex procedure."
     },
     {
-      id: 'g30',
-      question: "What is 'Recall' in a democracy?",
-      options: ["A procedure by which voters can remove an elected official from office before their term ends", "A way for the President to cancel a law", "A memory test for politicians", "The process of repeating an election"],
-      correctAnswer: 0,
-      explanation: "Recall is a form of direct democracy."
+      id: 'gov30',
+      question: "Nigeria gained independence in",
+      options: ["1957", "1960", "1963", "1979"],
+      correctAnswer: 1,
+      explanation: "Nigeria gained its independence from British colonial rule on October 1, 1960."
     },
     {
-      id: 'g31',
-      question: "What is 'Fascism'?",
-      options: ["A far-right, authoritarian ultranationalist political ideology", "A system based on complete freedom for everyone", "A type of religious government", "A government run by scientists"],
-      correctAnswer: 0,
-      explanation: "Fascism is characterized by dictatorial power and forcible suppression of opposition."
+      id: 'gov31',
+      question: "Nigeria became a republic in",
+      options: ["1960", "1963", "1979", "1999"],
+      correctAnswer: 1,
+      explanation: "Nigeria became a republic on October 1, 1963, severing its last remaining constitutional ties with the British monarchy."
     },
     {
-      id: 'g32',
-      question: "What is the 'Executive Council'?",
-      options: ["The group of ministers or commissioners who advise the head of government", "The highest court in the land", "The body that makes laws", "A group of retired generals"],
-      correctAnswer: 0,
-      explanation: "In Nigeria, this is often called the 'Cabinet'."
+      id: 'gov32',
+      question: "The first military coup in Nigeria occurred in",
+      options: ["1963", "1966", "1975", "1983"],
+      correctAnswer: 1,
+      explanation: "The first military coup in Nigeria took place on January 15, 1966, led by Major Chukwuma Kaduna Nzeogwu."
     },
     {
-      id: 'g33',
-      question: "What is 'Nationalism'?",
-      options: ["Identification with one's own nation and support for its interests", "The act of joining the army", "The process of becoming a citizen", "A type of international sport"],
-      correctAnswer: 0,
-      explanation: "Nationalism can be a powerful force for unity or conflict."
+      id: 'gov33',
+      question: "The head of government in a parliamentary system is",
+      options: ["President", "Prime Minister", "Governor", "Speaker"],
+      correctAnswer: 1,
+      explanation: "In a parliamentary system, the Prime Minister is the head of government, while the head of state is often a ceremonial figure (like a monarch or president)."
     },
     {
-      id: 'g34',
-      question: "What is 'Rule by Decree'?",
-      options: ["A style of governance where the executive issues laws without the consent of the legislature", "Rule by a religious leader", "Rule by the majority of people", "Rule by a panel of judges"],
-      correctAnswer: 0,
-      explanation: "This is common in military regimes."
+      id: 'gov34',
+      question: "A state with only one central government is",
+      options: ["Federal", "Unitary", "Confederation", "Republic"],
+      correctAnswer: 1,
+      explanation: "A unitary state is a state governed as a single power in which the central government is ultimately supreme."
     },
     {
-      id: 'g35',
-      question: "What is 'Human Rights'?",
-      options: ["Moral principles or norms that describe certain standards of human behavior and are protected as legal rights", "Rights that only humans have, not animals", "The right to own a business", "The right to live in a city"],
+      id: 'gov35',
+      question: "The legislative body of a state government is the",
+      options: ["State Assembly", "Senate", "Parliament", "Cabinet"],
       correctAnswer: 0,
-      explanation: "Human rights are inherent to all human beings, regardless of nationality or status."
+      explanation: "In Nigeria, each of the 36 states has a House of Assembly as its legislative body."
     },
     {
-      id: 'g36',
-      question: "What is a 'Political Party'?",
-      options: ["An organized group of people with at least roughly similar political aims and opinions", "A celebration after an election", "A group of people who want to overthrow the government", "A meeting of diplomats"],
-      correctAnswer: 0,
-      explanation: "Political parties seek to influence government by getting their members elected to office."
+      id: 'gov36',
+      question: "Political participation includes",
+      options: ["Voting", "Campaigning", "Joining parties", "All of the above"],
+      correctAnswer: 3,
+      explanation: "Political participation refers to the various ways in which citizens can engage in the political process, including voting, campaigning, and joining parties."
     },
     {
-      id: 'g37',
-      question: "What is 'Checks and Balances'?",
-      options: ["Counterbalancing influences by which an organization or system is regulated", "The process of counting the government's money", "A type of bank account for the state", "The list of people who are allowed to vote"],
-      correctAnswer: 0,
-      explanation: "This ensures that no single branch of government becomes too powerful."
+      id: 'gov37',
+      question: "The judiciary is headed by the",
+      options: ["President", "Chief Justice", "Governor", "Speaker"],
+      correctAnswer: 1,
+      explanation: "The Chief Justice of Nigeria is the head of the judicial branch of the government of Nigeria."
     },
     {
-      id: 'g38',
-      question: "What is 'Naturalization'?",
-      options: ["The legal act or process by which a non-citizen in a country may acquire citizenship", "The process of protecting the environment", "A return to a primitive way of life", "The study of nature"],
-      correctAnswer: 0,
-      explanation: "Each country has its own requirements for naturalization, such as residency and language skills."
+      id: 'gov38',
+      question: "A referendum is",
+      options: ["Election of leaders", "Direct vote by people on an issue", "Military takeover", "Political campaign"],
+      correctAnswer: 1,
+      explanation: "A referendum is a direct vote by the electorate on a particular proposal or issue."
     },
     {
-      id: 'g39',
-      question: "What is 'Non-Alignment'?",
-      options: ["A policy of not forming a formal alliance with any major power block", "A type of military formation", "The process of leaving a political party", "A disagreement between two countries"],
+      id: 'gov39',
+      question: "A constitution that is written in a single document is",
+      options: ["Written constitution", "Flexible constitution", "Unwritten constitution", "Customary constitution"],
       correctAnswer: 0,
-      explanation: "The Non-Aligned Movement was significant during the Cold War."
+      explanation: "A written constitution is a formal document defining the nature of the constitutional settlement and the rules that govern the political system."
     },
     {
-      id: 'g40',
-      question: "What is 'Good Governance'?",
-      options: ["Governance that is transparent, accountable, efficient, and responsive to the needs of the people", "A government that gives out free money", "A government that has been in power for a long time", "A government with a strong military"],
-      correctAnswer: 0,
-      explanation: "Good governance is essential for economic and social development."
+      id: 'gov40',
+      question: "Political sovereignty belongs to the",
+      options: ["President", "People", "Parliament", "Military"],
+      correctAnswer: 1,
+      explanation: "In a democracy, political sovereignty is widely believed to reside with the people, who delegate their authority to elected representatives."
     }
   ],
   lit: [
@@ -2984,359 +2679,284 @@ export const QUESTIONS = {
   ],
   crs: [
     {
-      id: 'cr1',
-      question: "Who was the first king of Israel?",
-      options: ["Saul", "David", "Solomon", "Samuel"],
-      correctAnswer: 0,
-      explanation: "Saul was anointed by Samuel as the first king of Israel."
+      id: 'crs1',
+      question: "God’s covenant with Abraham was sealed through the rite of",
+      options: ["Sacrifice", "Circumcision", "Baptism", "Fasting"],
+      correctAnswer: 1,
+      explanation: "Circumcision was the physical sign of the covenant between God and Abraham, symbolizing their special relationship and Abraham's descendants as God's chosen people (Genesis 17:9-14)."
     },
     {
-      id: 'cr2',
-      question: "Which Prophet was taken to heaven in a whirlwind?",
-      options: ["Elijah", "Elisha", "Isaiah", "Jeremiah"],
-      correctAnswer: 0,
-      explanation: "Elijah was a powerful prophet who did not see death but was taken up in a chariot of fire."
+      id: 'crs2',
+      question: "Abraham showed his obedience to God when he was asked to sacrifice",
+      options: ["Jacob", "Isaac", "Ishmael", "Joseph"],
+      correctAnswer: 1,
+      explanation: "God tested Abraham's faith by asking him to sacrifice his son Isaac on Mount Moriah. Abraham's willingness to obey demonstrated his profound trust in God (Genesis 22:1-19)."
     },
     {
-      id: 'cr3',
-      question: "What is the meaning of the name 'Immanuel'?",
-      options: ["God with us", "God is my savior", "Praise God", "God is holy"],
-      correctAnswer: 0,
-      explanation: "This name is applied to Jesus in the Gospel of Matthew."
+      id: 'crs3',
+      question: "Joseph was sold into slavery by his brothers for",
+      options: ["10 pieces of silver", "20 pieces of silver", "30 pieces of silver", "40 pieces of silver"],
+      correctAnswer: 1,
+      explanation: "Joseph's brothers sold him to Ishmaelite traders for twenty shekels of silver, driven by jealousy over their father's favoritism and Joseph's prophetic dreams (Genesis 37:28)."
     },
     {
-      id: 'cr4',
-      question: "Who were the first two disciples Jesus called?",
-      options: ["Peter and Andrew", "James and John", "Philip and Bartholomew", "Matthew and Thomas"],
-      correctAnswer: 0,
-      explanation: "They were fishermen by the Sea of Galilee."
+      id: 'crs4',
+      question: "The Ten Commandments were given to Moses on Mount",
+      options: ["Horeb", "Sinai", "Carmel", "Zion"],
+      correctAnswer: 1,
+      explanation: "Moses received the Ten Commandments (Decalogue) from God on Mount Sinai, which served as the foundational laws for the Israelite nation and their covenant with God (Exodus 19-20)."
     },
     {
-      id: 'cr5',
-      question: "In which city was Jesus born?",
-      options: ["Bethlehem", "Nazareth", "Jerusalem", "Jericho"],
-      correctAnswer: 0,
-      explanation: "Joseph and Mary traveled to Bethlehem for the census."
+      id: 'crs5',
+      question: "The Israelites wandered in the wilderness for",
+      options: ["30 years", "35 years", "40 years", "50 years"],
+      correctAnswer: 2,
+      explanation: "Due to their disobedience and lack of faith after leaving Egypt, the Israelites were condemned to wander in the wilderness for forty years until the generation that rebelled had passed away (Numbers 14:33-34)."
     },
     {
-      id: 'cr6',
-      question: "What is the 'Great Commission'?",
-      options: [
-        "The command to go and make disciples of all nations",
-        "The command to build a great temple",
-        "The command to keep the Ten Commandments",
-        "The command to love your neighbor"
-      ],
-      correctAnswer: 0,
-      explanation: "Given by Jesus to His disciples after His resurrection."
+      id: 'crs6',
+      question: "The leader who succeeded Moses was",
+      options: ["Caleb", "Aaron", "Joshua", "Samuel"],
+      correctAnswer: 2,
+      explanation: "Joshua, Moses' faithful assistant, was chosen by God to lead the Israelites into the Promised Land after Moses' death, fulfilling the divine promise (Deuteronomy 31:7-8, Joshua 1:1-9)."
     },
     {
-      id: 'cr7',
-      question: "Who wrote most of the epistles in the New Testament?",
+      id: 'crs7',
+      question: "The first king of Israel was",
+      options: ["David", "Saul", "Solomon", "Rehoboam"],
+      correctAnswer: 1,
+      explanation: "Saul, from the tribe of Benjamin, was anointed by the prophet Samuel at the people's request to be the first king of Israel, marking the transition from a tribal confederacy to a monarchy (1 Samuel 10:1)."
+    },
+    {
+      id: 'crs8',
+      question: "David defeated Goliath using",
+      options: ["A sword", "A spear", "A sling and stone", "A bow and arrow"],
+      correctAnswer: 2,
+      explanation: "The young shepherd David, relying on God's strength, famously defeated the Philistine giant Goliath with a sling and a single stone, demonstrating faith over military might (1 Samuel 17:48-50)."
+    },
+    {
+      id: 'crs9',
+      question: "Solomon became famous for his",
+      options: ["Strength", "Wealth", "Wisdom", "Army"],
+      correctAnswer: 2,
+      explanation: "King Solomon was renowned throughout the ancient world for his exceptional wisdom, which he requested from God to govern his people justly (1 Kings 3:9-12, 1 Kings 4:29-34)."
+    },
+    {
+      id: 'crs10',
+      question: "After Solomon’s reign, the kingdom of Israel divided into",
+      options: ["Two kingdoms", "Three kingdoms", "Four kingdoms", "Five kingdoms"],
+      correctAnswer: 0,
+      explanation: "Following Solomon's death, the kingdom divided into two: the northern kingdom of Israel (ten tribes) and the southern kingdom of Judah (two tribes), due to Rehoboam's harsh policies (1 Kings 12:16-20)."
+    },
+    {
+      id: 'crs11',
+      question: "The prophet who challenged the prophets of Baal on Mount Carmel was",
+      options: ["Elisha", "Elijah", "Isaiah", "Jeremiah"],
+      correctAnswer: 1,
+      explanation: "Elijah famously confronted the 450 prophets of Baal on Mount Carmel, demonstrating God's power through fire from heaven, leading to the defeat of Baal worship (1 Kings 18:20-40)."
+    },
+    {
+      id: 'crs12',
+      question: "The prophet who succeeded Elijah was",
+      options: ["Amos", "Hosea", "Elisha", "Micah"],
+      correctAnswer: 2,
+      explanation: "Elisha was Elijah's devoted disciple and successor, receiving a double portion of Elijah's spirit before Elijah was taken up to heaven (2 Kings 2:9-15)."
+    },
+    {
+      id: 'crs13',
+      question: "Isaiah prophesied mainly about",
+      options: ["Social justice", "The coming Messiah", "Military victory", "Agricultural prosperity"],
+      correctAnswer: 1,
+      explanation: "The Book of Isaiah contains numerous prophecies concerning the coming Messiah, detailing His birth, suffering, and ultimate reign, earning it the title 'the Gospel according to Isaiah' (e.g., Isaiah 7:14, 9:6, 53)."
+    },
+    {
+      id: 'crs14',
+      question: "Jeremiah is often called the",
+      options: ["Prophet of doom", "Weeping prophet", "Prophet of hope", "Silent prophet"],
+      correctAnswer: 1,
+      explanation: "Jeremiah is known as the 'weeping prophet' due to his deep sorrow and lament over the sins of Judah and the impending destruction of Jerusalem (Jeremiah 9:1, 13:17)."
+    },
+    {
+      id: 'crs15',
+      question: "The book that contains the story of creation is",
+      options: ["Exodus", "Genesis", "Leviticus", "Numbers"],
+      correctAnswer: 1,
+      explanation: "Genesis, the first book of the Bible, begins with the account of God's creation of the heavens, the earth, and all living things, including humanity (Genesis 1-2)."
+    },
+    {
+      id: 'crs16',
+      question: "Jesus was born in the town of",
+      options: ["Nazareth", "Bethlehem", "Jerusalem", "Capernaum"],
+      correctAnswer: 1,
+      explanation: "According to biblical prophecy and the Gospels, Jesus was born in Bethlehem of Judea, the city of David, during the time of a census (Matthew 2:1, Luke 2:4-7)."
+    },
+    {
+      id: 'crs17',
+      question: "The angel who announced the birth of Jesus to Mary was",
+      options: ["Michael", "Gabriel", "Raphael", "Uriel"],
+      correctAnswer: 1,
+      explanation: "The angel Gabriel appeared to Mary to announce that she would conceive and give birth to Jesus, the Son of God (Luke 1:26-38)."
+    },
+    {
+      id: 'crs18',
+      question: "Jesus was baptized by",
+      options: ["Peter", "John the Baptist", "Andrew", "James"],
+      correctAnswer: 1,
+      explanation: "Jesus was baptized by John the Baptist in the Jordan River, an event that marked the beginning of His public ministry and was accompanied by the descent of the Holy Spirit and a voice from heaven (Matthew 3:13-17)."
+    },
+    {
+      id: 'crs19',
+      question: "Jesus fasted in the wilderness for",
+      options: ["20 days", "30 days", "40 days", "50 days"],
+      correctAnswer: 2,
+      explanation: "After His baptism, Jesus was led by the Spirit into the wilderness, where He fasted for forty days and forty nights and was tempted by the devil (Matthew 4:1-2)."
+    },
+    {
+      id: 'crs20',
+      question: "The first miracle of Jesus was performed at",
+      options: ["Jerusalem", "Cana", "Galilee", "Nazareth"],
+      correctAnswer: 1,
+      explanation: "Jesus performed His first public miracle at a wedding in Cana of Galilee, where He turned water into wine, revealing His glory and leading His disciples to believe in Him (John 2:1-11)."
+    },
+    {
+      id: 'crs21',
+      question: "The miracle at Cana involved turning",
+      options: ["Water into wine", "Bread into fish", "Water into oil", "Wine into water"],
+      correctAnswer: 0,
+      explanation: "At the wedding in Cana, Jesus miraculously transformed six stone jars of water into high-quality wine, saving the hosts from embarrassment (John 2:1-11)."
+    },
+    {
+      id: 'crs22',
+      question: "The parable of the Good Samaritan teaches about",
+      options: ["Faith", "Forgiveness", "Love for neighbors", "Obedience"],
+      correctAnswer: 2,
+      explanation: "In response to the question 'Who is my neighbor?', Jesus told the parable of the Good Samaritan, illustrating that true neighborly love extends to anyone in need, regardless of social or ethnic boundaries (Luke 10:25-37)."
+    },
+    {
+      id: 'crs23',
+      question: "The disciple who betrayed Jesus was",
+      options: ["Peter", "John", "Judas Iscariot", "Andrew"],
+      correctAnswer: 2,
+      explanation: "Judas Iscariot, one of the twelve disciples, betrayed Jesus to the chief priests for thirty pieces of silver, leading to Jesus' arrest and crucifixion (Matthew 26:14-16, 47-50)."
+    },
+    {
+      id: 'crs24',
+      question: "Jesus was crucified at",
+      options: ["Bethlehem", "Golgotha", "Nazareth", "Galilee"],
+      correctAnswer: 1,
+      explanation: "Jesus was crucified at a place called Golgotha, meaning 'Place of the Skull,' outside the city walls of Jerusalem (Matthew 27:33, Mark 15:22, John 19:17)."
+    },
+    {
+      id: 'crs25',
+      question: "Jesus rose from the dead on the",
+      options: ["First day of the week", "Second day", "Third day", "Fourth day"],
+      correctAnswer: 0,
+      explanation: "According to the Gospels, Jesus rose from the dead on the first day of the week (Sunday), fulfilling prophecies and demonstrating His victory over death (Matthew 28:1, Mark 16:2, Luke 24:1, John 20:1)."
+    },
+    {
+      id: 'crs26',
+      question: "The event where the Holy Spirit came upon the apostles is called",
+      options: ["Pentecost", "Ascension", "Transfiguration", "Resurrection"],
+      correctAnswer: 0,
+      explanation: "On the Day of Pentecost, the Holy Spirit descended upon the apostles and other believers in Jerusalem, empowering them to preach the Gospel and marking the birth of the Christian Church (Acts 2:1-4)."
+    },
+    {
+      id: 'crs27',
+      question: "The early Christian church began to grow rapidly after",
+      options: ["Resurrection", "Pentecost", "Crucifixion", "Baptism"],
+      correctAnswer: 1,
+      explanation: "The outpouring of the Holy Spirit at Pentecost empowered the apostles, leading to Peter's sermon and the conversion of about three thousand people, initiating the rapid growth of the early church (Acts 2:41)."
+    },
+    {
+      id: 'crs28',
+      question: "The first Christian martyr was",
+      options: ["Peter", "Stephen", "Paul", "James"],
+      correctAnswer: 1,
+      explanation: "Stephen, one of the seven deacons appointed by the apostles, became the first Christian martyr when he was stoned to death for boldly proclaiming his faith in Jesus (Acts 7:54-60)."
+    },
+    {
+      id: 'crs29',
+      question: "Saul was converted on the road to",
+      options: ["Jerusalem", "Damascus", "Antioch", "Rome"],
+      correctAnswer: 1,
+      explanation: "Saul, a persecutor of Christians, encountered the risen Jesus on the road to Damascus, leading to his dramatic conversion and transformation into the Apostle Paul (Acts 9:1-19)."
+    },
+    {
+      id: 'crs30',
+      question: "After conversion, Saul became known as",
+      options: ["Peter", "Paul", "John", "Barnabas"],
+      correctAnswer: 1,
+      explanation: "Following his conversion and call to ministry, Saul began to be referred to as Paul, especially in his missionary work among the Gentiles (Acts 13:9)."
+    },
+    {
+      id: 'crs31',
+      question: "The missionary partner of Paul on his first journey was",
+      options: ["Barnabas", "Peter", "James", "Philip"],
+      correctAnswer: 0,
+      explanation: "Paul embarked on his first missionary journey with Barnabas, traveling to Cyprus and various cities in Asia Minor to preach the Gospel (Acts 13:1-3)."
+    },
+    {
+      id: 'crs32',
+      question: "The book that records the activities of the apostles is",
+      options: ["Romans", "Acts", "Hebrews", "Revelation"],
+      correctAnswer: 1,
+      explanation: "The Book of Acts, written by Luke, provides a historical account of the early Christian church, detailing the spread of the Gospel and the ministries of key apostles like Peter and Paul."
+    },
+    {
+      id: 'crs33',
+      question: "The sermon on the mount is recorded mainly in",
+      options: ["Matthew", "Mark", "Luke", "John"],
+      correctAnswer: 0,
+      explanation: "The Sermon on the Mount, a foundational discourse of Jesus' teachings, is most extensively recorded in the Gospel of Matthew (Matthew 5-7), containing the Beatitudes, the Lord's Prayer, and ethical instructions."
+    },
+    {
+      id: 'crs34',
+      question: "Jesus described himself as the",
+      options: ["Good shepherd", "Great prophet", "Son of Moses", "King of Israel only"],
+      correctAnswer: 0,
+      explanation: "Jesus declared, 'I am the good shepherd. The good shepherd lays down his life for the sheep,' emphasizing His loving care and sacrificial leadership for His followers (John 10:11)."
+    },
+    {
+      id: 'crs35',
+      question: "The greatest commandment according to Jesus is",
+      options: ["Love God and neighbor", "Pray always", "Fast regularly", "Give offerings"],
+      correctAnswer: 0,
+      explanation: "When asked about the greatest commandment, Jesus replied, 'Love the Lord your God with all your heart... and love your neighbor as yourself,' summarizing the essence of the Law and the Prophets (Matthew 22:37-40)."
+    },
+    {
+      id: 'crs36',
+      question: "The transfiguration of Jesus took place on a",
+      options: ["Hill", "Mountain", "Desert", "Valley"],
+      correctAnswer: 1,
+      explanation: "Jesus took Peter, James, and John up a high mountain, where He was transfigured before them, His face shining like the sun and His clothes becoming as white as light (Matthew 17:1-2)."
+    },
+    {
+      id: 'crs37',
+      question: "The disciples present at the transfiguration were",
+      options: ["Peter, James, John", "Andrew, Philip, Thomas", "Matthew, Mark, Luke", "James, Jude, Simon"],
+      correctAnswer: 0,
+      explanation: "Only Peter, James, and John, Jesus' inner circle of disciples, were privileged to witness His transfiguration on the mountain (Matthew 17:1)."
+    },
+    {
+      id: 'crs38',
+      question: "The Lord’s Prayer begins with",
+      options: ["Our Father in heaven", "Blessed are the meek", "Give us this day", "Forgive our sins"],
+      correctAnswer: 0,
+      explanation: "Jesus taught His disciples to pray, beginning with the address, 'Our Father in heaven, hallowed be your name,' establishing a personal and reverent approach to God (Matthew 6:9)."
+    },
+    {
+      id: 'crs39',
+      question: "The book of Revelation was written by",
       options: ["Paul", "Peter", "John", "James"],
-      correctAnswer: 0,
-      explanation: "Paul's letters addressed early Christian communities and theological issues."
+      correctAnswer: 2,
+      explanation: "The Book of Revelation, the final book of the New Testament, was written by the Apostle John while he was exiled on the island of Patmos, recording his prophetic visions (Revelation 1:1, 9)."
     },
     {
-      id: 'cr8',
-      question: "What is the 'Parable of the Prodigal Son' about?",
-      options: ["God's forgiveness and unconditional love", "The importance of saving money", "A son who was very successful", "The dangers of traveling"],
-      correctAnswer: 0,
-      explanation: "It shows a father welcoming home his wayward son with joy."
-    },
-    {
-      id: 'cr9',
-      question: "What happened on the Day of Pentecost?",
-      options: [
-        "The Holy Spirit descended upon the disciples",
-        "Jesus was transfigured",
-        "The temple was destroyed",
-        "Jesus fed the five thousand"
-      ],
-      correctAnswer: 0,
-      explanation: "This event is often considered the 'birthday' of the Christian Church."
-    },
-    {
-      id: 'cr10',
-      question: "Who was the 'forerunner' of Jesus?",
-      options: ["John the Baptist", "Elijah", "Moses", "Abraham"],
-      correctAnswer: 0,
-      explanation: "John the Baptist preached repentance and prepared the way for the Messiah."
-    },
-    {
-      id: 'cr11',
-      question: "What are the 'Fruits of the Spirit' listed in Galatians?",
-      options: [
-        "Love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control",
-        "Faith, hope, and love",
-        "Wisdom, understanding, and knowledge",
-        "Gold, frankincense, and myrrh"
-      ],
-      correctAnswer: 0,
-      explanation: "These are the characteristics that should be evident in the life of a believer."
-    },
-    {
-      id: 'cr12',
-      question: "Who was the woman who became a judge in Israel?",
-      options: ["Deborah", "Ruth", "Esther", "Sarah"],
-      correctAnswer: 0,
-      explanation: "Deborah was a prophetess and the only female judge mentioned in the Bible."
-    },
-    {
-      id: 'cr13',
-      question: "What is the 'Sermon on the Mount'?",
-      options: [
-        "A collection of Jesus' teachings, including the Beatitudes",
-        "The Ten Commandments given to Moses",
-        "Paul's speech in Athens",
-        "A sermon about the end of the world"
-      ],
-      correctAnswer: 0,
-      explanation: "Found in Matthew 5-7, it contains core ethical teachings of Jesus."
-    },
-    {
-      id: 'cr14',
-      question: "Who betrayed Jesus for thirty pieces of silver?",
-      options: ["Judas Iscariot", "Peter", "Thomas", "Pontius Pilate"],
-      correctAnswer: 0,
-      explanation: "Judas was one of the twelve apostles."
-    },
-    {
-      id: 'cr15',
-      question: "What is the 'Old Covenant' primarily based on?",
-      options: ["The Law given to Moses", "The teachings of Jesus", "The letters of Paul", "The vision of John"],
-      correctAnswer: 0,
-      explanation: "It centers on the relationship between God and Israel through the Law."
-    },
-    {
-      id: 'cr16',
-      question: "Who was the man known for his great patience during suffering?",
-      options: ["Job", "Noah", "Abraham", "Joseph"],
-      correctAnswer: 0,
-      explanation: "The Book of Job explores the question of why righteous people suffer."
-    },
-    {
-      id: 'cr17',
-      question: "What is the meaning of the word 'Gospel'?",
-      options: ["Good news", "Holy book", "History", "Truth"],
-      correctAnswer: 0,
-      explanation: "It refers to the message of salvation through Jesus Christ."
-    },
-    {
-      id: 'cr18',
-      question: "Who led the Israelites out of Egypt?",
-      options: ["Moses", "Joshua", "Aaron", "Caleb"],
-      correctAnswer: 0,
-      explanation: "God used Moses to deliver His people from slavery."
-    },
-    {
-      id: 'cr19',
-      question: "What are the first five books of the Bible collectively called?",
-      options: ["The Pentateuch", "The Gospels", "The Epistles", "The Psalms"],
-      correctAnswer: 0,
-      explanation: "They are also known as the 'Torah' or the 'Books of Moses'."
-    },
-    {
-      id: 'cr20',
-      question: "Who was the first Christian martyr?",
-      options: ["Stephen", "James", "Peter", "Paul"],
-      correctAnswer: 0,
-      explanation: "Stephen was stoned to death for his faith, as recorded in the Book of Acts."
-    },
-    {
-      id: 'cr21',
-      question: "What is the significance of the 'Resurrection' of Jesus?",
-      options: [
-        "It is the foundation of Christian hope and the victory over death",
-        "It was a great miracle only",
-        "It showed that Jesus was a ghost",
-        "It marked the end of the world"
-      ],
-      correctAnswer: 0,
-      explanation: "Christians believe Jesus rose from the dead on the third day."
-    },
-    {
-      id: 'cr22',
-      question: "Who was the king who built the first Temple in Jerusalem?",
-      options: ["Solomon", "David", "Saul", "Hezekiah"],
-      correctAnswer: 0,
-      explanation: "Solomon was known for his wisdom and grand building projects."
-    },
-    {
-      id: 'cr23',
-      question: "What is the 'Transfiguration'?",
-      options: [
-        "When Jesus' appearance changed and He spoke with Moses and Elijah",
-        "When Jesus was baptized",
-        "When Jesus turned water into wine",
-        "When Jesus ascended to heaven"
-      ],
-      correctAnswer: 0,
-      explanation: "This event revealed Jesus' divine glory to Peter, James, and John."
-    },
-    {
-      id: 'cr24',
-      question: "What is 'Grace' in Christian theology?",
-      options: [
-        "The unmerited favor and love of God",
-        "A type of ritual prayer",
-        "A list of good deeds",
-        "The beauty of a person"
-      ],
-      correctAnswer: 0,
-      explanation: "Salvation is believed to be a gift of grace through faith."
-    },
-    {
-      id: 'cr25',
-      question: "Who was the apostle who was formerly a tax collector?",
-      options: ["Matthew", "Luke", "John", "Peter"],
-      correctAnswer: 0,
-      explanation: "Matthew (Levi) left his booth to follow Jesus."
-    },
-    {
-      id: 'cr26',
-      question: "What is 'Holy Communion'?",
-      options: [
-        "A sacrament commemorating the Last Supper",
-        "A meeting of church leaders",
-        "A type of baptism",
-        "A song of praise"
-      ],
-      correctAnswer: 0,
-      explanation: "Believers eat bread and drink wine to remember Jesus' sacrifice."
-    },
-    {
-      id: 'cr27',
-      question: "Who was the mother of Jesus?",
-      options: ["Mary", "Elizabeth", "Martha", "Sarah"],
-      correctAnswer: 0,
-      explanation: "Mary was a virgin when she conceived Jesus by the Holy Spirit."
-    },
-    {
-      id: 'cr28',
-      question: "What is the 'Ten Commandments'?",
-      options: [
-        "A set of moral laws given by God to Moses",
-        "A list of Jesus' teachings",
-        "The rules for the early church",
-        "The names of the twelve apostles"
-      ],
-      correctAnswer: 0,
-      explanation: "They were given on Mount Sinai and are central to Jewish and Christian ethics."
-    },
-    {
-      id: 'cr29',
-      question: "Who was the man who survived the lions' den?",
-      options: ["Daniel", "Shadrach", "Meshach", "Abednego"],
-      correctAnswer: 0,
-      explanation: "Daniel was protected by God because of his faithfulness."
-    },
-    {
-      id: 'cr30',
-      question: "What is the 'Book of Revelation' about?",
-      options: [
-        "A vision of the end times and the ultimate victory of God",
-        "The history of the early church",
-        "The life of Moses",
-        "A collection of hymns"
-      ],
-      correctAnswer: 0,
-      explanation: "It is the final book of the New Testament, written by John."
-    },
-    {
-      id: 'cr31',
-      question: "Who was the giant defeated by young David?",
-      options: ["Goliath", "Og", "Sihon", "Nimrod"],
-      correctAnswer: 0,
-      explanation: "David used a sling and a stone to defeat the Philistine champion."
-    },
-    {
-      id: 'cr32',
-      question: "What is the 'Parable of the Good Samaritan' about?",
-      options: [
-        "Loving your neighbor regardless of their background",
-        "The importance of traveling safely",
-        "A man who was very rich",
-        "The rules of the temple"
-      ],
-      correctAnswer: 0,
-      explanation: "It defines 'neighbor' as anyone in need of help."
-    },
-    {
-      id: 'cr33',
-      question: "Who was the first man created by God?",
-      options: ["Adam", "Noah", "Abraham", "Moses"],
-      correctAnswer: 0,
-      explanation: "Adam and Eve were placed in the Garden of Eden."
-    },
-    {
-      id: 'cr34',
-      question: "What is the 'Covenant' with Abraham?",
-      options: [
-        "God's promise to make him the father of many nations",
-        "A promise that he would never die",
-        "A command to build an ark",
-        "A promise to give him a kingdom in heaven"
-      ],
-      correctAnswer: 0,
-      explanation: "This covenant is a central theme throughout the Bible."
-    },
-    {
-      id: 'cr35',
-      question: "Who was the man who built the Ark to survive the Flood?",
-      options: ["Noah", "Lot", "Isaac", "Jacob"],
-      correctAnswer: 0,
-      explanation: "Noah was a righteous man in a wicked generation."
-    },
-    {
-      id: 'cr36',
-      question: "What is the 'Ascension'?",
-      options: [
-        "When Jesus returned to heaven forty days after His resurrection",
-        "When Jesus was born",
-        "When Jesus was baptized",
-        "When Jesus performed His first miracle"
-      ],
-      correctAnswer: 0,
-      explanation: "The disciples watched as Jesus was taken up into a cloud."
-    },
-    {
-      id: 'cr37',
-      question: "Who was the apostle who was formerly a tax collector?",
-      options: ["Matthew", "Luke", "John", "Peter"],
-      correctAnswer: 0,
-      explanation: "Matthew (Levi) left his booth to follow Jesus."
-    },
-    {
-      id: 'cr38',
-      question: "What is the 'Golden Rule'?",
-      options: [
-        "Do to others as you would have them do to you",
-        "Love God with all your heart",
-        "Keep the Sabbath holy",
-        "Honor your father and mother"
-      ],
-      correctAnswer: 0,
-      explanation: "A core ethical principle taught by Jesus."
-    },
-    {
-      id: 'cr39',
-      question: "Who was the man who led the Israelites into the Promised Land?",
-      options: ["Joshua", "Moses", "Caleb", "Gideon"],
-      correctAnswer: 0,
-      explanation: "Joshua took over leadership after the death of Moses."
-    },
-    {
-      id: 'cr40',
-      question: "What is the 'Trinity' in Christian doctrine?",
-      options: [
-        "The belief in one God in three persons: Father, Son, and Holy Spirit",
-        "The belief in three different gods",
-        "The names of the first three kings",
-        "The three gifts brought by the wise men"
-      ],
-      correctAnswer: 0,
-      explanation: "A central but complex mystery of the Christian faith."
+      id: 'crs40',
+      question: "The final book of the New Testament is",
+      options: ["Jude", "Hebrews", "Revelation", "Acts"],
+      correctAnswer: 2,
+      explanation: "Revelation is the last book in the Christian Bible, concluding the biblical narrative with prophecies about the end times, the return of Christ, and the establishment of God's eternal kingdom."
     }
   ],
   commerce: [
