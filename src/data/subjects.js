@@ -11,5 +11,7 @@ export const AVAILABLE_SUBJECTS = [
   { id: 'irs', name: 'Islamic Religious Studies', color: 'bg-emerald-100 text-emerald-700 border-emerald-200' },
   { id: 'commerce', name: 'Commerce', color: 'bg-cyan-100 text-cyan-700 border-cyan-200' },
   { id: 'geo', name: 'Geography', color: 'bg-sky-100 text-sky-700 border-sky-200' },
-  { id: 'agric', name: 'Agricultural Science', color: 'bg-lime-100 text-lime-700 border-lime-200' }
+  { id: 'agric', name: 'Agricultural Science', color: 'bg-lime-100 text-lime-700 border-lime-200' },
+  { id: 'accounting', name: 'Accounting', color: 'bg-gray-100 text-gray-700 border-gray-200' },
+  { id: 'computer', name: 'Computer Studies', color: 'bg-slate-100 text-slate-700 border-slate-200' }
 ];

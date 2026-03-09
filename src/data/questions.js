@@ -4184,5 +4184,569 @@ export const QUESTIONS = {
       correctAnswer: 0,
       explanation: "For example, a 15-15-15 fertilizer contains 15% each of N, P₂O₅, and K₂O."
     }
+  ],
+  accounting: [
+    {
+      id: 'ac1',
+      question: "What is the fundamental accounting equation?",
+      options: ["Assets = Liabilities + Equity", "Assets = Liabilities - Equity", "Equity = Assets + Liabilities", "Liabilities = Assets + Equity"],
+      correctAnswer: 0,
+      explanation: "The accounting equation is the foundation of the double-entry bookkeeping system."
+    },
+    {
+      id: 'ac2',
+      question: "Which financial statement reports a company's financial performance over a specific period?",
+      options: ["Income Statement", "Balance Sheet", "Cash Flow Statement", "Statement of Retained Earnings"],
+      correctAnswer: 0,
+      explanation: "The Income Statement shows revenues, expenses, and the resulting net income or loss."
+    },
+    {
+      id: 'ac3',
+      question: "What does 'GAAP' stand for?",
+      options: ["Generally Accepted Accounting Principles", "General Accounting and Auditing Procedures", "Governmental Accounting Policies", "Generally Applied Auditing Principles"],
+      correctAnswer: 0,
+      explanation: "GAAP is the common set of accounting standards and procedures used in the U.S."
+    },
+    {
+      id: 'ac4',
+      question: "What is a 'Debit'?",
+      options: ["An entry on the left side of an account", "An entry on the right side of an account", "A decrease in an asset account", "An increase in a liability account"],
+      correctAnswer: 0,
+      explanation: "Debits increase asset and expense accounts, and decrease liability, equity, and revenue accounts."
+    },
+    {
+      id: 'ac5',
+      question: "Which of the following is a 'Current Asset'?",
+      options: ["Accounts Receivable", "Land", "Building", "Machinery"],
+      correctAnswer: 0,
+      explanation: "Current assets are assets that are expected to be converted to cash within one year."
+    },
+    {
+      id: 'ac6',
+      question: "What is 'Depreciation'?",
+      options: ["The allocation of the cost of a tangible asset over its useful life", "The decrease in the value of an asset due to market fluctuations", "The process of selling an old asset", "The cost of repairing an asset"],
+      correctAnswer: 0,
+      explanation: "Depreciation is an expense that reduces the book value of an asset."
+    },
+    {
+      id: 'ac7',
+      question: "What is the purpose of a 'Trial Balance'?",
+      options: ["To verify that total debits equal total credits", "To prepare the final financial statements", "To record daily transactions", "To calculate the net income of a company"],
+      correctAnswer: 0,
+      explanation: "A trial balance is an internal report used to check the mathematical accuracy of the ledger."
+    },
+    {
+      id: 'ac8',
+      question: "What is 'Accrual Accounting'?",
+      options: ["Recording revenues when earned and expenses when incurred, regardless of when cash is exchanged", "Recording transactions only when cash is received or paid", "A method used only by small businesses", "An outdated accounting method"],
+      correctAnswer: 0,
+      explanation: "Accrual accounting provides a more accurate picture of a company's financial health."
+    },
+    {
+      id: 'ac9',
+      question: "What is a 'Ledger'?",
+      options: ["A book or collection of accounts where transactions are recorded", "A single business transaction", "A summary of all assets", "A list of all employees"],
+      correctAnswer: 0,
+      explanation: "The general ledger contains all the accounts for a company."
+    },
+    {
+      id: 'ac10',
+      question: "What is 'Working Capital'?",
+      options: ["Current Assets - Current Liabilities", "Total Assets - Total Liabilities", "Sales - Cost of Goods Sold", "Net Income + Depreciation"],
+      correctAnswer: 0,
+      explanation: "Working capital is a measure of a company's short-term liquidity."
+    },
+    {
+      id: 'ac11',
+      question: "What is 'FIFO'?",
+      options: ["First-In, First-Out inventory costing method", "A type of financial report", "A government accounting standard", "A method for calculating depreciation"],
+      correctAnswer: 0,
+      explanation: "FIFO assumes that the first units purchased are the first ones sold."
+    },
+    {
+      id: 'ac12',
+      question: "What is a 'Balance Sheet'?",
+      options: ["A snapshot of a company's financial position at a specific point in time", "A report of a company's profitability over a period", "A statement of cash inflows and outflows", "A list of all shareholders"],
+      correctAnswer: 0,
+      explanation: "The Balance Sheet shows a company's assets, liabilities, and equity."
+    },
+    {
+      id: 'ac13',
+      question: "What is 'Cost of Goods Sold' (COGS)?",
+      options: ["The direct costs of producing the goods sold by a company", "The total expenses of a company", "The price at which goods are sold", "The profit made from selling goods"],
+      correctAnswer: 0,
+      explanation: "COGS is a major expense for most businesses."
+    },
+    {
+      id: 'ac14',
+      question: "What is a 'Journal Entry'?",
+      options: ["The initial recording of a business transaction in the accounting system", "A summary of all transactions at the end of the month", "A report sent to the government", "A note written by an auditor"],
+      correctAnswer: 0,
+      explanation: "Journal entries are recorded in chronological order."
+    },
+    {
+      id: 'ac15',
+      question: "What is 'Equity'?",
+      options: ["The residual interest in the assets of an entity that remains after deducting its liabilities", "The total amount of cash a company has", "The total sales of a company", "The total debt of a company"],
+      correctAnswer: 0,
+      explanation: "Equity represents the ownership interest in a company."
+    },
+    {
+      id: 'ac16',
+      question: "What is an 'Audit'?",
+      options: ["An independent examination of a company's financial statements", "The process of preparing tax returns", "A meeting of the board of directors", "The daily recording of transactions"],
+      correctAnswer: 0,
+      explanation: "Audits provide assurance that financial statements are free from material misstatement."
+    },
+    {
+      id: 'ac17',
+      question: "What is 'LIFO'?",
+      options: ["Last-In, First-Out inventory costing method", "A method for calculating interest", "A type of business loan", "A financial ratio"],
+      correctAnswer: 0,
+      explanation: "LIFO assumes that the last units purchased are the first ones sold."
+    },
+    {
+      id: 'ac18',
+      question: "What is 'Revenue'?",
+      options: ["The income generated from normal business operations", "The profit earned by a company", "The cash received from customers", "The total value of a company's assets"],
+      correctAnswer: 0,
+      explanation: "Revenue is the top line or gross income figure from which costs are subtracted to determine net income."
+    },
+    {
+      id: 'ac19',
+      question: "What is a 'Liability'?",
+      options: ["A company's financial obligations or debts", "An asset owned by the company", "The owner's investment in the company", "The profit of the company"],
+      correctAnswer: 0,
+      explanation: "Liabilities are what a company owes to others."
+    },
+    {
+      id: 'ac20',
+      question: "What is the 'Matching Principle'?",
+      options: ["The principle that expenses should be recorded in the same period as the revenues they help to generate", "Matching purchase orders with invoices", "Matching debits and credits", "Matching assets and liabilities"],
+      correctAnswer: 0,
+      explanation: "The matching principle is a key concept in accrual accounting."
+    },
+    {
+      id: 'ac21',
+      question: "What is a 'T-account'?",
+      options: ["A visual representation of an individual account, with debits on the left and credits on the right", "A type of bank account", "A summary of all accounts", "A report for tax purposes"],
+      correctAnswer: 0,
+      explanation: "T-accounts are used to analyze transactions and understand their impact on accounts."
+    },
+    {
+      id: 'ac22',
+      question: "What is 'Goodwill'?",
+      options: ["An intangible asset that arises when one company acquires another for a price greater than its book value", "A donation to charity", "A discount given to a good customer", "The reputation of a company"],
+      correctAnswer: 0,
+      explanation: "Goodwill represents the value of a company's brand, customer base, and other non-physical assets."
+    },
+    {
+      id: 'ac23',
+      question: "What is the 'Cash Flow Statement'?",
+      options: ["A financial statement that shows how changes in balance sheet accounts and income affect cash", "A statement of all cash transactions only", "A budget for future cash needs", "A report on the company's bank balance"],
+      correctAnswer: 0,
+      explanation: "The Cash Flow Statement is divided into operating, investing, and financing activities."
+    },
+    {
+      id: 'ac24',
+      question: "What is 'Amortization'?",
+      options: ["The process of spreading the cost of an intangible asset over its useful life", "The process of paying off a debt over time", "A type of depreciation for buildings", "The sale of an intangible asset"],
+      correctAnswer: 0,
+      explanation: "Amortization is similar to depreciation but is used for intangible assets like patents and copyrights."
+    },
+    {
+      id: 'ac25',
+      question: "What is a 'Dividend'?",
+      options: ["A distribution of a portion of a company's earnings to its shareholders", "A type of business expense", "A loan from the shareholders to the company", "An increase in the stock price"],
+      correctAnswer: 0,
+      explanation: "Dividends are a way for companies to share their profits with investors."
+    },
+    {
+      id: 'ac26',
+      question: "What is 'Book Value'?",
+      options: ["The value of an asset according to its balance sheet account balance", "The price at which an asset could be sold", "The original cost of an asset", "The cost to replace an asset"],
+      correctAnswer: 0,
+      explanation: "For assets, book value is the cost of an asset minus its accumulated depreciation."
+    },
+    {
+      id: 'ac27',
+      question: "What is 'Accounts Payable'?",
+      options: ["Money owed by a company to its suppliers", "Money owed to a company by its customers", "The total debt of a company", "The salaries of the accounting staff"],
+      correctAnswer: 0,
+      explanation: "Accounts Payable is a current liability on the balance sheet."
+    },
+    {
+      id: 'ac28',
+      question: "What is 'Accounts Receivable'?",
+      options: ["Money owed to a company by its customers", "Money owed by a company to its suppliers", "The total sales of a company", "The cash in the bank"],
+      correctAnswer: 0,
+      explanation: "Accounts Receivable is a current asset on the balance sheet."
+    },
+    {
+      id: 'ac29',
+      question: "What is 'Gross Profit'?",
+      options: ["Sales - Cost of Goods Sold", "Sales - All Expenses", "Total Revenue - Total Costs", "Net Income + Taxes"],
+      correctAnswer: 0,
+      explanation: "Gross profit is a measure of a company's profitability before considering operating expenses."
+    },
+    {
+      id: 'ac30',
+      question: "What is 'Net Income'?",
+      options: ["The profit of a company after all expenses and taxes have been deducted from revenues", "The total revenue of a company", "The cash generated by a company", "The owner's share of the profit"],
+      correctAnswer: 0,
+      explanation: "Net income is often called the 'bottom line'."
+    },
+    {
+      id: 'ac31',
+      question: "What is a 'Fiscal Year'?",
+      options: ["A one-year period that a company uses for accounting and financial reporting", "The calendar year from January to December", "The year in which a company was founded", "A period of high government spending"],
+      correctAnswer: 0,
+      explanation: "A fiscal year can be any 12-month period, not necessarily the calendar year."
+    },
+    {
+      id: 'ac32',
+      question: "What is 'Internal Control'?",
+      options: ["The policies and procedures put in place to safeguard assets and ensure the integrity of financial reporting", "A type of audit performed by the government", "The control of a company by its own employees", "A software for accounting"],
+      correctAnswer: 0,
+      explanation: "Good internal controls are essential for preventing fraud and errors."
+    },
+    {
+      id: 'ac33',
+      question: "What is a 'Bad Debt'?",
+      options: ["An account receivable that is unlikely to be collected", "A loan that has a very high interest rate", "A debt owed to a criminal organization", "A mistake in the accounting records"],
+      correctAnswer: 0,
+      explanation: "Companies must estimate and account for bad debts as an expense."
+    },
+    {
+      id: 'ac34',
+      question: "What is 'Retained Earnings'?",
+      options: ["The portion of net income that is kept by the company rather than being distributed as dividends", "The total earnings of a company since its inception", "The cash saved by a company for future investments", "The profit that has not yet been taxed"],
+      correctAnswer: 0,
+      explanation: "Retained earnings are a component of shareholders' equity."
+    },
+    {
+      id: 'ac35',
+      question: "What is a 'Bank Reconciliation'?",
+      options: ["A process of comparing the bank's records with the company's records to identify any differences", "A meeting with the bank manager", "A request for a new bank loan", "A summary of all bank transactions"],
+      correctAnswer: 0,
+      explanation: "Bank reconciliation is an important internal control over cash."
+    },
+    {
+      id: 'ac36',
+      question: "What is 'Solvency'?",
+      options: ["A company's ability to meet its long-term financial obligations", "A company's ability to meet its short-term debts", "The profitability of a company", "The size of a company"],
+      correctAnswer: 0,
+      explanation: "Solvency is a measure of a company's long-term financial health."
+    },
+    {
+      id: 'ac37',
+      question: "What is 'Liquidity'?",
+      options: ["A company's ability to meet its short-term financial obligations", "A company's ability to meet its long-term debts", "The amount of cash a company has", "The ease with which an asset can be sold"],
+      correctAnswer: 0,
+      explanation: "Liquidity ratios measure a company's ability to pay its bills on time."
+    },
+    {
+      id: 'ac38',
+      question: "What is a 'Contingent Liability'?",
+      options: ["A potential liability that may occur depending on the outcome of a future event", "A liability that is certain to occur", "A debt that has been paid off", "A type of long-term loan"],
+      correctAnswer: 0,
+      explanation: "A pending lawsuit is a common example of a contingent liability."
+    },
+    {
+      id: 'ac39',
+      question: "What is 'Double-Entry Bookkeeping'?",
+      options: ["A system where every transaction has two effects, a debit in one account and a credit in another", "A system where each transaction is recorded twice", "A method used only by large corporations", "An outdated accounting system"],
+      correctAnswer: 0,
+      explanation: "This system ensures that the accounting equation always remains in balance."
+    },
+    {
+      id: 'ac40',
+      question: "What is 'Forensic Accounting'?",
+      options: ["The use of accounting skills to investigate fraud or embezzlement", "Accounting for a company that has gone bankrupt", "Accounting for a government agency", "A type of historical accounting"],
+      correctAnswer: 0,
+      explanation: "Forensic accountants are often involved in legal cases and criminal investigations."
+    }
+  ],
+  computer: [
+    {
+      id: 'cs1',
+      question: "What does CPU stand for?",
+      options: ["Central Processing Unit", "Computer Personal Unit", "Central Power Unit", "Computer Processing Unit"],
+      correctAnswer: 0,
+      explanation: "The CPU is the primary component of a computer that executes instructions."
+    },
+    {
+      id: 'cs2',
+      question: "What is the function of RAM?",
+      options: ["Temporary storage of data and programs being actively used", "Permanent storage of the operating system", "To display images on the screen", "To connect to the internet"],
+      correctAnswer: 0,
+      explanation: "RAM (Random Access Memory) is volatile, meaning its contents are lost when the power is turned off."
+    },
+    {
+      id: 'cs3',
+      question: "What is an 'Operating System'?",
+      options: ["Software that manages all of the hardware and software resources of a computer", "A type of computer hardware", "A programming language", "An application for browsing the internet"],
+      correctAnswer: 0,
+      explanation: "Examples of operating systems include Windows, macOS, and Linux."
+    },
+    {
+      id: 'cs4',
+      question: "What does 'URL' stand for?",
+      options: ["Uniform Resource Locator", "Universal Resource Link", "Uniform Reference Locator", "Universal Reference Link"],
+      correctAnswer: 0,
+      explanation: "A URL is the address of a web page."
+    },
+    {
+      id: 'cs5',
+      question: "What is 'HTML'?",
+      options: ["A markup language used to create web pages", "A programming language for creating complex applications", "A type of computer virus", "A brand of computer hardware"],
+      correctAnswer: 0,
+      explanation: "HTML (HyperText Markup Language) is the standard language for creating web pages."
+    },
+    {
+      id: 'cs6',
+      question: "What is a 'Firewall'?",
+      options: ["A network security system that monitors and controls incoming and outgoing network traffic", "A program that speeds up a computer", "A type of computer cooling system", "A device for storing large amounts of data"],
+      correctAnswer: 0,
+      explanation: "Firewalls are a first line of defense against unauthorized access to a network."
+    },
+    {
+      id: 'cs7',
+      question: "What is a 'Bit'?",
+      options: ["The smallest unit of data in a computer", "A type of computer cable", "A small insect that can damage computers", "A measure of internet speed"],
+      correctAnswer: 0,
+      explanation: "A bit can have a value of either 0 or 1."
+    },
+    {
+      id: 'cs8',
+      question: "What is a 'Byte'?",
+      options: ["A group of 8 bits", "A group of 16 bits", "A measure of screen resolution", "The speed of a processor"],
+      correctAnswer: 0,
+      explanation: "A byte is the basic unit of data storage in computing."
+    },
+    {
+      id: 'cs9',
+      question: "What is 'Malware'?",
+      options: ["Software designed to disrupt, damage, or gain unauthorized access to a computer system", "A type of computer hardware", "A popular brand of antivirus software", "A secure operating system"],
+      correctAnswer: 0,
+      explanation: "Malware is a general term for viruses, worms, trojans, and other harmful software."
+    },
+    {
+      id: 'cs10',
+      question: "What is a 'LAN'?",
+      options: ["Local Area Network", "Large Area Network", "Long Area Network", "Limited Access Network"],
+      correctAnswer: 0,
+      explanation: "A LAN connects computers within a limited area such as a home, school, or office building."
+    },
+    {
+      id: 'cs11',
+      question: "What is a 'WAN'?",
+      options: ["Wide Area Network", "Wireless Area Network", "Wired Access Network", "Worldwide Area Network"],
+      correctAnswer: 0,
+      explanation: "A WAN connects computers over a large geographical area, such as the internet."
+    },
+    {
+      id: 'cs12',
+      question: "What is a 'Hard Drive'?",
+      options: ["A data storage device used for storing and retrieving digital information", "The main circuit board of a computer", "A type of printer", "A device for connecting to the internet"],
+      correctAnswer: 0,
+      explanation: "Hard drives are non-volatile, meaning they retain data even when powered off."
+    },
+    {
+      id: 'cs13',
+      question: "What is a 'Motherboard'?",
+      options: ["The main printed circuit board in a computer", "A device for storing data", "A type of software", "A component that cools the CPU"],
+      correctAnswer: 0,
+      explanation: "The motherboard connects all the components of a computer together."
+    },
+    {
+      id: 'cs14',
+      question: "What is a 'Browser'?",
+      options: ["A software application for accessing information on the World Wide Web", "A type of computer virus", "A hardware component for internet access", "A secure online storage service"],
+      correctAnswer: 0,
+      explanation: "Examples of browsers include Chrome, Firefox, and Safari."
+    },
+    {
+      id: 'cs15',
+      question: "What is 'Cloud Computing'?",
+      options: ["The delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the Internet", "A type of weather forecasting technology", "A method for creating realistic computer graphics", "A new type of computer hardware"],
+      correctAnswer: 0,
+      explanation: "Cloud computing allows users to access data and applications from any device with an internet connection."
+    },
+    {
+      id: 'cs16',
+      question: "What is an 'Algorithm'?",
+      options: ["A set of rules or instructions for solving a problem or accomplishing a task", "A type of computer chip", "A programming language", "A graphical user interface"],
+      correctAnswer: 0,
+      explanation: "Algorithms are the foundation of computer programming."
+    },
+    {
+      id: 'cs17',
+      question: "What is 'Binary Code'?",
+      options: ["A system of representing text, computer processor instructions, or any other data using a two-symbol system", "A secret code used by spies", "A type of computer virus", "A programming language for creating games"],
+      correctAnswer: 0,
+      explanation: "The two symbols used in binary code are 0 and 1."
+    },
+    {
+      id: 'cs18',
+      question: "What is 'IP Address'?",
+      options: ["A unique address that identifies a device on the internet or a local network", "The physical address of a computer", "A type of computer memory", "A measure of internet speed"],
+      correctAnswer: 0,
+      explanation: "IP stands for Internet Protocol."
+    },
+    {
+      id: 'cs19',
+      question: "What is 'Phishing'?",
+      options: ["A fraudulent attempt to obtain sensitive information such as usernames, passwords, and credit card details by disguising as a trustworthy entity in an electronic communication", "A type of fishing that uses computers", "A method for cooling down a computer", "A secure way to send emails"],
+      correctAnswer: 0,
+      explanation: "Phishing is a common form of cybercrime."
+    },
+    {
+      id: 'cs20',
+      question: "What is 'Software'?",
+      options: ["A set of instructions, data, or programs used to operate computers and execute specific tasks", "The physical components of a computer", "A type of computer screen", "A device for printing documents"],
+      correctAnswer: 0,
+      explanation: "Software is often divided into system software and application software."
+    },
+    {
+      id: 'cs21',
+      question: "What is 'Hardware'?",
+      options: ["The physical components of a computer system", "The programs and applications that run on a computer", "A type of computer virus", "A secure online storage service"],
+      correctAnswer: 0,
+      explanation: "Hardware includes the CPU, RAM, hard drive, and other physical parts."
+    },
+    {
+      id: 'cs22',
+      question: "What is a 'Pixel'?",
+      options: ["The smallest unit of a digital image or graphic that can be displayed and represented on a digital display device", "A measure of internet speed", "A type of computer mouse", "A unit of data storage"],
+      correctAnswer: 0,
+      explanation: "The resolution of a screen is measured in pixels."
+    },
+    {
+      id: 'cs23',
+      question: "What is a 'Cookie' in computing?",
+      options: ["A small piece of data sent from a website and stored on the user's computer by the user's web browser", "A type of computer snack", "A virus that infects web browsers", "A secure method for storing passwords"],
+      correctAnswer: 0,
+      explanation: "Cookies are used to remember information about the user, such as their login status."
+    },
+    {
+      id: 'cs24',
+      question: "What is 'Open Source' software?",
+      options: ["Software with source code that anyone can inspect, modify, and enhance", "Software that is free to use", "Software that is created by a large community of volunteers", "Software that is not owned by any company"],
+      correctAnswer: 0,
+      explanation: "Examples of open source software include Linux, Firefox, and WordPress."
+    },
+    {
+      id: 'cs25',
+      question: "What is a 'Database'?",
+      options: ["An organized collection of structured information, or data, typically stored electronically in a computer system", "A type of computer hardware", "A programming language", "A secure online storage service"],
+      correctAnswer: 0,
+      explanation: "Databases are used to store and manage large amounts of data."
+    },
+    {
+      id: 'cs26',
+      question: "What is 'SQL'?",
+      options: ["A standard language for accessing and manipulating databases", "A type of computer virus", "A hardware component for storing data", "A secure method for encrypting data"],
+      correctAnswer: 0,
+      explanation: "SQL stands for Structured Query Language."
+    },
+    {
+      id: 'cs27',
+      question: "What is 'Encryption'?",
+      options: ["The process of converting information or data into a code, especially to prevent unauthorized access", "A method for speeding up a computer", "A type of computer cooling system", "A device for storing large amounts of data"],
+      correctAnswer: 0,
+      explanation: "Encryption is used to protect sensitive information."
+    },
+    {
+      id: 'cs28',
+      question: "What is a 'GUI'?",
+      options: ["Graphical User Interface", "General User Interface", "Graphical Utility Interface", "General Utility Interface"],
+      correctAnswer: 0,
+      explanation: "A GUI allows users to interact with electronic devices through graphical icons and visual indicators."
+    },
+    {
+      id: 'cs29',
+      question: "What is a 'Driver' in computing?",
+      options: ["A software component that lets the operating system and a device communicate with each other", "A person who drives a computer around", "A type of computer cable", "A device for cooling a computer"],
+      correctAnswer: 0,
+      explanation: "Drivers are essential for the proper functioning of hardware devices."
+    },
+    {
+      id: 'cs30',
+      question: "What is 'Bandwidth'?",
+      options: ["The maximum rate of data transfer across a given path", "The speed of a computer's processor", "The amount of storage space on a hard drive", "The resolution of a computer screen"],
+      correctAnswer: 0,
+      explanation: "Bandwidth is often measured in bits per second (bps)."
+    },
+    {
+      id: 'cs31',
+      question: "What is a 'Server'?",
+      options: ["A computer or system that provides resources, data, services, or programs to other computers, known as clients, over a network", "A person who serves food to computers", "A type of computer desk", "A device for cleaning a computer"],
+      correctAnswer: 0,
+      explanation: "Servers are a key component of the client-server model."
+    },
+    {
+      id: 'cs32',
+      question: "What is 'Virtual Reality' (VR)?",
+      options: ["A simulated experience that can be similar to or completely different from the real world", "A type of computer game", "A new operating system", "A method for creating 3D graphics"],
+      correctAnswer: 0,
+      explanation: "VR uses headsets to generate realistic images, sounds, and other sensations."
+    },
+    {
+      id: 'cs33',
+      question: "What is 'Augmented Reality' (AR)?",
+      options: ["An interactive experience of a real-world environment where the objects that reside in the real world are enhanced by computer-generated perceptual information", "A type of computer game", "A new operating system", "A method for creating 3D graphics"],
+      correctAnswer: 0,
+      explanation: "AR overlays computer-generated images on the user's view of the real world."
+    },
+    {
+      id: 'cs34',
+      question: "What is 'Machine Learning'?",
+      options: ["A type of artificial intelligence (AI) that allows software applications to become more accurate at predicting outcomes without being explicitly programmed to do so", "A new type of computer hardware", "A programming language", "A secure online storage service"],
+      correctAnswer: 0,
+      explanation: "Machine learning algorithms use historical data as input to predict new output values."
+    },
+    {
+      id: 'cs35',
+      question: "What is 'Artificial Intelligence' (AI)?",
+      options: ["The simulation of human intelligence in machines that are programmed to think like humans and mimic their actions", "A type of computer game", "A new operating system", "A method for creating 3D graphics"],
+      correctAnswer: 0,
+      explanation: "AI includes machine learning, natural language processing, and other advanced technologies."
+    },
+    {
+      id: 'cs36',
+      question: "What is a 'Trojan Horse' in computing?",
+      options: ["A type of malware that is often disguised as legitimate software", "A secure method for encrypting data", "A hardware component for storing data", "A type of computer virus"],
+      correctAnswer: 0,
+      explanation: "Trojans can be used to steal information or take control of a computer."
+    },
+    {
+      id: 'cs37',
+      question: "What is a 'Worm' in computing?",
+      options: ["A standalone malware computer program that replicates itself in order to spread to other computers", "A type of computer cable", "A small insect that can damage computers", "A measure of internet speed"],
+      correctAnswer: 0,
+      explanation: "Worms often use computer networks to spread themselves."
+    },
+    {
+      id: 'cs38',
+      question: "What is a 'Virus' in computing?",
+      options: ["A type of malicious code or program written to alter the way a computer operates and that is designed to spread from one computer to another", "A type of computer hardware", "A popular brand of antivirus software", "A secure operating system"],
+      correctAnswer: 0,
+      explanation: "A virus requires a host program to spread."
+    },
+    {
+      id: 'cs39',
+      question: "What is 'Spam'?",
+      options: ["Unsolicited bulk email", "A type of computer virus", "A secure method for sending emails", "A type of computer hardware"],
+      correctAnswer: 0,
+      explanation: "Spam is a major source of email clutter and can be used to spread malware."
+    },
+    {
+      id: 'cs40',
+      question: "What is a 'Zombie' in computing?",
+      options: ["A computer that has been compromised by a hacker, computer virus, or trojan horse and can be used to perform malicious tasks of one sort or another under remote direction", "A type of computer game", "A new operating system", "A method for creating 3D graphics"],
+      correctAnswer: 0,
+      explanation: "Zombie computers are often used in botnets to send spam or launch denial-of-service attacks."
+    }
   ]
 };
