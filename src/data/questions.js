@@ -4187,284 +4187,284 @@ export const QUESTIONS = {
   ],
   accounting: [
     {
-      id: 'ac1',
-      question: "What is the fundamental accounting equation?",
-      options: ["Assets = Liabilities + Equity", "Assets = Liabilities - Equity", "Equity = Assets + Liabilities", "Liabilities = Assets + Equity"],
-      correctAnswer: 0,
-      explanation: "The accounting equation is the foundation of the double-entry bookkeeping system."
+        id: 'ac1',
+        question: "Which of the following is not a source document?",
+        options: ["Invoice", "Ledger", "Debit note", "Credit note"],
+        correctAnswer: 1,
+        explanation: "A ledger is a book of accounts, not a source document. Source documents are the original records of a transaction."
     },
     {
-      id: 'ac2',
-      question: "Which financial statement reports a company's financial performance over a specific period?",
-      options: ["Income Statement", "Balance Sheet", "Cash Flow Statement", "Statement of Retained Earnings"],
-      correctAnswer: 0,
-      explanation: "The Income Statement shows revenues, expenses, and the resulting net income or loss."
+        id: 'ac2',
+        question: "The concept that states that a business is separate from its owner is known as?",
+        options: ["Business entity", "Going concern", "Money measurement", "Duality"],
+        correctAnswer: 0,
+        explanation: "The business entity concept treats the business as a separate legal and economic entity from its owners."
     },
     {
-      id: 'ac3',
-      question: "What does 'GAAP' stand for?",
-      options: ["Generally Accepted Accounting Principles", "General Accounting and Auditing Procedures", "Governmental Accounting Policies", "Generally Applied Auditing Principles"],
-      correctAnswer: 0,
-      explanation: "GAAP is the common set of accounting standards and procedures used in the U.S."
+        id: 'ac3',
+        question: "What is the main purpose of a trial balance?",
+        options: ["To prepare financial statements", "To check the arithmetical accuracy of the ledger accounts", "To summarize transactions", "To correct errors"],
+        correctAnswer: 1,
+        explanation: "A trial balance lists all the debit and credit balances of ledger accounts to verify that total debits equal total credits."
     },
     {
-      id: 'ac4',
-      question: "What is a 'Debit'?",
-      options: ["An entry on the left side of an account", "An entry on the right side of an account", "A decrease in an asset account", "An increase in a liability account"],
-      correctAnswer: 0,
-      explanation: "Debits increase asset and expense accounts, and decrease liability, equity, and revenue accounts."
+        id: 'ac4',
+        question: "Depreciation is the process of?",
+        options: ["Valuing an asset", "Allocating the cost of an asset over its useful life", "Selling an asset", "Replacing an asset"],
+        correctAnswer: 1,
+        explanation: "Depreciation systematically allocates the cost of a tangible asset over the periods it is expected to be used."
     },
     {
-      id: 'ac5',
-      question: "Which of the following is a 'Current Asset'?",
-      options: ["Accounts Receivable", "Land", "Building", "Machinery"],
-      correctAnswer: 0,
-      explanation: "Current assets are assets that are expected to be converted to cash within one year."
+        id: 'ac5',
+        question: "Which of these is a capital expenditure?",
+        options: ["Purchase of machinery", "Payment of salaries", "Rent payment", "Purchase of stationery"],
+        correctAnswer: 0,
+        explanation: "Capital expenditure is money spent to acquire or upgrade long-term assets like machinery, which will benefit the business for more than one accounting period."
     },
     {
-      id: 'ac6',
-      question: "What is 'Depreciation'?",
-      options: ["The allocation of the cost of a tangible asset over its useful life", "The decrease in the value of an asset due to market fluctuations", "The process of selling an old asset", "The cost of repairing an asset"],
-      correctAnswer: 0,
-      explanation: "Depreciation is an expense that reduces the book value of an asset."
+        id: 'ac6',
+        question: "The double-entry system of bookkeeping means that?",
+        options: ["Every transaction has two effects", "Two books are used to record transactions", "Transactions are recorded twice", "A transaction affects two accounts, a debit and a credit"],
+        correctAnswer: 3,
+        explanation: "For every transaction, there must be a debit entry in one account and a corresponding credit entry in another account."
     },
     {
-      id: 'ac7',
-      question: "What is the purpose of a 'Trial Balance'?",
-      options: ["To verify that total debits equal total credits", "To prepare the final financial statements", "To record daily transactions", "To calculate the net income of a company"],
-      correctAnswer: 0,
-      explanation: "A trial balance is an internal report used to check the mathematical accuracy of the ledger."
+        id: 'ac7',
+        question: "A credit balance in a cash book indicates?",
+        options: ["Cash in hand", "Bank overdraft", "Cash at bank", "Profit"],
+        correctAnswer: 1,
+        explanation: "A credit balance in the bank column of a cash book signifies that the business has withdrawn more money than it had in its bank account, resulting in a bank overdraft."
     },
     {
-      id: 'ac8',
-      question: "What is 'Accrual Accounting'?",
-      options: ["Recording revenues when earned and expenses when incurred, regardless of when cash is exchanged", "Recording transactions only when cash is received or paid", "A method used only by small businesses", "An outdated accounting method"],
-      correctAnswer: 0,
-      explanation: "Accrual accounting provides a more accurate picture of a company's financial health."
+        id: 'ac8',
+        question: "Which of the following is a real account?",
+        options: ["Salaries account", "Rent account", "Machinery account", "John's account"],
+        correctAnswer: 2,
+        explanation: "Real accounts are accounts of assets and properties. Machinery is a tangible asset."
     },
     {
-      id: 'ac9',
-      question: "What is a 'Ledger'?",
-      options: ["A book or collection of accounts where transactions are recorded", "A single business transaction", "A summary of all assets", "A list of all employees"],
-      correctAnswer: 0,
-      explanation: "The general ledger contains all the accounts for a company."
+        id: 'ac9',
+        question: "Goodwill is classified as a/an?",
+        options: ["Tangible asset", "Fictitious asset", "Intangible asset", "Current asset"],
+        correctAnswer: 2,
+        explanation: "Goodwill is an intangible asset that represents the non-physical value of a business, such as its brand reputation and customer base."
     },
     {
-      id: 'ac10',
-      question: "What is 'Working Capital'?",
-      options: ["Current Assets - Current Liabilities", "Total Assets - Total Liabilities", "Sales - Cost of Goods Sold", "Net Income + Depreciation"],
-      correctAnswer: 0,
-      explanation: "Working capital is a measure of a company's short-term liquidity."
+        id: 'ac10',
+        question: "The formula for calculating working capital is?",
+        options: ["Current Assets - Current Liabilities", "Total Assets - Total Liabilities", "Current Assets + Current Liabilities", "Fixed Assets - Current Liabilities"],
+        correctAnswer: 0,
+        explanation: "Working capital is a measure of a company's short-term liquidity and is calculated as the difference between current assets and current liabilities."
     },
     {
-      id: 'ac11',
-      question: "What is 'FIFO'?",
-      options: ["First-In, First-Out inventory costing method", "A type of financial report", "A government accounting standard", "A method for calculating depreciation"],
-      correctAnswer: 0,
-      explanation: "FIFO assumes that the first units purchased are the first ones sold."
+        id: 'ac11',
+        question: "Which financial statement shows the financial position of a company at a specific point in time?",
+        options: ["Income Statement", "Statement of Cash Flows", "Balance Sheet", "Trial Balance"],
+        correctAnswer: 2,
+        explanation: "The Balance Sheet, also known as the Statement of Financial Position, presents a snapshot of a company's assets, liabilities, and equity on a specific date."
     },
     {
-      id: 'ac12',
-      question: "What is a 'Balance Sheet'?",
-      options: ["A snapshot of a company's financial position at a specific point in time", "A report of a company's profitability over a period", "A statement of cash inflows and outflows", "A list of all shareholders"],
-      correctAnswer: 0,
-      explanation: "The Balance Sheet shows a company's assets, liabilities, and equity."
+        id: 'ac12',
+        question: "Sales minus Cost of Goods Sold equals?",
+        options: ["Net Profit", "Gross Profit", "Operating Profit", "Retained Earnings"],
+        correctAnswer: 1,
+        explanation: "Gross Profit is the profit a company makes after deducting the costs associated with making and selling its products, or the costs associated with providing its services."
     },
     {
-      id: 'ac13',
-      question: "What is 'Cost of Goods Sold' (COGS)?",
-      options: ["The direct costs of producing the goods sold by a company", "The total expenses of a company", "The price at which goods are sold", "The profit made from selling goods"],
-      correctAnswer: 0,
-      explanation: "COGS is a major expense for most businesses."
+        id: 'ac13',
+        question: "The 'going concern' concept assumes that a business will?",
+        options: ["Be profitable", "Continue to operate for the foreseeable future", "Be sold within a year", "Not make any losses"],
+        correctAnswer: 1,
+        explanation: "The going concern principle is the assumption that an entity will remain in business for the foreseeable future."
     },
     {
-      id: 'ac14',
-      question: "What is a 'Journal Entry'?",
-      options: ["The initial recording of a business transaction in the accounting system", "A summary of all transactions at the end of the month", "A report sent to the government", "A note written by an auditor"],
-      correctAnswer: 0,
-      explanation: "Journal entries are recorded in chronological order."
+        id: 'ac14',
+        question: "A debit note is issued to a creditor to show that?",
+        options: ["Goods have been returned", "Payment has been made", "An order has been placed", "Goods have been received"],
+        correctAnswer: 0,
+        explanation: "A debit note is sent by a buyer to a seller to notify them that goods have been returned and to request a credit to their account."
     },
     {
-      id: 'ac15',
-      question: "What is 'Equity'?",
-      options: ["The residual interest in the assets of an entity that remains after deducting its liabilities", "The total amount of cash a company has", "The total sales of a company", "The total debt of a company"],
-      correctAnswer: 0,
-      explanation: "Equity represents the ownership interest in a company."
+        id: 'ac15',
+        question: "Which of these errors would be revealed by a trial balance?",
+        options: ["Error of original entry", "Error of principle", "Compensating error", "Casting error in a ledger account"],
+        correctAnswer: 3,
+        explanation: "A casting error (an error in addition) in a ledger account will cause the trial balance to be unequal. The other errors listed will not affect the trial balance's agreement."
     },
     {
-      id: 'ac16',
-      question: "What is an 'Audit'?",
-      options: ["An independent examination of a company's financial statements", "The process of preparing tax returns", "A meeting of the board of directors", "The daily recording of transactions"],
-      correctAnswer: 0,
-      explanation: "Audits provide assurance that financial statements are free from material misstatement."
+        id: 'ac16',
+        question: "The process of transferring entries from the journal to the ledger is called?",
+        options: ["Journalizing", "Balancing", "Posting", "Summarizing"],
+        correctAnswer: 2,
+        explanation: "Posting is the process of transferring debit and credit entries from the journal to the corresponding accounts in the ledger."
     },
     {
-      id: 'ac17',
-      question: "What is 'LIFO'?",
-      options: ["Last-In, First-Out inventory costing method", "A method for calculating interest", "A type of business loan", "A financial ratio"],
-      correctAnswer: 0,
-      explanation: "LIFO assumes that the last units purchased are the first ones sold."
+        id: 'ac17',
+        question: "What is a suspense account used for?",
+        options: ["To record suspenseful transactions", "To temporarily hold unclassified debits or credits", "To write off bad debts", "To record depreciation"],
+        correctAnswer: 1,
+        explanation: "A suspense account is a temporary account used to record discrepancies in the trial balance until the errors can be located and corrected."
     },
     {
-      id: 'ac18',
-      question: "What is 'Revenue'?",
-      options: ["The income generated from normal business operations", "The profit earned by a company", "The cash received from customers", "The total value of a company's assets"],
-      correctAnswer: 0,
-      explanation: "Revenue is the top line or gross income figure from which costs are subtracted to determine net income."
+        id: 'ac18',
+        question: "Which of the following is a liability?",
+        options: ["Cash", "Accounts Receivable", "Prepaid Rent", "Bank Loan"],
+        correctAnswer: 3,
+        explanation: "A liability is an obligation of the company. A bank loan represents money that the company owes to the bank."
     },
     {
-      id: 'ac19',
-      question: "What is a 'Liability'?",
-      options: ["A company's financial obligations or debts", "An asset owned by the company", "The owner's investment in the company", "The profit of the company"],
-      correctAnswer: 0,
-      explanation: "Liabilities are what a company owes to others."
+        id: 'ac19',
+        question: "The accounting convention that states that revenue should be recognized when it is earned is the?",
+        options: ["Matching principle", "Realization concept", "Materiality concept", "Conservatism principle"],
+        correctAnswer: 1,
+        explanation: "The realization (or revenue recognition) principle dictates that revenue is recognized and recorded when it is earned, regardless of when the cash is received."
     },
     {
-      id: 'ac20',
-      question: "What is the 'Matching Principle'?",
-      options: ["The principle that expenses should be recorded in the same period as the revenues they help to generate", "Matching purchase orders with invoices", "Matching debits and credits", "Matching assets and liabilities"],
-      correctAnswer: 0,
-      explanation: "The matching principle is a key concept in accrual accounting."
+        id: 'ac20',
+        question: "Carriage inwards is an expense related to?",
+        options: ["Sales", "Purchases", "Administration", "Distribution"],
+        correctAnswer: 1,
+        explanation: "Carriage inwards is the cost of transporting goods purchased into the business. It is considered part of the cost of purchases."
     },
     {
-      id: 'ac21',
-      question: "What is a 'T-account'?",
-      options: ["A visual representation of an individual account, with debits on the left and credits on the right", "A type of bank account", "A summary of all accounts", "A report for tax purposes"],
-      correctAnswer: 0,
-      explanation: "T-accounts are used to analyze transactions and understand their impact on accounts."
+        id: 'ac21',
+        question: "A company's share capital is part of its?",
+        options: ["Liabilities", "Equity", "Assets", "Expenses"],
+        correctAnswer: 1,
+        explanation: "Share capital represents the funds raised by a company through the issue of shares to its shareholders. It is a component of shareholders' equity."
     },
     {
-      id: 'ac22',
-      question: "What is 'Goodwill'?",
-      options: ["An intangible asset that arises when one company acquires another for a price greater than its book value", "A donation to charity", "A discount given to a good customer", "The reputation of a company"],
-      correctAnswer: 0,
-      explanation: "Goodwill represents the value of a company's brand, customer base, and other non-physical assets."
+        id: 'ac22',
+        question: "Which of the following is NOT a book of prime entry?",
+        options: ["Sales Day Book", "Cash Book", "General Ledger", "Purchases Day Book"],
+        correctAnswer: 2,
+        explanation: "The General Ledger is the principal book of accounts where summaries of all transactions are recorded. The others are books of original (or prime) entry."
     },
     {
-      id: 'ac23',
-      question: "What is the 'Cash Flow Statement'?",
-      options: ["A financial statement that shows how changes in balance sheet accounts and income affect cash", "A statement of all cash transactions only", "A budget for future cash needs", "A report on the company's bank balance"],
-      correctAnswer: 0,
-      explanation: "The Cash Flow Statement is divided into operating, investing, and financing activities."
+        id: 'ac23',
+        question: "Bad debts are an example of a/an?",
+        options: ["Revenue expenditure", "Capital expenditure", "Deferred revenue expenditure", "Fictitious asset"],
+        correctAnswer: 0,
+        explanation: "Bad debts are an expense incurred when a debt owed to the company is deemed uncollectible. It is a revenue expenditure matched against the revenue of the period."
     },
     {
-      id: 'ac24',
-      question: "What is 'Amortization'?",
-      options: ["The process of spreading the cost of an intangible asset over its useful life", "The process of paying off a debt over time", "A type of depreciation for buildings", "The sale of an intangible asset"],
-      correctAnswer: 0,
-      explanation: "Amortization is similar to depreciation but is used for intangible assets like patents and copyrights."
+        id: 'ac24',
+        question: "The reduction in the value of an asset due to wear and tear is known as?",
+        options: ["Amortization", "Depletion", "Depreciation", "Obsolescence"],
+        correctAnswer: 2,
+        explanation: "Depreciation specifically refers to the reduction in value of tangible fixed assets due to use, passage of time, or obsolescence."
     },
     {
-      id: 'ac25',
-      question: "What is a 'Dividend'?",
-      options: ["A distribution of a portion of a company's earnings to its shareholders", "A type of business expense", "A loan from the shareholders to the company", "An increase in the stock price"],
-      correctAnswer: 0,
-      explanation: "Dividends are a way for companies to share their profits with investors."
+        id: 'ac25',
+        question: "Which accounting principle requires that the same accounting methods be used from one period to another?",
+        options: ["Materiality", "Consistency", "Prudence", "Full disclosure"],
+        correctAnswer: 1,
+        explanation: "The consistency principle ensures that financial statements are comparable across different accounting periods by using the same methods and procedures."
     },
     {
-      id: 'ac26',
-      question: "What is 'Book Value'?",
-      options: ["The value of an asset according to its balance sheet account balance", "The price at which an asset could be sold", "The original cost of an asset", "The cost to replace an asset"],
-      correctAnswer: 0,
-      explanation: "For assets, book value is the cost of an asset minus its accumulated depreciation."
+        id: 'ac26',
+        question: "An example of a nominal account is?",
+        options: ["Bank Account", "Building Account", "Wages Account", "Debtors Account"],
+        correctAnswer: 2,
+        explanation: "Nominal accounts relate to expenses, losses, incomes, and gains. Wages are an expense for the business."
     },
     {
-      id: 'ac27',
-      question: "What is 'Accounts Payable'?",
-      options: ["Money owed by a company to its suppliers", "Money owed to a company by its customers", "The total debt of a company", "The salaries of the accounting staff"],
-      correctAnswer: 0,
-      explanation: "Accounts Payable is a current liability on the balance sheet."
+        id: 'ac27',
+        question: "The balance of the purchases account is always?",
+        options: ["Debit", "Credit", "Either debit or credit", "Nil"],
+        correctAnswer: 0,
+        explanation: "The purchases account records the cost of goods bought for resale. Since it's an expense-type account, it normally has a debit balance."
     },
     {
-      id: 'ac28',
-      question: "What is 'Accounts Receivable'?",
-      options: ["Money owed to a company by its customers", "Money owed by a company to its suppliers", "The total sales of a company", "The cash in the bank"],
-      correctAnswer: 0,
-      explanation: "Accounts Receivable is a current asset on the balance sheet."
+        id: 'ac28',
+        question: "What does 'drawings' refer to in accounting?",
+        options: ["Cash or goods taken by the owner for personal use", "A sketch of the business premises", "Profits drawn from the business", "Loans given to employees"],
+        correctAnswer: 0,
+        explanation: "Drawings represent the withdrawal of assets from the business by the owner for their personal use, reducing the owner's equity."
     },
     {
-      id: 'ac29',
-      question: "What is 'Gross Profit'?",
-      options: ["Sales - Cost of Goods Sold", "Sales - All Expenses", "Total Revenue - Total Costs", "Net Income + Taxes"],
-      correctAnswer: 0,
-      explanation: "Gross profit is a measure of a company's profitability before considering operating expenses."
+        id: 'ac29',
+        question: "Which of these is used to record credit sales of goods?",
+        options: ["Sales Account", "Sales Day Book", "Cash Book", "Journal Proper"],
+        correctAnswer: 1,
+        explanation: "The Sales Day Book (or Sales Journal) is a book of prime entry used to chronologically record all credit sales of merchandise."
     },
     {
-      id: 'ac30',
-      question: "What is 'Net Income'?",
-      options: ["The profit of a company after all expenses and taxes have been deducted from revenues", "The total revenue of a company", "The cash generated by a company", "The owner's share of the profit"],
-      correctAnswer: 0,
-      explanation: "Net income is often called the 'bottom line'."
+        id: 'ac30',
+        question: "The closing stock is valued at?",
+        options: ["Cost price", "Market price", "Cost or net realizable value, whichever is lower", "Cost or net realizable value, whichever is higher"],
+        correctAnswer: 2,
+        explanation: "This is an application of the prudence (or conservatism) concept, which ensures that assets and profits are not overstated."
     },
     {
-      id: 'ac31',
-      question: "What is a 'Fiscal Year'?",
-      options: ["A one-year period that a company uses for accounting and financial reporting", "The calendar year from January to December", "The year in which a company was founded", "A period of high government spending"],
-      correctAnswer: 0,
-      explanation: "A fiscal year can be any 12-month period, not necessarily the calendar year."
+        id: 'ac31',
+        question: "A Bank Reconciliation Statement is prepared to?",
+        options: ["Correct errors in the cash book", "Reconcile the bank balance as per cash book with the bank balance as per bank statement", "Know the bank balance", "Control bank transactions"],
+        correctAnswer: 1,
+        explanation: "It is a statement that identifies and explains the differences between the bank balance shown in the company's cash book and the bank balance shown on the bank statement."
     },
     {
-      id: 'ac32',
-      question: "What is 'Internal Control'?",
-      options: ["The policies and procedures put in place to safeguard assets and ensure the integrity of financial reporting", "A type of audit performed by the government", "The control of a company by its own employees", "A software for accounting"],
-      correctAnswer: 0,
-      explanation: "Good internal controls are essential for preventing fraud and errors."
+        id: 'ac32',
+        question: "Which of the following is an indirect expense?",
+        options: ["Wages", "Factory rent", "Office salaries", "Carriage inwards"],
+        correctAnswer: 2,
+        explanation: "Indirect expenses are not directly related to production. Office salaries are an administrative expense, which is an indirect cost."
     },
     {
-      id: 'ac33',
-      question: "What is a 'Bad Debt'?",
-      options: ["An account receivable that is unlikely to be collected", "A loan that has a very high interest rate", "A debt owed to a criminal organization", "A mistake in the accounting records"],
-      correctAnswer: 0,
-      explanation: "Companies must estimate and account for bad debts as an expense."
+        id: 'ac33',
+        question: "The main objective of accounting is to?",
+        options: ["Provide information for decision making", "Prevent fraud", "Minimize tax liability", "Pay dividends"],
+        correctAnswer: 0,
+        explanation: "The primary function of accounting is to provide systematic, accurate, and reliable financial information to various stakeholders for making informed economic decisions."
     },
     {
-      id: 'ac34',
-      question: "What is 'Retained Earnings'?",
-      options: ["The portion of net income that is kept by the company rather than being distributed as dividends", "The total earnings of a company since its inception", "The cash saved by a company for future investments", "The profit that has not yet been taxed"],
-      correctAnswer: 0,
-      explanation: "Retained earnings are a component of shareholders' equity."
+        id: 'ac34',
+        question: "A contingent liability is a?",
+        options: ["Liability that is certain to occur", "Potential liability that may occur depending on the outcome of a future event", "Liability that is recorded in the books", "Liability that has been paid"],
+        correctAnswer: 1,
+        explanation: "A contingent liability is a potential obligation that may arise from a past event but its existence will be confirmed only by the occurrence or non-occurrence of one or more uncertain future events."
     },
     {
-      id: 'ac35',
-      question: "What is a 'Bank Reconciliation'?",
-      options: ["A process of comparing the bank's records with the company's records to identify any differences", "A meeting with the bank manager", "A request for a new bank loan", "A summary of all bank transactions"],
-      correctAnswer: 0,
-      explanation: "Bank reconciliation is an important internal control over cash."
+        id: 'ac35',
+        question: "The 'matching principle' in accounting means?",
+        options: ["Matching assets with liabilities", "Matching revenues with expenses for a period", "Matching debits with credits", "Matching invoices with payments"],
+        correctAnswer: 1,
+        explanation: "The matching principle directs that expenses incurred in an accounting period should be matched with the revenue generated during that same period."
     },
     {
-      id: 'ac36',
-      question: "What is 'Solvency'?",
-      options: ["A company's ability to meet its long-term financial obligations", "A company's ability to meet its short-term debts", "The profitability of a company", "The size of a company"],
-      correctAnswer: 0,
-      explanation: "Solvency is a measure of a company's long-term financial health."
+        id: 'ac36',
+        question: "Which of these is a current asset?",
+        options: ["Land and Buildings", "Plant and Machinery", "Inventory", "Goodwill"],
+        correctAnswer: 2,
+        explanation: "Current assets are assets that are expected to be converted into cash or used up within one year. Inventory (or stock) falls into this category."
     },
     {
-      id: 'ac37',
-      question: "What is 'Liquidity'?",
-      options: ["A company's ability to meet its short-term financial obligations", "A company's ability to meet its long-term debts", "The amount of cash a company has", "The ease with which an asset can be sold"],
-      correctAnswer: 0,
-      explanation: "Liquidity ratios measure a company's ability to pay its bills on time."
+        id: 'ac37',
+        question: "The journal entry to record the purchase of equipment on credit is?",
+        options: ["Debit Equipment, Credit Cash", "Debit Purchases, Credit Creditor", "Debit Equipment, Credit Creditor", "Debit Creditor, Credit Equipment"],
+        correctAnswer: 2,
+        explanation: "You debit the Equipment account (an increase in assets) and credit the Creditor/Accounts Payable account (an increase in liabilities)."
     },
     {
-      id: 'ac38',
-      question: "What is a 'Contingent Liability'?",
-      options: ["A potential liability that may occur depending on the outcome of a future event", "A liability that is certain to occur", "A debt that has been paid off", "A type of long-term loan"],
-      correctAnswer: 0,
-      explanation: "A pending lawsuit is a common example of a contingent liability."
+        id: 'ac38',
+        question: "What is 'amortization'?",
+        options: ["The process of allocating the cost of an intangible asset over its useful life", "The process of valuing inventory", "The process of paying off a debt over time", "The process of writing off bad debts"],
+        correctAnswer: 0,
+        explanation: "Amortization is similar to depreciation but is used for intangible assets like patents, copyrights, and trademarks."
     },
     {
-      id: 'ac39',
-      question: "What is 'Double-Entry Bookkeeping'?",
-      options: ["A system where every transaction has two effects, a debit in one account and a credit in another", "A system where each transaction is recorded twice", "A method used only by large corporations", "An outdated accounting system"],
-      correctAnswer: 0,
-      explanation: "This system ensures that the accounting equation always remains in balance."
+        id: 'ac39',
+        question: "The financial statement that summarizes revenues and expenses for a specific period is the?",
+        options: ["Balance Sheet", "Income Statement", "Statement of Retained Earnings", "Cash Flow Statement"],
+        correctAnswer: 1,
+        explanation: "The Income Statement, also known as the Profit and Loss (P&L) statement, shows a company's financial performance over a period of time."
     },
     {
-      id: 'ac40',
-      question: "What is 'Forensic Accounting'?",
-      options: ["The use of accounting skills to investigate fraud or embezzlement", "Accounting for a company that has gone bankrupt", "Accounting for a government agency", "A type of historical accounting"],
-      correctAnswer: 0,
-      explanation: "Forensic accountants are often involved in legal cases and criminal investigations."
+        id: 'ac40',
+        question: "A trial balance will not balance if?",
+        options: ["A transaction is completely omitted from the books", "A correct amount is posted to the wrong account", "A debit entry is posted as a credit", "An invoice is entered with the wrong amount in both the debit and credit accounts"],
+        correctAnswer: 2,
+        explanation: "Posting a debit as a credit (or vice versa) will cause the total debits and total credits in the trial balance to be unequal. The other errors listed are types of errors that do not affect the trial balance agreement."
     }
   ],
   computer: [
