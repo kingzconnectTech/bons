@@ -144,6 +144,8 @@ const Test = () => {
       const questions = shuffledQuestions[subject.id] || [];
       totalQuestions += questions.length;
       let subjectScore = 0;
+      
+      // Standard JAMB weighting: 100/40 = 2.5 per question, 100/60 = 1.666666... per question
       const marksPerQuestion = questions.length > 0 ? 100 / questions.length : 0;
       
       questions.forEach(q => {
@@ -152,8 +154,7 @@ const Test = () => {
           attempted++;
           if (userAnswer === q.correctAnswer) {
             subjectScore += marksPerQuestion;
-            score += marksPerQuestion;
-          } else { 
+          } else {
             incorrectAnswers++;
             failedQuestions.push({ 
               subjectName: subject.name, 
@@ -177,11 +178,20 @@ const Test = () => {
         }
       });
 
+      // Round subject score to 2 decimal places before adding to total to maintain precision
+      const roundedSubjectScore = Number(subjectScore.toFixed(2));
+      score += roundedSubjectScore;
+      
       const maxSubjectScore = 100; // Each subject is exactly 100 marks
-      subjectStats.push({ id: subject.id, name: subject.name, score: Math.round(subjectScore), total: maxSubjectScore });
+      subjectStats.push({ 
+        id: subject.id, 
+        name: subject.name, 
+        score: Math.round(roundedSubjectScore), 
+        total: maxSubjectScore 
+      });
     });
 
-    const maxTotalScore = 400; // Hardcoded cumulative total as per assessment framework
+    const maxTotalScore = 400; // Cumulative total aggregate as per assessment framework
 
     if (isAutoSubmit) {
       alert("Time's up! Your test is being submitted automatically.");
