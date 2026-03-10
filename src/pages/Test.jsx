@@ -181,7 +181,7 @@ const Test = () => {
       subjectStats.push({ id: subject.id, name: subject.name, score: Math.round(subjectScore), total: maxSubjectScore });
     });
 
-    const maxTotalScore = selectedSubjects.length * 100; // Cumulative total (e.g., 400 for 4 subjects)
+    const maxTotalScore = 400; // Hardcoded cumulative total as per assessment framework
 
     if (isAutoSubmit) {
       alert("Time's up! Your test is being submitted automatically.");
