@@ -22,7 +22,7 @@ const Test = () => {
   const [activeSubjectIndex, setActiveSubjectIndex] = useState(0);
   const [activeQuestionIndex, setActiveQuestionIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState({}); // { subjectId: { questionId: selectedOptionIndex } }
-  const [timeLeft, setTimeLeft] = useState(9000); // 2 hours 30 minutes in seconds (150 minutes * 60)
+  const [timeLeft, setTimeLeft] = useState(7200); // 2 hours in seconds (120 minutes * 60)
   const [shuffledQuestions, setShuffledQuestions] = useState({});
   const [isInitialized, setIsInitialized] = useState(false);
 
@@ -144,15 +144,16 @@ const Test = () => {
       const questions = shuffledQuestions[subject.id] || [];
       totalQuestions += questions.length;
       let subjectScore = 0;
+      const marksPerQuestion = questions.length > 0 ? 100 / questions.length : 0;
       
       questions.forEach(q => {
         const userAnswer = userAnswers[subject.id]?.[q.id];
         if (userAnswer !== undefined) {
           attempted++;
           if (userAnswer === q.correctAnswer) {
-            subjectScore += 2; // 2 points per correct answer
-            score += 2; // Add 2 points to total score
-          } else {
+            subjectScore += marksPerQuestion;
+            score += marksPerQuestion;
+          } else { 
             incorrectAnswers++;
             failedQuestions.push({ 
               subjectName: subject.name, 
@@ -176,18 +177,18 @@ const Test = () => {
         }
       });
 
-      const maxSubjectScore = questions.length * 2; // Maximum possible score for this subject
-      subjectStats.push({ id: subject.id, name: subject.name, score: subjectScore, total: maxSubjectScore });
+      const maxSubjectScore = 100; // Each subject is exactly 100 marks
+      subjectStats.push({ id: subject.id, name: subject.name, score: Math.round(subjectScore), total: maxSubjectScore });
     });
 
-    const maxTotalScore = totalQuestions * 2; // Maximum possible total score
+    const maxTotalScore = selectedSubjects.length * 100; // Cumulative total (e.g., 400 for 4 subjects)
 
     if (isAutoSubmit) {
       alert("Time's up! Your test is being submitted automatically.");
     }
     
     setTestResults({ 
-      score, 
+      score: Math.round(score), 
       totalQuestions, 
       maxTotalScore,
       incorrectAnswers, 

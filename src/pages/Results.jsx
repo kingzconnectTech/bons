@@ -166,6 +166,59 @@ const Results = () => {
               </motion.div>
             </div>
 
+            {/* Assessment Framework Summary */}
+            <div className="mb-12 sm:mb-16 p-8 sm:p-10 bg-brand-black text-white rounded-2xl sm:rounded-[2.5rem] relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-brand-mint opacity-5 rounded-full blur-3xl -mr-32 -mt-32"></div>
+              <div className="relative z-10">
+                <div className="flex items-center space-x-3 mb-6">
+                  <div className="p-2 bg-white/10 rounded-xl border border-white/20">
+                    <BookOpen className="w-5 h-5 sm:w-6 sm:h-6 text-brand-mint" />
+                  </div>
+                  <h3 className="text-xl sm:text-2xl font-black tracking-tight uppercase italic">Assessment Framework</h3>
+                </div>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  <div className="space-y-4">
+                    <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                      This examination follows a standardized 400-mark cumulative framework. Each core subject is weighted equally at <span className="text-brand-mint font-black">100 marks</span> to ensure balanced academic evaluation.
+                    </p>
+                    <ul className="space-y-2 text-[10px] sm:text-xs text-slate-400 font-bold uppercase tracking-wider">
+                      <li className="flex items-center space-x-2">
+                        <div className="w-1.5 h-1.5 rounded-full bg-brand-mint"></div>
+                        <span>4 Subjects Selected</span>
+                      </li>
+                      <li className="flex items-center space-x-2">
+                        <div className="w-1.5 h-1.5 rounded-full bg-brand-mint"></div>
+                        <span>100 Marks Per Subject</span>
+                      </li>
+                      <li className="flex items-center space-x-2">
+                        <div className="w-1.5 h-1.5 rounded-full bg-brand-mint"></div>
+                        <span>400 Total Aggregate</span>
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
+                    <h4 className="text-[10px] font-black text-brand-mint uppercase tracking-[0.2em] mb-4">Grading Rubric</h4>
+                    <div className="space-y-3">
+                      <div className="flex justify-between items-center pb-2 border-b border-white/10">
+                        <span className="text-xs font-bold text-slate-300 italic">Distinction</span>
+                        <span className="text-sm font-black text-brand-mint">280 - 400</span>
+                      </div>
+                      <div className="flex justify-between items-center pb-2 border-b border-white/10">
+                        <span className="text-xs font-bold text-slate-300 italic">Credit</span>
+                        <span className="text-sm font-black text-white">200 - 279</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-xs font-bold text-slate-300 italic">Pass</span>
+                        <span className="text-sm font-black text-slate-500">Below 200</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             {/* Corrections Review */}
             {failedQuestions.length > 0 && (
               <div className="mb-12 sm:mb-16">
