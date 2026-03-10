@@ -22,7 +22,7 @@ const Test = () => {
   const [activeSubjectIndex, setActiveSubjectIndex] = useState(0);
   const [activeQuestionIndex, setActiveQuestionIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState({}); // { subjectId: { questionId: selectedOptionIndex } }
-  const [timeLeft, setTimeLeft] = useState(7200); // 2 hours in seconds (120 minutes * 60)
+  const [timeLeft, setTimeLeft] = useState(9000); // 2 hours 30 minutes in seconds (150 minutes * 60)
   const [shuffledQuestions, setShuffledQuestions] = useState({});
   const [isInitialized, setIsInitialized] = useState(false);
 
