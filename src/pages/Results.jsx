@@ -12,7 +12,8 @@ import {
   TrendingUp,
   TrendingDown,
   AlertTriangle,
-  Sparkles
+  Sparkles,
+  BookOpen
 } from 'lucide-react';
 import { useTest } from '../context/TestContext';
 import Navbar from '../components/Navbar';
