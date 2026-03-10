@@ -1270,283 +1270,293 @@ export const QUESTIONS = {
   chemistry: [
     {
       id: 'c1',
-      question: "Which of the following elements has the highest electronegativity?",
-      options: ["Fluorine", "Oxygen", "Chlorine", "Nitrogen"],
-      correctAnswer: 0,
-      explanation: "Fluorine is the most electronegative element on the periodic table with a value of 4.0."
+      question: "Which of the following statements is NOT correct?",
+      options: [
+        "The average kinetic energy of a gas is proportional to its temperature",
+        "At constant temperature, the volume of a gas increases as pressure increases",
+        "The pressure of a gas is proportional to its density",
+        "The temperature of a gas is proportional to its volume"
+      ],
+      correctAnswer: 1,
+      explanation: "According to Boyle's Law, at a constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure. Therefore, volume decreases as pressure increases."
     },
     {
       id: 'c2',
-      question: "What is the oxidation state of Manganese in KMnO₄?",
-      options: ["+7", "+6", "+4", "+2"],
-      correctAnswer: 0,
-      explanation: "K is +1, O is -2. (+1) + Mn + 4(-2) = 0 => Mn - 7 = 0 => Mn = +7."
+      question: "Zinc oxide is classified as a/an",
+      options: ["Basic oxide", "Acidic oxide", "Amphoteric oxide", "Neutral oxide"],
+      correctAnswer: 2,
+      explanation: "Zinc oxide (ZnO) is an amphoteric oxide because it can react with both acids and strong bases to form salt and water."
     },
     {
       id: 'c3',
-      question: "Which type of bonding involves the sharing of electrons between atoms?",
-      options: ["Covalent", "Ionic", "Metallic", "Hydrogen bonding"],
-      correctAnswer: 0,
-      explanation: "Covalent bonds form when atoms share one or more pairs of valence electrons."
+      question: "When sodium chloride and metallic sodium are each dissolved in water",
+      options: [
+        "both react vigorously",
+        "neither reacts",
+        "sodium reacts but sodium chloride dissolves",
+        "sodium chloride reacts but sodium does not"
+      ],
+      correctAnswer: 2,
+      explanation: "Metallic sodium reacts vigorously with water to form sodium hydroxide and hydrogen gas. Sodium chloride (NaCl) simply undergoes physical dissolution into its constituent ions (Na+ and Cl-)."
     },
     {
       id: 'c4',
-      question: "What is the pH of a 0.001 M HCl solution?",
-      options: ["3", "1", "2", "4"],
+      question: "The number of atoms in one mole of a substance is",
+      options: ["Avogadro’s number", "Planck’s number", "Dalton’s number", "Graham’s number"],
       correctAnswer: 0,
-      explanation: "pH = -log[H+]. pH = -log(10⁻³) = 3."
+      explanation: "Avogadro's number (approximately 6.022 x 10^23) represents the number of particles (atoms, molecules, or ions) in one mole of a substance."
     },
     {
       id: 'c5',
-      question: "Which of the following is an example of an allotrope of carbon?",
-      options: ["Graphite", "Carbon dioxide", "Methane", "Calcium carbonate"],
-      correctAnswer: 0,
-      explanation: "Graphite, diamond, and fullerenes are different physical forms (allotropes) of the element carbon."
+      question: "Which of the following gases is collected by downward delivery?",
+      options: ["Hydrogen", "Ammonia", "Oxygen", "Carbon dioxide"],
+      correctAnswer: 1,
+      explanation: "Ammonia is less dense than air and highly soluble in water, so it is typically collected by downward delivery (upward displacement of air)."
     },
     {
       id: 'c6',
-      question: "In the reaction: N₂ + 3H₂ ⇌ 2NH₃, what happens to the equilibrium if the pressure is increased?",
-      options: ["Shifts to the right", "Shifts to the left", "Remains unchanged", "The reaction stops"],
-      correctAnswer: 0,
-      explanation: "Increasing pressure shifts the equilibrium toward the side with fewer gas molecules (the right side has 2 moles vs 4 moles on the left)."
+      question: "Which property distinguishes an element from a compound?",
+      options: ["Fixed composition", "Chemical combination", "Presence of only one type of atom", "Physical properties"],
+      correctAnswer: 2,
+      explanation: "An element is a pure substance consisting of only one type of atom, whereas a compound is made of two or more different types of atoms chemically combined."
     },
     {
       id: 'c7',
-      question: "What is the molar mass of H₂SO₄? (H=1, S=32, O=16)",
-      options: ["98 g/mol", "49 g/mol", "100 g/mol", "82 g/mol"],
-      correctAnswer: 0,
-      explanation: "2(1) + 32 + 4(16) = 2 + 32 + 64 = 98 g/mol."
+      question: "The process of converting solid directly to gas is called",
+      options: ["condensation", "sublimation", "evaporation", "deposition"],
+      correctAnswer: 1,
+      explanation: "Sublimation is the transition of a substance directly from the solid to the gas phase without passing through the intermediate liquid phase."
     },
     {
       id: 'c8',
-      question: "Which of these is a noble gas?",
-      options: ["Argon", "Nitrogen", "Oxygen", "Chlorine"],
-      correctAnswer: 0,
-      explanation: "Argon is in Group 18 of the periodic table, making it a noble gas."
+      question: "Which of the following is an example of a physical change?",
+      options: ["Rusting of iron", "Burning of wood", "Melting of ice", "Fermentation"],
+      correctAnswer: 2,
+      explanation: "Melting of ice is a physical change because it only involves a change in state (solid to liquid) without changing the chemical composition of the water (H2O)."
     },
     {
       id: 'c9',
-      question: "The process of a solid turning directly into a gas is called:",
-      options: ["Sublimation", "Evaporation", "Condensation", "Deposition"],
-      correctAnswer: 0,
-      explanation: "Iodine and dry ice (solid CO₂) are common examples of substances that undergo sublimation."
+      question: "The pH of a neutral solution at 25°C is",
+      options: ["0", "7", "10", "14"],
+      correctAnswer: 1,
+      explanation: "A neutral solution, such as pure water, has a pH of 7.0 at 25°C, where the concentration of H+ ions equals the concentration of OH- ions."
     },
     {
       id: 'c10',
-      question: "Which of the following is a strong base?",
-      options: ["NaOH", "NH₃", "CH₃COOH", "Al(OH)₃"],
-      correctAnswer: 0,
-      explanation: "Sodium hydroxide (NaOH) is a Group 1 hydroxide that dissociates completely in water."
+      question: "Which of the following elements belongs to the halogen family?",
+      options: ["Oxygen", "Chlorine", "Nitrogen", "Carbon"],
+      correctAnswer: 1,
+      explanation: "Chlorine is a member of Group 17 (the halogens) on the periodic table, along with fluorine, bromine, iodine, and astatine."
     },
     {
       id: 'c11',
-      question: "What is the general formula for alkanes?",
-      options: ["CnH2n+2", "CnH2n", "CnH2n-2", "CnHn"],
-      correctAnswer: 0,
-      explanation: "Alkanes are saturated hydrocarbons with the formula CnH2n+2."
+      question: "The process used to separate crude oil into fractions is called",
+      options: ["crystallization", "fractional distillation", "sublimation", "chromatography"],
+      correctAnswer: 1,
+      explanation: "Fractional distillation separates crude oil into components (fractions) based on their different boiling points in a distillation tower."
     },
     {
       id: 'c12',
-      question: "Which law states that at constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure?",
-      options: ["Boyle's Law", "Charles's Law", "Avogadro's Law", "Gay-Lussac's Law"],
-      correctAnswer: 0,
-      explanation: "P1V1 = P2V2 is the mathematical form of Boyle's Law."
+      question: "An acid that contains only one replaceable hydrogen ion is called",
+      options: ["strong acid", "weak acid", "monobasic acid", "dibasic acid"],
+      correctAnswer: 2,
+      explanation: "A monobasic acid (like HCl or HNO3) yields only one hydrogen ion (H+) per molecule when dissociated in an aqueous solution."
     },
     {
       id: 'c13',
-      question: "What is the main component of natural gas?",
-      options: ["Methane", "Ethane", "Propane", "Butane"],
+      question: "Which of the following metals reacts vigorously with water?",
+      options: ["Sodium", "Copper", "Silver", "Gold"],
       correctAnswer: 0,
-      explanation: "Methane (CH₄) typically makes up 70-90% of natural gas."
+      explanation: "Sodium is an alkali metal (Group 1) and is highly reactive; it reacts violently with water to produce sodium hydroxide and heat."
     },
     {
       id: 'c14',
-      question: "Which of the following is used as a catalyst in the Haber process?",
-      options: ["Iron", "Platinum", "Vanadium(V) oxide", "Nickel"],
+      question: "The main constituent of natural gas is",
+      options: ["methane", "propane", "ethane", "butane"],
       correctAnswer: 0,
-      explanation: "Finely divided iron is used to speed up the reaction between nitrogen and hydrogen."
+      explanation: "Methane (CH4) is the primary component of natural gas, usually making up over 70% of the mixture."
     },
     {
       id: 'c15',
-      question: "What is the name of the functional group -COOH?",
-      options: ["Carboxyl group", "Hydroxyl group", "Carbonyl group", "Amino group"],
-      correctAnswer: 0,
-      explanation: "The carboxyl group is characteristic of carboxylic acids."
+      question: "Which gas is produced during photosynthesis?",
+      options: ["Hydrogen", "Oxygen", "Nitrogen", "Carbon monoxide"],
+      correctAnswer: 1,
+      explanation: "During photosynthesis, plants take in carbon dioxide and water to produce glucose, releasing oxygen gas as a byproduct."
     },
     {
       id: 'c16',
-      question: "Which of these subatomic particles has a negative charge?",
-      options: ["Electron", "Proton", "Neutron", "Positron"],
-      correctAnswer: 0,
-      explanation: "Electrons orbit the nucleus and carry a charge of -1."
+      question: "Which of the following is an electrolyte?",
+      options: ["Sugar solution", "Salt solution", "Alcohol", "Benzene"],
+      correctAnswer: 1,
+      explanation: "A salt solution (like NaCl in water) is an electrolyte because it contains free-moving ions that can conduct electricity."
     },
     {
       id: 'c17',
-      question: "A solution that cannot dissolve any more solute at a given temperature is said to be:",
-      options: ["Saturated", "Unsaturated", "Supersaturated", "Diluted"],
+      question: "The oxidation state of oxygen in most compounds is",
+      options: ["−2", "+2", "−1", "+1"],
       correctAnswer: 0,
-      explanation: "In a saturated solution, the rate of dissolution equals the rate of crystallization."
+      explanation: "In the vast majority of its compounds, oxygen has an oxidation state of -2, reflecting its high electronegativity."
     },
     {
       id: 'c18',
-      question: "What is the empirical formula of a compound that is 80% carbon and 20% hydrogen by mass? (C=12, H=1)",
-      options: ["CH₃", "CH₂", "CH₄", "C₂H₅"],
-      correctAnswer: 0,
-      explanation: "Moles C = 80/12 = 6.67. Moles H = 20/1 = 20. Ratio H:C = 20/6.67 = 3. Formula is CH₃."
+      question: "The electrode where oxidation occurs is called",
+      options: ["cathode", "anode", "electrolyte", "conductor"],
+      correctAnswer: 1,
+      explanation: "In both galvanic and electrolytic cells, oxidation (loss of electrons) always occurs at the anode."
     },
     {
       id: 'c19',
-      question: "Which of the following bonds is the most polar?",
-      options: ["H-F", "H-Cl", "H-Br", "H-I"],
-      correctAnswer: 0,
-      explanation: "The polarity depends on the electronegativity difference, which is greatest for H and F."
+      question: "The formula of sulphuric acid is",
+      options: ["HCl", "HNO₃", "H₂SO₄", "H₂CO₃"],
+      correctAnswer: 2,
+      explanation: "H2SO4 is the chemical formula for sulfuric acid, a strong mineral acid widely used in industry."
     },
     {
       id: 'c20',
-      question: "The mass number of an atom is the sum of:",
-      options: ["Protons and neutrons", "Protons and electrons", "Neutrons and electrons", "Protons only"],
-      correctAnswer: 0,
-      explanation: "Mass number = Number of nucleons in the nucleus."
+      question: "Which of the following is a strong acid?",
+      options: ["Ethanoic acid", "Hydrochloric acid", "Carbonic acid", "Citric acid"],
+      correctAnswer: 1,
+      explanation: "Hydrochloric acid (HCl) is a strong acid because it completely dissociates into ions in an aqueous solution."
     },
     {
       id: 'c21',
-      question: "Which of these is a characteristic of transition metals?",
-      options: ["Formation of colored ions", "Low melting points", "Highly reactive with water", "Poor conductors"],
+      question: "The number of electrons in a neutral atom equals the",
+      options: ["number of protons", "number of neutrons", "atomic mass", "mass number"],
       correctAnswer: 0,
-      explanation: "Transition metals have partially filled d-orbitals, which allows them to form colored complexes."
+      explanation: "In a neutral atom, the number of negatively charged electrons must equal the number of positively charged protons to maintain overall electrical neutrality."
     },
     {
       id: 'c22',
-      question: "What is the volume of 1 mole of an ideal gas at STP?",
-      options: ["22.4 dm³", "11.2 dm³", "44.8 dm³", "1.0 dm³"],
-      correctAnswer: 0,
-      explanation: "At 0°C and 1 atm, one mole of any gas occupies 22.4 liters (dm³)."
+      question: "The nucleus of an atom contains",
+      options: ["electrons and neutrons", "protons and neutrons", "electrons and protons", "electrons only"],
+      correctAnswer: 1,
+      explanation: "The atomic nucleus is composed of protons and neutrons (collectively called nucleons), while electrons reside in shells outside the nucleus."
     },
     {
       id: 'c23',
-      question: "Which indicator turns pink in basic solutions?",
-      options: ["Phenolphthalein", "Methyl orange", "Litmus", "Bromothymol blue"],
+      question: "Which of the following is an alkali metal?",
+      options: ["Sodium", "Calcium", "Aluminium", "Zinc"],
       correctAnswer: 0,
-      explanation: "Phenolphthalein is colorless in acidic/neutral solutions and turns deep pink/magenta in bases."
+      explanation: "Sodium (Na) is in Group 1 of the periodic table, which contains the alkali metals (excluding hydrogen)."
     },
     {
       id: 'c24',
-      question: "What is the name of the reaction where an acid and a base react to form salt and water?",
-      options: ["Neutralization", "Esterification", "Saponification", "Polymerization"],
-      correctAnswer: 0,
-      explanation: "Example: HCl + NaOH -> NaCl + H₂O."
+      question: "The bond formed by sharing electrons is",
+      options: ["ionic bond", "covalent bond", "metallic bond", "hydrogen bond"],
+      correctAnswer: 1,
+      explanation: "A covalent bond involves the mutual sharing of one or more pairs of electrons between two atoms."
     },
     {
       id: 'c25',
-      question: "Which isotope of carbon is used in radiocarbon dating?",
-      options: ["Carbon-14", "Carbon-12", "Carbon-13", "Carbon-11"],
-      correctAnswer: 0,
-      explanation: "C-14 is a radioactive isotope that decays over time, allowing for the dating of organic materials."
+      question: "Which of the following compounds contains ionic bonds?",
+      options: ["CH₄", "H₂O", "NaCl", "CO₂"],
+      correctAnswer: 2,
+      explanation: "Sodium chloride (NaCl) is an ionic compound formed by the electrostatic attraction between Na+ cations and Cl- anions."
     },
     {
       id: 'c26',
-      question: "The force of attraction between molecules of the same substance is called:",
-      options: ["Cohesion", "Adhesion", "Surface tension", "Viscosity"],
-      correctAnswer: 0,
-      explanation: "Cohesion holds identical molecules together, while adhesion attracts different molecules."
+      question: "The gas responsible for the greenhouse effect is mainly",
+      options: ["oxygen", "nitrogen", "carbon dioxide", "hydrogen"],
+      correctAnswer: 2,
+      explanation: "Carbon dioxide (CO2) is the primary greenhouse gas emitted through human activities, trapping heat in the Earth's atmosphere."
     },
     {
       id: 'c27',
-      question: "Which of the following metals is extracted by electrolysis of its molten ore?",
-      options: ["Aluminum", "Iron", "Copper", "Gold"],
-      correctAnswer: 0,
-      explanation: "Aluminum is very reactive and is extracted from alumina using the Hall-Héroult process."
+      question: "Which of the following is a transition metal?",
+      options: ["Sodium", "Iron", "Magnesium", "Calcium"],
+      correctAnswer: 1,
+      explanation: "Iron (Fe) is a transition metal located in the d-block of the periodic table, characterized by its ability to form various oxidation states."
     },
     {
       id: 'c28',
-      question: "What is the product of the reaction between ethene and steam in the presence of phosphoric acid?",
-      options: ["Ethanol", "Ethane", "Ethanoic acid", "Ethyne"],
+      question: "The process of coating iron with zinc is called",
+      options: ["galvanizing", "alloying", "electroplating", "rusting"],
       correctAnswer: 0,
-      explanation: "C₂H₄ + H₂O -> C₂H₅OH (Hydration of ethene)."
+      explanation: "Galvanizing is the process of applying a protective zinc coating to iron or steel to prevent rusting through sacrificial protection."
     },
     {
       id: 'c29',
-      question: "Which type of radiation consists of helium nuclei?",
-      options: ["Alpha radiation", "Beta radiation", "Gamma radiation", "X-rays"],
-      correctAnswer: 0,
-      explanation: "Alpha particles are made of 2 protons and 2 neutrons (⁴He²⁺)."
+      question: "Which of the following is used as a drying agent?",
+      options: ["Sodium chloride", "Calcium chloride", "Potassium nitrate", "Sodium carbonate"],
+      correctAnswer: 1,
+      explanation: "Anhydrous calcium chloride (CaCl2) is a common desiccant (drying agent) because it is highly hygroscopic and absorbs moisture from the air."
     },
     {
       id: 'c30',
-      question: "What is the geometric shape of a methane (CH₄) molecule?",
-      options: ["Tetrahedral", "Linear", "Trigonal planar", "Octahedral"],
-      correctAnswer: 0,
-      explanation: "The four C-H bonds repel each other to occupy the corners of a tetrahedron with 109.5° angles."
+      question: "The molar volume of a gas at STP is",
+      options: ["11.2 dm³", "22.4 dm³", "44.8 dm³", "24 dm³"],
+      correctAnswer: 1,
+      explanation: "At Standard Temperature and Pressure (STP), one mole of any ideal gas occupies a volume of 22.4 dm³ (liters)."
     },
     {
       id: 'c31',
-      question: "Which of the following is a redox reaction?",
-      options: ["Zn + CuSO₄ -> ZnSO₄ + Cu", "HCl + NaOH -> NaCl + H₂O", "AgNO₃ + NaCl -> AgCl + NaNO₃", "CaCO₃ -> CaO + CO₂"],
+      question: "Which element has atomic number 11?",
+      options: ["Sodium", "Magnesium", "Aluminium", "Potassium"],
       correctAnswer: 0,
-      explanation: "Zinc is oxidized (0 to +2) and Copper is reduced (+2 to 0)."
+      explanation: "Sodium (Na) has exactly 11 protons in its nucleus, giving it the atomic number 11."
     },
     {
       id: 'c32',
-      question: "What is the functional group in propanone?",
-      options: ["Ketone", "Aldehyde", "Alcohol", "Ether"],
-      correctAnswer: 0,
-      explanation: "Propanone is a ketone because the carbonyl group is bonded to two carbon atoms."
+      question: "The chemical symbol Fe represents",
+      options: ["Fluorine", "Iron", "Francium", "Fermium"],
+      correctAnswer: 1,
+      explanation: "Fe is the chemical symbol for Iron, derived from its Latin name 'Ferrum'."
     },
     {
       id: 'c33',
-      question: "The temperature at which the vapor pressure of a liquid equals the atmospheric pressure is called its:",
-      options: ["Boiling point", "Melting point", "Freezing point", "Critical point"],
-      correctAnswer: 0,
-      explanation: "At the boiling point, bubbles of vapor can form within the bulk of the liquid."
+      question: "Which of the following is a hydrocarbon?",
+      options: ["Ethanol", "Methane", "Ethanoic acid", "Methanal"],
+      correctAnswer: 1,
+      explanation: "Methane (CH4) is a hydrocarbon because its molecules are composed entirely of carbon and hydrogen atoms."
     },
     {
       id: 'c34',
-      question: "Which of these is a weak electrolyte?",
-      options: ["Ethanoic acid", "Sodium chloride", "Sulfuric acid", "Potassium hydroxide"],
-      correctAnswer: 0,
-      explanation: "Ethanoic acid (CH₃COOH) only partially dissociates into ions in water."
+      question: "The functional group of alcohols is",
+      options: ["–COOH", "–OH", "–CHO", "–NH₂"],
+      correctAnswer: 1,
+      explanation: "The hydroxyl group (-OH) is the characteristic functional group found in all alcohols."
     },
     {
       id: 'c35',
-      question: "What is the main clue to identify an element?",
-      options: ["Atomic number", "Atomic mass", "Number of neutrons", "Number of shells"],
-      correctAnswer: 0,
-      explanation: "The atomic number (number of protons) is unique to each element."
+      question: "The simplest alkene is",
+      options: ["ethane", "ethene", "ethyne", "methane"],
+      correctAnswer: 1,
+      explanation: "Ethene (C2H4) is the simplest alkene, containing a carbon-carbon double bond. (Methane is an alkane, and ethane is also an alkane)."
     },
     {
       id: 'c36',
-      question: "Which element is found in all organic compounds?",
-      options: ["Carbon", "Oxygen", "Nitrogen", "Sulfur"],
-      correctAnswer: 0,
-      explanation: "Organic chemistry is defined as the study of carbon-containing compounds."
+      question: "The process by which plants convert light energy into chemical energy is",
+      options: ["respiration", "photosynthesis", "fermentation", "oxidation"],
+      correctAnswer: 1,
+      explanation: "Photosynthesis is the biochemical process in which light energy is converted into chemical energy stored in glucose molecules."
     },
     {
       id: 'c37',
-      question: "What is the color of the precipitate formed when aqueous ammonia is added to a solution of copper(II) ions?",
-      options: ["Pale blue", "Deep blue", "Green", "White"],
+      question: "The formula of ammonia is",
+      options: ["NH₃", "NH₄", "N₂H₄", "NH₂"],
       correctAnswer: 0,
-      explanation: "Initial addition forms a pale blue precipitate of Cu(OH)₂, which dissolves in excess ammonia to form a deep blue solution."
+      explanation: "NH3 is the chemical formula for ammonia, a gas with a characteristic pungent smell."
     },
     {
       id: 'c38',
-      question: "Which of the following gases is responsible for global warming?",
-      options: ["Carbon dioxide", "Oxygen", "Nitrogen", "Argon"],
+      question: "Which gas is used in the Haber process?",
+      options: ["Nitrogen", "Oxygen", "Carbon dioxide", "Hydrogen"],
       correctAnswer: 0,
-      explanation: "CO₂ traps heat in the atmosphere, contributing to the greenhouse effect."
+      explanation: "The Haber process synthesizes ammonia (NH3) from nitrogen (N2) and hydrogen (H2) gases under high pressure and temperature."
     },
     {
       id: 'c39',
-      question: "What is the electronic configuration of Sodium (Atomic number 11)?",
-      options: ["2, 8, 1", "2, 8, 2", "2, 7, 2", "2, 9"],
-      correctAnswer: 0,
-      explanation: "Sodium has 11 electrons: 2 in the first shell, 8 in the second, and 1 in the valence shell."
+      question: "The reaction between an acid and a base to form salt and water is",
+      options: ["oxidation", "neutralization", "electrolysis", "reduction"],
+      correctAnswer: 1,
+      explanation: "Neutralization is the chemical reaction where an acid and a base react quantitatively with each other to produce salt and water."
     },
     {
       id: 'c40',
-      question: "Which process is used to separate a mixture of liquids with different boiling points?",
-      options: ["Fractional distillation", "Filtration", "Crystallization", "Chromatography"],
-      correctAnswer: 0,
-      explanation: "Fractional distillation is commonly used in oil refineries to separate crude oil into fractions."
+      question: "Which of the following is a non-metal?",
+      options: ["Iron", "Sodium", "Chlorine", "Copper"],
+      correctAnswer: 2,
+      explanation: "Chlorine (Cl) is a non-metal in the halogen group, whereas iron, sodium, and copper are all metallic elements."
     }
   ],
   biology: [
@@ -2680,283 +2690,283 @@ export const QUESTIONS = {
   crs: [
     {
       id: 'crs1',
-      question: "God’s covenant with Abraham was sealed through the rite of",
-      options: ["Sacrifice", "Circumcision", "Baptism", "Fasting"],
+      question: "The Babylonian Exile was a consequence of",
+      options: ["The division of the kingdom into Israel and Judah", "The Israelites' disobedience to God and their social injustices", "The Israelites' refusal to pay tribute to Babylon", "The Assyrian invasion and destruction of Jerusalem"],
       correctAnswer: 1,
-      explanation: "Circumcision was the physical sign of the covenant between God and Abraham, symbolizing their special relationship and Abraham's descendants as God's chosen people (Genesis 17:9-14)."
+      explanation: "Prophets like Jeremiah and Ezekiel warned that the exile was God's judgment on Israel for their persistent idolatry, disobedience to the Mosaic Law, and exploitation of the poor."
     },
     {
       id: 'crs2',
-      question: "Abraham showed his obedience to God when he was asked to sacrifice",
-      options: ["Jacob", "Isaac", "Ishmael", "Joseph"],
+      question: "Which prophet confronted King Ahab and challenged the prophets of Baal on Mount Carmel?",
+      options: ["Isaiah", "Elijah", "Ezekiel", "Jeremiah"],
       correctAnswer: 1,
-      explanation: "God tested Abraham's faith by asking him to sacrifice his son Isaac on Mount Moriah. Abraham's willingness to obey demonstrated his profound trust in God (Genesis 22:1-19)."
+      explanation: "Elijah the Tishbite famously defeated the 450 prophets of Baal by calling down fire from heaven, proving that Yahweh is the only true God (1 Kings 18)."
     },
     {
       id: 'crs3',
-      question: "Joseph was sold into slavery by his brothers for",
-      options: ["10 pieces of silver", "20 pieces of silver", "30 pieces of silver", "40 pieces of silver"],
+      question: "Which prophet warned the people of Nineveh about God's impending judgment?",
+      options: ["Micah", "Jonah", "Amos", "Nahum"],
       correctAnswer: 1,
-      explanation: "Joseph's brothers sold him to Ishmaelite traders for twenty shekels of silver, driven by jealousy over their father's favoritism and Joseph's prophetic dreams (Genesis 37:28)."
+      explanation: "God commanded Jonah to preach to the capital of Assyria, Nineveh. Unlike many Israelites, the Ninevites repented after Jonah's warning, leading God to spare the city."
     },
     {
       id: 'crs4',
-      question: "The Ten Commandments were given to Moses on Mount",
-      options: ["Horeb", "Sinai", "Carmel", "Zion"],
-      correctAnswer: 1,
-      explanation: "Moses received the Ten Commandments (Decalogue) from God on Mount Sinai, which served as the foundational laws for the Israelite nation and their covenant with God (Exodus 19-20)."
+      question: "The downfall of the Northern Kingdom of Israel was mainly due to",
+      options: ["Invasion by the Philistines", "Division among tribes", "Powerful neighbouring kingdoms", "Rejection of the Mosaic Law"],
+      correctAnswer: 3,
+      explanation: "Biblical history records that the Northern Kingdom fell to Assyria in 722 BC because they had 'sinned against the Lord their God' and followed the customs of the nations God had driven out."
     },
     {
       id: 'crs5',
-      question: "The Israelites wandered in the wilderness for",
-      options: ["30 years", "35 years", "40 years", "50 years"],
-      correctAnswer: 2,
-      explanation: "Due to their disobedience and lack of faith after leaving Egypt, the Israelites were condemned to wander in the wilderness for forty years until the generation that rebelled had passed away (Numbers 14:33-34)."
+      question: "The Book of Lamentations is traditionally attributed to",
+      options: ["Ezekiel", "Amos", "Daniel", "Jeremiah"],
+      correctAnswer: 3,
+      explanation: "Lamentations is a collection of poetic sorrows over the destruction of Jerusalem, and its style and themes are closely aligned with the 'Weeping Prophet' Jeremiah."
     },
     {
       id: 'crs6',
-      question: "The leader who succeeded Moses was",
-      options: ["Caleb", "Aaron", "Joshua", "Samuel"],
-      correctAnswer: 2,
-      explanation: "Joshua, Moses' faithful assistant, was chosen by God to lead the Israelites into the Promised Land after Moses' death, fulfilling the divine promise (Deuteronomy 31:7-8, Joshua 1:1-9)."
+      question: "According to Apostle Peter, what will happen to the heavens and earth on the day of the Lord?",
+      options: ["They will merge into another dimension", "They will be destroyed by fire", "They will become paradise", "They will disappear silently"],
+      correctAnswer: 1,
+      explanation: "In 2 Peter 3:10, it is prophesied that the 'heavens will disappear with a roar' and the 'elements will be destroyed by fire' during the final judgment."
     },
     {
       id: 'crs7',
-      question: "The first king of Israel was",
-      options: ["David", "Saul", "Solomon", "Rehoboam"],
+      question: "Which prophet encouraged the people to rebuild the temple after exile?",
+      options: ["Micah", "Haggai", "Zechariah", "Ezekiel"],
       correctAnswer: 1,
-      explanation: "Saul, from the tribe of Benjamin, was anointed by the prophet Samuel at the people's request to be the first king of Israel, marking the transition from a tribal confederacy to a monarchy (1 Samuel 10:1)."
+      explanation: "Haggai's primary mission was to motivate the returning exiles who had prioritized their own houses over the restoration of God's Temple."
     },
     {
       id: 'crs8',
-      question: "David defeated Goliath using",
-      options: ["A sword", "A spear", "A sling and stone", "A bow and arrow"],
-      correctAnswer: 2,
-      explanation: "The young shepherd David, relying on God's strength, famously defeated the Philistine giant Goliath with a sling and a single stone, demonstrating faith over military might (1 Samuel 17:48-50)."
+      question: "The account of Paul’s conversion and missionary journeys is recorded in",
+      options: ["Luke", "Matthew", "John", "Acts of the Apostles"],
+      correctAnswer: 3,
+      explanation: "The Book of Acts, written by Luke, serves as the primary historical record of the spread of the early Church and the transformation of Saul of Tarsus."
     },
     {
       id: 'crs9',
-      question: "Solomon became famous for his",
-      options: ["Strength", "Wealth", "Wisdom", "Army"],
-      correctAnswer: 2,
-      explanation: "King Solomon was renowned throughout the ancient world for his exceptional wisdom, which he requested from God to govern his people justly (1 Kings 3:9-12, 1 Kings 4:29-34)."
+      question: "The story of Gideon occurred during",
+      options: ["Period of Judges", "Conquest of Canaan", "Reign of David", "Babylonian exile"],
+      correctAnswer: 0,
+      explanation: "Gideon was one of the major judges raised by God to deliver Israel from Midianite oppression before the establishment of the monarchy."
     },
     {
       id: 'crs10',
-      question: "After Solomon’s reign, the kingdom of Israel divided into",
-      options: ["Two kingdoms", "Three kingdoms", "Four kingdoms", "Five kingdoms"],
-      correctAnswer: 0,
-      explanation: "Following Solomon's death, the kingdom divided into two: the northern kingdom of Israel (ten tribes) and the southern kingdom of Judah (two tribes), due to Rehoboam's harsh policies (1 Kings 12:16-20)."
+      question: "Which Gospel gives the most detailed account of Jesus’ temptation?",
+      options: ["Luke", "Mark", "John", "Matthew"],
+      correctAnswer: 3,
+      explanation: "While Mark only mentions the temptation briefly, Matthew 4 provides the full dialogue between Jesus and Satan regarding the three specific tests."
     },
     {
       id: 'crs11',
-      question: "The prophet who challenged the prophets of Baal on Mount Carmel was",
-      options: ["Elisha", "Elijah", "Isaiah", "Jeremiah"],
+      question: "The transformation of Saul into Paul shows",
+      options: ["Jewish leadership", "God’s sovereignty and grace", "Roman political influence", "Church persecution"],
       correctAnswer: 1,
-      explanation: "Elijah famously confronted the 450 prophets of Baal on Mount Carmel, demonstrating God's power through fire from heaven, leading to the defeat of Baal worship (1 Kings 18:20-40)."
+      explanation: "The sudden conversion of a fierce persecutor of the Church into its greatest missionary is a primary biblical example of God's irresistible grace and sovereign will."
     },
     {
       id: 'crs12',
-      question: "The prophet who succeeded Elijah was",
-      options: ["Amos", "Hosea", "Elisha", "Micah"],
-      correctAnswer: 2,
-      explanation: "Elisha was Elijah's devoted disciple and successor, receiving a double portion of Elijah's spirit before Elijah was taken up to heaven (2 Kings 2:9-15)."
+      question: "Setting rules for children helps them",
+      options: ["become isolated", "develop discipline and responsibility", "rebel against authority", "fear their parents"],
+      correctAnswer: 1,
+      explanation: "Biblical teachings, particularly in Proverbs, emphasize that parental guidance and boundaries are necessary for a child to grow in wisdom and self-control."
     },
     {
       id: 'crs13',
-      question: "Isaiah prophesied mainly about",
-      options: ["Social justice", "The coming Messiah", "Military victory", "Agricultural prosperity"],
+      question: "Peter and Andrew were originally",
+      options: ["shepherds", "fishermen", "tax collectors", "tentmakers"],
       correctAnswer: 1,
-      explanation: "The Book of Isaiah contains numerous prophecies concerning the coming Messiah, detailing His birth, suffering, and ultimate reign, earning it the title 'the Gospel according to Isaiah' (e.g., Isaiah 7:14, 9:6, 53)."
+      explanation: "Jesus called them while they were casting nets into the Sea of Galilee, telling them He would make them 'fishers of men'."
     },
     {
       id: 'crs14',
-      question: "Jeremiah is often called the",
-      options: ["Prophet of doom", "Weeping prophet", "Prophet of hope", "Silent prophet"],
+      question: "The event that marked the beginning of the early church fellowship was",
+      options: ["Crucifixion", "Pentecost", "Resurrection", "Last Supper"],
       correctAnswer: 1,
-      explanation: "Jeremiah is known as the 'weeping prophet' due to his deep sorrow and lament over the sins of Judah and the impending destruction of Jerusalem (Jeremiah 9:1, 13:17)."
+      explanation: "The outpouring of the Holy Spirit on Pentecost empowered the disciples to preach publicly and formed the first community of believers who 'devoted themselves to fellowship'."
     },
     {
       id: 'crs15',
-      question: "The book that contains the story of creation is",
-      options: ["Exodus", "Genesis", "Leviticus", "Numbers"],
-      correctAnswer: 1,
-      explanation: "Genesis, the first book of the Bible, begins with the account of God's creation of the heavens, the earth, and all living things, including humanity (Genesis 1-2)."
+      question: "According to the Gospels, salvation comes through",
+      options: ["human effort", "wealth", "God's grace and mercy", "political authority"],
+      correctAnswer: 2,
+      explanation: "The New Testament teaches that eternal life is a gift from God, received through faith in Christ, rather than something earned by keeping the law or doing good deeds."
     },
     {
       id: 'crs16',
-      question: "Jesus was born in the town of",
-      options: ["Nazareth", "Bethlehem", "Jerusalem", "Capernaum"],
+      question: "In the epistles, corruption is linked with",
+      options: ["generosity", "greed and selfishness", "humility", "faith"],
       correctAnswer: 1,
-      explanation: "According to biblical prophecy and the Gospels, Jesus was born in Bethlehem of Judea, the city of David, during the time of a census (Matthew 2:1, Luke 2:4-7)."
+      explanation: "Apostolic letters often warn that the 'love of money' and the desire for selfish gain are the roots of moral decay within individuals and communities."
     },
     {
       id: 'crs17',
-      question: "The angel who announced the birth of Jesus to Mary was",
-      options: ["Michael", "Gabriel", "Raphael", "Uriel"],
-      correctAnswer: 1,
-      explanation: "The angel Gabriel appeared to Mary to announce that she would conceive and give birth to Jesus, the Son of God (Luke 1:26-38)."
+      question: "David was credited for composing many",
+      options: ["prophecies", "sermons", "psalms", "hymns"],
+      correctAnswer: 2,
+      explanation: "King David, known as the 'Sweet Psalmist of Israel', is the traditional author of nearly half of the 150 poems in the Book of Psalms."
     },
     {
       id: 'crs18',
-      question: "Jesus was baptized by",
-      options: ["Peter", "John the Baptist", "Andrew", "James"],
-      correctAnswer: 1,
-      explanation: "Jesus was baptized by John the Baptist in the Jordan River, an event that marked the beginning of His public ministry and was accompanied by the descent of the Holy Spirit and a voice from heaven (Matthew 3:13-17)."
+      question: "The Great Confession by Peter took place",
+      options: ["near Sea of Galilee", "at Last Supper", "at the Cross", "at Gethsemane"],
+      correctAnswer: 0,
+      explanation: "It was at Caesarea Philippi (near the Galilee region) that Peter declared to Jesus, 'You are the Christ, the Son of the living God'."
     },
     {
       id: 'crs19',
-      question: "Jesus fasted in the wilderness for",
-      options: ["20 days", "30 days", "40 days", "50 days"],
+      question: "Jesus taught that believers should love",
+      options: ["family members", "fellow believers", "their enemies", "their leaders"],
       correctAnswer: 2,
-      explanation: "After His baptism, Jesus was led by the Spirit into the wilderness, where He fasted for forty days and forty nights and was tempted by the devil (Matthew 4:1-2)."
+      explanation: "One of Jesus' most radical teachings in the Sermon on the Mount was the command to 'Love your enemies and pray for those who persecute you'."
     },
     {
       id: 'crs20',
-      question: "The first miracle of Jesus was performed at",
-      options: ["Jerusalem", "Cana", "Galilee", "Nazareth"],
-      correctAnswer: 1,
-      explanation: "Jesus performed His first public miracle at a wedding in Cana of Galilee, where He turned water into wine, revealing His glory and leading His disciples to believe in Him (John 2:1-11)."
+      question: "The division of Israel into two kingdoms occurred after",
+      options: ["reign of Solomon", "Assyrian invasion", "Exodus", "Babylonian exile"],
+      correctAnswer: 0,
+      explanation: "The kingdom split during the reign of Solomon's son, Rehoboam, due to his refusal to lighten the labor burdens imposed by his father."
     },
     {
       id: 'crs21',
-      question: "The miracle at Cana involved turning",
-      options: ["Water into wine", "Bread into fish", "Water into oil", "Wine into water"],
-      correctAnswer: 0,
-      explanation: "At the wedding in Cana, Jesus miraculously transformed six stone jars of water into high-quality wine, saving the hosts from embarrassment (John 2:1-11)."
+      question: "Abraham is described in the Bible as",
+      options: ["The miracle worker", "The father of the faithful", "The law giver", "The prophet of Israel"],
+      correctAnswer: 1,
+      explanation: "Abraham is honored as the spiritual ancestor of all who believe because he 'believed God, and it was credited to him as righteousness'."
     },
     {
       id: 'crs22',
-      question: "The parable of the Good Samaritan teaches about",
-      options: ["Faith", "Forgiveness", "Love for neighbors", "Obedience"],
+      question: "Moses led the Israelites through the",
+      options: ["Sahara desert", "Dead Sea", "Red Sea", "Jordan River"],
       correctAnswer: 2,
-      explanation: "In response to the question 'Who is my neighbor?', Jesus told the parable of the Good Samaritan, illustrating that true neighborly love extends to anyone in need, regardless of social or ethnic boundaries (Luke 10:25-37)."
+      explanation: "The parting of the Red Sea was the miraculous climax of the Exodus, allowing Israel to escape the Egyptian army."
     },
     {
       id: 'crs23',
-      question: "The disciple who betrayed Jesus was",
-      options: ["Peter", "John", "Judas Iscariot", "Andrew"],
-      correctAnswer: 2,
-      explanation: "Judas Iscariot, one of the twelve disciples, betrayed Jesus to the chief priests for thirty pieces of silver, leading to Jesus' arrest and crucifixion (Matthew 26:14-16, 47-50)."
+      question: "Joseph was sold for twenty pieces of silver because of",
+      options: ["jealousy", "his dreams", "his pride", "his rebellion"],
+      correctAnswer: 1,
+      explanation: "While jealousy was the emotion, his brothers specifically targeted him because his dreams predicted he would rule over them."
     },
     {
       id: 'crs24',
-      question: "Jesus was crucified at",
-      options: ["Bethlehem", "Golgotha", "Nazareth", "Galilee"],
+      question: "The Ten Commandments were given at",
+      options: ["Mount Carmel", "Mount Sinai", "Mount Zion", "Mount Horeb"],
       correctAnswer: 1,
-      explanation: "Jesus was crucified at a place called Golgotha, meaning 'Place of the Skull,' outside the city walls of Jerusalem (Matthew 27:33, Mark 15:22, John 19:17)."
+      explanation: "Mount Sinai (also called Horeb in some contexts, but Sinai is the specific name for the Decalogue event) is where Moses received the stone tablets."
     },
     {
       id: 'crs25',
-      question: "Jesus rose from the dead on the",
-      options: ["First day of the week", "Second day", "Third day", "Fourth day"],
-      correctAnswer: 0,
-      explanation: "According to the Gospels, Jesus rose from the dead on the first day of the week (Sunday), fulfilling prophecies and demonstrating His victory over death (Matthew 28:1, Mark 16:2, Luke 24:1, John 20:1)."
+      question: "The prophet who confronted Ahab was",
+      options: ["Amos", "Elijah", "Isaiah", "Hosea"],
+      correctAnswer: 1,
+      explanation: "Elijah consistently opposed King Ahab and Queen Jezebel for their promotion of Baal worship in Israel."
     },
     {
       id: 'crs26',
-      question: "The event where the Holy Spirit came upon the apostles is called",
-      options: ["Pentecost", "Ascension", "Transfiguration", "Resurrection"],
-      correctAnswer: 0,
-      explanation: "On the Day of Pentecost, the Holy Spirit descended upon the apostles and other believers in Jerusalem, empowering them to preach the Gospel and marking the birth of the Christian Church (Acts 2:1-4)."
+      question: "The Babylonian exile mainly involved",
+      options: ["destruction of Samaria", "destruction of Jerusalem", "division of tribes", "Roman invasion"],
+      correctAnswer: 1,
+      explanation: "Nebuchadnezzar's forces destroyed the city of Jerusalem and its Temple in 586 BC, carrying the survivors to Babylon."
     },
     {
       id: 'crs27',
-      question: "The early Christian church began to grow rapidly after",
-      options: ["Resurrection", "Pentecost", "Crucifixion", "Baptism"],
-      correctAnswer: 1,
-      explanation: "The outpouring of the Holy Spirit at Pentecost empowered the apostles, leading to Peter's sermon and the conversion of about three thousand people, initiating the rapid growth of the early church (Acts 2:41)."
+      question: "The early Christian community practiced",
+      options: ["communal living", "political rule", "military training", "trade competition"],
+      correctAnswer: 0,
+      explanation: "Acts 2:44-45 records that believers 'had everything in common' and sold their possessions to give to anyone in need."
     },
     {
       id: 'crs28',
-      question: "The first Christian martyr was",
-      options: ["Peter", "Stephen", "Paul", "James"],
+      question: "Stephen was",
+      options: ["first apostle", "first Christian martyr", "Roman governor", "Jewish priest"],
       correctAnswer: 1,
-      explanation: "Stephen, one of the seven deacons appointed by the apostles, became the first Christian martyr when he was stoned to death for boldly proclaiming his faith in Jesus (Acts 7:54-60)."
+      explanation: "Stephen was a deacon whose bold testimony led to him being stoned to death, making him the first to die for the faith."
     },
     {
       id: 'crs29',
-      question: "Saul was converted on the road to",
-      options: ["Jerusalem", "Damascus", "Antioch", "Rome"],
+      question: "Saul persecuted Christians mainly because",
+      options: ["he hated Jesus", "he believed Christianity opposed Judaism", "he wanted power", "he was forced by Romans"],
       correctAnswer: 1,
-      explanation: "Saul, a persecutor of Christians, encountered the risen Jesus on the road to Damascus, leading to his dramatic conversion and transformation into the Apostle Paul (Acts 9:1-19)."
+      explanation: "As a zealous Pharisee, Saul viewed the followers of Jesus as a heretical sect that threatened the purity of the Jewish Law."
     },
     {
       id: 'crs30',
-      question: "After conversion, Saul became known as",
-      options: ["Peter", "Paul", "John", "Barnabas"],
+      question: "Pentecost refers to",
+      options: ["resurrection of Jesus", "coming of Holy Spirit", "crucifixion", "ascension"],
       correctAnswer: 1,
-      explanation: "Following his conversion and call to ministry, Saul began to be referred to as Paul, especially in his missionary work among the Gentiles (Acts 13:9)."
+      explanation: "Pentecost was a Jewish festival during which the Holy Spirit descended on the disciples in the form of tongues of fire."
     },
     {
       id: 'crs31',
-      question: "The missionary partner of Paul on his first journey was",
-      options: ["Barnabas", "Peter", "James", "Philip"],
+      question: "The early church leaders included",
+      options: ["Peter and John", "Moses and Aaron", "Abraham and Isaac", "Samuel and Saul"],
       correctAnswer: 0,
-      explanation: "Paul embarked on his first missionary journey with Barnabas, traveling to Cyprus and various cities in Asia Minor to preach the Gospel (Acts 13:1-3)."
+      explanation: "Peter and John were central figures among the twelve apostles who led the church in Jerusalem after Jesus' ascension."
     },
     {
       id: 'crs32',
-      question: "The book that records the activities of the apostles is",
-      options: ["Romans", "Acts", "Hebrews", "Revelation"],
+      question: "Faith without works is dead according to",
+      options: ["Peter", "James", "Paul", "John"],
       correctAnswer: 1,
-      explanation: "The Book of Acts, written by Luke, provides a historical account of the early Christian church, detailing the spread of the Gospel and the ministries of key apostles like Peter and Paul."
+      explanation: "The Epistle of James emphasizes that true saving faith will naturally manifest itself through righteous actions."
     },
     {
       id: 'crs33',
-      question: "The sermon on the mount is recorded mainly in",
-      options: ["Matthew", "Mark", "Luke", "John"],
-      correctAnswer: 0,
-      explanation: "The Sermon on the Mount, a foundational discourse of Jesus' teachings, is most extensively recorded in the Gospel of Matthew (Matthew 5-7), containing the Beatitudes, the Lord's Prayer, and ethical instructions."
+      question: "The fruit of the Spirit includes",
+      options: ["jealousy", "kindness", "anger", "greed"],
+      correctAnswer: 1,
+      explanation: "Galatians 5:22-23 lists the nine characteristics of a Spirit-led life, which include love, joy, peace, and kindness."
     },
     {
       id: 'crs34',
-      question: "Jesus described himself as the",
-      options: ["Good shepherd", "Great prophet", "Son of Moses", "King of Israel only"],
+      question: "The gifts of the Spirit include",
+      options: ["prophecy", "war", "wealth", "politics"],
       correctAnswer: 0,
-      explanation: "Jesus declared, 'I am the good shepherd. The good shepherd lays down his life for the sheep,' emphasizing His loving care and sacrificial leadership for His followers (John 10:11)."
+      explanation: "1 Corinthians 12 lists spiritual gifts given for the building up of the church, including prophecy, healing, and tongues."
     },
     {
       id: 'crs35',
-      question: "The greatest commandment according to Jesus is",
-      options: ["Love God and neighbor", "Pray always", "Fast regularly", "Give offerings"],
+      question: "The early Christians faced persecution from",
+      options: ["Romans and Jews", "Egyptians", "Greeks", "Babylonians"],
       correctAnswer: 0,
-      explanation: "When asked about the greatest commandment, Jesus replied, 'Love the Lord your God with all your heart... and love your neighbor as yourself,' summarizing the essence of the Law and the Prophets (Matthew 22:37-40)."
+      explanation: "Believers were often rejected by Jewish religious authorities and later oppressed by the Roman Empire for refusing to worship the Emperor."
     },
     {
       id: 'crs36',
-      question: "The transfiguration of Jesus took place on a",
-      options: ["Hill", "Mountain", "Desert", "Valley"],
+      question: "Humility in Christianity means",
+      options: ["pride", "submission to God", "rebellion", "power"],
       correctAnswer: 1,
-      explanation: "Jesus took Peter, James, and John up a high mountain, where He was transfigured before them, His face shining like the sun and His clothes becoming as white as light (Matthew 17:1-2)."
+      explanation: "Christian humility is modeled after Christ, involving the recognition of one's dependence on God and serving others."
     },
     {
       id: 'crs37',
-      question: "The disciples present at the transfiguration were",
-      options: ["Peter, James, John", "Andrew, Philip, Thomas", "Matthew, Mark, Luke", "James, Jude, Simon"],
-      correctAnswer: 0,
-      explanation: "Only Peter, James, and John, Jesus' inner circle of disciples, were privileged to witness His transfiguration on the mountain (Matthew 17:1)."
+      question: "The second coming of Christ refers to",
+      options: ["resurrection", "Jesus returning again", "Pentecost", "ascension"],
+      correctAnswer: 1,
+      explanation: "A core Christian belief is that Jesus will return in glory to judge the living and the dead and establish His kingdom fully."
     },
     {
       id: 'crs38',
-      question: "The Lord’s Prayer begins with",
-      options: ["Our Father in heaven", "Blessed are the meek", "Give us this day", "Forgive our sins"],
-      correctAnswer: 0,
-      explanation: "Jesus taught His disciples to pray, beginning with the address, 'Our Father in heaven, hallowed be your name,' establishing a personal and reverent approach to God (Matthew 6:9)."
+      question: "Preparation for Christ’s return requires",
+      options: ["wealth", "faithfulness", "political influence", "military power"],
+      correctAnswer: 1,
+      explanation: "Jesus taught parables like the Ten Virgins to emphasize the need for spiritual alertness and constant faithfulness."
     },
     {
       id: 'crs39',
-      question: "The book of Revelation was written by",
-      options: ["Paul", "Peter", "John", "James"],
-      correctAnswer: 2,
-      explanation: "The Book of Revelation, the final book of the New Testament, was written by the Apostle John while he was exiled on the island of Patmos, recording his prophetic visions (Revelation 1:1, 9)."
+      question: "Christian love requires believers to",
+      options: ["hate enemies", "love neighbours", "avoid strangers", "reject sinners"],
+      correctAnswer: 1,
+      explanation: "The 'Great Commandment' includes loving one's neighbor as oneself, which Jesus extended to mean anyone in need."
     },
     {
       id: 'crs40',
-      question: "The final book of the New Testament is",
-      options: ["Jude", "Hebrews", "Revelation", "Acts"],
-      correctAnswer: 2,
-      explanation: "Revelation is the last book in the Christian Bible, concluding the biblical narrative with prophecies about the end times, the return of Christ, and the establishment of God's eternal kingdom."
+      question: "True religion according to prophets includes",
+      options: ["rituals only", "social justice and righteousness", "sacrifices alone", "political authority"],
+      correctAnswer: 1,
+      explanation: "Prophets like Amos and Micah taught that God rejects religious rituals if they are not accompanied by justice for the oppressed."
     }
   ],
   commerce: [
@@ -4090,283 +4100,283 @@ export const QUESTIONS = {
   computer: [
     {
       id: 'cs1',
-      question: "What does CPU stand for?",
-      options: ["Central Processing Unit", "Computer Personal Unit", "Central Power Unit", "Computer Processing Unit"],
-      correctAnswer: 0,
-      explanation: "The CPU is the primary component of a computer that executes instructions."
+      question: "Which of the following is used for modulation and demodulation?",
+      options: ["Gateway", "Protocol", "Modem", "Multiplex"],
+      correctAnswer: 2,
+      explanation: "A modem (MOdulator-DEModulator) converts digital signals from a computer into analog signals for transmission over lines and vice versa."
     },
     {
       id: 'cs2',
-      question: "What is the function of RAM?",
-      options: ["Temporary storage of data and programs being actively used", "Permanent storage of the operating system", "To display images on the screen", "To connect to the internet"],
+      question: "When records are given a new value, it is called",
+      options: ["Updation", "Insertion", "Deletion", "Retrieval"],
       correctAnswer: 0,
-      explanation: "RAM (Random Access Memory) is volatile, meaning its contents are lost when the power is turned off."
+      explanation: "Updating (or Updation) is the process of modifying existing data in a database to reflect new or more accurate information."
     },
     {
       id: 'cs3',
-      question: "What is an 'Operating System'?",
-      options: ["Software that manages all of the hardware and software resources of a computer", "A type of computer hardware", "A programming language", "An application for browsing the internet"],
+      question: "Computers designed to perform complex calculations extremely rapidly are called",
+      options: ["Supercomputers", "Microcomputers", "Laptops", "Mainframe computers"],
       correctAnswer: 0,
-      explanation: "Examples of operating systems include Windows, macOS, and Linux."
+      explanation: "Supercomputers are designed for tasks requiring immense processing power, such as weather forecasting and scientific simulations."
     },
     {
       id: 'cs4',
-      question: "What does 'URL' stand for?",
-      options: ["Uniform Resource Locator", "Universal Resource Link", "Uniform Reference Locator", "Universal Reference Link"],
-      correctAnswer: 0,
-      explanation: "A URL is the address of a web page."
+      question: "A set of moral principles regulating the use of computers is called",
+      options: ["Cyber security guidelines", "Computer ethics", "Computer safety laws", "Computer rules"],
+      correctAnswer: 1,
+      explanation: "Computer ethics deal with how computing professionals and users should make decisions regarding professional and social conduct."
     },
     {
       id: 'cs5',
-      question: "What is 'HTML'?",
-      options: ["A markup language used to create web pages", "A programming language for creating complex applications", "A type of computer virus", "A brand of computer hardware"],
-      correctAnswer: 0,
-      explanation: "HTML (HyperText Markup Language) is the standard language for creating web pages."
+      question: "A computer code that spreads automatically across networks is",
+      options: ["Trojan", "Computer worm", "Spyware", "Computer virus"],
+      correctAnswer: 1,
+      explanation: "A worm is a type of malware that self-replicates and spreads across network connections without needing to attach to a host file."
     },
     {
       id: 'cs6',
-      question: "What is a 'Firewall'?",
-      options: ["A network security system that monitors and controls incoming and outgoing network traffic", "A program that speeds up a computer", "A type of computer cooling system", "A device for storing large amounts of data"],
-      correctAnswer: 0,
-      explanation: "Firewalls are a first line of defense against unauthorized access to a network."
+      question: "The following are input devices except",
+      options: ["Mouse", "Monitor", "Keyboard", "Joystick"],
+      correctAnswer: 1,
+      explanation: "A monitor is an output device that displays visual information; mice, keyboards, and joysticks are used to provide input."
     },
     {
       id: 'cs7',
-      question: "What is a 'Bit'?",
-      options: ["The smallest unit of data in a computer", "A type of computer cable", "A small insect that can damage computers", "A measure of internet speed"],
-      correctAnswer: 0,
-      explanation: "A bit can have a value of either 0 or 1."
+      question: "Microsoft Excel belongs to which category of application software?",
+      options: ["Word processing package", "Graphics package", "Database management package", "Spreadsheet package"],
+      correctAnswer: 3,
+      explanation: "Excel is a spreadsheet application used for organizing, analyzing, and storing data in tabular form."
     },
     {
       id: 'cs8',
-      question: "What is a 'Byte'?",
-      options: ["A group of 8 bits", "A group of 16 bits", "A measure of screen resolution", "The speed of a processor"],
-      correctAnswer: 0,
-      explanation: "A byte is the basic unit of data storage in computing."
+      question: "An application program that combines the functions of many applications is",
+      options: ["Graphics package", "Integrated package", "Database package", "Word processing package"],
+      correctAnswer: 1,
+      explanation: "An integrated package (like Microsoft Office) bundles several productivity tools like word processors, spreadsheets, and presentation software."
     },
     {
       id: 'cs9',
-      question: "What is 'Malware'?",
-      options: ["Software designed to disrupt, damage, or gain unauthorized access to a computer system", "A type of computer hardware", "A popular brand of antivirus software", "A secure operating system"],
-      correctAnswer: 0,
-      explanation: "Malware is a general term for viruses, worms, trojans, and other harmful software."
+      question: "What is the function of the Esc key?",
+      options: ["Shutdown computer", "Start application", "Cancel current operation", "Delete files"],
+      correctAnswer: 2,
+      explanation: "The Escape (Esc) key is used to abort or stop a running process or to close a dialog box in most software."
     },
     {
       id: 'cs10',
-      question: "What is a 'LAN'?",
-      options: ["Local Area Network", "Large Area Network", "Long Area Network", "Limited Access Network"],
+      question: "Anti-virus software is an example of",
+      options: ["Utility program", "Operating system", "Application software", "Translator"],
       correctAnswer: 0,
-      explanation: "A LAN connects computers within a limited area such as a home, school, or office building."
+      explanation: "Utility programs are system software designed to help analyze, configure, optimize, or maintain a computer, such as security software."
     },
     {
       id: 'cs11',
-      question: "What is a 'WAN'?",
-      options: ["Wide Area Network", "Wireless Area Network", "Wired Access Network", "Worldwide Area Network"],
+      question: "The shortcut for creating a new document is",
+      options: ["Ctrl + N", "Ctrl + O", "Ctrl + Q", "Ctrl + M"],
       correctAnswer: 0,
-      explanation: "A WAN connects computers over a large geographical area, such as the internet."
+      explanation: "Ctrl + N is the standard keyboard shortcut in most Windows applications to create a new file or document."
     },
     {
       id: 'cs12',
-      question: "What is a 'Hard Drive'?",
-      options: ["A data storage device used for storing and retrieving digital information", "The main circuit board of a computer", "A type of printer", "A device for connecting to the internet"],
-      correctAnswer: 0,
-      explanation: "Hard drives are non-volatile, meaning they retain data even when powered off."
+      question: "Which of these criteria is not important in classifying files?",
+      options: ["Organization method", "Nature of content", "File size", "Storage medium"],
+      correctAnswer: 3,
+      explanation: "Files are typically classified by their content, organization (sequential/random), or size, rather than the physical storage medium."
     },
     {
       id: 'cs13',
-      question: "What is a 'Motherboard'?",
-      options: ["The main printed circuit board in a computer", "A device for storing data", "A type of software", "A component that cools the CPU"],
-      correctAnswer: 0,
-      explanation: "The motherboard connects all the components of a computer together."
+      question: "A valid Python variable name is",
+      options: ["my_variable$", "my_variable", "my-variable", "1my_variable"],
+      correctAnswer: 1,
+      explanation: "Python variable names can contain letters, numbers (not at the start), and underscores; they cannot contain symbols like $ or -."
     },
     {
       id: 'cs14',
-      question: "What is a 'Browser'?",
-      options: ["A software application for accessing information on the World Wide Web", "A type of computer virus", "A hardware component for internet access", "A secure online storage service"],
-      correctAnswer: 0,
-      explanation: "Examples of browsers include Chrome, Firefox, and Safari."
+      question: "How many bits are in one nibble?",
+      options: ["2", "4", "8", "16"],
+      correctAnswer: 1,
+      explanation: "A nibble is half of a byte (8 bits), which equals 4 bits."
     },
     {
       id: 'cs15',
-      question: "What is 'Cloud Computing'?",
-      options: ["The delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the Internet", "A type of weather forecasting technology", "A method for creating realistic computer graphics", "A new type of computer hardware"],
-      correctAnswer: 0,
-      explanation: "Cloud computing allows users to access data and applications from any device with an internet connection."
+      question: "Finding and correcting program errors is called",
+      options: ["Testing", "Debugging", "Editing", "Coding"],
+      correctAnswer: 1,
+      explanation: "Debugging is the process of identifying, tracing, and fixing bugs (errors) in a computer program."
     },
     {
       id: 'cs16',
-      question: "What is an 'Algorithm'?",
-      options: ["A set of rules or instructions for solving a problem or accomplishing a task", "A type of computer chip", "A programming language", "A graphical user interface"],
+      question: "The administrative section of a computer system is the",
+      options: ["CPU", "Input unit", "Output unit", "Memory unit"],
       correctAnswer: 0,
-      explanation: "Algorithms are the foundation of computer programming."
+      explanation: "The Central Processing Unit (CPU) acts as the brain and administrative hub, managing all instructions and processing data."
     },
     {
       id: 'cs17',
-      question: "What is 'Binary Code'?",
-      options: ["A system of representing text, computer processor instructions, or any other data using a two-symbol system", "A secret code used by spies", "A type of computer virus", "A programming language for creating games"],
-      correctAnswer: 0,
-      explanation: "The two symbols used in binary code are 0 and 1."
+      question: "Which of the following is not a third-generation language?",
+      options: ["FORTRAN", "COBOL", "Assembly language", "BASIC"],
+      correctAnswer: 2,
+      explanation: "Assembly is a second-generation (low-level) language; BASIC, COBOL, and FORTRAN are third-generation (high-level) languages."
     },
     {
       id: 'cs18',
-      question: "What is 'IP Address'?",
-      options: ["A unique address that identifies a device on the internet or a local network", "The physical address of a computer", "A type of computer memory", "A measure of internet speed"],
+      question: "Which command can reboot a computer?",
+      options: ["Ctrl + Alt + Del", "Ctrl + Del", "Ctrl + Alt + C", "Ctrl + Alt"],
       correctAnswer: 0,
-      explanation: "IP stands for Internet Protocol."
+      explanation: "This combination is the standard 'three-finger salute' used to interrupt a computer process or trigger a reboot."
     },
     {
       id: 'cs19',
-      question: "What is 'Phishing'?",
-      options: ["A fraudulent attempt to obtain sensitive information such as usernames, passwords, and credit card details by disguising as a trustworthy entity in an electronic communication", "A type of fishing that uses computers", "A method for cooling down a computer", "A secure way to send emails"],
+      question: "Data stored in different files connected by a key field is called",
+      options: ["Relational database", "Network database", "Hierarchical database", "Object database"],
       correctAnswer: 0,
-      explanation: "Phishing is a common form of cybercrime."
+      explanation: "A relational database organizes data into tables which can be linked (related) based on data common to each."
     },
     {
       id: 'cs20',
-      question: "What is 'Software'?",
-      options: ["A set of instructions, data, or programs used to operate computers and execute specific tasks", "The physical components of a computer", "A type of computer screen", "A device for printing documents"],
-      correctAnswer: 0,
-      explanation: "Software is often divided into system software and application software."
+      question: "Which of the following is not application software?",
+      options: ["MS Word", "Corel Draw", "Linux", "MacWrite"],
+      correctAnswer: 2,
+      explanation: "Linux is an Operating System (System Software), while MS Word and Corel Draw are application programs for users."
     },
     {
       id: 'cs21',
-      question: "What is 'Hardware'?",
-      options: ["The physical components of a computer system", "The programs and applications that run on a computer", "A type of computer virus", "A secure online storage service"],
+      question: "Which of the following is not a high-level programming language?",
+      options: ["Assembly language", "C++", "Python", "Java"],
       correctAnswer: 0,
-      explanation: "Hardware includes the CPU, RAM, hard drive, and other physical parts."
+      explanation: "Assembly is a low-level language that is specific to a particular computer architecture; Python and Java are high-level."
     },
     {
       id: 'cs22',
-      question: "What is a 'Pixel'?",
-      options: ["The smallest unit of a digital image or graphic that can be displayed and represented on a digital display device", "A measure of internet speed", "A type of computer mouse", "A unit of data storage"],
-      correctAnswer: 0,
-      explanation: "The resolution of a screen is measured in pixels."
+      question: "The first computing machine invented was",
+      options: ["Slide rule", "Pascal calculator", "Napier bones", "Abacus"],
+      correctAnswer: 3,
+      explanation: "The abacus, invented thousands of years ago, is considered the earliest device for performing mathematical calculations."
     },
     {
       id: 'cs23',
-      question: "What is a 'Cookie' in computing?",
-      options: ["A small piece of data sent from a website and stored on the user's computer by the user's web browser", "A type of computer snack", "A virus that infects web browsers", "A secure method for storing passwords"],
-      correctAnswer: 0,
-      explanation: "Cookies are used to remember information about the user, such as their login status."
+      question: "The default PowerPoint extension (2007 and newer) is",
+      options: [".ppxt", ".pps", ".ppt", ".pptx"],
+      correctAnswer: 3,
+      explanation: "The 'x' in .pptx stands for XML, the standard format for Microsoft Office files from 2007 onwards."
     },
     {
       id: 'cs24',
-      question: "What is 'Open Source' software?",
-      options: ["Software with source code that anyone can inspect, modify, and enhance", "Software that is free to use", "Software that is created by a large community of volunteers", "Software that is not owned by any company"],
-      correctAnswer: 0,
-      explanation: "Examples of open source software include Linux, Firefox, and WordPress."
+      question: "The shortcut to select the entire document is",
+      options: ["Ctrl + K", "Ctrl + A", "Shift + A", "Alt + F5"],
+      correctAnswer: 1,
+      explanation: "Ctrl + A (Select All) highlights every item or all text in the current window or document."
     },
     {
       id: 'cs25',
-      question: "What is a 'Database'?",
-      options: ["An organized collection of structured information, or data, typically stored electronically in a computer system", "A type of computer hardware", "A programming language", "A secure online storage service"],
-      correctAnswer: 0,
-      explanation: "Databases are used to store and manage large amounts of data."
+      question: "Which device converts digital signals to analog signals?",
+      options: ["Router", "Modem", "Hub", "Switch"],
+      correctAnswer: 1,
+      explanation: "Modems convert digital data from a computer into analog signals to travel over phone/cable lines, and vice versa."
     },
     {
       id: 'cs26',
-      question: "What is 'SQL'?",
-      options: ["A standard language for accessing and manipulating databases", "A type of computer virus", "A hardware component for storing data", "A secure method for encrypting data"],
-      correctAnswer: 0,
-      explanation: "SQL stands for Structured Query Language."
+      question: "The brain of the computer is the",
+      options: ["RAM", "CPU", "ROM", "Hard disk"],
+      correctAnswer: 1,
+      explanation: "The CPU (Central Processing Unit) performs the basic arithmetical, logical, and input/output operations of the system."
     },
     {
       id: 'cs27',
-      question: "What is 'Encryption'?",
-      options: ["The process of converting information or data into a code, especially to prevent unauthorized access", "A method for speeding up a computer", "A type of computer cooling system", "A device for storing large amounts of data"],
+      question: "The part of the computer that temporarily stores data is",
+      options: ["RAM", "Hard disk", "CD-ROM", "Flash drive"],
       correctAnswer: 0,
-      explanation: "Encryption is used to protect sensitive information."
+      explanation: "RAM (Random Access Memory) is volatile memory that stores data currently in use by the CPU for quick access."
     },
     {
       id: 'cs28',
-      question: "What is a 'GUI'?",
-      options: ["Graphical User Interface", "General User Interface", "Graphical Utility Interface", "General Utility Interface"],
-      correctAnswer: 0,
-      explanation: "A GUI allows users to interact with electronic devices through graphical icons and visual indicators."
+      question: "The smallest unit of data in computing is",
+      options: ["Byte", "Bit", "Word", "Nibble"],
+      correctAnswer: 1,
+      explanation: "A bit (binary digit) is the basic unit of information in computing, representing either a 0 or a 1."
     },
     {
       id: 'cs29',
-      question: "What is a 'Driver' in computing?",
-      options: ["A software component that lets the operating system and a device communicate with each other", "A person who drives a computer around", "A type of computer cable", "A device for cooling a computer"],
-      correctAnswer: 0,
-      explanation: "Drivers are essential for the proper functioning of hardware devices."
+      question: "Which of the following is an output device?",
+      options: ["Keyboard", "Mouse", "Printer", "Scanner"],
+      correctAnswer: 2,
+      explanation: "A printer takes digital data and produces a physical hard copy; keyboards and scanners are input devices."
     },
     {
       id: 'cs30',
-      question: "What is 'Bandwidth'?",
-      options: ["The maximum rate of data transfer across a given path", "The speed of a computer's processor", "The amount of storage space on a hard drive", "The resolution of a computer screen"],
-      correctAnswer: 0,
-      explanation: "Bandwidth is often measured in bits per second (bps)."
+      question: "Software used to manage hardware and other software is",
+      options: ["Utility software", "Application software", "System software", "Programming software"],
+      correctAnswer: 2,
+      explanation: "System software, including the operating system, acts as an interface between the user, applications, and hardware."
     },
     {
       id: 'cs31',
-      question: "What is a 'Server'?",
-      options: ["A computer or system that provides resources, data, services, or programs to other computers, known as clients, over a network", "A person who serves food to computers", "A type of computer desk", "A device for cleaning a computer"],
-      correctAnswer: 0,
-      explanation: "Servers are a key component of the client-server model."
+      question: "A collection of related data organized for easy access is called",
+      options: ["File", "Database", "Folder", "Field"],
+      correctAnswer: 1,
+      explanation: "A database is a structured set of data held in a computer, especially one that is accessible in various ways."
     },
     {
       id: 'cs32',
-      question: "What is 'Virtual Reality' (VR)?",
-      options: ["A simulated experience that can be similar to or completely different from the real world", "A type of computer game", "A new operating system", "A method for creating 3D graphics"],
-      correctAnswer: 0,
-      explanation: "VR uses headsets to generate realistic images, sounds, and other sensations."
+      question: "The physical components of a computer are called",
+      options: ["Software", "Firmware", "Hardware", "Shareware"],
+      correctAnswer: 2,
+      explanation: "Hardware refers to the tangible parts of a computer system, such as the monitor, keyboard, and internal circuitry."
     },
     {
       id: 'cs33',
-      question: "What is 'Augmented Reality' (AR)?",
-      options: ["An interactive experience of a real-world environment where the objects that reside in the real world are enhanced by computer-generated perceptual information", "A type of computer game", "A new operating system", "A method for creating 3D graphics"],
+      question: "The binary number system uses base",
+      options: ["2", "8", "10", "16"],
       correctAnswer: 0,
-      explanation: "AR overlays computer-generated images on the user's view of the real world."
+      explanation: "The binary system uses only two digits (0 and 1) to represent all values and instructions."
     },
     {
       id: 'cs34',
-      question: "What is 'Machine Learning'?",
-      options: ["A type of artificial intelligence (AI) that allows software applications to become more accurate at predicting outcomes without being explicitly programmed to do so", "A new type of computer hardware", "A programming language", "A secure online storage service"],
+      question: "Which device connects computers within a network?",
+      options: ["Switch", "Monitor", "Keyboard", "Printer"],
       correctAnswer: 0,
-      explanation: "Machine learning algorithms use historical data as input to predict new output values."
+      explanation: "A switch is a networking device that connects devices on a computer network by using packet switching to forward data."
     },
     {
       id: 'cs35',
-      question: "What is 'Artificial Intelligence' (AI)?",
-      options: ["The simulation of human intelligence in machines that are programmed to think like humans and mimic their actions", "A type of computer game", "A new operating system", "A method for creating 3D graphics"],
-      correctAnswer: 0,
-      explanation: "AI includes machine learning, natural language processing, and other advanced technologies."
+      question: "Which of the following is a storage device?",
+      options: ["Scanner", "Hard disk", "Monitor", "Speaker"],
+      correctAnswer: 1,
+      explanation: "A hard disk is a non-volatile storage device that stores data permanently on magnetic platters."
     },
     {
       id: 'cs36',
-      question: "What is a 'Trojan Horse' in computing?",
-      options: ["A type of malware that is often disguised as legitimate software", "A secure method for encrypting data", "A hardware component for storing data", "A type of computer virus"],
+      question: "A program that performs a specific task is called",
+      options: ["Application software", "Operating system", "Utility software", "Firmware"],
       correctAnswer: 0,
-      explanation: "Trojans can be used to steal information or take control of a computer."
+      explanation: "Application software is designed to help the user perform specific tasks like writing, drawing, or playing games."
     },
     {
       id: 'cs37',
-      question: "What is a 'Worm' in computing?",
-      options: ["A standalone malware computer program that replicates itself in order to spread to other computers", "A type of computer cable", "A small insect that can damage computers", "A measure of internet speed"],
-      correctAnswer: 0,
-      explanation: "Worms often use computer networks to spread themselves."
+      question: "The main function of an operating system is to",
+      options: ["Write programs", "Control computer operations", "Design graphics", "Create documents"],
+      correctAnswer: 1,
+      explanation: "The operating system manages the computer's memory, processes, and all of its hardware and software."
     },
     {
       id: 'cs38',
-      question: "What is a 'Virus' in computing?",
-      options: ["A type of malicious code or program written to alter the way a computer operates and that is designed to spread from one computer to another", "A type of computer hardware", "A popular brand of antivirus software", "A secure operating system"],
+      question: "The device used to enter data into a computer is",
+      options: ["Input device", "Output device", "Storage device", "Processing device"],
       correctAnswer: 0,
-      explanation: "A virus requires a host program to spread."
+      explanation: "Input devices (like keyboards) are used to provide data and control signals to an information processing system."
     },
     {
       id: 'cs39',
-      question: "What is 'Spam'?",
-      options: ["Unsolicited bulk email", "A type of computer virus", "A secure method for sending emails", "A type of computer hardware"],
-      correctAnswer: 0,
-      explanation: "Spam is a major source of email clutter and can be used to spread malware."
+      question: "The device used to display information on screen is",
+      options: ["Printer", "Monitor", "Keyboard", "Scanner"],
+      correctAnswer: 1,
+      explanation: "The monitor (or VDU) is the primary output device used to display visual information to the user."
     },
     {
       id: 'cs40',
-      question: "What is a 'Zombie' in computing?",
-      options: ["A computer that has been compromised by a hacker, computer virus, or trojan horse and can be used to perform malicious tasks of one sort or another under remote direction", "A type of computer game", "A new operating system", "A method for creating 3D graphics"],
-      correctAnswer: 0,
-      explanation: "Zombie computers are often used in botnets to send spam or launch denial-of-service attacks."
+      question: "A network covering a large geographical area is called",
+      options: ["LAN", "MAN", "WAN", "PAN"],
+      correctAnswer: 2,
+      explanation: "A WAN (Wide Area Network) connects computers across cities, countries, or even the globe (e.g., the Internet)."
     }
   ]
 };
