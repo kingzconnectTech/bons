@@ -177,7 +177,7 @@ const Test = () => {
       });
 
       const maxSubjectScore = questions.length * 2; // Maximum possible score for this subject
-      subjectStats.push({ id: subject.id, name: subject.name, score: subjectScore, total: maxSubjectScore, percentage: Math.round((subjectScore / maxSubjectScore) * 100) });
+      subjectStats.push({ id: subject.id, name: subject.name, score: subjectScore, total: maxSubjectScore });
     });
 
     const maxTotalScore = totalQuestions * 2; // Maximum possible total score
@@ -287,8 +287,8 @@ const Test = () => {
             <div className="mt-8 pt-8 border-t border-slate-100">
               <div className="flex items-center justify-between text-[10px] font-black text-slate-500 uppercase tracking-widest mb-3 px-1">
                 <span>Overall Completion</span>
-                <span className="text-brand-deep">
-                  {Math.round((Object.keys(userAnswers).reduce((acc, subj) => acc + Object.keys(userAnswers[subj]).length, 0) / selectedSubjects.reduce((acc, s) => acc + (shuffledQuestions[s.id]?.length || 0), 0)) * 100)}%
+                <span className="text-brand-deep font-black">
+                  {Object.keys(userAnswers).reduce((acc, subj) => acc + Object.keys(userAnswers[subj]).length, 0)} / {selectedSubjects.reduce((acc, s) => acc + (shuffledQuestions[s.id]?.length || 0), 0)}
                 </span>
               </div>
               <div className="h-3 w-full bg-slate-50 rounded-full overflow-hidden p-0.5 border border-slate-100">

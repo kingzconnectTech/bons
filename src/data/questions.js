@@ -2408,283 +2408,283 @@ export const QUESTIONS = {
   lit: [
     {
       id: 'l1',
-      question: "What is a 'Soliloquy' in drama?",
-      options: ["A speech where a character speaks their thoughts aloud to themselves", "A dialogue between two main characters", "A song performed by the chorus", "A short humorous scene"],
-      correctAnswer: 0,
-      explanation: "A soliloquy allows the audience to understand a character's inner motivations and feelings."
+      question: "A limerick has",
+      options: ["ornate style, humour, irony and seven lines", "formal and elaborate style and humour", "humour, rhyme scheme and five lines", "a stinging climax, rhyme scheme and five lines"],
+      correctAnswer: 2,
+      explanation: "A limerick is a humorous poem consisting of five lines with a distinct aabba rhyme scheme."
     },
     {
       id: 'l2',
-      question: "Which literary device involves an indirect reference to a person, place, thing, or idea of historical, cultural, or literary significance?",
-      options: ["Allusion", "Allegory", "Alliteration", "Anaphora"],
-      correctAnswer: 0,
-      explanation: "Allusions rely on the reader's prior knowledge to add deeper meaning to a text."
+      question: "The process of creating characters and endowing them with certain attitudes is called",
+      options: ["Action", "Character", "Characterization", "Dramatis personae"],
+      correctAnswer: 2,
+      explanation: "Characterization is the literary device used to highlight and explain the details about a character in a story."
     },
     {
       id: 'l3',
-      question: "What is the 'Protagonist' of a story?",
-      options: ["The main character who drives the action", "The character who opposes the main character", "A minor character who provides comic relief", "The narrator of the story"],
-      correctAnswer: 0,
-      explanation: "The protagonist is central to the plot and usually undergoes some form of change."
+      question: "Using the name of one thing for another closely associated with it is",
+      options: ["Paradox", "Parody", "Parallelism", "Metonymy"],
+      correctAnswer: 3,
+      explanation: "Metonymy is a figure of speech in which a thing or concept is referred to by the name of something closely associated with it (e.g., 'The White House' for the US government)."
     },
     {
       id: 'l4',
-      question: "In poetry, what is a 'Sonnet'?",
-      options: ["A 14-line poem with a specific rhyme scheme", "A short poem about nature", "A long narrative poem about a hero", "A poem that does not rhyme"],
-      correctAnswer: 0,
-      explanation: "Common types include the Shakespearean (English) and Petrarchan (Italian) sonnets."
+      question: "A reference to a person, place or event in literature is called",
+      options: ["Allegory", "Allusion", "Irony", "Euphemism"],
+      correctAnswer: 1,
+      explanation: "An allusion is a brief and indirect reference to a person, place, thing, or idea of historical, cultural, literary, or political significance."
     },
     {
       id: 'l5',
-      question: "What is 'Irony'?",
-      options: ["A contrast between expectation and reality", "The use of similar sounds at the end of lines", "An extreme exaggeration", "A comparison using 'like' or 'as'"],
+      question: "The list of characters in a play is known as",
+      options: ["Dramatis personae", "Dialogue", "Cast list", "Plot"],
       correctAnswer: 0,
-      explanation: "Irony can be verbal, situational, or dramatic."
+      explanation: "Dramatis personae is a Latin phrase used to list the characters in a play."
     },
     {
       id: 'l6',
-      question: "What is the 'Setting' of a literary work?",
-      options: ["The time and place in which the story occurs", "The main message of the story", "The sequence of events", "The climax of the action"],
+      question: "When past events are introduced into a narrative, the technique used is",
+      options: ["Flashback", "Alliteration", "Allegory", "Satire"],
       correctAnswer: 0,
-      explanation: "Setting includes the physical location, historical period, and social context."
+      explanation: "Flashback is a literary device wherein the author depicts events which have happened before the main sequence of events to provide background."
     },
     {
       id: 'l7',
-      question: "Which point of view uses the pronoun 'I' and allows the narrator to be a character in the story?",
-      options: ["First-person", "Second-person", "Third-person limited", "Third-person omniscient"],
+      question: "The events that make up a story are known as",
+      options: ["Plot", "Setting", "Theme", "Tone"],
       correctAnswer: 0,
-      explanation: "First-person narration provides a subjective and personal perspective."
+      explanation: "The plot is the sequence of events that make up a story, whether it's told, written, filmed, or sung."
     },
     {
       id: 'l8',
-      question: "What is 'Onomatopoeia'?",
-      options: ["Words that imitate the natural sounds of things", "The repetition of consonant sounds", "Giving human traits to animals", "A direct comparison between two unlike things"],
-      correctAnswer: 0,
-      explanation: "Examples include 'buzz', 'hiss', 'bang', and 'crash'."
+      question: "A play that ends unhappily is known as",
+      options: ["Comedy", "Tragedy", "Satire", "Epic"],
+      correctAnswer: 1,
+      explanation: "A tragedy is a branch of drama that treats in a serious and dignified style the sorrowful or terrible events encountered or caused by a heroic individual."
     },
     {
       id: 'l9',
-      question: "What is the 'Theme' of a story?",
-      options: ["The underlying message or central idea", "The list of characters", "The high point of the story", "The resolution of the conflict"],
-      correctAnswer: 0,
-      explanation: "Themes are often universal truths about human nature or society."
+      question: "The writer of a poem is called",
+      options: ["Author", "Poet", "Speaker", "Narrator"],
+      correctAnswer: 1,
+      explanation: "A poet is a person who writes poetry."
     },
     {
       id: 'l10',
-      question: "What is a 'Metaphor'?",
-      options: ["A direct comparison between two unlike things without using 'like' or 'as'", "A comparison using 'like' or 'as'", "An exaggeration for effect", "A play on words"],
-      correctAnswer: 0,
-      explanation: "Example: 'The world is a stage'."
+      question: "Drama is primarily meant to be",
+      options: ["read silently", "presented on stage through words and action", "memorized", "recited"],
+      correctAnswer: 1,
+      explanation: "Drama is a mode of fictional representation through dialogue and performance; it is meant to be performed on stage."
     },
     {
       id: 'l11',
-      question: "What is 'Alliteration'?",
-      options: ["The repetition of initial consonant sounds in a series of words", "The repetition of vowel sounds", "A reference to another work", "A long speech by one person"],
-      correctAnswer: 0,
-      explanation: "Example: 'Peter Piper picked a peck of pickled peppers'."
+      question: "A literary work that ridicules human weakness is",
+      options: ["Comedy", "Satire", "Epic", "Tragedy"],
+      correctAnswer: 1,
+      explanation: "Satire is a genre of literature that uses humor, irony, exaggeration, or ridicule to expose and criticize people's stupidity or vices."
     },
     {
       id: 'l12',
-      question: "What is a 'Hyperbole'?",
-      options: ["An intentional and extreme exaggeration", "A mild or indirect expression", "A story with a moral lesson", "The use of symbols to represent ideas"],
-      correctAnswer: 0,
-      explanation: "Example: 'I've told you a million times'."
+      question: "The central idea of a literary work is called",
+      options: ["Plot", "Theme", "Setting", "Style"],
+      correctAnswer: 1,
+      explanation: "A theme is a central topic, subject, or message within a narrative."
     },
     {
       id: 'l13',
-      question: "What is 'Personification'?",
-      options: ["Giving human qualities to non-human objects or ideas", "Comparing two things using 'like'", "A character who stays the same", "The dictionary definition of a word"],
-      correctAnswer: 0,
-      explanation: "Example: 'The stars danced playfully in the moonlit sky'."
+      question: "The time and place of a story is the",
+      options: ["Plot", "Theme", "Setting", "Tone"],
+      correctAnswer: 2,
+      explanation: "Setting is the time and place (or when and where) of the story."
     },
     {
       id: 'l14',
-      question: "What is a 'Euphemism'?",
-      options: ["A milder word used in place of one that is considered harsh or blunt", "A word that sounds like its meaning", "A contradiction in terms", "A character's tragic flaw"],
-      correctAnswer: 0,
-      explanation: "Example: Using 'passed away' instead of 'died'."
+      question: "A narrative poem celebrating heroic deeds is called",
+      options: ["Ode", "Epic", "Elegy", "Ballad"],
+      correctAnswer: 1,
+      explanation: "An epic is a long narrative poem, which is usually related to heroic deeds of a person of an unusual courage and unparalleled bravery."
     },
     {
       id: 'l15',
-      question: "What is the 'Climax' of a plot?",
-      options: ["The turning point or highest point of tension", "The introduction of the characters", "The events leading to the end", "The final outcome"],
-      correctAnswer: 0,
-      explanation: "The climax is where the main conflict reaches its peak."
+      question: "A poem mourning the death of someone is",
+      options: ["Ode", "Elegy", "Sonnet", "Lyric"],
+      correctAnswer: 1,
+      explanation: "An elegy is a poem of serious reflection, typically a lament for the dead."
     },
     {
       id: 'l16',
-      question: "What is 'Oxymoron'?",
-      options: ["A figure of speech that combines contradictory terms", "A story where characters represent ideas", "The repetition of words at the start of lines", "A long narrative poem"],
+      question: "Repetition of initial consonant sounds is called",
+      options: ["Alliteration", "Assonance", "Consonance", "Metaphor"],
       correctAnswer: 0,
-      explanation: "Example: 'Bittersweet' or 'Jumbo shrimp'."
+      explanation: "Alliteration is a literary device that repeats a speech sound in a sequence of words that are close to each other, typically initial consonants."
     },
     {
       id: 'l17',
-      question: "What is 'Foreshadowing'?",
-      options: ["Hints or clues about what will happen later in the story", "A flashback to the past", "A character's internal monologue", "The moral of a fable"],
-      correctAnswer: 0,
-      explanation: "Foreshadowing builds suspense and prepares the reader for future events."
+      question: "A comparison using “like” or “as” is",
+      options: ["Metaphor", "Simile", "Hyperbole", "Irony"],
+      correctAnswer: 1,
+      explanation: "A simile is a figure of speech that makes a comparison, showing similarities between two different things using 'like' or 'as'."
     },
     {
       id: 'l18',
-      question: "What is a 'Satire'?",
-      options: ["A work that uses humor, irony, or exaggeration to criticize people's stupidity or vices", "A serious and sad story", "A short poem about love", "A factual account of someone's life"],
+      question: "A figure of speech where exaggeration is used is",
+      options: ["Hyperbole", "Irony", "Litotes", "Metonymy"],
       correctAnswer: 0,
-      explanation: "Satire is often used to bring about social or political change."
+      explanation: "Hyperbole is a figure of speech that involves an exaggeration of ideas for the sake of emphasis."
     },
     {
       id: 'l19',
-      question: "What is an 'Antagonist'?",
-      options: ["The character or force that opposes the protagonist", "The hero of the story", "The narrator", "A character who changes over time"],
-      correctAnswer: 0,
-      explanation: "The antagonist creates the conflict that the protagonist must overcome."
+      question: "The narrator of a poem is called the",
+      options: ["Author", "Speaker", "Listener", "Actor"],
+      correctAnswer: 1,
+      explanation: "In poetry, the speaker is the voice behind the poem—the person we imagine to be speaking."
     },
     {
       id: 'l20',
-      question: "What is 'Imagery'?",
-      options: ["Descriptive language that appeals to the five senses", "The use of pictures in a book", "The author's choice of words", "The emotional tone of a work"],
-      correctAnswer: 0,
-      explanation: "Imagery helps the reader create a mental picture of the scene."
+      question: "Words spoken by a character alone on stage revealing thoughts are",
+      options: ["Aside", "Soliloquy", "Dialogue", "Chorus"],
+      correctAnswer: 1,
+      explanation: "A soliloquy is a device often used in drama when a character speaks to themselves, relating thoughts and feelings, thereby also sharing them with the audience."
     },
     {
       id: 'l21',
-      question: "What is a 'Genre'?",
-      options: ["A category or type of literature (e.g., poetry, drama, fiction)", "The author's perspective", "The ending of a story", "The main character's goal"],
+      question: "A conversation between characters in a play is",
+      options: ["Dialogue", "Plot", "Theme", "Scene"],
       correctAnswer: 0,
-      explanation: "Each genre has its own set of conventions and characteristics."
+      explanation: "Dialogue is a written or spoken conversational exchange between two or more people."
     },
     {
       id: 'l22',
-      question: "What is a 'Paradox'?",
-      options: ["A statement that seems self-contradictory but may reveal a deeper truth", "A type of rhythmic meter", "The use of symbols", "A short humorous poem"],
+      question: "The emotional atmosphere of a literary work is",
+      options: ["Mood", "Theme", "Plot", "Tone"],
       correctAnswer: 0,
-      explanation: "Example: 'Less is more'."
+      explanation: "Mood is the emotional feeling or atmosphere that a work of literature produces in a reader."
     },
     {
       id: 'l23',
-      question: "What is 'Diction'?",
-      options: ["The author's choice and use of words", "The arrangement of events in a story", "The attitude of the writer", "A type of drama"],
+      question: "A short story with animals as characters teaching moral lessons is",
+      options: ["Fable", "Myth", "Epic", "Ballad"],
       correctAnswer: 0,
-      explanation: "Diction can be formal, informal, poetic, or technical."
+      explanation: "A fable is a short story, typically with animals as characters, conveying a moral."
     },
     {
       id: 'l24',
-      question: "What is 'Symbolism'?",
-      options: ["The use of objects or images to represent abstract ideas", "The repetition of sounds", "A reference to history", "The main character's name"],
+      question: "A literary work that explains the origin of things is",
+      options: ["Myth", "Satire", "Comedy", "Allegory"],
       correctAnswer: 0,
-      explanation: "Example: A dove symbolizing peace."
+      explanation: "A myth is a traditional story, especially one concerning the early history of a people or explaining some natural or social phenomenon."
     },
     {
       id: 'l25',
-      question: "What is a 'Tragedy'?",
-      options: ["A drama that ends in disaster, usually for the main character", "A funny and lighthearted play", "A poem about a hero's journey", "A factual story about a disaster"],
+      question: "A poem with fourteen lines is called",
+      options: ["Sonnet", "Ballad", "Ode", "Elegy"],
       correctAnswer: 0,
-      explanation: "Tragedies often involve a 'tragic flaw' (hamartia) in the hero."
+      explanation: "A sonnet is a poem of fourteen lines using any of a number of formal rhyme schemes."
     },
     {
       id: 'l26',
-      question: "What is a 'Comedy'?",
-      options: ["A drama that is lighthearted and usually has a happy ending", "A story about a clown", "A short funny poem", "A play with a lot of action"],
+      question: "The rhythm pattern in poetry is called",
+      options: ["Metre", "Tone", "Theme", "Plot"],
       correctAnswer: 0,
-      explanation: "In classical drama, comedies often end in marriage."
+      explanation: "Meter is the basic rhythmic structure of a line within a work of poetry."
     },
     {
       id: 'l27',
-      question: "What is 'Tone' in literature?",
-      options: ["The author's attitude toward the subject or audience", "The emotional feeling of the reader", "The sound of the characters' voices", "The rhythm of a poem"],
+      question: "Words spoken to the audience but not heard by other characters is",
+      options: ["Aside", "Soliloquy", "Dialogue", "Monologue"],
       correctAnswer: 0,
-      explanation: "Tone can be described as serious, playful, sarcastic, etc."
+      explanation: "An aside is a dramatic device in which a character speaks to the audience, but is unheard by the other characters on stage."
     },
     {
       id: 'l28',
-      question: "What is 'Mood'?",
-      options: ["The atmosphere or emotional feeling created for the reader", "The author's personal opinion", "The character's state of mind", "The speed of the plot"],
+      question: "A humorous play with a happy ending is",
+      options: ["Comedy", "Tragedy", "Epic", "Satire"],
       correctAnswer: 0,
-      explanation: "Mood is often established through setting and imagery."
+      explanation: "Comedy is a genre of fiction that consists of discourses or works intended to be humorous or amusing."
     },
     {
       id: 'l29',
-      question: "What is an 'Epic'?",
-      options: ["A long narrative poem about heroic deeds and grand events", "A very short story", "A play about a common person", "A poem about nature"],
-      correctAnswer: 0,
-      explanation: "Examples include 'The Odyssey' and 'Paradise Lost'."
+      question: "The hero of a tragedy is called",
+      options: ["Villain", "Protagonist", "Antagonist", "Narrator"],
+      correctAnswer: 1,
+      explanation: "The protagonist is the main character of a story, often referred to as the hero."
     },
     {
       id: 'l30',
-      question: "What is 'Free Verse'?",
-      options: ["Poetry that does not have a regular meter or rhyme scheme", "Poetry that is given away for free", "A poem with 14 lines", "A long poem about history"],
-      correctAnswer: 0,
-      explanation: "Free verse follows the natural rhythms of speech."
+      question: "The character opposing the hero is",
+      options: ["Protagonist", "Antagonist", "Narrator", "Speaker"],
+      correctAnswer: 1,
+      explanation: "The antagonist is a character, group of characters, institution, or concept that stands in or represents opposition against which the protagonist must contend."
     },
     {
       id: 'l31',
-      question: "What is 'Rhythm' in poetry?",
-      options: ["The pattern of stressed and unstressed syllables", "The repetition of vowel sounds", "The use of words that sound like meanings", "The length of the lines"],
+      question: "A long narrative poem about heroic deeds is",
+      options: ["Epic", "Ode", "Elegy", "Sonnet"],
       correctAnswer: 0,
-      explanation: "Rhythm is also known as 'meter'."
+      explanation: "An epic is a lengthy narrative poem, ordinarily concerning a serious subject containing details of heroic deeds and events significant to a culture or nation."
     },
     {
       id: 'l32',
-      question: "What is 'Rhyme'?",
-      options: ["The repetition of similar sounds at the end of words", "The use of the same word multiple times", "The high point of a story", "A type of drama"],
+      question: "A literary device where human qualities are given to non-human objects is",
+      options: ["Personification", "Irony", "Hyperbole", "Paradox"],
       correctAnswer: 0,
-      explanation: "Rhyme is common in many forms of poetry and song."
+      explanation: "Personification is a figure of speech in which a thing, an idea or an animal is given human attributes."
     },
     {
       id: 'l33',
-      question: "What is 'Flashback'?",
-      options: ["An interruption in the story to show events that happened earlier", "A hint about the future", "A character's dream", "The ending of the story"],
-      correctAnswer: 0,
-      explanation: "Flashbacks provide background information and context."
+      question: "A contradiction that reveals deeper truth is",
+      options: ["Irony", "Paradox", "Satire", "Metaphor"],
+      correctAnswer: 1,
+      explanation: "A paradox is a statement that contradicts itself and still seems true somehow."
     },
     {
       id: 'l34',
-      question: "What is a 'Fable'?",
-      options: ["A short story, usually with animals as characters, that teaches a moral", "A long story about a hero", "A play about a king", "A poem about a beautiful scene"],
-      correctAnswer: 0,
-      explanation: "Aesop's Fables are the most famous examples."
+      question: "The pattern of rhymes in poetry is",
+      options: ["Metre", "Rhyme scheme", "Rhythm", "Tone"],
+      correctAnswer: 1,
+      explanation: "A rhyme scheme is the pattern of sounds that repeats at the end of a line or stanza."
     },
     {
       id: 'l35',
-      question: "What is an 'Allegory'?",
-      options: ["A story in which characters and events represent abstract qualities or ideas", "A type of short poem", "The repetition of consonant sounds", "An exaggeration"],
-      correctAnswer: 0,
-      explanation: "Allegories operate on both a literal and a symbolic level."
+      question: "A character who changes during the story is",
+      options: ["Flat character", "Dynamic character", "Static character", "Minor character"],
+      correctAnswer: 1,
+      explanation: "A dynamic character is one who undergoes an important inner change, as a change in personality or attitude."
     },
     {
       id: 'l36',
-      question: "What is 'Dialogue'?",
-      options: ["Conversation between two or more characters", "A character's private thoughts", "A long speech by one person", "The narrator's explanation"],
-      correctAnswer: 0,
-      explanation: "Dialogue reveals character and advances the plot."
+      question: "A character with only one trait is",
+      options: ["Round character", "Flat character", "Major character", "Protagonist"],
+      correctAnswer: 1,
+      explanation: "A flat character is a type of character in fiction that does not change too much from the start of the narrative to its end."
     },
     {
       id: 'l37',
-      question: "What is 'Monologue'?",
-      options: ["A long speech by one character in a play", "A conversation between two people", "A character's inner thoughts not spoken aloud", "A short funny comment"],
-      correctAnswer: 0,
-      explanation: "A monologue is directed at other characters on stage or the audience."
+      question: "The beginning of a story where characters are introduced is",
+      options: ["Climax", "Exposition", "Resolution", "Conflict"],
+      correctAnswer: 1,
+      explanation: "Exposition is a literary device used to introduce background information about events, settings, characters, or other elements of a work to the audience or readers."
     },
     {
       id: 'l38',
-      question: "What is 'Stanza'?",
-      options: ["A group of lines in a poem", "A single line of poetry", "The rhyme scheme of a poem", "The theme of a poem"],
-      correctAnswer: 0,
-      explanation: "Stanzas are the 'paragraphs' of poetry."
+      question: "The highest point of tension in a story is",
+      options: ["Exposition", "Climax", "Resolution", "Theme"],
+      correctAnswer: 1,
+      explanation: "The climax is the highest point of tension or drama in a narratives' plot."
     },
     {
       id: 'l39',
-      question: "What is 'Plot'?",
-      options: ["The sequence of events in a story", "The main character's name", "The setting of the story", "The author's background"],
-      correctAnswer: 0,
-      explanation: "The plot typically includes exposition, rising action, climax, falling action, and resolution."
+      question: "The end of a story where problems are solved is",
+      options: ["Conflict", "Resolution", "Exposition", "Rising action"],
+      correctAnswer: 1,
+      explanation: "The resolution (or denouement) is the part of the story's plot where the main problem is resolved or worked out."
     },
     {
       id: 'l40',
-      question: "What is 'Point of View'?",
-      options: ["The perspective from which a story is told", "The author's personal opinion", "The main character's goal", "The emotional tone of the work"],
-      correctAnswer: 0,
-      explanation: "Point of view determines how much information the reader receives."
+      question: "A literary work written in ordinary language is",
+      options: ["Poetry", "Drama", "Prose", "Ballad"],
+      correctAnswer: 2,
+      explanation: "Prose is a form of language that has no formal metrical structure; it applies a natural flow of speech, and ordinary grammatical structure."
     }
   ],
   crs: [

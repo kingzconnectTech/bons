@@ -35,17 +35,17 @@ const Results = () => {
   const bestSubject = sortedStats[0];
   const poorSubject = sortedStats[sortedStats.length - 1];
 
-  const percentage = Math.round((score / maxTotalScore) * 100);
+  const scoreRatio = score / maxTotalScore;
 
   const getMessage = () => {
-    if (percentage >= 70) return "Exceptional!";
-    if (percentage >= 50) return "Well Done!";
+    if (scoreRatio >= 0.7) return "Exceptional!";
+    if (scoreRatio >= 0.5) return "Well Done!";
     return "Keep Pushing!";
   };
 
   const getScoreColor = () => {
-    if (percentage >= 70) return "text-brand-mint";
-    if (percentage >= 50) return "text-brand-deep";
+    if (scoreRatio >= 0.7) return "text-brand-mint";
+    if (scoreRatio >= 0.5) return "text-brand-deep";
     return "text-brand-black";
   };
 
@@ -60,7 +60,7 @@ const Results = () => {
           className="bg-white rounded-3xl sm:rounded-[3rem] shadow-premium border border-slate-100 overflow-hidden"
         >
           {/* Top Hero Banner */}
-          <div className={`py-12 sm:py-16 text-center text-white relative overflow-hidden ${percentage >= 50 ? 'bg-[#169976]' : 'bg-[#000000]'}`}>
+          <div className={`py-12 sm:py-16 text-center text-white relative overflow-hidden ${scoreRatio >= 0.5 ? 'bg-[#169976]' : 'bg-[#000000]'}`}>
             <div className="absolute inset-0 premium-gradient opacity-90"></div>
             <div className="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 sm:w-80 sm:h-80 bg-white opacity-5 rounded-full blur-3xl"></div>
             <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-64 h-64 sm:w-80 sm:h-80 bg-white opacity-5 rounded-full blur-3xl"></div>
@@ -92,26 +92,26 @@ const Results = () => {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16">
               <div className="lg:col-span-2 bg-slate-50/50 rounded-2xl sm:rounded-[2.5rem] p-8 sm:p-10 flex flex-col sm:flex-row items-center justify-between border border-slate-100 shadow-sm">
                 <div className="text-center sm:text-left mb-6 sm:mb-0">
-                  <p className="text-[10px] font-black text-slate-600 uppercase tracking-widest mb-3 sm:mb-4">Total Proficiency</p>
-                  <div className={`text-6xl sm:text-8xl font-black tracking-tighter ${getScoreColor()}`}>
-                    {percentage}<span className="text-3xl sm:text-4xl text-slate-400 font-black">%</span>
+                  <p className="text-[10px] font-black text-slate-600 uppercase tracking-widest mb-3 sm:mb-4">Final Proficiency Points</p>
+                  <div className={`text-6xl sm:text-9xl font-black tracking-tighter ${getScoreColor()}`}>
+                    {score}
                   </div>
                 </div>
-                <div className="h-px sm:h-24 w-full sm:w-px bg-slate-200 my-6 sm:my-0 sm:mx-10"></div>
+                <div className="h-px sm:h-32 w-full sm:w-px bg-slate-200 my-6 sm:my-0 sm:mx-10"></div>
                 <div className="text-center sm:text-right">
-                  <p className="text-[10px] font-black text-slate-600 uppercase tracking-widest mb-3 sm:mb-4">Final Points</p>
-                  <div className="text-4xl sm:text-5xl font-black text-brand-black tracking-tight">
-                    {score}<span className="text-xl sm:text-2xl text-slate-500 ml-1">/ {maxTotalScore}</span>
+                  <p className="text-[10px] font-black text-slate-600 uppercase tracking-widest mb-3 sm:mb-4">Total Possible Score</p>
+                  <div className="text-4xl sm:text-6xl font-black text-brand-black tracking-tight">
+                    {maxTotalScore}<span className="text-xl sm:text-2xl text-slate-500 ml-1">MAX</span>
                   </div>
                 </div>
               </div>
 
-              <div className={`rounded-2xl sm:rounded-[2.5rem] p-8 sm:p-10 flex flex-col items-center justify-center border-2 shadow-sm ${percentage >= 50 ? 'bg-brand-mint/5 border-brand-mint/20' : 'bg-slate-100 border-slate-200'}`}>
+              <div className={`rounded-2xl sm:rounded-[2.5rem] p-8 sm:p-10 flex flex-col items-center justify-center border-2 shadow-sm ${scoreRatio >= 0.5 ? 'bg-brand-mint/5 border-brand-mint/20' : 'bg-slate-100 border-slate-200'}`}>
                 <p className="text-[10px] font-black text-slate-600 uppercase tracking-widest mb-4 sm:mb-6 text-center">Outcome</p>
-                <div className={`text-3xl sm:text-4xl font-black tracking-widest italic ${percentage >= 50 ? 'text-brand-mint' : 'text-brand-black'}`}>
-                  {percentage >= 50 ? 'PASSED' : 'RETRY'}
+                <div className={`text-3xl sm:text-4xl font-black tracking-widest italic ${scoreRatio >= 0.5 ? 'text-brand-mint' : 'text-brand-black'}`}>
+                  {scoreRatio >= 0.5 ? 'PASSED' : 'RETRY'}
                 </div>
-                <div className={`mt-4 sm:mt-6 w-10 sm:w-12 h-1.5 rounded-full ${percentage >= 50 ? 'bg-brand-mint/30' : 'bg-slate-400'}`}></div>
+                <div className={`mt-4 sm:mt-6 w-10 sm:w-12 h-1.5 rounded-full ${scoreRatio >= 0.5 ? 'bg-brand-mint/30' : 'bg-slate-400'}`}></div>
               </div>
             </div>
 
@@ -131,12 +131,12 @@ const Results = () => {
                     <div className="h-1.5 sm:h-2 flex-grow bg-slate-100 rounded-full overflow-hidden mr-3">
                       <motion.div 
                         initial={{ width: 0 }}
-                        animate={{ width: `${bestSubject?.percentage}%` }}
+                        animate={{ width: `${(bestSubject?.score / bestSubject?.total) * 100}%` }}
                         transition={{ duration: 1, delay: 0.5 }}
                         className="h-full bg-brand-mint"
                       ></motion.div>
                     </div>
-                    <span className="text-xs sm:text-sm font-black text-brand-mint shrink-0">{bestSubject?.score} pts</span>
+                    <span className="text-xs sm:text-sm font-black text-brand-mint shrink-0">{bestSubject?.score} / {bestSubject?.total}</span>
                   </div>
                 </div>
               </motion.div>
@@ -155,12 +155,12 @@ const Results = () => {
                     <div className="h-1.5 sm:h-2 flex-grow bg-slate-100 rounded-full overflow-hidden mr-3">
                       <motion.div 
                         initial={{ width: 0 }}
-                        animate={{ width: `${poorSubject?.percentage}%` }}
+                        animate={{ width: `${(poorSubject?.score / poorSubject?.total) * 100}%` }}
                         transition={{ duration: 1, delay: 0.5 }}
                         className="h-full bg-brand-black"
                       ></motion.div>
                     </div>
-                    <span className="text-xs sm:text-sm font-black text-brand-black shrink-0">{poorSubject?.score} pts</span>
+                    <span className="text-xs sm:text-sm font-black text-brand-black shrink-0">{poorSubject?.score} / {poorSubject?.total}</span>
                   </div>
                 </div>
               </motion.div>
