@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { TestProvider } from './context/TestContext';
 import Login from './pages/Login';
@@ -45,6 +46,7 @@ function App() {
               } />
             </Routes>
           </div>
+          <Analytics />
         </Router>
       </TestProvider>
     </AuthProvider>
