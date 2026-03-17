@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion as Motion } from 'framer-motion';
 import { 
   Award, 
   RefreshCcw, 
@@ -19,7 +19,7 @@ import { useTest } from '../context/TestContext';
 import Navbar from '../components/Navbar';
 
 const Results = () => {
-  const { testResults, selectedSubjects } = useTest();
+  const { testResults } = useTest();
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -30,7 +30,7 @@ const Results = () => {
 
   if (!testResults) return null;
 
-  const { score, totalQuestions, maxTotalScore, incorrectAnswers, attempted, subjectStats, failedQuestions } = testResults;
+  const { score, maxTotalScore, subjectStats, failedQuestions } = testResults;
 
   const sortedStats = [...subjectStats].sort((a, b) => b.score - a.score);
   const bestSubject = sortedStats[0];
@@ -55,7 +55,7 @@ const Results = () => {
       <Navbar />
       
       <main className="flex-grow max-w-5xl mx-auto w-full px-4 py-8 sm:py-12">
-        <motion.div
+        <Motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           className="bg-white rounded-3xl sm:rounded-[3rem] shadow-premium border border-slate-100 overflow-hidden"
@@ -66,7 +66,7 @@ const Results = () => {
             <div className="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 sm:w-80 sm:h-80 bg-white opacity-5 rounded-full blur-3xl"></div>
             <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-64 h-64 sm:w-80 sm:h-80 bg-white opacity-5 rounded-full blur-3xl"></div>
             
-            <motion.div
+            <Motion.div
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ delay: 0.2, type: 'spring' }}
@@ -85,7 +85,7 @@ const Results = () => {
                   <Sparkles className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-brand-mint" />
                 </div>
               </div>
-            </motion.div>
+            </Motion.div>
           </div>
 
           <div className="p-6 sm:p-16">
@@ -118,7 +118,7 @@ const Results = () => {
 
             {/* Subject Highlights */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-12 sm:mb-16">
-              <motion.div 
+              <Motion.div 
                 whileHover={{ y: -5 }}
                 className="p-6 sm:p-8 rounded-2xl sm:rounded-[2.5rem] bg-white border border-slate-100 flex items-center group transition-all shadow-sm hover:shadow-premium"
               >
@@ -130,19 +130,19 @@ const Results = () => {
                   <h4 className="text-lg sm:text-2xl font-black text-brand-black tracking-tight truncate">{bestSubject?.name}</h4>
                   <div className="flex items-center mt-2 w-full">
                     <div className="h-1.5 sm:h-2 flex-grow bg-slate-100 rounded-full overflow-hidden mr-3">
-                      <motion.div 
+                      <Motion.div 
                         initial={{ width: 0 }}
                         animate={{ width: `${(bestSubject?.score / bestSubject?.total) * 100}%` }}
                         transition={{ duration: 1, delay: 0.5 }}
                         className="h-full bg-brand-mint"
-                      ></motion.div>
+                      ></Motion.div>
                     </div>
                     <span className="text-xs sm:text-sm font-black text-brand-mint shrink-0">{bestSubject?.score} / {bestSubject?.total}</span>
                   </div>
                 </div>
-              </motion.div>
+              </Motion.div>
 
-              <motion.div 
+              <Motion.div 
                 whileHover={{ y: -5 }}
                 className="p-6 sm:p-8 rounded-2xl sm:rounded-[2.5rem] bg-white border border-slate-100 flex items-center group transition-all shadow-sm hover:shadow-premium"
               >
@@ -154,17 +154,17 @@ const Results = () => {
                   <h4 className="text-lg sm:text-2xl font-black text-brand-black tracking-tight truncate">{poorSubject?.name}</h4>
                   <div className="flex items-center mt-2 w-full">
                     <div className="h-1.5 sm:h-2 flex-grow bg-slate-100 rounded-full overflow-hidden mr-3">
-                      <motion.div 
+                      <Motion.div 
                         initial={{ width: 0 }}
                         animate={{ width: `${(poorSubject?.score / poorSubject?.total) * 100}%` }}
                         transition={{ duration: 1, delay: 0.5 }}
                         className="h-full bg-brand-black"
-                      ></motion.div>
+                      ></Motion.div>
                     </div>
                     <span className="text-xs sm:text-sm font-black text-brand-black shrink-0">{poorSubject?.score} / {poorSubject?.total}</span>
                   </div>
                 </div>
-              </motion.div>
+              </Motion.div>
             </div>
 
             {/* Assessment Framework Summary */}
@@ -235,7 +235,7 @@ const Results = () => {
                 
                 <div className="grid grid-cols-1 gap-4 max-h-[400px] sm:max-h-[500px] overflow-y-auto pr-2 sm:pr-4 custom-scrollbar">
                   {failedQuestions.map((item, index) => (
-                    <motion.div 
+                    <Motion.div 
                       key={index}
                       initial={{ opacity: 0, x: -10 }}
                       whileInView={{ opacity: 1, x: 0 }}
@@ -281,7 +281,7 @@ const Results = () => {
                           </p>
                         </div>
                       )}
-                    </motion.div>
+                    </Motion.div>
                   ))}
                 </div>
               </div>
@@ -306,7 +306,7 @@ const Results = () => {
               </button>
             </div>
           </div>
-        </motion.div>
+        </Motion.div>
       </main>
 
       <footer className="py-8 sm:py-12 text-center px-4">

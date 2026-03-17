@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { UserPlus, Mail, Lock, AlertCircle, Sparkles } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { motion as Motion } from 'framer-motion';
 
 const Register = () => {
   const [email, setEmail] = useState('');
@@ -25,7 +25,7 @@ const Register = () => {
       setLoading(true);
       await signup(email, password);
       navigate('/');
-    } catch (err) {
+    } catch {
       setError('Registration failed. Please try again.');
     }
     setLoading(false);
@@ -37,7 +37,7 @@ const Register = () => {
       setLoading(true);
       await signInWithGoogle();
       navigate('/');
-    } catch (err) {
+    } catch {
       setError('Google sign-in failed. Please try again.');
     }
     setLoading(false);
@@ -58,34 +58,34 @@ const Register = () => {
         <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 bg-white opacity-10 rounded-full blur-3xl"></div>
 
         <div className="relative z-10 text-white max-w-md text-center">
-          <motion.div
+          <Motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             className="mb-8 inline-block p-4 bg-white/10 backdrop-blur-lg rounded-3xl border border-white/20"
           >
             <UserPlus className="w-12 h-12 text-brand-mint" />
-          </motion.div>
-          <motion.h1 
+          </Motion.div>
+          <Motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl font-black mb-6 tracking-tight uppercase"
           >
             Join Us Today
-          </motion.h1>
-          <motion.p 
+          </Motion.h1>
+          <Motion.p 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
             className="text-xl text-white/80 font-medium leading-relaxed"
           >
             Create an account to start practicing and excel in your exams with deep analytics.
-          </motion.p>
+          </Motion.p>
         </div>
       </div>
 
       {/* Right Side: Register Form */}
       <div className="w-full lg:w-1/2 flex items-center justify-center p-6 sm:p-12 lg:p-20 py-12 lg:py-20">
-        <motion.div 
+        <Motion.div 
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
           className="max-w-md w-full"
@@ -96,14 +96,14 @@ const Register = () => {
           </div>
 
           {error && (
-            <motion.div 
+            <Motion.div 
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               className="mb-6 p-4 bg-red-50 border border-red-100 rounded-2xl flex items-center text-red-700 text-sm font-bold"
             >
               <AlertCircle className="w-5 h-5 mr-3 shrink-0" />
               <span>{error}</span>
-            </motion.div>
+            </Motion.div>
           )}
 
           <form onSubmit={handleSubmit} className="space-y-3.5 sm:space-y-4">
@@ -199,7 +199,7 @@ const Register = () => {
               Sign In
             </Link>
           </p>
-        </motion.div>
+        </Motion.div>
       </div>
     </div>
   );

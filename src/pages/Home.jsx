@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion as Motion } from 'framer-motion';
 import { Play, ClipboardList, Timer, Award, CheckCircle, Sparkles, BookOpen, ArrowRight } from 'lucide-react';
 import Navbar from '../components/Navbar';
 
@@ -44,7 +44,7 @@ const Home = () => {
 
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 sm:gap-16 items-center text-center lg:text-left">
-              <motion.div
+              <Motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
@@ -77,9 +77,9 @@ const Home = () => {
                     <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </button>
                 </div>
-              </motion.div>
+              </Motion.div>
 
-              <motion.div
+              <Motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
@@ -95,7 +95,7 @@ const Home = () => {
                 {/* Decorative floating elements - smaller on mobile */}
                 <div className="absolute -top-6 -right-6 sm:-top-10 sm:-right-10 w-20 h-20 sm:w-32 sm:h-32 bg-brand-mint/10 rounded-2xl sm:rounded-3xl -rotate-12 -z-10 shadow-xl border border-brand-mint/20"></div>
                 <div className="absolute -bottom-6 -left-6 sm:-bottom-10 sm:-left-10 w-24 h-24 sm:w-40 sm:h-40 bg-brand-black/5 rounded-[1.5rem] sm:rounded-[2rem] rotate-12 -z-10 shadow-xl border border-slate-200"></div>
-              </motion.div>
+              </Motion.div>
             </div>
           </div>
         </section>
@@ -110,7 +110,7 @@ const Home = () => {
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
               {steps.map((step, index) => (
-                <motion.div
+                <Motion.div
                   key={index}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -125,7 +125,7 @@ const Home = () => {
                   </div>
                   <h4 className="text-lg sm:text-xl font-black text-brand-black mb-3 tracking-tight uppercase">{step.title}</h4>
                   <p className="text-slate-700 font-bold leading-relaxed text-sm">{step.description}</p>
-                </motion.div>
+                </Motion.div>
               ))}
             </div>
           </div>

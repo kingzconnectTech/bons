@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion as Motion, AnimatePresence } from 'framer-motion';
 import { 
   ChevronLeft, 
   ChevronRight, 
@@ -15,27 +15,93 @@ import {
 import { useTest } from '../context/TestContext';
 import { QUESTIONS } from '../data/questions';
 
+const TEST_SESSION_KEY = 'cbt_test_session_v1';
+const TEST_DURATION_SECONDS = 150 * 60;
+
+const loadTestSession = () => {
+  if (typeof window === 'undefined') return null;
+  try {
+    const raw = window.localStorage.getItem(TEST_SESSION_KEY);
+    if (!raw) return null;
+    const parsed = JSON.parse(raw);
+    if (!parsed || parsed.version !== 1) return null;
+    return parsed;
+  } catch {
+    return null;
+  }
+};
+
+const saveTestSession = (session) => {
+  if (typeof window === 'undefined') return;
+  try {
+    window.localStorage.setItem(TEST_SESSION_KEY, JSON.stringify(session));
+  } catch {
+    return;
+  }
+};
+
+const clearTestSession = () => {
+  if (typeof window === 'undefined') return;
+  try {
+    window.localStorage.removeItem(TEST_SESSION_KEY);
+  } catch {
+    return;
+  }
+};
+
 const Test = () => {
-  const { selectedSubjects, setTestResults } = useTest();
+  const { selectedSubjects, setSelectedSubjects, setTestResults } = useTest();
   const navigate = useNavigate();
 
   const [activeSubjectIndex, setActiveSubjectIndex] = useState(0);
   const [activeQuestionIndex, setActiveQuestionIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState({}); // { subjectId: { questionId: selectedOptionIndex } }
-  const [timeLeft, setTimeLeft] = useState(9000); // 2 hours 30 minutes in seconds (150 minutes * 60)
+  const [timeLeft, setTimeLeft] = useState(TEST_DURATION_SECONDS);
+  const [endAt, setEndAt] = useState(null);
   const [shuffledQuestions, setShuffledQuestions] = useState({});
   const [isInitialized, setIsInitialized] = useState(false);
+  const [restoreChecked, setRestoreChecked] = useState(false);
+  const [isOffline, setIsOffline] = useState(typeof navigator !== 'undefined' ? !navigator.onLine : false);
+  const submitLockRef = useRef(false);
 
-  // If no subjects selected, redirect to subjects page
   useEffect(() => {
+    if (selectedSubjects.length === 0) {
+      const session = loadTestSession();
+      if (session?.selectedSubjects?.length) {
+        setSelectedSubjects(session.selectedSubjects);
+        setActiveSubjectIndex(Number.isInteger(session.activeSubjectIndex) ? session.activeSubjectIndex : 0);
+        setActiveQuestionIndex(Number.isInteger(session.activeQuestionIndex) ? session.activeQuestionIndex : 0);
+        setUserAnswers(session.userAnswers || {});
+        setShuffledQuestions(session.shuffledQuestions || {});
+        const hasShuffled = session.shuffledQuestions && Object.keys(session.shuffledQuestions).length > 0;
+        setIsInitialized(Boolean(session.isInitialized) || hasShuffled);
+        setEndAt(typeof session.endAt === 'number' ? session.endAt : Date.now() + TEST_DURATION_SECONDS * 1000);
+      }
+    }
+    setRestoreChecked(true);
+  }, [setSelectedSubjects, selectedSubjects.length]);
+
+  useEffect(() => {
+    if (!restoreChecked) return;
     if (selectedSubjects.length === 0) {
       navigate('/subjects');
     }
-  }, [selectedSubjects, navigate]);
+  }, [restoreChecked, selectedSubjects.length, navigate]);
 
-  // Shuffle questions on mount
   useEffect(() => {
-    if (selectedSubjects.length > 0 && !isInitialized) {
+    const handleOnline = () => setIsOffline(false);
+    const handleOffline = () => setIsOffline(true);
+    window.addEventListener('online', handleOnline);
+    window.addEventListener('offline', handleOffline);
+    setIsOffline(!navigator.onLine);
+    return () => {
+      window.removeEventListener('online', handleOnline);
+      window.removeEventListener('offline', handleOffline);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (selectedSubjects.length > 0 && Object.keys(shuffledQuestions).length === 0) {
       const shuffled = {};
       selectedSubjects.forEach(subject => {
         const questions = [...(QUESTIONS[subject.id] || [])];
@@ -48,36 +114,17 @@ const Test = () => {
       setShuffledQuestions(shuffled);
       setIsInitialized(true);
     }
-  }, [selectedSubjects, isInitialized]);
+  }, [selectedSubjects, shuffledQuestions]);
+
+  useEffect(() => {
+    if (selectedSubjects.length === 0) return;
+    if (endAt != null) return;
+    setEndAt(Date.now() + TEST_DURATION_SECONDS * 1000);
+  }, [selectedSubjects.length, endAt]);
 
   const currentSubject = selectedSubjects[activeSubjectIndex];
   const subjectQuestions = currentSubject ? shuffledQuestions[currentSubject.id] || [] : [];
   const currentQuestion = subjectQuestions[activeQuestionIndex];
-
-  // Timer logic
-  useEffect(() => {
-    const checkTimer = () => {
-      if (timeLeft <= 0) {
-        handleSubmit(true); // Auto-submit when time runs out
-        return;
-      }
-    };
-    
-    checkTimer(); // Check immediately on mount
-    
-    const timer = setInterval(() => {
-      setTimeLeft(prev => {
-        if (prev <= 1) {
-          clearInterval(timer);
-          handleSubmit(true);
-          return 0;
-        }
-        return prev - 1;
-      });
-    }, 1000);
-    
-    return () => clearInterval(timer);
-  }, []); // Empty dependency array - only run once on mount
 
   const formatTime = (seconds) => {
     const hours = Math.floor(seconds / 3600);
@@ -119,6 +166,7 @@ const Test = () => {
   };
 
   const handleSubmit = useCallback((isAutoSubmit = false) => {
+    if (submitLockRef.current) return;
     if (!isAutoSubmit) {
       const skippedBySubject = [];
       selectedSubjects.forEach(subject => {
@@ -136,6 +184,9 @@ const Test = () => {
         if (!window.confirm("Ready to submit your test?")) return;
       }
     }
+
+    submitLockRef.current = true;
+    clearTestSession();
 
     let score = 0, totalQuestions = 0, incorrectAnswers = 0, attempted = 0;
     const subjectStats = [], failedQuestions = [];
@@ -209,6 +260,46 @@ const Test = () => {
     navigate('/results');
   }, [selectedSubjects, userAnswers, setTestResults, navigate, shuffledQuestions]);
 
+  useEffect(() => {
+    if (!endAt) return;
+    const tick = () => {
+      const secondsLeft = Math.max(0, Math.ceil((endAt - Date.now()) / 1000));
+      setTimeLeft(secondsLeft);
+      if (secondsLeft === 0) {
+        handleSubmit(true);
+      }
+    };
+    tick();
+    const timer = setInterval(tick, 1000);
+    return () => clearInterval(timer);
+  }, [endAt, handleSubmit]);
+
+  useEffect(() => {
+    if (!restoreChecked) return;
+    if (selectedSubjects.length === 0) return;
+    if (!endAt) return;
+    saveTestSession({
+      version: 1,
+      selectedSubjects,
+      shuffledQuestions,
+      userAnswers,
+      activeSubjectIndex,
+      activeQuestionIndex,
+      endAt,
+      isInitialized: Boolean(isInitialized),
+      updatedAt: Date.now()
+    });
+  }, [
+    restoreChecked,
+    selectedSubjects,
+    shuffledQuestions,
+    userAnswers,
+    activeSubjectIndex,
+    activeQuestionIndex,
+    endAt,
+    isInitialized
+  ]);
+
   if (!isInitialized || !currentSubject) return (
     <div className="min-h-screen flex items-center justify-center bg-slate-50">
       <div className="w-16 h-16 border-4 border-brand-mint/20 border-t-brand-mint rounded-full animate-spin"></div>
@@ -219,6 +310,11 @@ const Test = () => {
     <div className="min-h-screen bg-slate-50 flex flex-col">
       {/* Test Header */}
       <header className="glass-effect border-b border-slate-200/60 sticky top-0 z-50">
+        {isOffline && (
+          <div className="bg-[#000000] text-white text-center text-[10px] sm:text-xs font-black uppercase tracking-widest py-2 px-4">
+            Network offline. Your test continues normally.
+          </div>
+        )}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-14 sm:h-20 items-center">
             <div className="flex items-center space-x-2 sm:space-x-4">
@@ -303,11 +399,11 @@ const Test = () => {
                 </span>
               </div>
               <div className="h-3 w-full bg-slate-50 rounded-full overflow-hidden p-0.5 border border-slate-100">
-                <motion.div 
+                <Motion.div 
                   initial={{ width: 0 }}
                   animate={{ width: `${(Object.keys(userAnswers).reduce((acc, subj) => acc + Object.keys(userAnswers[subj]).length, 0) / selectedSubjects.reduce((acc, s) => acc + (shuffledQuestions[s.id]?.length || 0), 0)) * 100}%` }}
                   className="h-full bg-brand-mint rounded-full shadow-sm"
-                ></motion.div>
+                ></Motion.div>
               </div>
             </div>
           </div>
@@ -317,7 +413,7 @@ const Test = () => {
         <main className="flex-grow flex flex-col min-w-0">
           <div className="premium-card p-6 sm:p-12 flex-grow flex flex-col min-h-[450px] sm:min-h-[500px] bg-white shadow-premium border border-slate-100 rounded-[2rem] sm:rounded-[3rem]">
             <AnimatePresence mode="wait">
-              <motion.div
+              <Motion.div
                 key={`${activeSubjectIndex}-${activeQuestionIndex}`}
                 initial={{ opacity: 0, x: 10 }}
                 animate={{ opacity: 1, x: 0 }}
@@ -367,9 +463,9 @@ const Test = () => {
                         </div>
                         <span className={`font-bold text-base sm:text-lg ${isSelected ? 'text-[#FFFFFF]' : 'text-slate-600'}`}>{option}</span>
                         {isSelected && (
-                          <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} className="ml-auto shrink-0">
+                          <Motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} className="ml-auto shrink-0">
                             <CheckCircle2 className="w-6 h-6 sm:w-7 sm:h-7 text-brand-mint" />
-                          </motion.div>
+                          </Motion.div>
                         )}
                       </button>
                     );
@@ -395,7 +491,7 @@ const Test = () => {
                     <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 ml-1 sm:ml-2" />
                   </button>
                 </div>
-              </motion.div>
+              </Motion.div>
             </AnimatePresence>
           </div>
 

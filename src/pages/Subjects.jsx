@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion as Motion, AnimatePresence } from 'framer-motion';
 import { Check, Info, ArrowRight, BookOpen, Sparkles, X } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import { useTest } from '../context/TestContext';
@@ -73,7 +73,7 @@ const Subjects = () => {
             const isDisabled = !isSelected && selected.length >= 4;
             
             return (
-              <motion.div
+              <Motion.div
                 key={subject.id}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -102,17 +102,17 @@ const Subjects = () => {
                 
                 <AnimatePresence>
                   {isSelected && (
-                    <motion.div 
+                    <Motion.div 
                       initial={{ scale: 0, rotate: -45 }}
                       animate={{ scale: 1, rotate: 0 }}
                       exit={{ scale: 0, rotate: 45 }}
                       className="absolute top-4 right-4 sm:top-6 sm:right-6 bg-brand-black rounded-lg sm:rounded-xl p-1 sm:p-1.5 shadow-lg shadow-slate-200"
                     >
                       <Check className="w-3 h-3 sm:w-4 sm:h-4 text-brand-mint" />
-                    </motion.div>
+                    </Motion.div>
                   )}
                 </AnimatePresence>
-              </motion.div>
+              </Motion.div>
             );
           })}
         </div>
@@ -120,7 +120,7 @@ const Subjects = () => {
         {/* Floating Action Bar */}
         <AnimatePresence>
           {selected.length > 0 && (
-            <motion.div 
+            <Motion.div 
               initial={{ y: 100, x: '-50%', opacity: 0 }}
               animate={{ y: 0, x: '-50%', opacity: 1 }}
               exit={{ y: 100, x: '-50%', opacity: 0 }}
@@ -180,7 +180,7 @@ const Subjects = () => {
                   <ArrowRight className={`w-4 h-4 sm:w-5 sm:h-5 transition-transform ${selected.length === 4 ? 'group-hover:translate-x-1' : ''}`} />
                 </button>
               </div>
-            </motion.div>
+            </Motion.div>
           )}
         </AnimatePresence>
       </main>
